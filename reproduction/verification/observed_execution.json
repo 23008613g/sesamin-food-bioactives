@@ -1,0 +1,63 @@
+{
+  "status": "PASS_BOUNDED_PROCESSED_DATA_REPRODUCTION",
+  "started_utc": "2026-10-09T11:08:48.428227+00:00",
+  "completed_utc": "2026-10-09T11:09:37.133545+00:00",
+  "environment": {
+    "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1"
+  },
+  "runs": [
+    {
+      "module": "human_mouse",
+      "return_code": 0,
+      "seconds": 3.084118800004944,
+      "script_sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0"
+    },
+    {
+      "module": "human_mouse_formula_check",
+      "return_code": 0,
+      "seconds": 11.697359000099823,
+      "script_sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa"
+    },
+    {
+      "module": "rat_welch",
+      "return_code": 0,
+      "seconds": 3.117357200011611,
+      "script_sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564"
+    },
+    {
+      "module": "rat_exact",
+      "return_code": 0,
+      "seconds": 0.3075750002171844,
+      "script_sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4"
+    },
+    {
+      "module": "organoid",
+      "return_code": 0,
+      "seconds": 0.7274786999914795,
+      "script_sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46"
+    },
+    {
+      "module": "external_atlas",
+      "return_code": 0,
+      "seconds": 27.464973599882796,
+      "script_sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6"
+    },
+    {
+      "module": "external_focused_check",
+      "return_code": 0,
+      "seconds": 1.3679244001396,
+      "script_sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f"
+    }
+  ],
+  "independent_directory_copy_executed": true,
+  "same_preexisting_scientific_environment": true,
+  "working_directory_different_from_package": true,
+  "runtime_original_project_data_reads_required": false,
+  "fresh_environment_installation_tested": false,
+  "public_upload_performed_by_this_worker": false,
+  "input_hashes_unchanged": true
+}

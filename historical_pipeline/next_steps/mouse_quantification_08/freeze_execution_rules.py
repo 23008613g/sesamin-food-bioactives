@@ -1,0 +1,7 @@
+from common08 import *
+
+path=HERE/'execution_rules_before_pilot.json'
+assert not path.exists()
+assert not (HERE/'run_results/DRR1010532.json').exists()
+write_json(path,{'frozen_utc':now(),'scientific_plan':str(PREV/'processing_plan.json'),'scientific_plan_sha256':digest(PREV/'processing_plan.json'),'no_study_quantification_results_yet':True,'pilot_run':'DRR1010532','read_qc':'Every pair, whole gzip integrity, names, lengths, alphabets; first100k pairs only for quality/adapter indicators','diagnostic_thresholds':{'pseudoalignment_fraction_below':0.5,'sampled_Q30_fraction_below':0.8,'sampled_exact_adapter_fraction_above':0.05},'threshold_interpretation':'Engineering review triggers; not statistical biological cutoffs; no automatic deletion or relabelling','files_sha256':{p.name:digest(p) for p in (HERE/'run_study.py',HERE/'common08.py',HERE/'fastq_qc/fastq_qc.py')},'known_implementation_adjustments':[{'issue':'Native Windows quant --help not accepted','resolution':'Retain failed command; use bare subcommand usage, validate actual options, bundled index/quant passed'},{'issue':'Native Windows run_info.json call field has unescaped backslashes and initially triggered JSONDecodeError after successful toy quant','resolution':'Preserve original file; encode call field only for parsing, leave numerical fields unchanged; toy values checked'},{'issue':'Review identified unsafe stale reuse after same-path content changes','resolution':'Before any real study quant, added MD5/SHA recheck and input/output fingerprint-bound QC/quant reuse'}]})
+print(path)

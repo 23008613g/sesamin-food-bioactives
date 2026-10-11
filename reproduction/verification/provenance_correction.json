@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-09T11:13:09.391210+00:00",
+  "corrected_files": [
+    "inputs/rat/human_rat_orthology_ensembl116.tsv",
+    "inputs/rat/rat_entrez_ensembl116.tsv"
+  ],
+  "correction": "Source attribution changed from rat study to actual archived Ensembl 116 BioMart query; rat study retained under used_by_study.",
+  "retrieval_metadata_verified_against_input_sha256": true,
+  "numerical_files_and_code_unchanged": true,
+  "unchanged_numerical_input_code_reference_files": 98,
+  "numerical_reexecution_needed": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_SCOPED_STATIC_AUDIT",
+  "files_scanned": 116,
+  "compressed_inputs_scanned_after_decompression": true,
+  "patterns": [
+    "windows_absolute_path",
+    "private_home_path",
+    "credential_prefix"
+  ],
+  "matches": [],
+  "excluded_materials": [
+    "fulltext PDF/XML",
+    "manuscript Word",
+    "reviewer materials",
+    "upstream workstation logs",
+    "original absolute-path scripts and patches",
+    "third-party R helper source"
+  ],
+  "scope": "Allowlisted numerical/code subset plus static known-path/credential-pattern scan; not a general secret-detection guarantee."
+}

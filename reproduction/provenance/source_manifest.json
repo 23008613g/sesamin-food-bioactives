@@ -1,0 +1,813 @@
+[
+  {
+    "file": "inputs/human/counts.txt.gz",
+    "bytes": 15515659,
+    "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    }
+  },
+  {
+    "file": "inputs/human/priority_all.csv",
+    "bytes": 11811,
+    "sha256": "d78d674a48448532ecec1e49d7364d447bdc298a202090b93d8a73718517ea78",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "sesamin_exploration_04/priority_all.csv",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    }
+  },
+  {
+    "file": "inputs/human/sample_qc.csv",
+    "bytes": 729,
+    "sha256": "86d24a9feaaeb66275563a92495a91dbdc534ff397ef6a7b29c0e1f5e6b16e40",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "sesamin_exploration_04/sample_qc.csv",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    }
+  },
+  {
+    "file": "inputs/human/loo_normalization.json",
+    "bytes": 12565,
+    "sha256": "0090f8b2907abbca8c84fca9851ca0358067fa185a5daf17f5a5a385bc998c17",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "sesamin_exploration_04/loo_normalization.json",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    }
+  },
+  {
+    "file": "inputs/human/candidates_all25.csv",
+    "bytes": 11814,
+    "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/human_candidates_all25.csv",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    }
+  },
+  {
+    "file": "inputs/mouse/candidates_all26.csv",
+    "bytes": 11058,
+    "sha256": "d14d182603c24ee56ac0bc1c1d622f259cb2a950566521ae1eb04b7312e34e9e",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/mouse_candidates_all26.csv",
+    "source_dataset": {
+      "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+      "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+    }
+  },
+  {
+    "file": "inputs/rat/series_matrix.txt.gz",
+    "bytes": 2396364,
+    "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+    "source_dataset": {
+      "accession": "GSE42693 / GPL1355",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42693"
+    }
+  },
+  {
+    "file": "inputs/mouse/gene_tpm.tsv.gz",
+    "bytes": 1729052,
+    "sha256": "e233ca112fd0eeccddb7512be17b256951cb7aa738564ecc16c8da804b12d0a5",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "prior_mouse_quantification/matrices/gene_tpm.tsv.gz",
+    "source_dataset": {
+      "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+      "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+    }
+  },
+  {
+    "file": "inputs/mouse/gene_est_counts.tsv.gz",
+    "bytes": 1369179,
+    "sha256": "27c973963011e666258e01c69521dfcdbc4dbdf35c667320265a5763201ec771",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "prior_mouse_quantification/matrices/gene_est_counts.tsv.gz",
+    "source_dataset": {
+      "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+      "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+    }
+  },
+  {
+    "file": "inputs/mouse/candidate_mouse_descriptive.tsv",
+    "bytes": 11028,
+    "sha256": "bad3fd0a665ae2690f18813976c6f19dcd5dddb2c61dbe04cfcb4caa98ad34ce",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "prior_mouse_quantification/matrices/candidate_mouse_descriptive.tsv",
+    "source_dataset": {
+      "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+      "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+    }
+  },
+  {
+    "file": "inputs/mouse/library_manifest.tsv",
+    "bytes": 1037,
+    "sha256": "e4284099d377c5097e0fd1c12dfebd7a83b80d87ed7230680dbf13c8f1886bd3",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "prior_mouse_quantification/matrices/library_manifest.tsv",
+    "source_dataset": {
+      "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+      "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+      "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+    }
+  },
+  {
+    "file": "inputs/rat/GPL1355.annot.gz",
+    "bytes": 5714896,
+    "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+    "source_dataset": {
+      "accession": "GSE42693 / GPL1355",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42693"
+    }
+  },
+  {
+    "file": "inputs/rat/human_rat_orthology_ensembl116.tsv",
+    "bytes": 1975,
+    "sha256": "9b6de54a7076bba4551ffafc8dd4d0bc5d5a77aa4706aaec647aee776ca6bcc0",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "analysis_strengthening_15/rat_validation/sources/human_rat_orthology_ensembl116.tsv",
+    "source_dataset": {
+      "provider": "Ensembl BioMart",
+      "release": 116,
+      "archive": "June 2026",
+      "dataset": "hsapiens_gene_ensembl",
+      "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "query_url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22hsapiens_gene_ensembl%22%20interface%3D%22default%22%3E%3CFilter%20name%3D%22ensembl_gene_id%22%20value%3D%22ENSG00000172260%2CENSG00000169429%2CENSG00000275457%2CENSG00000169174%2CENSG00000152229%2CENSG00000064787%2CENSG00000112299%2CENSG00000064300%2CENSG00000279278%2CENSG00000188833%2CENSG00000109321%2CENSG00000184916%2CENSG00000120437%2CENSG00000260105%2CENSG00000129116%2CENSG00000272384%2CENSG00000066056%2CENSG00000169213%2CENSG00000272994%2CENSG00000197279%2CENSG00000120833%2CENSG00000012124%2CENSG00000249637%2CENSG00000172927%2CENSG00000172893%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_ensembl_gene%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_associated_gene_name%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_orthology_type%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_orthology_confidence%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_perc_id%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_perc_id_r1%22/%3E%3C/Dataset%3E%3C/Query%3E"
+    },
+    "used_by_study": {
+      "accession": "GSE42693 / GPL1355",
+      "role": "Rat intervention analysis; not the mapping-table data provider."
+    },
+    "source_retrieved_utc": "2026-10-09T02:22:29.450282+00:00",
+    "original_retrieval_metadata_sha256": "750195314c4d5b91743b21b98bb5f91f77a49f1f41ee2f5e73aafbcf57cd5f2d"
+  },
+  {
+    "file": "inputs/rat/rat_entrez_ensembl116.tsv",
+    "bytes": 599,
+    "sha256": "6700f78725fe757dede2e15a9e37695b454303b5fea26fa37486454762de97b5",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "analysis_strengthening_15/rat_validation/sources/rat_entrez_ensembl116.tsv",
+    "source_dataset": {
+      "provider": "Ensembl BioMart",
+      "release": 116,
+      "archive": "June 2026",
+      "dataset": "rnorvegicus_gene_ensembl",
+      "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "query_url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22rnorvegicus_gene_ensembl%22%20interface%3D%22default%22%3E%3CFilter%20name%3D%22ensembl_gene_id%22%20value%3D%22ENSRNOG00000002754%2CENSRNOG00000005392%2CENSRNOG00000006280%2CENSRNOG00000008001%2CENSRNOG00000008965%2CENSRNOG00000009239%2CENSRNOG00000010107%2CENSRNOG00000012906%2CENSRNOG00000013927%2CENSRNOG00000013975%2CENSRNOG00000016219%2CENSRNOG00000016987%2CENSRNOG00000019189%2CENSRNOG00000020173%2CENSRNOG00000020776%2CENSRNOG00000021410%2CENSRNOG00000024000%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22entrezgene_id%22/%3E%3C/Dataset%3E%3C/Query%3E"
+    },
+    "used_by_study": {
+      "accession": "GSE42693 / GPL1355",
+      "role": "Rat intervention analysis; not the mapping-table data provider."
+    },
+    "source_retrieved_utc": "2026-10-09T02:22:37.023408+00:00",
+    "original_retrieval_metadata_sha256": "ba47eaeccad8bde23957430570c9b943d9650242c5517457b2abd156afcc6e3c"
+  },
+  {
+    "file": "inputs/organoid/cell_level_umap_qc_expression.csv.gz",
+    "bytes": 2292626,
+    "sha256": "4db87313f1273dacb0186cb75e51020ddd5af2b937a83858b12d31edc039c18d",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/single_cell/cell_level_umap_qc_expression.csv.gz",
+    "source_dataset": {
+      "accession": "GSE207889",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+    }
+  },
+  {
+    "file": "inputs/organoid/candidate_gene_coverage.csv",
+    "bytes": 1113,
+    "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/single_cell/candidate_gene_coverage.csv",
+    "source_dataset": {
+      "accession": "GSE207889",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+    }
+  },
+  {
+    "file": "inputs/organoid/candidate25_library_subtype_all10.csv",
+    "bytes": 261097,
+    "sha256": "0fd9117c0ba1af63ba92ace25783b609276ae58e8a23dd8e2cbf9a38bb129f1e",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/single_cell/candidate25_library_subtype_all10.csv",
+    "source_dataset": {
+      "accession": "GSE207889",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+    }
+  },
+  {
+    "file": "inputs/organoid/cell_composition_library_category4.csv",
+    "bytes": 1639,
+    "sha256": "1a240f2eaa803e48669456fc3d36f80c4de5b8b4bbff52f242add8f161815956",
+    "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+    "source_artifact": "publication_package_14/data/single_cell/cell_composition_library_category4.csv",
+    "source_dataset": {
+      "accession": "GSE207889",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+    }
+  },
+  {
+    "file": "protocols/robustness/protocol.json",
+    "bytes": 3855,
+    "sha256": "398bc7fef321617e7ddfb4ff99c416d30e636af17410bbf144d3f6d34ea23e53",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/robustness/protocol.json",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "protocols/robustness/protocol_freeze.json",
+    "bytes": 207,
+    "sha256": "1830557411052eecab96c9e41c979967f4500f5c5840eb5d099a089610a5e1eb",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/robustness/protocol_freeze.json",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/all_configuration_effects.csv.gz",
+    "bytes": 749227,
+    "sha256": "530be98111573a12699ca6f152c1930623eb4e271c5f92289246da4d76264e47",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/all_configuration_effects.csv.gz",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/all_library_mean_median_effects.csv",
+    "bytes": 67145,
+    "sha256": "c9b4f468727fe8672c8c67afeba80a7c88b08d2057f4a99d871b5cd3663d748a",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/all_library_mean_median_effects.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/candidate_abundance_flags.csv",
+    "bytes": 760,
+    "sha256": "b9c9461f07211505608fd18b49442fe77643aac460fa20fcb44c49722bc7b405",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/candidate_abundance_flags.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/candidate_library_values.csv",
+    "bytes": 23004,
+    "sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/candidate_library_values.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/configuration_effect_summary.csv",
+    "bytes": 80172,
+    "sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/configuration_effect_summary.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/configuration_size_factors.csv",
+    "bytes": 33297,
+    "sha256": "af0ec0118478e045662c83221eedd9a07986bc7392c0bad968555dca371a5134",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/configuration_size_factors.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/cross_species_configuration_consensus.csv",
+    "bytes": 2550,
+    "sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/cross_species_configuration_consensus.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/enumerated_configurations.csv",
+    "bytes": 11038,
+    "sha256": "bdfd0e7e7e8dd0a542c9d305bebd10d2daabc33e5374cfa356dced27d4c8df68",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/enumerated_configurations.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/frozen_primary_candidates.csv",
+    "bytes": 880,
+    "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/frozen_primary_candidates.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_pca_loadings.csv.gz",
+    "bytes": 1032702,
+    "sha256": "5587ab6ad2c036cbb66c26a3b95ed3aac7c446cc2e8602de4348de0292deed05",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_pca_loadings.csv.gz",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_pca_scores.csv",
+    "bytes": 1558,
+    "sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_pca_scores.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_pca_variance.csv",
+    "bytes": 446,
+    "sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_pca_variance.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_qc_filter.csv.gz",
+    "bytes": 188751,
+    "sha256": "869710bfac39f5efe132bcec03fec5b9a83e9d54eb1553a9cc72b1dfb40393ea",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_qc_filter.csv.gz",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_sample_pair_qc.csv",
+    "bytes": 2523,
+    "sha256": "fa7fc43a51120a63cc5e323b6d3cb3f0b7b81970cad03fbf22be0d38f79bb8bb",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_sample_pair_qc.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_sample_pearson.csv",
+    "bytes": 1596,
+    "sha256": "b00a8e4f7484b8a0500f019774d35d78ee535334e22158463eb60fcb8589c151",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_sample_pearson.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_sample_qc.csv",
+    "bytes": 639,
+    "sha256": "1d467c952e2224529093359094f51052955fe39d44a81a6e1428bb86aa1de457",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_sample_qc.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/human_sample_spearman.csv",
+    "bytes": 1561,
+    "sha256": "4dd257953b2b3d85a30945a2b072ca2b5ccdf9faa381134b168bfebf418f1d14",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/human_sample_spearman.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_pca_loadings.csv.gz",
+    "bytes": 1205717,
+    "sha256": "2a679e0537867ddf63e8442efbee36fef032f5824034d8435e927a8bf2e973f1",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_pca_loadings.csv.gz",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_pca_scores.csv",
+    "bytes": 1565,
+    "sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_pca_scores.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_pca_variance.csv",
+    "bytes": 443,
+    "sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_pca_variance.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_qc_filter.csv.gz",
+    "bytes": 202569,
+    "sha256": "8c75576e83236d88f269833dac4246296c23271949c80538d808d081f5c5e612",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_qc_filter.csv.gz",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_sample_pair_qc.csv",
+    "bytes": 2690,
+    "sha256": "1d015e1d988bf90225914ff25dc4c68bc02802bdba09cc720669d218b9b8439e",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_sample_pair_qc.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_sample_pearson.csv",
+    "bytes": 1615,
+    "sha256": "22715d80aa7cbd611eeb190b7cf58e7740d6ecabce651170cd5f786be08525a7",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_sample_pearson.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_sample_qc.csv",
+    "bytes": 708,
+    "sha256": "5353238fc1d80117068f32f9f33193bd3a296526df9cb34449e9d3930b6b6c21",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_sample_qc.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/robustness/mouse_sample_spearman.csv",
+    "bytes": 1609,
+    "sha256": "f095dd428405daa50a8687a1fd5e22484fdf215e004d3120a52195092e027494",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/robustness/mouse_sample_spearman.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "protocols/rat/protocol.md",
+    "bytes": 3837,
+    "sha256": "a9c9d79b700a1d5d63e2064d718d1f5bdf82a80ed65ae23c8f8daf19240fc2fb",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/rat_validation/protocol.md",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "protocols/rat/mapping_freeze.json",
+    "bytes": 309,
+    "sha256": "0d2a8725f0a0b07368ea23945f05f242fcda3176510d1ab24de6400c3eb97da2",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/rat_validation/mapping_freeze.json",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "protocols/rat/posthoc_sensitivity_plan.md",
+    "bytes": 1364,
+    "sha256": "bfe273d054d64bacd8bc63583cdf4e8ec5fe859b1d43b607411804c7615ec080",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/rat_validation/posthoc_sensitivity_plan.md",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/all20_array_pca.csv",
+    "bytes": 2992,
+    "sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/all20_array_pca.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/all20_array_quality.csv",
+    "bytes": 5159,
+    "sha256": "960ab0a8321a41b3298e2d76728fb8d025dbc606bddc4ec95cc89467f4ac83b9",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/all20_array_quality.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/candidate_mapping_all25.csv",
+    "bytes": 2073,
+    "sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/candidate_mapping_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/candidate_probe_values.csv",
+    "bytes": 11272,
+    "sha256": "5066756b7a4d49dedd2af721a2cfd3405a27a26bf449b3890f60bb2eb84590a4",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/candidate_probe_values.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/candidate_results_all25_two_normalizations.csv",
+    "bytes": 12615,
+    "sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/candidate_results_all25_two_normalizations.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/candidate_sample_values.csv",
+    "bytes": 48378,
+    "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/candidate_sample_values.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/correlation_deposited_log2.csv",
+    "bytes": 6162,
+    "sha256": "6ccce3a1a6755e31f249eae81bdde1bf2eebddc95fc3fd241fb8ba88899c56ef",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/correlation_deposited_log2.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/correlation_quantile_sensitivity.csv",
+    "bytes": 6158,
+    "sha256": "e2adb54e69ab68c38d787bac2b00938dc49f607e2431962aa5fa343804602c0c",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/correlation_quantile_sensitivity.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/cross_model_all25.csv",
+    "bytes": 2442,
+    "sha256": "0a977568c84c87318c7c6c9d8a548412d3dfd77ac6cfa7938e0b0a4df066ae20",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/cross_model_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/excluded_ambiguous_probes.csv",
+    "bytes": 37,
+    "sha256": "c9e5c6992f9edeb17107c1eff47004324a9eea650be073fbdce50cf6e2aafbc2",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/excluded_ambiguous_probes.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/pca_variance.csv",
+    "bytes": 138,
+    "sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/pca_variance.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/rat/posthoc_exact_sensitivity_all25.csv",
+    "bytes": 5437,
+    "sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/rat_validation/outputs/posthoc_exact_sensitivity_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "protocols/organoid/protocol.md",
+    "bytes": 5653,
+    "sha256": "4ab6ea1a388b1c5fc66e1e3c172acbb6baeb7d6391d630357a25995e68034edd",
+    "role": "Unchanged original protocol/freeze record",
+    "source_artifact": "analysis_strengthening_15/single_cell/protocol.md",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/category_sampling_counts.csv",
+    "bytes": 1368,
+    "sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/category_sampling_counts.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+    "bytes": 18361,
+    "sha256": "5c7133850a66b68470394096f27083d221439ab936c5b571f96023d7d86e0424",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+    "bytes": 6347,
+    "sha256": "8bccb62613254601390e7699b42c79991d766839bab43d21d338705a91e67338",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/condition_category_profiles_all25.csv",
+    "bytes": 95631,
+    "sha256": "fb2e8d24c6831ff494e297242a09b9e2d2cfa1ae1996684ba49519ddd16fc86d",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/condition_category_profiles_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/kitagawa_summary_all25.csv",
+    "bytes": 21945,
+    "sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/kitagawa_summary_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/kitagawa_terms_all25.csv",
+    "bytes": 62922,
+    "sha256": "4bed573ef86a0d3fbe898dfa87e79e306d6de8f717b4a8fe2941b762a10b7abf",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/kitagawa_terms_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/library_candidates_all25.csv",
+    "bytes": 9497,
+    "sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/library_candidates_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/library_category_candidates_all25.csv",
+    "bytes": 40568,
+    "sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/library_category_candidates_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/library_qc_context.csv",
+    "bytes": 1391,
+    "sha256": "ac7f2d5b6d591531ea59bf5cdbb2558caf3d3d29da9564826608a73392703a2f",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/library_qc_context.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/library_subtype_candidates_all25.csv",
+    "bytes": 91656,
+    "sha256": "c2e5cecf60a5438ad3d6a6879f6d7e750c637e3eb478fc59601ea0a48972e618",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/library_subtype_candidates_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "expected/organoid/weighting_sensitivity_all25.csv",
+    "bytes": 4389,
+    "sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "role": "Independent reference table from source stage 15",
+    "source_artifact": "analysis_strengthening_15/single_cell/weighting_sensitivity_all25.csv",
+    "source_dataset": "Original project analysis protocol or numerical reference; no third-party helper code."
+  },
+  {
+    "file": "inputs/external/GSE115469_Data.csv.gz",
+    "source_artifact": "external_single_cell/inputs/GSE115469_Data.csv.gz",
+    "source_dataset": {
+      "accession": "GSE115469",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+    },
+    "bytes": 108065293,
+    "sha256": "9d20630b98dba970ef3ec616d48a18857d94aa38e29886ab358a6dbdb10cbdde",
+    "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+    "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_Data.csv.gz"
+  },
+  {
+    "file": "inputs/external/GSE115469_CellClusterType.txt.gz",
+    "source_artifact": "external_single_cell/inputs/GSE115469_CellClusterType.txt.gz",
+    "source_dataset": {
+      "accession": "GSE115469",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+    },
+    "bytes": 78393,
+    "sha256": "a83f30e231059abeed2e1a95c4a0677fcdeea905d80ecc3a8d7eb3371bb2ad07",
+    "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+    "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_CellClusterType.txt.gz"
+  },
+  {
+    "file": "inputs/external/GSE115469_family.soft.gz",
+    "source_artifact": "external_single_cell/inputs/GSE115469_family.soft.gz",
+    "source_dataset": {
+      "accession": "GSE115469",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+    },
+    "bytes": 2804,
+    "sha256": "6022d9eef6ab897ce694e048dcb855128d3ba5785a950ddf0b1262ca3060a136",
+    "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+    "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/soft/GSE115469_family.soft.gz"
+  },
+  {
+    "file": "inputs/external/human_candidates_all25.csv",
+    "source_artifact": "external_single_cell/inputs/human_candidates_all25.csv",
+    "source_dataset": {
+      "accession": "GSE248903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+    },
+    "bytes": 11814,
+    "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "role": "External adult liver author-normalized atlas and frozen candidate identity inputs."
+  },
+  {
+    "file": "inputs/external/original_candidate_gene_coverage.csv",
+    "source_artifact": "external_single_cell/inputs/original_candidate_gene_coverage.csv",
+    "source_dataset": {
+      "accession": "GSE207889",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+    },
+    "bytes": 1113,
+    "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+    "role": "External adult liver author-normalized atlas and frozen candidate identity inputs."
+  },
+  {
+    "file": "expected/external/all_celltype_context_all25.csv",
+    "source_artifact": "external_single_cell/results/all_celltype_context_all25.csv",
+    "bytes": 32799,
+    "sha256": "d9ef0d26cfa465dc6517d48941aae7b4779478537f91138026deeeb530ae5eca",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/AREG_independent_scalar_checks.csv",
+    "source_artifact": "external_single_cell/results/AREG_independent_scalar_checks.csv",
+    "bytes": 718,
+    "sha256": "f6a2d0ca7c8b5fd27f85c2905778c28c337e050b1157d47e01c4bfd7e1d54d91",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/candidate_feature_coverage_all25.csv",
+    "source_artifact": "external_single_cell/results/candidate_feature_coverage_all25.csv",
+    "bytes": 1734,
+    "sha256": "beeffa127df2dd2cebf24ff42172a72d4bd969815a47342758d4b3beaf81283e",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/cell_coverage_author_by_donor.csv",
+    "source_artifact": "external_single_cell/results/cell_coverage_author_by_donor.csv",
+    "bytes": 7265,
+    "sha256": "40dec1f8711a852d99af8b8182ff8bd75e5bf887e09c5341856bc687e2c1569c",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/cell_coverage_broad_by_donor.csv",
+    "source_artifact": "external_single_cell/results/cell_coverage_broad_by_donor.csv",
+    "bytes": 5898,
+    "sha256": "94550adb4a7d2f626217c00c1ca5d687b8173d2eeaa7c287f59d5eac07db1055",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/cell_metadata.csv",
+    "source_artifact": "external_single_cell/results/cell_metadata.csv",
+    "bytes": 847365,
+    "sha256": "44699962f0d780eff1fd0b2cbebe64ca038fe5312d8ad56da940c9db962050bb",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/cell_source_expression_all25.csv.gz",
+    "source_artifact": "external_single_cell/results/cell_source_expression_all25.csv.gz",
+    "bytes": 192763,
+    "sha256": "d6c20f48e2369b1cabf47da74f52702293ef2622f54947e13bb19c98cc2fc7ea",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/donor_author_results_all25.csv",
+    "source_artifact": "external_single_cell/results/donor_author_results_all25.csv",
+    "bytes": 186730,
+    "sha256": "ea7048ccb2e769add7638ba74c5d75c24c9f0e5e3165a126ac4f53a46cd8df18",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/donor_broad_results_all25.csv",
+    "source_artifact": "external_single_cell/results/donor_broad_results_all25.csv",
+    "bytes": 144979,
+    "sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/feature_universe.csv",
+    "source_artifact": "external_single_cell/results/feature_universe.csv",
+    "bytes": 173473,
+    "sha256": "54c9340e6a20de2dd4b3a3d4667183e7c73c5435c873f30c4da671dd68e70bb7",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/figure_AREG_all_cell_context.csv",
+    "source_artifact": "external_single_cell/results/figure_AREG_all_cell_context.csv",
+    "bytes": 1807,
+    "sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/figure_AREG_paired_donors.csv",
+    "source_artifact": "external_single_cell/results/figure_AREG_paired_donors.csv",
+    "bytes": 850,
+    "sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+    "source_artifact": "external_single_cell/results/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+    "bytes": 12281,
+    "sha256": "1fbc0ede28cb6243c0870d12f6c29694d7b3251b4ceb4857467e9c21b4247f4e",
+    "role": "Reference from original bounded external reanalysis."
+  },
+  {
+    "file": "expected/external/paired_descriptive_summary_all25.csv",
+    "source_artifact": "external_single_cell/results/paired_descriptive_summary_all25.csv",
+    "bytes": 15290,
+    "sha256": "d7b29867aaa701bce1d08617ce2010c95e01d4f7422a3e225e76ec966eb576ae",
+    "role": "Reference from original bounded external reanalysis."
+  }
+]

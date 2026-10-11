@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "privacy_scan": "No private user paths, email addresses, recognized HF/GitHub tokens or private keys detected in distributed text.",
+  "limitations": "Pattern-based inspection is not a proof of absence of every possible secret.",
+  "all_python_syntax_parsed": true,
+  "all_json_parsed": true,
+  "app_local_html_references_resolve": true,
+  "omitted_company_logo_has_visible_text_fallback": true,
+  "no_ignored_generated_outputs_or_caches_present": true,
+  "no_source_matrices_in_git": true,
+  "source_inputs_acquired_separately": 23,
+  "remote_operations_performed_by_preparation_agent": false,
+  "repository_wide_license_selected": false,
+  "large_source_matrices_excluded": true,
+  "vendored_runtime_or_skill_tools": false
+}

@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-10T05:04:51.299316+00:00",
+  "finished_utc": "2026-10-10T05:04:51.533570+00:00",
+  "protocol_frozen_utc": "2026-10-10T05:03:04.968716+00:00",
+  "command": [
+    "<WORKSPACE>\\research_planning\\hepatic_lipotoxicity_2026-10-07\\.venv\\Scripts\\python.exe",
+    "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/analysis/matched_scale_areg/run.py"
+  ],
+  "working_directory": "<WORKSPACE>",
+  "python_executable": "<WORKSPACE>\\research_planning\\hepatic_lipotoxicity_2026-10-07\\.venv\\Scripts\\python.exe",
+  "python_version": "3.13.9",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "dependencies_used": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  },
+  "randomness": "None; deterministic aggregation, no random seed needed",
+  "raw_count_rerun_performed": false,
+  "outputs_directory": "<WORKSPACE>\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\pfhn_revision_26\\analysis\\matched_scale_areg\\outputs",
+  "validation_passed": true
+}

@@ -1,0 +1,2426 @@
+[
+  {
+    "file": "reproduction/code/external/analyze_external.py",
+    "source_artifact": "research_reproduction_v24.zip::code/external/analyze_external.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "distributed_sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "bytes": 19206,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/external/protocol.md",
+    "source_artifact": "research_reproduction_v24.zip::code/external/protocol.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "3e3ea577c7337c062faf45932802a55f0cc31aee558ff9706b77527fd05bbce9",
+    "distributed_sha256": "3e3ea577c7337c062faf45932802a55f0cc31aee558ff9706b77527fd05bbce9",
+    "bytes": 5467,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/external/protocol_freeze.json",
+    "source_artifact": "research_reproduction_v24.zip::code/external/protocol_freeze.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "c259ab4199e2401e50d08fc5596b0ed82480503a5ee1d3d51e4a7b3cd3b1017a",
+    "distributed_sha256": "c259ab4199e2401e50d08fc5596b0ed82480503a5ee1d3d51e4a7b3cd3b1017a",
+    "bytes": 429,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/external/source_scale_decision.md",
+    "source_artifact": "research_reproduction_v24.zip::code/external/source_scale_decision.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "18c889dc2ab78c1d8a80b715bab4e2f356a36d5011e8e6d100820b678cb81390",
+    "distributed_sha256": "18c889dc2ab78c1d8a80b715bab4e2f356a36d5011e8e6d100820b678cb81390",
+    "bytes": 3400,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/external/source_scale_decision_freeze.json",
+    "source_artifact": "research_reproduction_v24.zip::code/external/source_scale_decision_freeze.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "fd69e713a0ab9e4a999bfa493ea1dce6fc6e69006633e94f48bf84adf64c6b45",
+    "distributed_sha256": "fd69e713a0ab9e4a999bfa493ea1dce6fc6e69006633e94f48bf84adf64c6b45",
+    "bytes": 181,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/external/verify_results.py",
+    "source_artifact": "research_reproduction_v24.zip::code/external/verify_results.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "distributed_sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "bytes": 6512,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/organoid.py",
+    "source_artifact": "research_reproduction_v24.zip::code/organoid.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46",
+    "distributed_sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46",
+    "bytes": 26790,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/rat.py",
+    "source_artifact": "research_reproduction_v24.zip::code/rat.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "distributed_sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "bytes": 12597,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/rat_exact.py",
+    "source_artifact": "research_reproduction_v24.zip::code/rat_exact.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "distributed_sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "bytes": 2787,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/robustness.py",
+    "source_artifact": "research_reproduction_v24.zip::code/robustness.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "distributed_sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "bytes": 18349,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/code/robustness_check.py",
+    "source_artifact": "research_reproduction_v24.zip::code/robustness_check.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "distributed_sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "bytes": 16041,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/DATA_DICTIONARY.md",
+    "source_artifact": "research_reproduction_v24.zip::DATA_DICTIONARY.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "28cc405f528ece50bd16a57ac148a8571bf0be12901b85acbfa6fa34fa28fa31",
+    "distributed_sha256": "28cc405f528ece50bd16a57ac148a8571bf0be12901b85acbfa6fa34fa28fa31",
+    "bytes": 8627,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/ENVIRONMENT.md",
+    "source_artifact": "research_reproduction_v24.zip::ENVIRONMENT.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "fce88173522be2e9655603d46eb805feba11c84214bb96e2e3792fa62e6113dd",
+    "distributed_sha256": "fce88173522be2e9655603d46eb805feba11c84214bb96e2e3792fa62e6113dd",
+    "bytes": 1803,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/all_celltype_context_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/all_celltype_context_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "d9ef0d26cfa465dc6517d48941aae7b4779478537f91138026deeeb530ae5eca",
+    "distributed_sha256": "d9ef0d26cfa465dc6517d48941aae7b4779478537f91138026deeeb530ae5eca",
+    "bytes": 32799,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/AREG_independent_scalar_checks.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/AREG_independent_scalar_checks.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "f6a2d0ca7c8b5fd27f85c2905778c28c337e050b1157d47e01c4bfd7e1d54d91",
+    "distributed_sha256": "f6a2d0ca7c8b5fd27f85c2905778c28c337e050b1157d47e01c4bfd7e1d54d91",
+    "bytes": 718,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/candidate_feature_coverage_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/candidate_feature_coverage_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "beeffa127df2dd2cebf24ff42172a72d4bd969815a47342758d4b3beaf81283e",
+    "distributed_sha256": "beeffa127df2dd2cebf24ff42172a72d4bd969815a47342758d4b3beaf81283e",
+    "bytes": 1734,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/cell_coverage_author_by_donor.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/cell_coverage_author_by_donor.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "40dec1f8711a852d99af8b8182ff8bd75e5bf887e09c5341856bc687e2c1569c",
+    "distributed_sha256": "40dec1f8711a852d99af8b8182ff8bd75e5bf887e09c5341856bc687e2c1569c",
+    "bytes": 7265,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/cell_coverage_broad_by_donor.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/cell_coverage_broad_by_donor.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "94550adb4a7d2f626217c00c1ca5d687b8173d2eeaa7c287f59d5eac07db1055",
+    "distributed_sha256": "94550adb4a7d2f626217c00c1ca5d687b8173d2eeaa7c287f59d5eac07db1055",
+    "bytes": 5898,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/cell_metadata.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/cell_metadata.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "44699962f0d780eff1fd0b2cbebe64ca038fe5312d8ad56da940c9db962050bb",
+    "distributed_sha256": "44699962f0d780eff1fd0b2cbebe64ca038fe5312d8ad56da940c9db962050bb",
+    "bytes": 847365,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/cell_source_expression_all25.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/cell_source_expression_all25.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "d6c20f48e2369b1cabf47da74f52702293ef2622f54947e13bb19c98cc2fc7ea",
+    "distributed_sha256": "d6c20f48e2369b1cabf47da74f52702293ef2622f54947e13bb19c98cc2fc7ea",
+    "bytes": 192763,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/donor_author_results_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/donor_author_results_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ea7048ccb2e769add7638ba74c5d75c24c9f0e5e3165a126ac4f53a46cd8df18",
+    "distributed_sha256": "ea7048ccb2e769add7638ba74c5d75c24c9f0e5e3165a126ac4f53a46cd8df18",
+    "bytes": 186730,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/donor_broad_results_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/donor_broad_results_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+    "distributed_sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+    "bytes": 144979,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/feature_universe.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/feature_universe.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "54c9340e6a20de2dd4b3a3d4667183e7c73c5435c873f30c4da671dd68e70bb7",
+    "distributed_sha256": "54c9340e6a20de2dd4b3a3d4667183e7c73c5435c873f30c4da671dd68e70bb7",
+    "bytes": 173473,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/figure_AREG_all_cell_context.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/figure_AREG_all_cell_context.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+    "distributed_sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+    "bytes": 1807,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/figure_AREG_paired_donors.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/figure_AREG_paired_donors.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+    "distributed_sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+    "bytes": 850,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "1fbc0ede28cb6243c0870d12f6c29694d7b3251b4ceb4857467e9c21b4247f4e",
+    "distributed_sha256": "1fbc0ede28cb6243c0870d12f6c29694d7b3251b4ceb4857467e9c21b4247f4e",
+    "bytes": 12281,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/external/paired_descriptive_summary_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/external/paired_descriptive_summary_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "d7b29867aaa701bce1d08617ce2010c95e01d4f7422a3e225e76ec966eb576ae",
+    "distributed_sha256": "d7b29867aaa701bce1d08617ce2010c95e01d4f7422a3e225e76ec966eb576ae",
+    "bytes": 15290,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/category_sampling_counts.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/category_sampling_counts.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+    "distributed_sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+    "bytes": 1368,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5c7133850a66b68470394096f27083d221439ab936c5b571f96023d7d86e0424",
+    "distributed_sha256": "5c7133850a66b68470394096f27083d221439ab936c5b571f96023d7d86e0424",
+    "bytes": 18361,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "8bccb62613254601390e7699b42c79991d766839bab43d21d338705a91e67338",
+    "distributed_sha256": "8bccb62613254601390e7699b42c79991d766839bab43d21d338705a91e67338",
+    "bytes": 6347,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/condition_category_profiles_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/condition_category_profiles_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "fb2e8d24c6831ff494e297242a09b9e2d2cfa1ae1996684ba49519ddd16fc86d",
+    "distributed_sha256": "fb2e8d24c6831ff494e297242a09b9e2d2cfa1ae1996684ba49519ddd16fc86d",
+    "bytes": 95631,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/kitagawa_summary_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/kitagawa_summary_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "distributed_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "bytes": 21945,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/kitagawa_terms_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/kitagawa_terms_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "4bed573ef86a0d3fbe898dfa87e79e306d6de8f717b4a8fe2941b762a10b7abf",
+    "distributed_sha256": "4bed573ef86a0d3fbe898dfa87e79e306d6de8f717b4a8fe2941b762a10b7abf",
+    "bytes": 62922,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/library_candidates_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/library_candidates_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "distributed_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "bytes": 9497,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/library_category_candidates_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/library_category_candidates_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "distributed_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "bytes": 40568,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/library_qc_context.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/library_qc_context.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ac7f2d5b6d591531ea59bf5cdbb2558caf3d3d29da9564826608a73392703a2f",
+    "distributed_sha256": "ac7f2d5b6d591531ea59bf5cdbb2558caf3d3d29da9564826608a73392703a2f",
+    "bytes": 1391,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/library_subtype_candidates_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/library_subtype_candidates_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "c2e5cecf60a5438ad3d6a6879f6d7e750c637e3eb478fc59601ea0a48972e618",
+    "distributed_sha256": "c2e5cecf60a5438ad3d6a6879f6d7e750c637e3eb478fc59601ea0a48972e618",
+    "bytes": 91656,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/organoid/weighting_sensitivity_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/organoid/weighting_sensitivity_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "distributed_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "bytes": 4389,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/all20_array_pca.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/all20_array_pca.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+    "distributed_sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+    "bytes": 2992,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/all20_array_quality.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/all20_array_quality.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "960ab0a8321a41b3298e2d76728fb8d025dbc606bddc4ec95cc89467f4ac83b9",
+    "distributed_sha256": "960ab0a8321a41b3298e2d76728fb8d025dbc606bddc4ec95cc89467f4ac83b9",
+    "bytes": 5159,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/candidate_mapping_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/candidate_mapping_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+    "distributed_sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+    "bytes": 2073,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/candidate_probe_values.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/candidate_probe_values.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5066756b7a4d49dedd2af721a2cfd3405a27a26bf449b3890f60bb2eb84590a4",
+    "distributed_sha256": "5066756b7a4d49dedd2af721a2cfd3405a27a26bf449b3890f60bb2eb84590a4",
+    "bytes": 11272,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/candidate_results_all25_two_normalizations.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/candidate_results_all25_two_normalizations.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "distributed_sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "bytes": 12615,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/candidate_sample_values.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/candidate_sample_values.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "distributed_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "bytes": 48378,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/correlation_deposited_log2.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/correlation_deposited_log2.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "6ccce3a1a6755e31f249eae81bdde1bf2eebddc95fc3fd241fb8ba88899c56ef",
+    "distributed_sha256": "6ccce3a1a6755e31f249eae81bdde1bf2eebddc95fc3fd241fb8ba88899c56ef",
+    "bytes": 6162,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/correlation_quantile_sensitivity.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/correlation_quantile_sensitivity.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "e2adb54e69ab68c38d787bac2b00938dc49f607e2431962aa5fa343804602c0c",
+    "distributed_sha256": "e2adb54e69ab68c38d787bac2b00938dc49f607e2431962aa5fa343804602c0c",
+    "bytes": 6158,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/cross_model_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/cross_model_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "0a977568c84c87318c7c6c9d8a548412d3dfd77ac6cfa7938e0b0a4df066ae20",
+    "distributed_sha256": "0a977568c84c87318c7c6c9d8a548412d3dfd77ac6cfa7938e0b0a4df066ae20",
+    "bytes": 2442,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/excluded_ambiguous_probes.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/excluded_ambiguous_probes.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "c9e5c6992f9edeb17107c1eff47004324a9eea650be073fbdce50cf6e2aafbc2",
+    "distributed_sha256": "c9e5c6992f9edeb17107c1eff47004324a9eea650be073fbdce50cf6e2aafbc2",
+    "bytes": 37,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/pca_variance.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/pca_variance.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+    "distributed_sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+    "bytes": 138,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/rat/posthoc_exact_sensitivity_all25.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/rat/posthoc_exact_sensitivity_all25.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "distributed_sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "bytes": 5437,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/all_configuration_effects.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/all_configuration_effects.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "530be98111573a12699ca6f152c1930623eb4e271c5f92289246da4d76264e47",
+    "distributed_sha256": "530be98111573a12699ca6f152c1930623eb4e271c5f92289246da4d76264e47",
+    "bytes": 749227,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/all_library_mean_median_effects.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/all_library_mean_median_effects.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "c9b4f468727fe8672c8c67afeba80a7c88b08d2057f4a99d871b5cd3663d748a",
+    "distributed_sha256": "c9b4f468727fe8672c8c67afeba80a7c88b08d2057f4a99d871b5cd3663d748a",
+    "bytes": 67145,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/candidate_abundance_flags.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/candidate_abundance_flags.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b9c9461f07211505608fd18b49442fe77643aac460fa20fcb44c49722bc7b405",
+    "distributed_sha256": "b9c9461f07211505608fd18b49442fe77643aac460fa20fcb44c49722bc7b405",
+    "bytes": 760,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/candidate_library_values.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/candidate_library_values.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+    "distributed_sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+    "bytes": 23004,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/configuration_effect_summary.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/configuration_effect_summary.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "distributed_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "bytes": 80172,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/configuration_size_factors.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/configuration_size_factors.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "af0ec0118478e045662c83221eedd9a07986bc7392c0bad968555dca371a5134",
+    "distributed_sha256": "af0ec0118478e045662c83221eedd9a07986bc7392c0bad968555dca371a5134",
+    "bytes": 33297,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/cross_species_configuration_consensus.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/cross_species_configuration_consensus.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "distributed_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "bytes": 2550,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/enumerated_configurations.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/enumerated_configurations.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "bdfd0e7e7e8dd0a542c9d305bebd10d2daabc33e5374cfa356dced27d4c8df68",
+    "distributed_sha256": "bdfd0e7e7e8dd0a542c9d305bebd10d2daabc33e5374cfa356dced27d4c8df68",
+    "bytes": 11038,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/frozen_primary_candidates.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/frozen_primary_candidates.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+    "distributed_sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+    "bytes": 880,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_pca_loadings.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_pca_loadings.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5587ab6ad2c036cbb66c26a3b95ed3aac7c446cc2e8602de4348de0292deed05",
+    "distributed_sha256": "5587ab6ad2c036cbb66c26a3b95ed3aac7c446cc2e8602de4348de0292deed05",
+    "bytes": 1032702,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_pca_scores.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_pca_scores.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+    "distributed_sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+    "bytes": 1558,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_pca_variance.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_pca_variance.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+    "distributed_sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+    "bytes": 446,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_qc_filter.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_qc_filter.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "869710bfac39f5efe132bcec03fec5b9a83e9d54eb1553a9cc72b1dfb40393ea",
+    "distributed_sha256": "869710bfac39f5efe132bcec03fec5b9a83e9d54eb1553a9cc72b1dfb40393ea",
+    "bytes": 188751,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_sample_pair_qc.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_sample_pair_qc.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "fa7fc43a51120a63cc5e323b6d3cb3f0b7b81970cad03fbf22be0d38f79bb8bb",
+    "distributed_sha256": "fa7fc43a51120a63cc5e323b6d3cb3f0b7b81970cad03fbf22be0d38f79bb8bb",
+    "bytes": 2523,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_sample_pearson.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_sample_pearson.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b00a8e4f7484b8a0500f019774d35d78ee535334e22158463eb60fcb8589c151",
+    "distributed_sha256": "b00a8e4f7484b8a0500f019774d35d78ee535334e22158463eb60fcb8589c151",
+    "bytes": 1596,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_sample_qc.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_sample_qc.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "1d467c952e2224529093359094f51052955fe39d44a81a6e1428bb86aa1de457",
+    "distributed_sha256": "1d467c952e2224529093359094f51052955fe39d44a81a6e1428bb86aa1de457",
+    "bytes": 639,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/human_sample_spearman.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/human_sample_spearman.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "4dd257953b2b3d85a30945a2b072ca2b5ccdf9faa381134b168bfebf418f1d14",
+    "distributed_sha256": "4dd257953b2b3d85a30945a2b072ca2b5ccdf9faa381134b168bfebf418f1d14",
+    "bytes": 1561,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_pca_loadings.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_pca_loadings.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "2a679e0537867ddf63e8442efbee36fef032f5824034d8435e927a8bf2e973f1",
+    "distributed_sha256": "2a679e0537867ddf63e8442efbee36fef032f5824034d8435e927a8bf2e973f1",
+    "bytes": 1205717,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_pca_scores.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_pca_scores.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+    "distributed_sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+    "bytes": 1565,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_pca_variance.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_pca_variance.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+    "distributed_sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+    "bytes": 443,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_qc_filter.csv.gz",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_qc_filter.csv.gz",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "8c75576e83236d88f269833dac4246296c23271949c80538d808d081f5c5e612",
+    "distributed_sha256": "8c75576e83236d88f269833dac4246296c23271949c80538d808d081f5c5e612",
+    "bytes": 202569,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_sample_pair_qc.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_sample_pair_qc.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "1d015e1d988bf90225914ff25dc4c68bc02802bdba09cc720669d218b9b8439e",
+    "distributed_sha256": "1d015e1d988bf90225914ff25dc4c68bc02802bdba09cc720669d218b9b8439e",
+    "bytes": 2690,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_sample_pearson.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_sample_pearson.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "22715d80aa7cbd611eeb190b7cf58e7740d6ecabce651170cd5f786be08525a7",
+    "distributed_sha256": "22715d80aa7cbd611eeb190b7cf58e7740d6ecabce651170cd5f786be08525a7",
+    "bytes": 1615,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_sample_qc.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_sample_qc.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5353238fc1d80117068f32f9f33193bd3a296526df9cb34449e9d3930b6b6c21",
+    "distributed_sha256": "5353238fc1d80117068f32f9f33193bd3a296526df9cb34449e9d3930b6b6c21",
+    "bytes": 708,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/expected/robustness/mouse_sample_spearman.csv",
+    "source_artifact": "research_reproduction_v24.zip::expected/robustness/mouse_sample_spearman.csv",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "f095dd428405daa50a8687a1fd5e22484fdf215e004d3120a52195092e027494",
+    "distributed_sha256": "f095dd428405daa50a8687a1fd5e22484fdf215e004d3120a52195092e027494",
+    "bytes": 1609,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/EXTERNAL_MODULE.md",
+    "source_artifact": "research_reproduction_v24.zip::EXTERNAL_MODULE.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "efdfe3ce05c7c0a1abf20eda7b634ce035d297a166c2996ec4466ad40c8fb6b4",
+    "distributed_sha256": "efdfe3ce05c7c0a1abf20eda7b634ce035d297a166c2996ec4466ad40c8fb6b4",
+    "bytes": 2997,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/LICENSE_PROVENANCE.md",
+    "source_artifact": "research_reproduction_v24.zip::LICENSE_PROVENANCE.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "55ab94bdbea49f3de2712992c51294fdf62bd50bdb9292d57d89e8b5b520c80f",
+    "distributed_sha256": "55ab94bdbea49f3de2712992c51294fdf62bd50bdb9292d57d89e8b5b520c80f",
+    "bytes": 3135,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/organoid/protocol.md",
+    "source_artifact": "research_reproduction_v24.zip::protocols/organoid/protocol.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "4ab6ea1a388b1c5fc66e1e3c172acbb6baeb7d6391d630357a25995e68034edd",
+    "distributed_sha256": "4ab6ea1a388b1c5fc66e1e3c172acbb6baeb7d6391d630357a25995e68034edd",
+    "bytes": 5653,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/rat/mapping_freeze.json",
+    "source_artifact": "research_reproduction_v24.zip::protocols/rat/mapping_freeze.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "0d2a8725f0a0b07368ea23945f05f242fcda3176510d1ab24de6400c3eb97da2",
+    "distributed_sha256": "0d2a8725f0a0b07368ea23945f05f242fcda3176510d1ab24de6400c3eb97da2",
+    "bytes": 309,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/rat/posthoc_sensitivity_plan.md",
+    "source_artifact": "research_reproduction_v24.zip::protocols/rat/posthoc_sensitivity_plan.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "bfe273d054d64bacd8bc63583cdf4e8ec5fe859b1d43b607411804c7615ec080",
+    "distributed_sha256": "bfe273d054d64bacd8bc63583cdf4e8ec5fe859b1d43b607411804c7615ec080",
+    "bytes": 1364,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/rat/protocol.md",
+    "source_artifact": "research_reproduction_v24.zip::protocols/rat/protocol.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "a9c9d79b700a1d5d63e2064d718d1f5bdf82a80ed65ae23c8f8daf19240fc2fb",
+    "distributed_sha256": "a9c9d79b700a1d5d63e2064d718d1f5bdf82a80ed65ae23c8f8daf19240fc2fb",
+    "bytes": 3837,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/robustness/protocol.json",
+    "source_artifact": "research_reproduction_v24.zip::protocols/robustness/protocol.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "398bc7fef321617e7ddfb4ff99c416d30e636af17410bbf144d3f6d34ea23e53",
+    "distributed_sha256": "398bc7fef321617e7ddfb4ff99c416d30e636af17410bbf144d3f6d34ea23e53",
+    "bytes": 3855,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/protocols/robustness/protocol_freeze.json",
+    "source_artifact": "research_reproduction_v24.zip::protocols/robustness/protocol_freeze.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "1830557411052eecab96c9e41c979967f4500f5c5840eb5d099a089610a5e1eb",
+    "distributed_sha256": "1830557411052eecab96c9e41c979967f4500f5c5840eb5d099a089610a5e1eb",
+    "bytes": 207,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/provenance/script_adaptations.json",
+    "source_artifact": "research_reproduction_v24.zip::provenance/script_adaptations.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "9ec710e521a1fce2c07b4a89d097239980294da79ba3fa4119d163f28caad38b",
+    "distributed_sha256": "9ec710e521a1fce2c07b4a89d097239980294da79ba3fa4119d163f28caad38b",
+    "bytes": 2761,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/provenance/source_manifest.json",
+    "source_artifact": "research_reproduction_v24.zip::provenance/source_manifest.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "cb251899e3cbc1eff1d806488d5f4e63f0c7e4fc9af6678a6288a0e4d6856672",
+    "distributed_sha256": "cb251899e3cbc1eff1d806488d5f4e63f0c7e4fc9af6678a6288a0e4d6856672",
+    "bytes": 43980,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/README.md",
+    "source_artifact": "research_reproduction_v24.zip::README.md",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ce86cacb6a575b24a6580d3bfcd9efad9e769f349ffd4ae091a02cc132c8297a",
+    "distributed_sha256": "ce86cacb6a575b24a6580d3bfcd9efad9e769f349ffd4ae091a02cc132c8297a",
+    "bytes": 7888,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/release_manifest.json",
+    "source_artifact": "research_reproduction_v24.zip::release_manifest.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "6507943f0a79dae8eb1c85501c849402cba9f41a90f362dfc00ccb04113d5c37",
+    "distributed_sha256": "6507943f0a79dae8eb1c85501c849402cba9f41a90f362dfc00ccb04113d5c37",
+    "bytes": 21358,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/requirements.txt",
+    "source_artifact": "research_reproduction_v24.zip::requirements.txt",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "ce7e718c97f38fa384e4e9d84829d2f6c3d22f892f8f97b7bf85e654b1c4b0f2",
+    "distributed_sha256": "ce7e718c97f38fa384e4e9d84829d2f6c3d22f892f8f97b7bf85e654b1c4b0f2",
+    "bytes": 41,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/run.py",
+    "source_artifact": "research_reproduction_v24.zip::run.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "5201ccef0dca5cd55e440a9cbbbc10a43041262fb599a451657a19ad77b61e16",
+    "distributed_sha256": "5201ccef0dca5cd55e440a9cbbbc10a43041262fb599a451657a19ad77b61e16",
+    "bytes": 6073,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/distribution_audit.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/distribution_audit.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b9493fad6771d0cf335b47b89e1fd8a4d5139615bd71c1e9742533a450759d00",
+    "distributed_sha256": "b9493fad6771d0cf335b47b89e1fd8a4d5139615bd71c1e9742533a450759d00",
+    "bytes": 619,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/external_checks.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/external_checks.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "b1bd1b06245f8828558e9f4cc9f4dab23f3e6927348b924d70981cd713bb9eca",
+    "distributed_sha256": "b1bd1b06245f8828558e9f4cc9f4dab23f3e6927348b924d70981cd713bb9eca",
+    "bytes": 1826,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/external_focused_audit.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/external_focused_audit.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "21f9e4048e36f0b7f2303ec53c30330b3cb2453a60d8fb9a33c04ddc05225f14",
+    "distributed_sha256": "21f9e4048e36f0b7f2303ec53c30330b3cb2453a60d8fb9a33c04ddc05225f14",
+    "bytes": 3418,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/observed_execution.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/observed_execution.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "0b80f710a37b675952837815329649d53510d806579531fad055509fe8201a97",
+    "distributed_sha256": "0b80f710a37b675952837815329649d53510d806579531fad055509fe8201a97",
+    "bytes": 2203,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/observed_verification.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/observed_verification.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "075e3d57eb15e218ada02fb80ddfe38f8b9658c0e80455d7a5e0114fdd5f5b87",
+    "distributed_sha256": "075e3d57eb15e218ada02fb80ddfe38f8b9658c0e80455d7a5e0114fdd5f5b87",
+    "bytes": 119137,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verification/provenance_correction.json",
+    "source_artifact": "research_reproduction_v24.zip::verification/provenance_correction.json",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "442d9e821ee160f7ec31167ffbb6d781f053c1ac535c1888f501a376cda7f1b3",
+    "distributed_sha256": "442d9e821ee160f7ec31167ffbb6d781f053c1ac535c1888f501a376cda7f1b3",
+    "bytes": 534,
+    "adapted": false
+  },
+  {
+    "file": "reproduction/verify.py",
+    "source_artifact": "research_reproduction_v24.zip::verify.py",
+    "role": "Existing v24 processed-input reproduction code/reference/protocol",
+    "source_sha256": "a5c8936a5f14c23c103e9b57dd6c6d56be1359c2fb012cbcb2cf5f60e9a03d14",
+    "distributed_sha256": "a5c8936a5f14c23c103e9b57dd6c6d56be1359c2fb012cbcb2cf5f60e9a03d14",
+    "bytes": 5845,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/data_dictionary.md",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/data_dictionary.md",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "0e04217e646f84e98459148796dab7fc435dfc208b682364d9701c27a1c50d29",
+    "distributed_sha256": "0e04217e646f84e98459148796dab7fc435dfc208b682364d9701c27a1c50d29",
+    "bytes": 5810,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/freeze_protocol.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/freeze_protocol.py",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "2227dcdd28e2ff88a2bd9b32e5811dd9ca8a9dd0a2de3c2261c505ca99112e8a",
+    "distributed_sha256": "2227dcdd28e2ff88a2bd9b32e5811dd9ca8a9dd0a2de3c2261c505ca99112e8a",
+    "bytes": 1989,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/package_manifest.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/package_manifest.json",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "655a017a17822653d1cbaf292224e2d6468aa11f3663a238ff391dbad3c9902b",
+    "distributed_sha256": "164ef430b78e8f8f5f0c6ea2b9719bfcb6c56354a1ebaa4e46e1cb9692e35262",
+    "bytes": 4130,
+    "adapted": true
+  },
+  {
+    "file": "analysis/matched_scale/protocol.md",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/protocol.md",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "3bcfaee67885aa1514dac70a91ecd8637c68c8c55dd197f6149bcb6d158e526e",
+    "distributed_sha256": "3bcfaee67885aa1514dac70a91ecd8637c68c8c55dd197f6149bcb6d158e526e",
+    "bytes": 7262,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/protocol_freeze.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/protocol_freeze.json",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "10e8bbdf0c68baf0ff535f7740fcdc7b7c0e1da714deb53ddd938ca812e87ccf",
+    "distributed_sha256": "68724390d8b41d807fad007b9aac147253619b41e34cf6a50148aae9f3076719",
+    "bytes": 2689,
+    "adapted": true,
+    "adaptation_note": "Explicit sanitized public derivative; original protocol/input hashes and timestamp retained. Original JSON remains private."
+  },
+  {
+    "file": "analysis/matched_scale/README.md",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/README.md",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "d40fd16f9f241af6130533b641e64128fbb30f7f5942fe9d50c4e11332490b26",
+    "distributed_sha256": "ac412d9e1a54422cca9f3666fb343ea611e5e78746154fb37ca7317e1a26b872",
+    "bytes": 4317,
+    "adapted": true
+  },
+  {
+    "file": "analysis/matched_scale/run.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/run.py",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "ed2f2a007064a102d6244b94ba992b4b66efa13d0e6999a8a6fb6a41c33d3632",
+    "distributed_sha256": "ed2f2a007064a102d6244b94ba992b4b66efa13d0e6999a8a6fb6a41c33d3632",
+    "bytes": 17087,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/inputs/category_sampling_counts.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/inputs/category_sampling_counts.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+    "distributed_sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+    "bytes": 1368,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/inputs/kitagawa_summary_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/inputs/kitagawa_summary_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "distributed_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "bytes": 21945,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/inputs/library_candidates_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/inputs/library_candidates_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "distributed_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "bytes": 9497,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/inputs/library_category_candidates_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/inputs/library_category_candidates_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "distributed_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "bytes": 40568,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/inputs/weighting_sensitivity_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/inputs/weighting_sensitivity_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "distributed_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "bytes": 4389,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/AREG_library.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/AREG_library.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "2c7e02b3f75be1e4ae1f0bb58c2ecacbfe76f277d6d437d53298cccd36bbfbfe",
+    "distributed_sha256": "2c7e02b3f75be1e4ae1f0bb58c2ecacbfe76f277d6d437d53298cccd36bbfbfe",
+    "bytes": 996,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/AREG_population_contrast.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/AREG_population_contrast.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "61a2c50c687ec82acd2e3e00d91a4945339392dbe4e65fe06f8e67bc1e31566e",
+    "distributed_sha256": "61a2c50c687ec82acd2e3e00d91a4945339392dbe4e65fe06f8e67bc1e31566e",
+    "bytes": 416,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/AREG_summary.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/AREG_summary.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "91b865f6852872ea626963701181b26f498aeb58bc88506e6d2de14bfc73cc39",
+    "distributed_sha256": "91b865f6852872ea626963701181b26f498aeb58bc88506e6d2de14bfc73cc39",
+    "bytes": 706,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/execution.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/execution.json",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "8fb75d5cf1fc6c572ba09b423505fe8341105647451de5643a1291fe17368e6e",
+    "distributed_sha256": "786fd090d6f632f04c8eeef4d3ba05de2f7d6230f032dcfe6bba2a3499e10abc",
+    "bytes": 1033,
+    "adapted": true
+  },
+  {
+    "file": "analysis/matched_scale/outputs/hash_manifest.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/hash_manifest.json",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "e5b62689ddfda2dac764f0365525330e4ad99d111d8c143d2ae0a83396fcbb26",
+    "distributed_sha256": "e5b62689ddfda2dac764f0365525330e4ad99d111d8c143d2ae0a83396fcbb26",
+    "bytes": 3170,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/matched_scale_library_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/matched_scale_library_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "65e4f6f96e53c74f8093753699bb8ce93af43b5ff213e7f39563170e22e7cf0b",
+    "distributed_sha256": "65e4f6f96e53c74f8093753699bb8ce93af43b5ff213e7f39563170e22e7cf0b",
+    "bytes": 21550,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/matched_scale_summary_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/matched_scale_summary_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "1d6cce615dbb0bfb54a9524969b2442ce497fa267685844ff4e433b524de89c6",
+    "distributed_sha256": "1d6cce615dbb0bfb54a9524969b2442ce497fa267685844ff4e433b524de89c6",
+    "bytes": 14373,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/paired_population_library_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/paired_population_library_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "5290ec9a389d04ca264a56b21638525ab51f7d8d816b590423a881b04eb5bee3",
+    "distributed_sha256": "5290ec9a389d04ca264a56b21638525ab51f7d8d816b590423a881b04eb5bee3",
+    "bytes": 19300,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/population_contrast_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/population_contrast_all25.csv",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "45f2a296b00a08bec81ad5ee741e78a9eb146f18302ea2ae13ebe286eec4b883",
+    "distributed_sha256": "45f2a296b00a08bec81ad5ee741e78a9eb146f18302ea2ae13ebe286eec4b883",
+    "bytes": 6718,
+    "adapted": false
+  },
+  {
+    "file": "analysis/matched_scale/outputs/validation.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/outputs/validation.json",
+    "role": "Matched-scale AREG/all25 update; sanitized historical metadata where needed",
+    "source_sha256": "7d883d3c67b836109575acedef7f25063dd3e64c3147275c3cded04ae31aff5e",
+    "distributed_sha256": "7d883d3c67b836109575acedef7f25063dd3e64c3147275c3cded04ae31aff5e",
+    "bytes": 89110,
+    "adapted": false
+  },
+  {
+    "file": "figures/build_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/build_figures.py",
+    "role": "Final eight-main-figure generation",
+    "source_sha256": "e749c28b7ff5bed5971aed04d1fc7112ab0ba928eff87220d4f4d2ebf8130cd9",
+    "distributed_sha256": "e749c28b7ff5bed5971aed04d1fc7112ab0ba928eff87220d4f4d2ebf8130cd9",
+    "bytes": 10813,
+    "adapted": false
+  },
+  {
+    "file": "figures/build_stage26.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/build_stage26.py",
+    "role": "Final eight-main-figure generation",
+    "source_sha256": "a10b9c7c0356da351995585492936a9f358c3a9a87849fd364a4e515ddc73a98",
+    "distributed_sha256": "bd187d5eef8d5be7da1862a8e707c97adc313df4c89bd6f0ac5254c879b09e8d",
+    "bytes": 20881,
+    "adapted": true,
+    "adaptation_note": "Import project-local alignment helper and create output directories; scientific drawing/data unchanged."
+  },
+  {
+    "file": "figures/figure_contract.txt",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/figure_contract.txt",
+    "role": "Final eight-main-figure generation",
+    "source_sha256": "a0c497bacbe01881e96e7432c1269e435b9a3c2c3f79824aad41fc362e4c2923",
+    "distributed_sha256": "a0c497bacbe01881e96e7432c1269e435b9a3c2c3f79824aad41fc362e4c2923",
+    "bytes": 4499,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/configuration_effect_summary.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/configuration_effect_summary.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "distributed_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "bytes": 80172,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/cross_species_configuration_consensus.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/cross_species_configuration_consensus.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "distributed_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "bytes": 2550,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/donor_broad_results_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/donor_broad_results_all25.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+    "distributed_sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+    "bytes": 144979,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_02_PCA_all38_observations.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_02_PCA_all38_observations.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "9f53d253933143b4edc4000ad41f954267ddb6ccbdc3291a2e86c413f0257e57",
+    "distributed_sha256": "9f53d253933143b4edc4000ad41f954267ddb6ccbdc3291a2e86c413f0257e57",
+    "bytes": 4232,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_02_VNN1_all_observations.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_02_VNN1_all_observations.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "de29d84d4719ae913b489805dc1b27b8b4e2960eb81485aad3007f161ba79981",
+    "distributed_sha256": "de29d84d4719ae913b489805dc1b27b8b4e2960eb81485aad3007f161ba79981",
+    "bytes": 1734,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_03_subtype_counts.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_03_subtype_counts.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "7072da518a4770b4849442148ad1d6717e155e9c059100048adb5e70ab81013a",
+    "distributed_sha256": "7072da518a4770b4849442148ad1d6717e155e9c059100048adb5e70ab81013a",
+    "bytes": 243,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_04_AREG_detection.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_04_AREG_detection.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "ccc05f432a381585d28ab089c915be1498fed1f32a423523b215f640ba1fcc74",
+    "distributed_sha256": "ccc05f432a381585d28ab089c915be1498fed1f32a423523b215f640ba1fcc74",
+    "bytes": 1015,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_04_AREG_matched_scale.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_04_AREG_matched_scale.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "9001f3d553a8effd6ed8822fd060c3f6ece925e018b193c6761db42eb35e0309",
+    "distributed_sha256": "9001f3d553a8effd6ed8822fd060c3f6ece925e018b193c6761db42eb35e0309",
+    "bytes": 1012,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/figure_AREG_all_cell_context.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/figure_AREG_all_cell_context.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+    "distributed_sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+    "bytes": 1807,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/figure_AREG_paired_donors.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/figure_AREG_paired_donors.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+    "distributed_sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+    "bytes": 850,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/Figure_S16_sign_counts_zero_explicit.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/Figure_S16_sign_counts_zero_explicit.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "ded48d489aef965e2c38d74fa2696d5fdc269d210765c67b8bff8cdea05f79d8",
+    "distributed_sha256": "ded48d489aef965e2c38d74fa2696d5fdc269d210765c67b8bff8cdea05f79d8",
+    "bytes": 1923,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/frozen_primary_candidates.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/frozen_primary_candidates.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+    "distributed_sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+    "bytes": 880,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/human_all25_heatmap.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/human_all25_heatmap.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "e1e0d90478cc7ec730e9420ab0989e960d84e7a35adbd756431d052d169dad71",
+    "distributed_sha256": "e1e0d90478cc7ec730e9420ab0989e960d84e7a35adbd756431d052d169dad71",
+    "bytes": 28013,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/human_candidate_samples.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/human_candidate_samples.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "2d1ad658c782ee0558bbf4663f0cec1187604b10a4e7dbe8ce57f42391893796",
+    "distributed_sha256": "2d1ad658c782ee0558bbf4663f0cec1187604b10a4e7dbe8ce57f42391893796",
+    "bytes": 14245,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/human_pca.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/human_pca.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+    "distributed_sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+    "bytes": 1558,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/human_variance.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/human_variance.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+    "distributed_sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+    "bytes": 446,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/kitagawa_summary_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/kitagawa_summary_all25.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "distributed_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "bytes": 21945,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/library_category_candidates_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/library_category_candidates_all25.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "distributed_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "bytes": 40568,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/matched_scale_library_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/matched_scale_library_all25.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "65e4f6f96e53c74f8093753699bb8ce93af43b5ff213e7f39563170e22e7cf0b",
+    "distributed_sha256": "65e4f6f96e53c74f8093753699bb8ce93af43b5ff213e7f39563170e22e7cf0b",
+    "bytes": 21550,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/matched_scale_summary_all25.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/matched_scale_summary_all25.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "1d6cce615dbb0bfb54a9524969b2442ce497fa267685844ff4e433b524de89c6",
+    "distributed_sha256": "1d6cce615dbb0bfb54a9524969b2442ce497fa267685844ff4e433b524de89c6",
+    "bytes": 14373,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/mouse_candidate_samples.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/mouse_candidate_samples.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "b9e654e9e7bfdf8dd2f1e05b93b0ac229432b94a80afa15ca6bf38c0bb77bf03",
+    "distributed_sha256": "b9e654e9e7bfdf8dd2f1e05b93b0ac229432b94a80afa15ca6bf38c0bb77bf03",
+    "bytes": 12921,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/mouse_pca.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/mouse_pca.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+    "distributed_sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+    "bytes": 1565,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/mouse_variance.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/mouse_variance.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+    "distributed_sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+    "bytes": 443,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/organoid_umap_AREG_all24034.csv.gz",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/organoid_umap_AREG_all24034.csv.gz",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "355a64c352695c228c04e8b3ce7a5349298b6e6ce07800c5e9022807d111396d",
+    "distributed_sha256": "355a64c352695c228c04e8b3ce7a5349298b6e6ce07800c5e9022807d111396d",
+    "bytes": 712638,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/primary15_directions.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/primary15_directions.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "363470662829ad2bb82fd759fd60032e498637511c92771ad96ad6652eadfc8b",
+    "distributed_sha256": "363470662829ad2bb82fd759fd60032e498637511c92771ad96ad6652eadfc8b",
+    "bytes": 918,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/rat_candidate_samples.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/rat_candidate_samples.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "distributed_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "bytes": 48378,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/rat_pca.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/rat_pca.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+    "distributed_sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+    "bytes": 2992,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/rat_variance.csv",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/rat_variance.csv",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+    "distributed_sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+    "bytes": 138,
+    "adapted": false
+  },
+  {
+    "file": "figures/source_data/study_design.json",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/source_data/study_design.json",
+    "role": "Frozen processed plotting input",
+    "source_sha256": "b9430a4dd280e2c1bdb345bef2e5d886d82f0db48436ca20e33097957eb08866",
+    "distributed_sha256": "b9430a4dd280e2c1bdb345bef2e5d886d82f0db48436ca20e33097957eb08866",
+    "bytes": 1350,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_12/figures/main/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/main/audit_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "f66efcdcd7d09000d8f4012354a4364df63e17b4914274dd71703a320dcee361",
+    "distributed_sha256": "f66efcdcd7d09000d8f4012354a4364df63e17b4914274dd71703a320dcee361",
+    "bytes": 5163,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_12/figures/main/build_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/main/build_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "a3ca45166f09b34aeb93e4f2d522abd9489b515b4ebb7b1c221a7279105b7c0b",
+    "distributed_sha256": "a3ca45166f09b34aeb93e4f2d522abd9489b515b4ebb7b1c221a7279105b7c0b",
+    "bytes": 16344,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_12/figures/support/make_support_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/support/make_support_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "ace82ddfa68cc2e23d50ee0a59eeb9f1ca4814432bc4d70d7836734e66d7da4f",
+    "distributed_sha256": "ace82ddfa68cc2e23d50ee0a59eeb9f1ca4814432bc4d70d7836734e66d7da4f",
+    "bytes": 14991,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_12/figures/support/qa_support_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/support/qa_support_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "c5247ea192de6b7e3e3be9afdba85fa91b10176613d8870fe4695d77463adc92",
+    "distributed_sha256": "c5247ea192de6b7e3e3be9afdba85fa91b10176613d8870fe4695d77463adc92",
+    "bytes": 4503,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_13/figures/new_main/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_main/audit_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "14b53700f48fd86126fa0bdba508978579ef09d1e1cda31d132e0d180fe0bafd",
+    "distributed_sha256": "14b53700f48fd86126fa0bdba508978579ef09d1e1cda31d132e0d180fe0bafd",
+    "bytes": 4821,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_13/figures/new_main/build_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_main/build_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "40aebf0d7519e5dfb63c8fce8486a114d3c4aa6019e957a5405b29985fc106b3",
+    "distributed_sha256": "40aebf0d7519e5dfb63c8fce8486a114d3c4aa6019e957a5405b29985fc106b3",
+    "bytes": 14170,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_13/figures/new_support/make_new_support.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_support/make_new_support.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "e99838ac9fbadfb23f53a2ac45c3e58d9bbd4137dd57e00579768cc4eed2c059",
+    "distributed_sha256": "e99838ac9fbadfb23f53a2ac45c3e58d9bbd4137dd57e00579768cc4eed2c059",
+    "bytes": 12166,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/publication_package_13/figures/new_support/qa_new_support.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_support/qa_new_support.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "648edefaa450caef9b7336636a2e8fdd8fb42ae68bee736e1be4f019a0107d29",
+    "distributed_sha256": "648edefaa450caef9b7336636a2e8fdd8fb42ae68bee736e1be4f019a0107d29",
+    "bytes": 4863,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/analysis_strengthening_15/figures/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/audit_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "a3bf3d917b963dd42d43702ab4bfec9504e07fa5ebf0c50c2e12412bb22c3697",
+    "distributed_sha256": "a3bf3d917b963dd42d43702ab4bfec9504e07fa5ebf0c50c2e12412bb22c3697",
+    "bytes": 3179,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/analysis_strengthening_15/figures/build_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/build_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "9f1ab5197bf2c57a54387e41cec6edcaeedbe38b1e2f3b62e8e990dfe42cadd6",
+    "distributed_sha256": "9f1ab5197bf2c57a54387e41cec6edcaeedbe38b1e2f3b62e8e990dfe42cadd6",
+    "bytes": 18070,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/analysis_strengthening_15/figures/finalize_package.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/finalize_package.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "f4fc8c5a4b135c8ac10ec3f6a7b27575cfdc171a10c44f6a12c4f86dff82aed7",
+    "distributed_sha256": "f4fc8c5a4b135c8ac10ec3f6a7b27575cfdc171a10c44f6a12c4f86dff82aed7",
+    "bytes": 5501,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figures/build_external_figure.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figures/build_external_figure.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "744e29e771b95db4023276c7f8d34812fccef1bdcf45f9e8d37ed7b02ebcbf25",
+    "distributed_sha256": "744e29e771b95db4023276c7f8d34812fccef1bdcf45f9e8d37ed7b02ebcbf25",
+    "bytes": 7394,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figures/build_revision_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figures/build_revision_figures.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "517f2f0a06be4327237555c9c994e82650594cf59ff5481afd9b9f801a978e55",
+    "distributed_sha256": "517f2f0a06be4327237555c9c994e82650594cf59ff5481afd9b9f801a978e55",
+    "bytes": 11801,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figure_revision/extracted_original_functions.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/extracted_original_functions.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "f178ddc78f2321c795b7ab868ae7f7435fe88f9160d150205c8d54619fa73d30",
+    "distributed_sha256": "f178ddc78f2321c795b7ab868ae7f7435fe88f9160d150205c8d54619fa73d30",
+    "bytes": 7768,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figure_revision/final_label_audit.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/final_label_audit.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "66fad91840d5de50012f28d2b6c297b32168cb66ae6c81c04ac454ebe5aa028c",
+    "distributed_sha256": "66fad91840d5de50012f28d2b6c297b32168cb66ae6c81c04ac454ebe5aa028c",
+    "bytes": 2613,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figure_revision/prepare_label_revision.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/prepare_label_revision.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "d4e1bfce32d3545a377f40714194d6005a3aef1c7731a583434dbd4cfabad193",
+    "distributed_sha256": "d4e1bfce32d3545a377f40714194d6005a3aef1c7731a583434dbd4cfabad193",
+    "bytes": 8961,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/submission_finalization_25/figure_revision/revise_figure_labels.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/revise_figure_labels.py",
+    "role": "Historical supplementary-figure source; original layout dependencies",
+    "source_sha256": "ef738d59e17ca390a0918730939acb496ddc7ad97d0e79f26cfb0cb940352687",
+    "distributed_sha256": "ef738d59e17ca390a0918730939acb496ddc7ad97d0e79f26cfb0cb940352687",
+    "bytes": 15086,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/audit_metadata.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/audit_metadata.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "d225fe102b3352798c3a96cd6598525022c3796446bb1146cd0bae97ac810095",
+    "distributed_sha256": "d225fe102b3352798c3a96cd6598525022c3796446bb1146cd0bae97ac810095",
+    "bytes": 2274,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/build_sample_manifest.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/build_sample_manifest.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "2173588a94937f125dd82f23299b2f9f75b42dad906f8152f1b555a0ae57cd8f",
+    "distributed_sha256": "2173588a94937f125dd82f23299b2f9f75b42dad906f8152f1b555a0ae57cd8f",
+    "bytes": 3516,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/inspect_processed_tables.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/inspect_processed_tables.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "2590f20448205b2d41e5d63842db12f558e180d32b8a3e708ea02f49b04341aa",
+    "distributed_sha256": "2590f20448205b2d41e5d63842db12f558e180d32b8a3e708ea02f49b04341aa",
+    "bytes": 6564,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/audit_additional_inputs.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/audit_additional_inputs.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "940a422d5d73aa16cd9844c20bf57eeee1616aa62452318e523ee07a6dd1b3f3",
+    "distributed_sha256": "940a422d5d73aa16cd9844c20bf57eeee1616aa62452318e523ee07a6dd1b3f3",
+    "bytes": 7181,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/build_reference_manifests.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/build_reference_manifests.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "3696a49604157003e8851d58f8382a6bef926b39b44ccd5287ffa146d8a20d31",
+    "distributed_sha256": "3696a49604157003e8851d58f8382a6bef926b39b44ccd5287ffa146d8a20d31",
+    "bytes": 2380,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/fetch_platform.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/fetch_platform.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "edc0049fc3d2cdeee98a2303022b07961a1b2fa41966d7d012ca3879434f9c14",
+    "distributed_sha256": "edc0049fc3d2cdeee98a2303022b07961a1b2fa41966d7d012ca3879434f9c14",
+    "bytes": 1530,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_prepare.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_prepare.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "6e4d86a99797763318a312de77e1771d1036038f1577d5c12946d0430ca3aa03",
+    "distributed_sha256": "6e4d86a99797763318a312de77e1771d1036038f1577d5c12946d0430ca3aa03",
+    "bytes": 16260,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/run_descriptive_pilot.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/run_descriptive_pilot.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "387c0c1d895f4efe6dfe9dfca6a6a78e18731912919fed3a2e325a67c9e67bc5",
+    "distributed_sha256": "387c0c1d895f4efe6dfe9dfca6a6a78e18731912919fed3a2e325a67c9e67bc5",
+    "bytes": 7891,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/validate_outputs.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/validate_outputs.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "bd92906a52453a0fc3e535685a0be9370da97397847a0df53515c800e44b24fe",
+    "distributed_sha256": "bd92906a52453a0fc3e535685a0be9370da97397847a0df53515c800e44b24fe",
+    "bytes": 5210,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_run_02/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/audit_figures.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "248c3b42f5ba96a61c727f7434139bf992bd90c69a38f1d232b98704f737d231",
+    "distributed_sha256": "248c3b42f5ba96a61c727f7434139bf992bd90c69a38f1d232b98704f737d231",
+    "bytes": 3370,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_run_02/audit_organoid_figure.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/audit_organoid_figure.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "b8e49e7758c0a5502be6138a461f51f75d9be8ccb0e9e0fc11d4708d7f2dc26f",
+    "distributed_sha256": "33d751ef9dfa6b08df6078ea237ec2d6e3232fff9b06a259ab7c73fba7a7b56b",
+    "bytes": 2151,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_run_02/numeric_review.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/numeric_review.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "47e0bc9de0dbc01afff251a6f0cad6d2541c7ea46d05473e6ee386e61514b7d2",
+    "distributed_sha256": "47e0bc9de0dbc01afff251a6f0cad6d2541c7ea46d05473e6ee386e61514b7d2",
+    "bytes": 12276,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_run_02/plot_organoid.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/plot_organoid.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "32689500ed935ef464356b6a524aabc8105f0bab672c8cf2682698ae26f6793e",
+    "distributed_sha256": "32689500ed935ef464356b6a524aabc8105f0bab672c8cf2682698ae26f6793e",
+    "bytes": 8746,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_run_02/run_bulk_analysis.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/run_bulk_analysis.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9a6a83adfa746c101d0971e0b085dd6591dd750fc7c32133374c2ab60d975912",
+    "distributed_sha256": "9a6a83adfa746c101d0971e0b085dd6591dd750fc7c32133374c2ab60d975912",
+    "bytes": 10896,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/candidate_screen_03/audit_sesamin_input.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/audit_sesamin_input.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "499673adf78ec080185e93f38a9eec7d0fa4f97f0d144e6e4a40dd26722cc2e6",
+    "distributed_sha256": "499673adf78ec080185e93f38a9eec7d0fa4f97f0d144e6e4a40dd26722cc2e6",
+    "bytes": 5343,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/candidate_screen_03/search_geo.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/search_geo.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "55264e850f5d8a4240b25ebb523c3e246334b2061ab7358de6ffcb7002da9bb9",
+    "distributed_sha256": "55264e850f5d8a4240b25ebb523c3e246334b2061ab7358de6ffcb7002da9bb9",
+    "bytes": 3515,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/candidate_screen_03/verify_targets.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/verify_targets.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9d1b25f480f76cb8432b27925872ae0fb7fa2892e020866516f907fca409ba25",
+    "distributed_sha256": "9d1b25f480f76cb8432b27925872ae0fb7fa2892e020866516f907fca409ba25",
+    "bytes": 2513,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/sesamin_exploration_04/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/audit_figures.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "ec40b783521351e6deca0470575df8578159a26cd7d5d51fc45c4bc29aab3704",
+    "distributed_sha256": "399ad325e6d630a4fd3ba011add57147f48203ecf12cbb2d8c5c9eedbc2f6cd4",
+    "bytes": 2921,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/sesamin_exploration_04/link_organoid_context.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/link_organoid_context.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "c95e30f4c5d507c05d5bd3dde5bfe5ce0ba5b36ace29e9e4044837d39c7c7808",
+    "distributed_sha256": "c95e30f4c5d507c05d5bd3dde5bfe5ce0ba5b36ace29e9e4044837d39c7c7808",
+    "bytes": 4905,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/sesamin_exploration_04/plot_results.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/plot_results.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "3a6e86d9b88ff6b7acfc96b5d1109e1207328f8da3333f069ae9b17c83077a54",
+    "distributed_sha256": "dca93dbba0843558bbbeb9d105cad7b389764df4707ac51e18d96983d5ef952b",
+    "bytes": 3913,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/sesamin_exploration_04/run_analysis.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/run_analysis.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "c996b4f02eaf1cefe5bc6ed85339b324ea371443ca8eb476aade60710c5c36db",
+    "distributed_sha256": "c996b4f02eaf1cefe5bc6ed85339b324ea371443ca8eb476aade60710c5c36db",
+    "bytes": 10150,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/sesamin_exploration_04/numeric_review/recompute.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/numeric_review/recompute.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "38e267c081a0df93a9384343ee36981441c0e1a33ecb5e55e4c34f6ca9391330",
+    "distributed_sha256": "38e267c081a0df93a9384343ee36981441c0e1a33ecb5e55e4c34f6ca9391330",
+    "bytes": 11379,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/analyze_phh.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/analyze_phh.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "a6b60000184ba47ba8225dfa680bc275f2b3031efbac64120a5f02c5a3fc5ab4",
+    "distributed_sha256": "a6b60000184ba47ba8225dfa680bc275f2b3031efbac64120a5f02c5a3fc5ab4",
+    "bytes": 9241,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/audit_figure.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/audit_figure.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "b9755eb0b09b0034062a1e32967d08099f796de1543072f9a5c70c6c0ee1c002",
+    "distributed_sha256": "be98420afeab68d4b721739be83d621b37f4ebb4a72e055004597c620e0b8acd",
+    "bytes": 2521,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/check_robustness.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/check_robustness.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "606db1baec67f190e7a49fa30844bd4547024f097a3df238123f8181973f6401",
+    "distributed_sha256": "606db1baec67f190e7a49fa30844bd4547024f097a3df238123f8181973f6401",
+    "bytes": 10277,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/plot_phh.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/plot_phh.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "e187ff70300ff80684ef0bfa23470d3829bc2929d7584e3b8199ade6f5a606f7",
+    "distributed_sha256": "5d7067d4a8e662f4c1ef2d28964f2bee8e5022925b09ce9d2552d4f3ec31554c",
+    "bytes": 2724,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/numeric_review/recompute.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/numeric_review/recompute.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "c6e9b95f8353ca7124d18e2da6b808a2603732c06304625ecbf0dde217cc00a9",
+    "distributed_sha256": "c6e9b95f8353ca7124d18e2da6b808a2603732c06304625ecbf0dde217cc00a9",
+    "bytes": 27120,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/followup_05/phh_design/build_manifest.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/phh_design/build_manifest.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "d469d52baf5d16702cf8f0d536e97dbdd3fcf8684c2735124983ac24778fdc51",
+    "distributed_sha256": "d469d52baf5d16702cf8f0d536e97dbdd3fcf8684c2735124983ac24778fdc51",
+    "bytes": 12665,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/build_processing_plan.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/build_processing_plan.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "1ad8fe65bf71039c3d01dd4a9f8ae1264e9a5f08956ff4964ea43573064b6cbe",
+    "distributed_sha256": "1ad8fe65bf71039c3d01dd4a9f8ae1264e9a5f08956ff4964ea43573064b6cbe",
+    "bytes": 9741,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/collect_preflight.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/collect_preflight.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "49a12efb6860c09e89890b1071b12d3b7cc4f4137c610bba38980ff9a6262389",
+    "distributed_sha256": "3287b117de37721fd1123428121abcfb38754edf5f76c9b2650265e005e8d056",
+    "bytes": 6652,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/prepare_downloads.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/prepare_downloads.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9d615763de93286947e88680381cf8e5b3e95d0a780f72386595207775a943cf",
+    "distributed_sha256": "9d615763de93286947e88680381cf8e5b3e95d0a780f72386595207775a943cf",
+    "bytes": 5529,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/design/audit_design.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/design/audit_design.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "a43f472b5e95a7aafe7d914d1bed9779eed112b1be7a6678379f2764d43d873d",
+    "distributed_sha256": "a43f472b5e95a7aafe7d914d1bed9779eed112b1be7a6678379f2764d43d873d",
+    "bytes": 15939,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/orthology/build_orthology.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/build_orthology.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9c3632fa640bb18d3f273f21afd988e485572d6bf1421ec8fcea6d9ee2c442b8",
+    "distributed_sha256": "9c3632fa640bb18d3f273f21afd988e485572d6bf1421ec8fcea6d9ee2c442b8",
+    "bytes": 14193,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/orthology/fetch_docs.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/fetch_docs.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "4b0dffe21e8c8caad1b3e088b14a6afcf3530a49f2030569c2f2f958a7363041",
+    "distributed_sha256": "4b0dffe21e8c8caad1b3e088b14a6afcf3530a49f2030569c2f2f958a7363041",
+    "bytes": 1787,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/orthology/fetch_orthology.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/fetch_orthology.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "a69dea57d7f215b16e5ee8dee8a0d972b7581b7caa93cedb1391ec0bb342fb2c",
+    "distributed_sha256": "a69dea57d7f215b16e5ee8dee8a0d972b7581b7caa93cedb1391ec0bb342fb2c",
+    "bytes": 7697,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_readiness_07/review/check_review.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/review/check_review.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "030a1e034bb4812a13305077e7ccc1b8c540486cbc4197f78b351d46b74db7c4",
+    "distributed_sha256": "e788156a8b1896aa1ed57dc481bf94b007e0eb468898e1590d02b8d533ac0d65",
+    "bytes": 11826,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/build_index.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/build_index.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "5068cd29a9d9d57e789b5fc57cbab56c2cfdd4c99195b1d4c2a4cd77f8670edf",
+    "distributed_sha256": "5068cd29a9d9d57e789b5fc57cbab56c2cfdd4c99195b1d4c2a4cd77f8670edf",
+    "bytes": 1082,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/check_pilot_aggregation.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/check_pilot_aggregation.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "dfb21e67dfcb11cde77e503a212a45d38641f9a8d5e8df4065777b65e3a28455",
+    "distributed_sha256": "dfb21e67dfcb11cde77e503a212a45d38641f9a8d5e8df4065777b65e3a28455",
+    "bytes": 1061,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/common08.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/common08.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "f2be83ce0bdb5fdb26e68cac6aaed48af310ea7e7b98821e2c0f3e142656a536",
+    "distributed_sha256": "f2be83ce0bdb5fdb26e68cac6aaed48af310ea7e7b98821e2c0f3e142656a536",
+    "bytes": 4897,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/download_fastq.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/download_fastq.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "486d7ce50d74fb0c3c80d324e0488ca08548fe804d1e43e6ad8d26947f4c767f",
+    "distributed_sha256": "486d7ce50d74fb0c3c80d324e0488ca08548fe804d1e43e6ad8d26947f4c767f",
+    "bytes": 2484,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/finalize_recovered_downloads.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/finalize_recovered_downloads.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "abcc85c3bd219ede6affe87397d68b2d4e88b6edb4522d4e821aa3793266073c",
+    "distributed_sha256": "abcc85c3bd219ede6affe87397d68b2d4e88b6edb4522d4e821aa3793266073c",
+    "bytes": 5536,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/finish_last_two.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/finish_last_two.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "7248b5f18e49b3d08721636a0e874cb893c9fd5e071f2b09f24fa497b96f7081",
+    "distributed_sha256": "7248b5f18e49b3d08721636a0e874cb893c9fd5e071f2b09f24fa497b96f7081",
+    "bytes": 961,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/freeze_execution_rules.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/freeze_execution_rules.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "50d425e2a0a6f63a73c8a6e8415e6ee53466ec396b267f3e4f11e0dc608bdd24",
+    "distributed_sha256": "50d425e2a0a6f63a73c8a6e8415e6ee53466ec396b267f3e4f11e0dc608bdd24",
+    "bytes": 1567,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/recover_download.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/recover_download.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "cd4e000d081e5ff1c50ae45fe06d0260adf84c18d8cbc974cfafcb9e7b7035d9",
+    "distributed_sha256": "cd4e000d081e5ff1c50ae45fe06d0260adf84c18d8cbc974cfafcb9e7b7035d9",
+    "bytes": 5382,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/resume_after_network.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/resume_after_network.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "4ed8fb6d1330c94f1d253e837cb33eb4dde770dcd17257782b2640045f9f34cf",
+    "distributed_sha256": "4ed8fb6d1330c94f1d253e837cb33eb4dde770dcd17257782b2640045f9f34cf",
+    "bytes": 1794,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/resume_recovery.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/resume_recovery.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "a5c346d762d6a4d6d8ead83f029e3b349a21818833bc67d75c5dd2776292e029",
+    "distributed_sha256": "a5c346d762d6a4d6d8ead83f029e3b349a21818833bc67d75c5dd2776292e029",
+    "bytes": 2014,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/run_study.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/run_study.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "55ce8f7ae8f02a36f4e00ce8246407f4209e06f2528ceeb13275918b570497d4",
+    "distributed_sha256": "55ce8f7ae8f02a36f4e00ce8246407f4209e06f2528ceeb13275918b570497d4",
+    "bytes": 8065,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/setup_tool.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/setup_tool.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "1cc1eb691b9ef58d0f52491338863ca806617cc65804904a9d2cbe144227744b",
+    "distributed_sha256": "1cc1eb691b9ef58d0f52491338863ca806617cc65804904a9d2cbe144227744b",
+    "bytes": 3889,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/aggregation/aggregate_quantification.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/aggregation/aggregate_quantification.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "31a162c8cd85a3f7e8f0046618f385d4eb4e827f4cfc53d9f5770e5a87fd0db0",
+    "distributed_sha256": "31a162c8cd85a3f7e8f0046618f385d4eb4e827f4cfc53d9f5770e5a87fd0db0",
+    "bytes": 21427,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/aggregation/test_aggregation.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/aggregation/test_aggregation.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "ce140d0f69dc49126e7aa8a75252c8862576fa66a4faf03db547eecc3d5b4080",
+    "distributed_sha256": "ce140d0f69dc49126e7aa8a75252c8862576fa66a4faf03db547eecc3d5b4080",
+    "bytes": 7398,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/fastq_qc/fastq_qc.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/fastq_qc.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "d958c48c38560f55d0b9e6b8c7869b7d7b3f92059e2b7da91f19aae4870cde61",
+    "distributed_sha256": "d958c48c38560f55d0b9e6b8c7869b7d7b3f92059e2b7da91f19aae4870cde61",
+    "bytes": 12515,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/fastq_qc/test_fastq_qc.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/test_fastq_qc.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "3df7fe4b6cf4a78807994c72b8346311ba183c99bbf6b9ba00d9f4dfd473f914",
+    "distributed_sha256": "3df7fe4b6cf4a78807994c72b8346311ba183c99bbf6b9ba00d9f4dfd473f914",
+    "bytes": 6790,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/fastq_qc/test_pipeline_resume.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/test_pipeline_resume.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "35e08d513ef24710500aa57d49de4f0339d7b831c143e538523c3fc42c9ef802",
+    "distributed_sha256": "35e08d513ef24710500aa57d49de4f0339d7b831c143e538523c3fc42c9ef802",
+    "bytes": 5412,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/final_review/check_delivery.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/final_review/check_delivery.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "5d1249e46bc777ce11727141647e2bc95f1f2cc9549d9a6b3c166327193d2ac5",
+    "distributed_sha256": "5d1249e46bc777ce11727141647e2bc95f1f2cc9549d9a6b3c166327193d2ac5",
+    "bytes": 36187,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/reference_build/audit_index_input.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/audit_index_input.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "f07f1f8f88ce138cead697095f21d62a241608fb9cf6ca9cdaf8da4b59ebc3be",
+    "distributed_sha256": "f07f1f8f88ce138cead697095f21d62a241608fb9cf6ca9cdaf8da4b59ebc3be",
+    "bytes": 3682,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/reference_build/build_reference.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/build_reference.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "4f3d788d6a0aa4dbaf70f57ef7281d77a572b051899782523f4e29a2659c5ab9",
+    "distributed_sha256": "4f3d788d6a0aa4dbaf70f57ef7281d77a572b051899782523f4e29a2659c5ab9",
+    "bytes": 12458,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/reference_build/validate_reference.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/validate_reference.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "ed1415e66188009c26103207636c8bb8699b0be35016ef2b352b550f94a6d380",
+    "distributed_sha256": "ed1415e66188009c26103207636c8bb8699b0be35016ef2b352b550f94a6d380",
+    "bytes": 7203,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/mouse_quantification_08/download_recovery/second_file/recover_second_file.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/download_recovery/second_file/recover_second_file.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "81126452f99e21b0164beb89d141340cfbbab538ca432b0f8212020cc3db1771",
+    "distributed_sha256": "81126452f99e21b0164beb89d141340cfbbab538ca432b0f8212020cc3db1771",
+    "bytes": 8213,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_expression/fetch_inputs.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/fetch_inputs.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "56577d30d20928a8222c87dbe0d03d03625f3d9a47405a75bdf27da535377d9b",
+    "distributed_sha256": "56577d30d20928a8222c87dbe0d03d03625f3d9a47405a75bdf27da535377d9b",
+    "bytes": 5671,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_expression/fetch_mtx_parallel.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/fetch_mtx_parallel.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9a15226123a8fa8a8c72318d03f5ba495c72220079fc23680ca6d5c8efd274bd",
+    "distributed_sha256": "9a15226123a8fa8a8c72318d03f5ba495c72220079fc23680ca6d5c8efd274bd",
+    "bytes": 2849,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_expression/link_expression.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/link_expression.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196",
+    "distributed_sha256": "83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196",
+    "bytes": 21490,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_expression/resume_os_ranges.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/resume_os_ranges.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "856db2d2b3dd1fc28d03392536741af44d69a0c64ed446845abb177459ff0e8d",
+    "distributed_sha256": "856db2d2b3dd1fc28d03392536741af44d69a0c64ed446845abb177459ff0e8d",
+    "bytes": 4320,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/organoid_expression/validate_aggregation.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/validate_aggregation.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "7bd126869a0c3d6fc614a46db6280f2c78f626db1f6c52b9266204142c6502bf",
+    "distributed_sha256": "7bd126869a0c3d6fc614a46db6280f2c78f626db1f6c52b9266204142c6502bf",
+    "bytes": 6090,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/single_cell_extension_14/analysis/derive_single_cell.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/analysis/derive_single_cell.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "distributed_sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/single_cell_extension_14/review/verify_derived_tables.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/review/verify_derived_tables.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "99d803f5a8b7443783e2e5d909032ccef0c37107ed8e1f1343c552382161dc68",
+    "distributed_sha256": "99d803f5a8b7443783e2e5d909032ccef0c37107ed8e1f1343c552382161dc68",
+    "bytes": 14608,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/robustness/check_and_report.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/robustness/check_and_report.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "0c74f257981b8b59cadd32a801a09d154ef1111267a7c99c2d280ec23e7db737",
+    "distributed_sha256": "0c74f257981b8b59cadd32a801a09d154ef1111267a7c99c2d280ec23e7db737",
+    "bytes": 16071,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/robustness/run_robustness.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/robustness/run_robustness.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "9a076d55780ddae1e0f30a58517f5ae44d7f094d9fcbc1f9f47bbbcb0d3993ff",
+    "distributed_sha256": "9a076d55780ddae1e0f30a58517f5ae44d7f094d9fcbc1f9f47bbbcb0d3993ff",
+    "bytes": 18474,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/rat_validation/analyze_rat.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/analyze_rat.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "5b58ef9d2b80550ab07cc4c08d7d168c14c4d681ad27242c30f2c2216cae8b70",
+    "distributed_sha256": "5b58ef9d2b80550ab07cc4c08d7d168c14c4d681ad27242c30f2c2216cae8b70",
+    "bytes": 12652,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/rat_validation/exact_sensitivity.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/exact_sensitivity.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "1782f36f26ad3ec1790370a8a06f79845fad474e248d82d0d057b0ed775946fa",
+    "distributed_sha256": "1782f36f26ad3ec1790370a8a06f79845fad474e248d82d0d057b0ed775946fa",
+    "bytes": 2787,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/rat_validation/fetch_annotation.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/fetch_annotation.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "a7adb83a7818efa1a11488f0924bd1e72fee16176d39fe30ac5ec250cf0833fc",
+    "distributed_sha256": "a7adb83a7818efa1a11488f0924bd1e72fee16176d39fe30ac5ec250cf0833fc",
+    "bytes": 3860,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/rat_validation/review/check_rat.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/review/check_rat.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "86396a9418e085436204fd8943d02f9848a68d3e2fe534e0ea9e090a562d326c",
+    "distributed_sha256": "86396a9418e085436204fd8943d02f9848a68d3e2fe534e0ea9e090a562d326c",
+    "bytes": 21649,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/single_cell/analyze_single_cell.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/single_cell/analyze_single_cell.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "e894bbc9be14d8f8dd170ee5519922b5f3892f7e4f42d6673cc37ad5920cae9b",
+    "distributed_sha256": "e894bbc9be14d8f8dd170ee5519922b5f3892f7e4f42d6673cc37ad5920cae9b",
+    "bytes": 26839,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/review/single_cell/check_single_cell.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/review/single_cell/check_single_cell.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "839a825e5072a849e2d5331960efab2667fe42bac4579fe2255f56f4b404af19",
+    "distributed_sha256": "839a825e5072a849e2d5331960efab2667fe42bac4579fe2255f56f4b404af19",
+    "bytes": 21577,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/design_sources/audit_GSE42693_metadata.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/audit_GSE42693_metadata.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "b7cd31566b7910b69942f682fb98a85aeada173aa87ed4e433502a0d599e234e",
+    "distributed_sha256": "b7cd31566b7910b69942f682fb98a85aeada173aa87ed4e433502a0d599e234e",
+    "bytes": 5044,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/design_sources/fetch_public_sources.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/fetch_public_sources.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "6cf096a603532452e283eb695b4b9bd96b60188f2e04b1f45a228c57fc90a980",
+    "distributed_sha256": "6cf096a603532452e283eb695b4b9bd96b60188f2e04b1f45a228c57fc90a980",
+    "bytes": 1490,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/next_steps/analysis_strengthening_15/design_sources/freeze_sources.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/freeze_sources.py",
+    "role": "Earlier scientific processing/check code; archived directory-layout dependency",
+    "source_sha256": "7e80bee9e7d623134dd82794c02f53ef2cb1c2e8268cf04181d44d424400b526",
+    "distributed_sha256": "1d51a893abec670c4fb5c6ec047a05bd10371d8f8c2339a0b56c9fde645a14f1",
+    "bytes": 3586,
+    "adapted": true
+  },
+  {
+    "file": "app/app.js",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/app.js",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "acf177d20d7f5f4015e8c059c0f663f866079dfbaad4e1f2dd11abee1c5648f7",
+    "distributed_sha256": "acf177d20d7f5f4015e8c059c0f663f866079dfbaad4e1f2dd11abee1c5648f7",
+    "bytes": 44612,
+    "adapted": false
+  },
+  {
+    "file": "app/charts.js",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/charts.js",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "d98272898bc01e4408dd2427a8027d5eb05683fccf6d2428f5c8e503c64c00f3",
+    "distributed_sha256": "d98272898bc01e4408dd2427a8027d5eb05683fccf6d2428f5c8e503c64c00f3",
+    "bytes": 18244,
+    "adapted": false
+  },
+  {
+    "file": "app/favicon.svg",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/favicon.svg",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "e5994a6d1f5ece14be774db2eb11c00ddab26dcd526e374099c1e28a278f441e",
+    "distributed_sha256": "e5994a6d1f5ece14be774db2eb11c00ddab26dcd526e374099c1e28a278f441e",
+    "bytes": 282,
+    "adapted": false
+  },
+  {
+    "file": "app/index.html",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/index.html",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "1e9cc861e4834953e6d586f086b3895145d24268b03d141a215394d558a03c6f",
+    "distributed_sha256": "6eebdb2fcb02431a0ace967fbeb1ae44bfb989be682e8b50af9fce7f2fa61d5e",
+    "bytes": 14706,
+    "adapted": true,
+    "adaptation_note": "Omit company image/contact address; use existing generic favicon; no scientific values changed."
+  },
+  {
+    "file": "app/styles.css",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/styles.css",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "16945ce12661eda690f89827543dbbe50fe0d49d150135b208de31442648f7d9",
+    "distributed_sha256": "16945ce12661eda690f89827543dbbe50fe0d49d150135b208de31442648f7d9",
+    "bytes": 28673,
+    "adapted": false
+  },
+  {
+    "file": "app/data/candidate_library_values.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/candidate_library_values.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+    "distributed_sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+    "bytes": 23004,
+    "adapted": false
+  },
+  {
+    "file": "app/data/candidate_results_all25_two_normalizations.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/candidate_results_all25_two_normalizations.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "distributed_sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "bytes": 12615,
+    "adapted": false
+  },
+  {
+    "file": "app/data/candidate_sample_values.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/candidate_sample_values.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "distributed_sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "bytes": 48378,
+    "adapted": false
+  },
+  {
+    "file": "app/data/cells.json",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/cells.json",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "c8df8ce555859d4667fc078f0b90765b1780b8490b02cf7151580fbca00fb75d",
+    "distributed_sha256": "c8df8ce555859d4667fc078f0b90765b1780b8490b02cf7151580fbca00fb75d",
+    "bytes": 3235799,
+    "adapted": false
+  },
+  {
+    "file": "app/data/configuration_effect_summary.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/configuration_effect_summary.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "distributed_sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+    "bytes": 80172,
+    "adapted": false
+  },
+  {
+    "file": "app/data/cross_species_configuration_consensus.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/cross_species_configuration_consensus.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "distributed_sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+    "bytes": 2550,
+    "adapted": false
+  },
+  {
+    "file": "app/data/evidence.json",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/evidence.json",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "cbfe32d7a8c3e997f40793013979763cab72f5fdff5b4ac6d15946ee3ce81526",
+    "distributed_sha256": "cbfe32d7a8c3e997f40793013979763cab72f5fdff5b4ac6d15946ee3ce81526",
+    "bytes": 206187,
+    "adapted": false
+  },
+  {
+    "file": "app/data/human_candidates_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/human_candidates_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "distributed_sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "bytes": 11814,
+    "adapted": false
+  },
+  {
+    "file": "app/data/kitagawa_summary_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/kitagawa_summary_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "distributed_sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+    "bytes": 21945,
+    "adapted": false
+  },
+  {
+    "file": "app/data/library_candidates_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/library_candidates_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "distributed_sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+    "bytes": 9497,
+    "adapted": false
+  },
+  {
+    "file": "app/data/library_category_candidates_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/library_category_candidates_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "distributed_sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+    "bytes": 40568,
+    "adapted": false
+  },
+  {
+    "file": "app/data/mouse_candidates_all26.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/mouse_candidates_all26.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "d14d182603c24ee56ac0bc1c1d622f259cb2a950566521ae1eb04b7312e34e9e",
+    "distributed_sha256": "d14d182603c24ee56ac0bc1c1d622f259cb2a950566521ae1eb04b7312e34e9e",
+    "bytes": 11058,
+    "adapted": false
+  },
+  {
+    "file": "app/data/posthoc_exact_sensitivity_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/posthoc_exact_sensitivity_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "distributed_sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "bytes": 5437,
+    "adapted": false
+  },
+  {
+    "file": "app/data/weighting_sensitivity_all25.csv",
+    "source_artifact": "apps/sesamin-evidence-explorer/space/data/weighting_sensitivity_all25.csv",
+    "role": "Existing explorer source or published processed display data",
+    "source_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "distributed_sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+    "bytes": 4389,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/app_tools/build_public_data.py",
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/build_public_data.py",
+    "role": "Archived display-data builder/QA; no deployment credentials",
+    "source_sha256": "01ecd1fdc8e690f80b7d52c3957710c386ee445629a97abee169356681e0edd8",
+    "distributed_sha256": "01ecd1fdc8e690f80b7d52c3957710c386ee445629a97abee169356681e0edd8",
+    "bytes": 23383,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/app_tools/independent_data_review.py",
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/independent_data_review.py",
+    "role": "Archived display-data builder/QA; no deployment credentials",
+    "source_sha256": "7d3ebda00efd1eeec7b207d254fe2a83285361d3ba2d3e3a3d5d349adea43a3d",
+    "distributed_sha256": "7d3ebda00efd1eeec7b207d254fe2a83285361d3ba2d3e3a3d5d349adea43a3d",
+    "bytes": 23187,
+    "adapted": false
+  },
+  {
+    "file": "historical_pipeline/app_tools/browser_qa.py",
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/browser_qa.py",
+    "role": "Archived display-data builder/QA; no deployment credentials",
+    "source_sha256": "9fff54569aa8f2080fb46776ce05a3d90f94e1244710d46f5e30845a3ac6913e",
+    "distributed_sha256": "76208fbb94fe7acf51aee61513dfe167088279d8c66be2b5ff1fc45c5a7ce7ac",
+    "bytes": 14374,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/app_tools/capture_manuscript_screenshots.py",
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/capture_manuscript_screenshots.py",
+    "role": "Archived display-data builder/QA; no deployment credentials",
+    "source_sha256": "eb637b50d85897517a31eff1f476febe81e7f94a1c0263541460e982577e7eb3",
+    "distributed_sha256": "4a13c8bd27d4ecd70d7bd6496f5272ee21a46d3feed64cc80c0db28963c49c6f",
+    "bytes": 6061,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/publication_package_14/figures/single_cell/audit_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/audit_figures.py",
+    "role": "Historical single-cell supplementary-figure generator/QA",
+    "source_sha256": "19bc7df73cd108e40443df39b1f44880921ee6483a3ac658dcf7585f7cb2c7af",
+    "distributed_sha256": "d4eb4b4ee337bdf828d41de114d42453efac231fa2da1bc2ba6a121b3c3cfd70",
+    "bytes": 4570,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/publication_package_14/figures/single_cell/build_figures.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/build_figures.py",
+    "role": "Historical single-cell supplementary-figure generator/QA",
+    "source_sha256": "335e2f3fd5ab32338e83a83ef49a20e11e7f54715d6f79363dbc09cf9b2be1e2",
+    "distributed_sha256": "ba20a60ddd07bd62a14821e548298b82b97408a3ba836b83de085b809873f756",
+    "bytes": 20927,
+    "adapted": true
+  },
+  {
+    "file": "historical_pipeline/publication_package_14/figures/single_cell/finalize_qa.py",
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/finalize_qa.py",
+    "role": "Historical single-cell supplementary-figure generator/QA",
+    "source_sha256": "dd989aa3c10f9ffed0764bed54b044cbeb74e89cc0f5fc9cdf53a2244a4f72af",
+    "distributed_sha256": "6aa7e043945cc5c7017c7088fcef156d8f7bf2b6c51b3c6460c3fb2330dcea83",
+    "bytes": 6386,
+    "adapted": true
+  }
+]

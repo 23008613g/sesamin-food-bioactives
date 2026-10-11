@@ -1,0 +1,3 @@
+gene_id,symbol,covered,weighting,whole_PA_minus_control,hepatocyte_PA_minus_control,whole_minus_hepatocyte_delta,whole_direction,hepatocyte_direction,same_direction
+ENSG00000109321,AREG,True,equal_library,0.054898243358441956,0.03979729110310104,0.015100952255340916,positive,positive,True
+ENSG00000109321,AREG,True,pooled_cell,0.063003332445078608,0.037042375084610168,0.02596095736046844,positive,positive,True

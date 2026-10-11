@@ -1,0 +1,44 @@
+{
+  "intervention_related": [
+    [
+      "Human HepG2 cells",
+      "GSE248903 | 9 libraries",
+      "25 fixed candidates; 15 primary orthologues",
+      "Culture independence and timing unresolved"
+    ],
+    [
+      "Mouse hepatocytes",
+      "PRJCA021826 / CRA013797 | 9 libraries",
+      "64 library configurations per species",
+      "Treatment labels remain provisional"
+    ],
+    [
+      "Independent rat liver",
+      "GSE42693 | 5 control + 5 sesamin rats",
+      "Effect direction and small-sample sensitivity",
+      "Healthy liver; original body-weight selection"
+    ]
+  ],
+  "contextual": [
+    [
+      "Primary human hepatocytes",
+      "GSE247407 | 30 libraries; 5 donor labels",
+      "Fatty-acid-associated expression background",
+      "Donor-label relationships partly unresolved"
+    ],
+    [
+      "Human liver organoids",
+      "GSE207889 | 24,034 retained cells",
+      "AREG localization and cell-mixture accounting",
+      "4 technical libraries; one differentiation"
+    ],
+    [
+      "Independent adult human liver",
+      "GSE115469 | 8,444 cells; 5 donors",
+      "Donor-level cell-source comparison",
+      "Author-processed scale; sparse subsets flagged"
+    ]
+  ],
+  "external_atlas_included": true,
+  "scientific_role": "study schematic, not experimental measurements"
+}

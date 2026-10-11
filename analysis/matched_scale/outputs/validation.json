@@ -1,0 +1,3263 @@
+{
+  "assessment": "Share with caveats",
+  "all_checks_passed": true,
+  "number_of_checks": 647,
+  "checks": [
+    {
+      "check": "frozen_protocol_hash",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:inputs\\library_category_candidates_all25.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:inputs\\library_candidates_all25.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:inputs\\category_sampling_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:inputs\\kitagawa_summary_all25.csv",
+      "passed": true
+    },
+    {
+      "check": "frozen_input_hash:inputs\\weighting_sensitivity_all25.csv",
+      "passed": true
+    },
+    {
+      "check": "complete_25_candidates",
+      "passed": true
+    },
+    {
+      "check": "unique_category_gene_keys",
+      "passed": true
+    },
+    {
+      "check": "complete_category_grid",
+      "passed": true
+    },
+    {
+      "check": "fixed_library_condition_map",
+      "passed": true
+    },
+    {
+      "check": "consistent_feature_and_coverage",
+      "passed": true
+    },
+    {
+      "check": "only_AOC4P_unavailable",
+      "passed": true
+    },
+    {
+      "check": "missing_feature_not_zero",
+      "passed": true
+    },
+    {
+      "check": "valid_measured_values",
+      "passed": true
+    },
+    {
+      "check": "source_detection_percent",
+      "passed": true,
+      "n_compared": 384,
+      "max_absolute_error": 7.105427357601002e-15,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "consistent_category_denominators",
+      "passed": true
+    },
+    {
+      "check": "category_count_reference",
+      "passed": true
+    },
+    {
+      "check": "retained_cell_totals",
+      "passed": true,
+      "all_cells": 24034,
+      "hepatocyte_cells": 18097
+    },
+    {
+      "check": "category_fraction_counts",
+      "passed": true,
+      "n_compared": 16,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "library_output_grid",
+      "passed": true
+    },
+    {
+      "check": "direct_whole_library_join",
+      "passed": true
+    },
+    {
+      "check": "independent_source_whole_library:n_cells",
+      "passed": true,
+      "n_compared": 100,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "independent_source_whole_library:n_detected_cells",
+      "passed": true,
+      "n_compared": 96,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "independent_source_whole_library:detected_pct",
+      "passed": true,
+      "n_compared": 96,
+      "max_absolute_error": 3.552713678800501e-15,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "independent_source_whole_library:mean_log1p_cp10k",
+      "passed": true,
+      "n_compared": 96,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "independent_source_whole_library:sum_raw_counts",
+      "passed": true,
+      "n_compared": 96,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NEGR1:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NEGR1:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CXCL8:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CXCL8:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000275457:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000275457:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PCSK9:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PCSK9:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PSTPIP2:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PSTPIP2:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:BCAS1:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:BCAS1:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:VNN1:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:VNN1:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:NGFR:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:NGFR:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000279278:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000279278:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENTPD8:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENTPD8:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AREG:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AREG:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:JAG2:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:JAG2:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ACAT2:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ACAT2:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:AOC4P:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:AOC4P:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:PALLD:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:PALLD:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000272384:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000272384:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:TIE1:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:TIE1:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:RAB3B:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:RAB3B:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:C2orf49-DT:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:C2orf49-DT:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ZNF165:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ZNF165:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:SOCS2:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:SOCS2:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:CD22:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:CD22:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:ENSG00000249637:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:ENSG00000249637:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:MYEOV:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:MYEOV:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Whole organoid:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Whole organoid:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Whole organoid:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Whole organoid:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Whole organoid:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Whole organoid:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Whole organoid:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Whole organoid:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Hepatocytes:equal_library:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Hepatocytes:equal_library:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Hepatocytes:equal_library:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Hepatocytes:equal_library:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Hepatocytes:pooled_cell:CTRL",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Hepatocytes:pooled_cell:CTRL",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "two_libraries:DHCR7:Hepatocytes:pooled_cell:PA",
+      "passed": true
+    },
+    {
+      "check": "weights_sum:DHCR7:Hepatocytes:pooled_cell:PA",
+      "passed": true,
+      "n_compared": 1,
+      "max_absolute_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "summary_output_grid",
+      "passed": true
+    },
+    {
+      "check": "kitagawa_all25_join:equal_library",
+      "passed": true
+    },
+    {
+      "check": "prior_kitagawa:equal_library:control_mean",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "prior_kitagawa:equal_library:PA_mean",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "prior_kitagawa:equal_library:PA_minus_control",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "weighting_reference_all25_join:equal_library",
+      "passed": true
+    },
+    {
+      "check": "prior_weighting_sensitivity:equal_library",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "kitagawa_all25_join:pooled_cell",
+      "passed": true
+    },
+    {
+      "check": "prior_kitagawa:pooled_cell:control_mean",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "prior_kitagawa:pooled_cell:PA_mean",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "prior_kitagawa:pooled_cell:PA_minus_control",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "weighting_reference_all25_join:pooled_cell",
+      "passed": true
+    },
+    {
+      "check": "prior_weighting_sensitivity:pooled_cell",
+      "passed": true,
+      "n_compared": 24,
+      "max_absolute_error": 3.3306690738754696e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NEGR1:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CXCL8:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000275457:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PCSK9:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PSTPIP2:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:BCAS1:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:VNN1:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:NGFR:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000279278:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENTPD8:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AREG:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:JAG2:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ACAT2:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:AOC4P:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:PALLD:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000272384:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:TIE1:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:RAB3B:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:C2orf49-DT:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ZNF165:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:SOCS2:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:CD22:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:ENSG00000249637:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:MYEOV:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322577:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322577:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322578:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322578:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322579:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322579:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322580:Whole organoid",
+      "passed": true
+    },
+    {
+      "check": "decimal_library_count:DHCR7:GSM6322580:Hepatocytes",
+      "passed": true
+    },
+    {
+      "check": "independent_decimal_library",
+      "passed": true,
+      "n_compared": 192,
+      "max_absolute_error": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "independent_decimal_summary",
+      "passed": true,
+      "n_compared": 288,
+      "max_absolute_error": 2.3592239273284576e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "paired_nested_population_rows",
+      "passed": true
+    },
+    {
+      "check": "paired_equal_library_identities",
+      "passed": true,
+      "n_compared": 72,
+      "max_absolute_error": 1.6653345369377348e-16,
+      "tolerance": 1e-12
+    },
+    {
+      "check": "reported_AREG_whole_reconstruction",
+      "passed": true,
+      "actual": 0.054898243358441956
+    },
+    {
+      "check": "AOC4P_preserved:library",
+      "passed": true
+    },
+    {
+      "check": "AOC4P_preserved:summary",
+      "passed": true
+    },
+    {
+      "check": "measured_source_zeros_retained",
+      "passed": true,
+      "measured_source_category_zeros": 85,
+      "measured_output_library_zeros": 11
+    }
+  ],
+  "raw_count_rerun_performed": false,
+  "scope": "Aggregation of previously computed category summaries; independent Decimal arithmetic and reconciliation to prior direct-library outputs.",
+  "required_caveats": [
+    "One differentiation; four technical libraries and cells are not biological replicates.",
+    "No sesamin intervention, P values or biological confidence intervals.",
+    "Normalization provenance inherited from source; raw matrices and retained-cell identifiers were not reprocessed or revalidated.",
+    "Nested populations are summarized within the same library; no cross-condition library pairing or isolated causal composition claim.",
+    "AOC4P remains unavailable rather than zero; all 25 candidates and contrary results retained."
+  ]
+}

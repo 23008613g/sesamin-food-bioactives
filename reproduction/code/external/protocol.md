@@ -1,0 +1,27 @@
+# Frozen external single-cell descriptive protocol
+
+Scope frozen on 2026-10-09 before downloading or inspecting candidate expression in GSE115469. The freeze record records actual UTC timestamp and SHA256. This is a local prospective analysis specification, not an externally registered protocol.
+
+## Question and source eligibility
+
+The primary question is whether AREG cellular localization differs between author-annotated cholangiocytes and hepatocytes within each available donor of the independent GSE115469 human liver atlas (MacParland et al., 2018; DOI 10.1038/s41467-018-06318-7). Direction is not assumed. This is a descriptive external cellular-context check, not a validation of sesamin response, lipotoxicity, or hepatoprotection. The existing GSE207889 comparison comprises stem-cell-derived organoids, whereas GSE115469 comprises primary liver tissue from five neurologically deceased donors with normal histology; the original atlas reports brain-death-associated mild inflammation.
+
+Eligibility requires a public expression matrix, cell-level author annotations, and recoverable donor identity. Matrix scale must be established from metadata and checked numerically before selecting the applicable prespecified normalization branch. Retain the authors' cells and labels; do not recluster, impute expression, correct batches, remove donors, or optimize thresholds on AREG. If annotations/donor mapping cannot be verified, report unsuitability rather than assume validation.
+
+## Fixed candidates and mapping
+
+Retain all 25 original human candidates in stage15 data/legacy/human_candidates_all25.csv in its original order. Use that table's Ensembl IDs and symbols, supplemented only by the pre-existing stage15 candidate_gene_coverage.csv feature-symbol crosswalk. Match identifiers exactly (versionless Ensembl IDs if relevant), then exact recorded gene symbol, then exact pre-existing feature symbol. If these yield conflicting/multiple features, report ambiguous and NA rather than combine opportunistically. Unmatched candidates remain explicit NA, distinct from measured zero; do not replace candidates or update mappings after inspecting results.
+
+## Outcomes and units
+
+For each candidate, every donor, and every author cell type, record retained-cell count, detected-cell count, detection percentage, and arithmetic mean normalized expression including measured zero cells. Aggregate multiple author hepatocyte clusters to Hepatocytes and all author cholangiocyte clusters to Cholangiocytes; retain all other author labels and provide a full original-cluster coverage table.
+
+If the matrix contains nonnegative integer UMI counts and public metadata supports that scale, compute all-feature total UMI per cell T_i and y_ig = ln(1 + 10000*x_ig/T_i), where x_ig is the deposited UMI count. Detection is x_ig > 0. T_i = 0 is an invalid denominator and must be retained/flagged, not silently used. If public files contain only author-normalized nonnegative expression, retain that scale with its explicit label and detection above zero only if the transformation preserves zero. Do not renormalize log expression. If scale remains unresolved, do not claim count-normalized expression or infer detection.
+
+For each donor d compute paired signed differences Cholangiocytes minus Hepatocytes for detection percentage points and mean normalized expression. Report all five donors and missingness. Do not impute absent donor/type combinations. Primary cross-donor descriptive summaries use equally weighted complete donor pairs: mean, median, minimum, maximum, and number of positive/negative/zero differences. Report each cell type's equally weighted donor mean as well as pooled-cell summaries, clearly distinguished. Preserve all 25 candidates in every full table. AREG is the sole prespecified highlighted primary localization question; the other 24 are contextual, without significance claims or ranking-based selection.
+
+Report zero-cell groups as NA; groups with fewer than 20 retained cells receive a sparse-coverage flag but remain in the primary table and paired summaries. A prespecified sensitivity summary may show complete pairs with at least 20 cells in both types, with every excluded donor and reason visible. No cell-level P values, donor-level P values, formal confidence intervals, or claims of significant replication will be produced; five donors and sparse cell coverage are the limitations motivating descriptive reporting. Differences in detection/depth/capture and donor composition cannot be interpreted causally. These are independent primary-tissue data at study/sample provenance level; genotype-based sample identity has not been tested.
+
+## Verification and provenance
+
+Save unmodified public inputs, URLs, retrieval timestamps, SHA256 checksums, exact script and protocol hashes, Python and package versions, actual executed command, and full outputs within external_single_cell/. Validate unique cell IDs, one annotation per included cell, all donor identities, total cell counts, feature presence, nonnegative/integer scale, full candidate grid and NA preservation, detection bounds, paired signs, equal-donor and pooled-cell reconstructions. Independently verify scalar AREG calculations for all donor/type pairs against vectorized results. Keep download/execution failures explicit. A runnable script accepts relative input/output arguments; no dependencies are installed. Original project outputs remain read-only.

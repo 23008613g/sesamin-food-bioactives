@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-09T10:56:50.953175+00:00",
+  "expression_inspected": false,
+  "files": {
+    "protocol.md": "3e3ea577c7337c062faf45932802a55f0cc31aee558ff9706b77527fd05bbce9",
+    "inputs\\human_candidates_all25.csv": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "inputs\\original_candidate_gene_coverage.csv": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62"
+  }
+}

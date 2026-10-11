@@ -1,0 +1,289 @@
+{
+  "archive_url": "https://huggingface.co/spaces/fc28/sesamin-atlas/resolve/main/research/v24/research_reproduction_v24.zip",
+  "archive_sha256": "7496138851da9bb509bb7bc13a1077b7f8081abbd08d3e3a68b9ff598652e946",
+  "archive_prefix": "research_reproduction_v24/",
+  "inputs": [
+    {
+      "file": "inputs/human/counts.txt.gz",
+      "bytes": 15515659,
+      "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      }
+    },
+    {
+      "file": "inputs/human/priority_all.csv",
+      "bytes": 11811,
+      "sha256": "d78d674a48448532ecec1e49d7364d447bdc298a202090b93d8a73718517ea78",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "sesamin_exploration_04/priority_all.csv",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      }
+    },
+    {
+      "file": "inputs/human/sample_qc.csv",
+      "bytes": 729,
+      "sha256": "86d24a9feaaeb66275563a92495a91dbdc534ff397ef6a7b29c0e1f5e6b16e40",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "sesamin_exploration_04/sample_qc.csv",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      }
+    },
+    {
+      "file": "inputs/human/loo_normalization.json",
+      "bytes": 12565,
+      "sha256": "0090f8b2907abbca8c84fca9851ca0358067fa185a5daf17f5a5a385bc998c17",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "sesamin_exploration_04/loo_normalization.json",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      }
+    },
+    {
+      "file": "inputs/human/candidates_all25.csv",
+      "bytes": 11814,
+      "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/human_candidates_all25.csv",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      }
+    },
+    {
+      "file": "inputs/mouse/candidates_all26.csv",
+      "bytes": 11058,
+      "sha256": "d14d182603c24ee56ac0bc1c1d622f259cb2a950566521ae1eb04b7312e34e9e",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/mouse_candidates_all26.csv",
+      "source_dataset": {
+        "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+        "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+        "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+      }
+    },
+    {
+      "file": "inputs/rat/series_matrix.txt.gz",
+      "bytes": 2396364,
+      "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+      "source_dataset": {
+        "accession": "GSE42693 / GPL1355",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42693"
+      }
+    },
+    {
+      "file": "inputs/mouse/gene_tpm.tsv.gz",
+      "bytes": 1729052,
+      "sha256": "e233ca112fd0eeccddb7512be17b256951cb7aa738564ecc16c8da804b12d0a5",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "prior_mouse_quantification/matrices/gene_tpm.tsv.gz",
+      "source_dataset": {
+        "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+        "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+        "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+      }
+    },
+    {
+      "file": "inputs/mouse/gene_est_counts.tsv.gz",
+      "bytes": 1369179,
+      "sha256": "27c973963011e666258e01c69521dfcdbc4dbdf35c667320265a5763201ec771",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "prior_mouse_quantification/matrices/gene_est_counts.tsv.gz",
+      "source_dataset": {
+        "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+        "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+        "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+      }
+    },
+    {
+      "file": "inputs/mouse/candidate_mouse_descriptive.tsv",
+      "bytes": 11028,
+      "sha256": "bad3fd0a665ae2690f18813976c6f19dcd5dddb2c61dbe04cfcb4caa98ad34ce",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "prior_mouse_quantification/matrices/candidate_mouse_descriptive.tsv",
+      "source_dataset": {
+        "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+        "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+        "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+      }
+    },
+    {
+      "file": "inputs/mouse/library_manifest.tsv",
+      "bytes": 1037,
+      "sha256": "e4284099d377c5097e0fd1c12dfebd7a83b80d87ed7230680dbf13c8f1886bd3",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "prior_mouse_quantification/matrices/library_manifest.tsv",
+      "source_dataset": {
+        "accession": "PRJCA021826/CRA013797 (mirror PRJDB40955/DRP018055; one study)",
+        "url": "https://ngdc.cncb.ac.cn/gsa/browse/CRA013797",
+        "mirror_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB40955"
+      }
+    },
+    {
+      "file": "inputs/rat/GPL1355.annot.gz",
+      "bytes": 5714896,
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+      "source_dataset": {
+        "accession": "GSE42693 / GPL1355",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42693"
+      }
+    },
+    {
+      "file": "inputs/rat/human_rat_orthology_ensembl116.tsv",
+      "bytes": 1975,
+      "sha256": "9b6de54a7076bba4551ffafc8dd4d0bc5d5a77aa4706aaec647aee776ca6bcc0",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "analysis_strengthening_15/rat_validation/sources/human_rat_orthology_ensembl116.tsv",
+      "source_dataset": {
+        "provider": "Ensembl BioMart",
+        "release": 116,
+        "archive": "June 2026",
+        "dataset": "hsapiens_gene_ensembl",
+        "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+        "query_url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22hsapiens_gene_ensembl%22%20interface%3D%22default%22%3E%3CFilter%20name%3D%22ensembl_gene_id%22%20value%3D%22ENSG00000172260%2CENSG00000169429%2CENSG00000275457%2CENSG00000169174%2CENSG00000152229%2CENSG00000064787%2CENSG00000112299%2CENSG00000064300%2CENSG00000279278%2CENSG00000188833%2CENSG00000109321%2CENSG00000184916%2CENSG00000120437%2CENSG00000260105%2CENSG00000129116%2CENSG00000272384%2CENSG00000066056%2CENSG00000169213%2CENSG00000272994%2CENSG00000197279%2CENSG00000120833%2CENSG00000012124%2CENSG00000249637%2CENSG00000172927%2CENSG00000172893%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_ensembl_gene%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_associated_gene_name%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_orthology_type%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_orthology_confidence%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_perc_id%22/%3E%3CAttribute%20name%3D%22rnorvegicus_homolog_perc_id_r1%22/%3E%3C/Dataset%3E%3C/Query%3E"
+      },
+      "used_by_study": {
+        "accession": "GSE42693 / GPL1355",
+        "role": "Rat intervention analysis; not the mapping-table data provider."
+      },
+      "source_retrieved_utc": "2026-10-09T02:22:29.450282+00:00",
+      "original_retrieval_metadata_sha256": "750195314c4d5b91743b21b98bb5f91f77a49f1f41ee2f5e73aafbcf57cd5f2d"
+    },
+    {
+      "file": "inputs/rat/rat_entrez_ensembl116.tsv",
+      "bytes": 599,
+      "sha256": "6700f78725fe757dede2e15a9e37695b454303b5fea26fa37486454762de97b5",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "analysis_strengthening_15/rat_validation/sources/rat_entrez_ensembl116.tsv",
+      "source_dataset": {
+        "provider": "Ensembl BioMart",
+        "release": 116,
+        "archive": "June 2026",
+        "dataset": "rnorvegicus_gene_ensembl",
+        "endpoint": "https://jun2026.archive.ensembl.org/biomart/martservice",
+        "query_url": "https://jun2026.archive.ensembl.org/biomart/martservice?query=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE%20Query%3E%3CQuery%20virtualSchemaName%3D%22default%22%20formatter%3D%22TSV%22%20header%3D%221%22%20uniqueRows%3D%221%22%20datasetConfigVersion%3D%220.6%22%3E%3CDataset%20name%3D%22rnorvegicus_gene_ensembl%22%20interface%3D%22default%22%3E%3CFilter%20name%3D%22ensembl_gene_id%22%20value%3D%22ENSRNOG00000002754%2CENSRNOG00000005392%2CENSRNOG00000006280%2CENSRNOG00000008001%2CENSRNOG00000008965%2CENSRNOG00000009239%2CENSRNOG00000010107%2CENSRNOG00000012906%2CENSRNOG00000013927%2CENSRNOG00000013975%2CENSRNOG00000016219%2CENSRNOG00000016987%2CENSRNOG00000019189%2CENSRNOG00000020173%2CENSRNOG00000020776%2CENSRNOG00000021410%2CENSRNOG00000024000%22/%3E%3CAttribute%20name%3D%22ensembl_gene_id%22/%3E%3CAttribute%20name%3D%22external_gene_name%22/%3E%3CAttribute%20name%3D%22entrezgene_id%22/%3E%3C/Dataset%3E%3C/Query%3E"
+      },
+      "used_by_study": {
+        "accession": "GSE42693 / GPL1355",
+        "role": "Rat intervention analysis; not the mapping-table data provider."
+      },
+      "source_retrieved_utc": "2026-10-09T02:22:37.023408+00:00",
+      "original_retrieval_metadata_sha256": "ba47eaeccad8bde23957430570c9b943d9650242c5517457b2abd156afcc6e3c"
+    },
+    {
+      "file": "inputs/organoid/cell_level_umap_qc_expression.csv.gz",
+      "bytes": 2292626,
+      "sha256": "4db87313f1273dacb0186cb75e51020ddd5af2b937a83858b12d31edc039c18d",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/single_cell/cell_level_umap_qc_expression.csv.gz",
+      "source_dataset": {
+        "accession": "GSE207889",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+      }
+    },
+    {
+      "file": "inputs/organoid/candidate_gene_coverage.csv",
+      "bytes": 1113,
+      "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/single_cell/candidate_gene_coverage.csv",
+      "source_dataset": {
+        "accession": "GSE207889",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+      }
+    },
+    {
+      "file": "inputs/organoid/candidate25_library_subtype_all10.csv",
+      "bytes": 261097,
+      "sha256": "0fd9117c0ba1af63ba92ace25783b609276ae58e8a23dd8e2cbf9a38bb129f1e",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/single_cell/candidate25_library_subtype_all10.csv",
+      "source_dataset": {
+        "accession": "GSE207889",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+      }
+    },
+    {
+      "file": "inputs/organoid/cell_composition_library_category4.csv",
+      "bytes": 1639,
+      "sha256": "1a240f2eaa803e48669456fc3d36f80c4de5b8b4bbff52f242add8f161815956",
+      "role": "Numerical/mapping input; see DATA_DICTIONARY.md",
+      "source_artifact": "publication_package_14/data/single_cell/cell_composition_library_category4.csv",
+      "source_dataset": {
+        "accession": "GSE207889",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+      }
+    },
+    {
+      "file": "inputs/external/GSE115469_Data.csv.gz",
+      "source_artifact": "external_single_cell/inputs/GSE115469_Data.csv.gz",
+      "source_dataset": {
+        "accession": "GSE115469",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+      },
+      "bytes": 108065293,
+      "sha256": "9d20630b98dba970ef3ec616d48a18857d94aa38e29886ab358a6dbdb10cbdde",
+      "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+      "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_Data.csv.gz"
+    },
+    {
+      "file": "inputs/external/GSE115469_CellClusterType.txt.gz",
+      "source_artifact": "external_single_cell/inputs/GSE115469_CellClusterType.txt.gz",
+      "source_dataset": {
+        "accession": "GSE115469",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+      },
+      "bytes": 78393,
+      "sha256": "a83f30e231059abeed2e1a95c4a0677fcdeea905d80ecc3a8d7eb3371bb2ad07",
+      "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+      "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/suppl/GSE115469_CellClusterType.txt.gz"
+    },
+    {
+      "file": "inputs/external/GSE115469_family.soft.gz",
+      "source_artifact": "external_single_cell/inputs/GSE115469_family.soft.gz",
+      "source_dataset": {
+        "accession": "GSE115469",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+      },
+      "bytes": 2804,
+      "sha256": "6022d9eef6ab897ce694e048dcb855128d3ba5785a950ddf0b1262ca3060a136",
+      "role": "External adult liver author-normalized atlas and frozen candidate identity inputs.",
+      "source_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE115nnn/GSE115469/soft/GSE115469_family.soft.gz"
+    },
+    {
+      "file": "inputs/external/human_candidates_all25.csv",
+      "source_artifact": "external_single_cell/inputs/human_candidates_all25.csv",
+      "source_dataset": {
+        "accession": "GSE248903",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903"
+      },
+      "bytes": 11814,
+      "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+      "role": "External adult liver author-normalized atlas and frozen candidate identity inputs."
+    },
+    {
+      "file": "inputs/external/original_candidate_gene_coverage.csv",
+      "source_artifact": "external_single_cell/inputs/original_candidate_gene_coverage.csv",
+      "source_dataset": {
+        "accession": "GSE207889",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889"
+      },
+      "bytes": 1113,
+      "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+      "role": "External adult liver author-normalized atlas and frozen candidate identity inputs."
+    }
+  ],
+  "data_policy": "Source inputs excluded from Git; obtain separately subject to original source terms. No blanket data licence."
+}

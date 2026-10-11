@@ -1,0 +1,16 @@
+human_symbol,human_OA_vs_ctrl_direction,human_sesamin_vs_OA_direction,mouse_HFD_vs_ctrl_direction,mouse_sess_vs_HFD_direction,all_mouse_libraries_below_1_TPM,both_cross_species_directions_same,cross_species_sesamin_direction
+NEGR1,down,up,unchanged,unchanged,true,false,unchanged_in_at_least_one
+PCSK9,down,up,down,down,false,false,opposite
+PSTPIP2,up,down,down,down,false,false,same
+BCAS1,up,down,unchanged,unchanged,true,false,unchanged_in_at_least_one
+VNN1,up,down,up,down,false,true,same
+NGFR,up,down,unchanged,up,true,false,opposite
+ENTPD8,up,down,down,up,false,false,opposite
+AREG,up,down,up,down,false,true,same
+JAG2,up,down,up,down,true,true,same
+PALLD,up,down,down,down,false,false,same
+TIE1,up,down,down,up,false,false,opposite
+RAB3B,up,down,down,down,true,false,same
+SOCS2,up,down,down,down,false,false,same
+CD22,up,down,down,down,false,false,same
+DHCR7,down,up,up,down,false,false,opposite

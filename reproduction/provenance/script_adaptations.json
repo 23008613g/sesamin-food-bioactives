@@ -1,0 +1,51 @@
+[
+  {
+    "original": "run_robustness.py",
+    "portable": "robustness.py",
+    "original_sha256": "9a076d55780ddae1e0f30a58517f5ae44d7f094d9fcbc1f9f47bbbcb0d3993ff",
+    "portable_sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "changes": "Input/output path adaptation and accurate invocation metadata only; numerical code unchanged."
+  },
+  {
+    "original": "analyze_rat.py",
+    "portable": "rat.py",
+    "original_sha256": "5b58ef9d2b80550ab07cc4c08d7d168c14c4d681ad27242c30f2c2216cae8b70",
+    "portable_sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "changes": "Input/output path adaptation and accurate invocation metadata only; numerical code unchanged."
+  },
+  {
+    "original": "exact_sensitivity.py",
+    "portable": "rat_exact.py",
+    "original_sha256": "1782f36f26ad3ec1790370a8a06f79845fad474e248d82d0d057b0ed775946fa",
+    "portable_sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "changes": "Input/output path adaptation and accurate invocation metadata only; numerical code unchanged."
+  },
+  {
+    "original": "analyze_single_cell.py",
+    "portable": "organoid.py",
+    "original_sha256": "e894bbc9be14d8f8dd170ee5519922b5f3892f7e4f42d6673cc37ad5920cae9b",
+    "portable_sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46",
+    "changes": "Input/output path adaptation and accurate invocation metadata only; numerical code unchanged. Removed unused provenance-only upstream analysis_summary.json from hash inventory; numerical inputs and algorithms unchanged."
+  },
+  {
+    "original": "check_and_report.py",
+    "portable": "robustness_check.py",
+    "original_sha256": "0c74f257981b8b59cadd32a801a09d154ef1111267a7c99c2d280ec23e7db737",
+    "portable_sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "changes": "Input/output path adaptation and sys import only; numerical code unchanged."
+  },
+  {
+    "original": "external_single_cell/analyze_external.py",
+    "portable": "external/analyze_external.py",
+    "original_sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "portable_sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "changes": "No changes; existing --input-dir/--output-dir interface used."
+  },
+  {
+    "original": "external_single_cell/verify_results.py",
+    "portable": "external/verify_results.py",
+    "original_sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "portable_sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "changes": "No changes; existing command-line paths used."
+  }
+]

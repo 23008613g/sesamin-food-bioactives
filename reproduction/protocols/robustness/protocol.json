@@ -1,0 +1,38 @@
+{
+  "stage": 15,
+  "status": "Prospective local specification before this stage's calculations; post-selection exploratory sensitivity analysis, not preregistration",
+  "candidate_set": "The 15 existing primary one-to-one orthologues in the stage08 mouse candidate table, in archived human order; no reselection",
+  "difference_from_prior": "Stage04 already omitted one library per group in all 27 combinations with re-estimated human factors. Stage05 already reported group medians, pseudocount sensitivity and pairwise ordering. This extension uses every choice retaining 2 or 3 libraries per group (64 combinations), covers mouse as well as human, compares 4096 cross-species combination pairs without artificial library pairing, and computes all-expression-filtered-gene PCA instead of the prior human top-500 PCA.",
+  "primary": {
+    "human": "Median-ratio-normalized gene counts, positive-in-all-active-library reference genes; factors re-estimated for each combination, log2((group summary A + 1)/(group summary B + 1))",
+    "mouse": "Deposited stage08 gene TPM, no subset renormalization, log2((group summary A + 0.1)/(group summary B + 0.1))",
+    "combinations": "For each of three groups: keep all three or omit exactly one of three; 4^3=64 including unperturbed data",
+    "summaries": "Arithmetic mean (primary) and median (sensitivity); median of two observations equals mean",
+    "contrasts": ["model_vs_control", "treatment_vs_model", "treatment_vs_control"],
+    "direction": "sign of contrast; exact zero remains unchanged; a zero is never agreement with a nonzero sign",
+    "cross_species": "Cartesian product of the 64 human and 64 mouse combinations, 4096 descriptive combinations; report separate model/intervention concordance and their intersection, and preservation of the archived concordant nonzero signs",
+    "scope": "Direction retention; does not reapply human candidate-selection thresholds or define a new candidate list"
+  },
+  "sensitivity": [
+    "Human median-ratio factors frozen at all-nine-library values to isolate sample composition",
+    "Human CPM with all assigned counts as the denominator",
+    "Mouse estimated gene counts normalized using re-estimated median-ratio factors, pseudocount 1; only a method sensitivity because summed gene estimated counts do not adjust variable transcript-length composition",
+    "Report no-pseudocount group percentage differences only where denominator is strictly positive; missing otherwise"
+  ],
+  "qc": {
+    "human": "All genes with CPM >=1 in at least 3 of 9 libraries (original fixed filter), log2(full-data median-ratio count+1)",
+    "mouse": "All genes with TPM >=1 in at least 3 of 9 libraries, log2(TPM+1)",
+    "pca": "Separate studies; center genes across all nine libraries; no variance scaling, top-variable-gene selection or candidate selection; exact deterministic SVD, sign-oriented by largest absolute loading",
+    "correlation": "Pearson and Spearman sample correlations across each study's fixed retained gene set",
+    "exclusions": "None; report raw assigned or estimated counts, detected genes and duplicate profiles"
+  },
+  "guardrails": [
+    "Library is the observed unit; independent cultures or biological replicates remain unresolved",
+    "Mouse labels ctrl/HFD/sess retain provisional interpretation; HFD label alone does not establish animal tissue",
+    "Overlapping subsets are neither independent repeats, probabilities nor confidence intervals",
+    "Same data used for human selection and stability; not independent validation",
+    "Shared model groups make two contrasts dependent; no causal rescue or efficacy claim",
+    "No P values, FDR, inferential confidence intervals, new biological experiments or AI performance claim",
+    "Original data and past artifacts remain read-only; outputs confined to this directory"
+  ]
+}

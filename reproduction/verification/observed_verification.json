@@ -1,0 +1,4201 @@
+{
+  "status": "PASS",
+  "tolerance": {
+    "float_rtol": 1e-09,
+    "float_atol": 1e-10,
+    "integer_boolean": "exact",
+    "missingness_labels_row_and_column_order": "exact",
+    "rat_PCA_component_global_sign": "may align"
+  },
+  "reference_tables": 62,
+  "reference_rows": 240855,
+  "numeric_values_compared": 845526,
+  "key_results": {
+    "candidate_count_human_mouse": 15,
+    "configurations_per_species": 64,
+    "pairs": 4096,
+    "both_concordant_baseline": [
+      "VNN1",
+      "AREG",
+      "JAG2"
+    ],
+    "both_concordant_all4096": [
+      "VNN1"
+    ],
+    "rat_welch_fdr05_by_method": {
+      "deposited_log2": [
+        "VNN1"
+      ],
+      "quantile_sensitivity": [
+        "VNN1"
+      ]
+    },
+    "rat_exact_fdr05_by_method": {
+      "deposited_log2": [],
+      "quantile_sensitivity": []
+    },
+    "rat_exact_allocations": [
+      252
+    ],
+    "organoid_weighting_sign_agreement": 21,
+    "organoid_weighting_denominator": 24,
+    "organoid_weighting_disagreements": [
+      "PSTPIP2",
+      "BCAS1",
+      "C2orf49-DT"
+    ],
+    "external": {
+      "donors": 5,
+      "cells": 8444,
+      "matched_candidates": 19,
+      "bounded_checks": 35,
+      "focused_checks": 24,
+      "AREG_descriptive_rows": [
+        {
+          "gene_id": "ENSG00000109321",
+          "symbol": "AREG",
+          "scope": "all_five_donors",
+          "metric": "delta_nonzero_percentage_points",
+          "n_complete_donor_pairs": 5,
+          "included_donors": "P1TLH;P2TLH;P3TLH;P4TLH;P5TLH",
+          "excluded_or_missing_donors": null,
+          "mean_difference": 8.2797304707,
+          "median_difference": 7.7417571024,
+          "minimum_difference": -1.0416666667,
+          "maximum_difference": 15.3846153846,
+          "n_positive": 4,
+          "n_negative": 1,
+          "n_zero": 0
+        },
+        {
+          "gene_id": "ENSG00000109321",
+          "symbol": "AREG",
+          "scope": "all_five_donors",
+          "metric": "delta_mean_source_log2CPM",
+          "n_complete_donor_pairs": 5,
+          "included_donors": "P1TLH;P2TLH;P3TLH;P4TLH;P5TLH",
+          "excluded_or_missing_donors": null,
+          "mean_difference": 0.0713519916,
+          "median_difference": 0.0847443097,
+          "minimum_difference": -0.0015921888,
+          "maximum_difference": 0.1293708488,
+          "n_positive": 4,
+          "n_negative": 1,
+          "n_zero": 0
+        },
+        {
+          "gene_id": "ENSG00000109321",
+          "symbol": "AREG",
+          "scope": "both_types_ge20",
+          "metric": "delta_nonzero_percentage_points",
+          "n_complete_donor_pairs": 3,
+          "included_donors": "P2TLH;P3TLH;P5TLH",
+          "excluded_or_missing_donors": "P1TLH;P4TLH",
+          "mean_difference": 9.0185678785,
+          "median_difference": 7.7417571024,
+          "minimum_difference": 5.2521008403,
+          "maximum_difference": 14.0618456929,
+          "n_positive": 3,
+          "n_negative": 0,
+          "n_zero": 0
+        },
+        {
+          "gene_id": "ENSG00000109321",
+          "symbol": "AREG",
+          "scope": "both_types_ge20",
+          "metric": "delta_mean_source_log2CPM",
+          "n_complete_donor_pairs": 3,
+          "included_donors": "P2TLH;P3TLH;P5TLH",
+          "excluded_or_missing_donors": "P1TLH;P4TLH",
+          "mean_difference": 0.0912026124,
+          "median_difference": 0.1246955749,
+          "minimum_difference": 0.0195414136,
+          "maximum_difference": 0.1293708488,
+          "n_positive": 3,
+          "n_negative": 0,
+          "n_zero": 0
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "file": "external/all_celltype_context_all25.csv",
+      "rows": 375,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_donors_with_cells",
+          "finite_values": 375,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_donors_with_available_expression",
+          "finite_values": 375,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_cells",
+          "finite_values": 375,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_nonzero_pct",
+          "finite_values": 285,
+          "NA_values": 90,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_mean_source_log2CPM",
+          "finite_values": 285,
+          "NA_values": 90,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_donor_nonzero_pct",
+          "finite_values": 285,
+          "NA_values": 90,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_donor_mean_source_log2CPM",
+          "finite_values": 285,
+          "NA_values": 90,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/AREG_independent_scalar_checks.csv",
+      "rows": 10,
+      "columns": 7,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 10,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_nonzero_source",
+          "finite_values": 10,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_scalar",
+          "finite_values": 10,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_vectorized",
+          "finite_values": 10,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pct_scalar",
+          "finite_values": 10,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/candidate_feature_coverage_all25.csv",
+      "rows": 25,
+      "columns": 5,
+      "status": "PASS",
+      "numeric_comparisons": []
+    },
+    {
+      "file": "external/cell_coverage_author_by_donor.csv",
+      "rows": 100,
+      "columns": 8,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sparse_lt20",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cell_fraction_within_donor",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_n_nonzero_source_features",
+          "finite_values": 78,
+          "NA_values": 22,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "median_n_nonzero_source_features",
+          "finite_values": 78,
+          "NA_values": 22,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/cell_coverage_broad_by_donor.csv",
+      "rows": 75,
+      "columns": 8,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 75,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sparse_lt20",
+          "finite_values": 75,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cell_fraction_within_donor",
+          "finite_values": 75,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_n_nonzero_source_features",
+          "finite_values": 69,
+          "NA_values": 6,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "median_n_nonzero_source_features",
+          "finite_values": 69,
+          "NA_values": 6,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/cell_metadata.csv",
+      "rows": 8444,
+      "columns": 8,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "cluster",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_nonzero_source_features",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/cell_source_expression_all25.csv.gz",
+      "rows": 8444,
+      "columns": 33,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "cluster",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_nonzero_source_features",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000172260",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000169429",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000275457",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000169174",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000152229",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000064787",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000112299",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000064300",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000279278",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000188833",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000109321",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000184916",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000120437",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000260105",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000129116",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000272384",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000066056",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000169213",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000272994",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000197279",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000120833",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000012124",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000249637",
+          "finite_values": 0,
+          "NA_values": 8444,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000172927",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ENSG00000172893",
+          "finite_values": 8444,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/donor_author_results_all25.csv",
+      "rows": 2500,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 2500,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sparse_lt20",
+          "finite_values": 2500,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "available",
+          "finite_values": 2500,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_nonzero_source",
+          "finite_values": 1482,
+          "NA_values": 1018,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pct_nonzero_source",
+          "finite_values": 1482,
+          "NA_values": 1018,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_source_log2CPM",
+          "finite_values": 1482,
+          "NA_values": 1018,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/donor_broad_results_all25.csv",
+      "rows": 1875,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 1875,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sparse_lt20",
+          "finite_values": 1875,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "available",
+          "finite_values": 1875,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_nonzero_source",
+          "finite_values": 1311,
+          "NA_values": 564,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pct_nonzero_source",
+          "finite_values": 1311,
+          "NA_values": 564,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_source_log2CPM",
+          "finite_values": 1311,
+          "NA_values": 564,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/feature_universe.csv",
+      "rows": 20007,
+      "columns": 1,
+      "status": "PASS",
+      "numeric_comparisons": []
+    },
+    {
+      "file": "external/figure_AREG_all_cell_context.csv",
+      "rows": 15,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_donors_with_cells",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_donors_with_available_expression",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_cells",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_nonzero_pct",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_mean_source_log2CPM",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_donor_nonzero_pct",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_donor_mean_source_log2CPM",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/figure_AREG_paired_donors.csv",
+      "rows": 5,
+      "columns": 13,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cholangiocytes",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_hepatocytes",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "both_types_ge20",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "paired_available",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "chol_nonzero_pct",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hep_nonzero_pct",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "delta_nonzero_percentage_points",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "chol_mean_source_log2CPM",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hep_mean_source_log2CPM",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "delta_mean_source_log2CPM",
+          "finite_values": 5,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+      "rows": 125,
+      "columns": 13,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cholangiocytes",
+          "finite_values": 125,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_hepatocytes",
+          "finite_values": 125,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "both_types_ge20",
+          "finite_values": 125,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "paired_available",
+          "finite_values": 125,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "chol_nonzero_pct",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hep_nonzero_pct",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "delta_nonzero_percentage_points",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "chol_mean_source_log2CPM",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hep_mean_source_log2CPM",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "delta_mean_source_log2CPM",
+          "finite_values": 95,
+          "NA_values": 30,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "external/paired_descriptive_summary_all25.csv",
+      "rows": 100,
+      "columns": 14,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_complete_donor_pairs",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_difference",
+          "finite_values": 76,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "median_difference",
+          "finite_values": 76,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "minimum_difference",
+          "finite_values": 76,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "maximum_difference",
+          "finite_values": 76,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_positive",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_negative",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_zero",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/category_sampling_counts.csv",
+      "rows": 16,
+      "columns": 7,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 16,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "denominator_n_cells",
+          "finite_values": 16,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fraction",
+          "finite_values": 16,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cell_fraction_pct",
+          "finite_values": 16,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+      "rows": 100,
+      "columns": 15,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cholangiocyte_cells",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hepatocyte_cells",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cholangiocyte_detection_pct",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hepatocyte_detection_pct",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detection_difference_percentage_points",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "cholangiocyte_mean_log1p_cp10k",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "hepatocyte_mean_log1p_cp10k",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_expression_difference",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+      "rows": 25,
+      "columns": 15,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 25,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_cell_detection_difference_pp",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_library_detection_difference_pp",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "min_library_detection_difference_pp",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "max_library_detection_difference_pp",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_cell_mean_expression_difference",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_library_mean_expression_difference",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "min_library_mean_expression_difference",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "max_library_mean_expression_difference",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/condition_category_profiles_all25.csv",
+      "rows": 600,
+      "columns": 12,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "category_fraction",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "category_mean_log1p_cp10k",
+          "finite_values": 576,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "category_contribution_to_profile_mean",
+          "finite_values": 576,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "profile_mean",
+          "finite_values": 576,
+          "NA_values": 24,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "observed_cells_in_category",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "technical_libraries",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/kitagawa_summary_all25.csv",
+      "rows": 75,
+      "columns": 14,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 75,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_profile_mean",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PA_profile_mean",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "total_PA_minus_control",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "composition_total",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "within_category_total",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "decomposition_identity_residual",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "actual_equal_library_delta",
+          "finite_values": 72,
+          "NA_values": 3,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "diagnostic_covariance_delta",
+          "finite_values": 24,
+          "NA_values": 51,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "diagnostic_actual_EL_reconstruction_residual",
+          "finite_values": 24,
+          "NA_values": 51,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/kitagawa_terms_all25.csv",
+      "rows": 300,
+      "columns": 12,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 300,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_fraction",
+          "finite_values": 300,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PA_fraction",
+          "finite_values": 300,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_mean_log1p_cp10k",
+          "finite_values": 288,
+          "NA_values": 12,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PA_mean_log1p_cp10k",
+          "finite_values": 288,
+          "NA_values": 12,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "composition_term",
+          "finite_values": 288,
+          "NA_values": 12,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "within_category_term",
+          "finite_values": 288,
+          "NA_values": 12,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "category_total_difference",
+          "finite_values": 288,
+          "NA_values": 12,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/library_candidates_all25.csv",
+      "rows": 100,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_cells",
+          "finite_values": 100,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_detected_cells",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detected_pct",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_log1p_cp10k",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sum_raw_counts",
+          "finite_values": 96,
+          "NA_values": 4,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/library_category_candidates_all25.csv",
+      "rows": 400,
+      "columns": 11,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 400,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_cells",
+          "finite_values": 400,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_detected_cells",
+          "finite_values": 384,
+          "NA_values": 16,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detected_pct",
+          "finite_values": 384,
+          "NA_values": 16,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_log1p_cp10k",
+          "finite_values": 384,
+          "NA_values": 16,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sum_raw_counts",
+          "finite_values": 384,
+          "NA_values": 16,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/library_qc_context.csv",
+      "rows": 4,
+      "columns": 19,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "n_cells",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_total_counts_mean",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_total_counts_median",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_total_counts_min",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_total_counts_max",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_n_genes_by_counts_mean",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_n_genes_by_counts_median",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_n_genes_by_counts_min",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_n_genes_by_counts_max",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_pct_mito_MT_prefix_mean",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_pct_mito_MT_prefix_median",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_pct_mito_MT_prefix_min",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_pct_mito_MT_prefix_max",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fraction_Hepatocytes",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fraction_Cholangiocytes",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fraction_Fibroblasts",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fraction_Hepatic stellate cells",
+          "finite_values": 4,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/library_subtype_candidates_all25.csv",
+      "rows": 1000,
+      "columns": 11,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 1000,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_cells",
+          "finite_values": 1000,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_detected_cells",
+          "finite_values": 960,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detected_pct",
+          "finite_values": 960,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mean_log1p_cp10k",
+          "finite_values": 960,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sum_raw_counts",
+          "finite_values": 960,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "organoid/weighting_sensitivity_all25.csv",
+      "rows": 25,
+      "columns": 11,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "covered",
+          "finite_values": 25,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_library_total",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_cell_total",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_library_composition",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_cell_composition",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "equal_library_within",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pooled_cell_within",
+          "finite_values": 24,
+          "NA_values": 1,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/all20_array_pca.csv",
+      "rows": 40,
+      "columns": 6,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "PC1",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC2",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "primary_comparison",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/all20_array_quality.csv",
+      "rows": 40,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "raw_min",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "raw_max",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_q25",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_median",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_q75",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_mean",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_sd",
+          "finite_values": 40,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/candidate_mapping_all25.csv",
+      "rows": 25,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "rat_entrez",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "orthology_confidence",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "probe_n",
+          "finite_values": 25,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/candidate_probe_values.csv",
+      "rows": 30,
+      "columns": 28,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "entrez_ids",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "effect_log2_signal",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048036",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048037",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048038",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048039",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048040",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048041",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048042",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048043",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048044",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048045",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048046",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048047",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048048",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048049",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048050",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048051",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048052",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048053",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048054",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048055",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/candidate_results_all25_two_normalizations.csv",
+      "rows": 50,
+      "columns": 28,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "rat_entrez",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "orthology_confidence",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "probe_n",
+          "finite_values": 50,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "effect_log2_signal",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "p_value",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ci95_low",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "ci95_high",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "welch_df",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_mean_log2",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sesamin_mean_log2",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_sd_log2",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "sesamin_sd_log2",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "median_group_difference",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "probe_effect_min",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "probe_effect_max",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "min_primary_raw_signal",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "max_primary_raw_signal",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "q_bh_fixed25",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "fdr05",
+          "finite_values": 50,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/candidate_sample_values.csv",
+      "rows": 600,
+      "columns": 7,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "aggregate_log2_signal",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "primary_comparison",
+          "finite_values": 600,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/correlation_deposited_log2.csv",
+      "rows": 20,
+      "columns": 21,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "GSM1048036",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048037",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048038",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048039",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048040",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048041",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048042",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048043",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048044",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048045",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048046",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048047",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048048",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048049",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048050",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048051",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048052",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048053",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048054",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048055",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/correlation_quantile_sensitivity.csv",
+      "rows": 20,
+      "columns": 21,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "GSM1048036",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048037",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048038",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048039",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048040",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048041",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048042",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048043",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048044",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048045",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048046",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048047",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048048",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048049",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048050",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048051",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048052",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048053",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048054",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "GSM1048055",
+          "finite_values": 20,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/cross_model_all25.csv",
+      "rows": 25,
+      "columns": 13,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "human_intervention_sign",
+          "finite_values": 25,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_intervention_sign",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "rat_primary_effect",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "rat_q_bh_fixed25",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "rat_quantile_effect",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "rat_quantile_q_bh_fixed25",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "rat_primary_sign",
+          "finite_values": 15,
+          "NA_values": 10,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/excluded_ambiguous_probes.csv",
+      "rows": 0,
+      "columns": 4,
+      "status": "PASS",
+      "numeric_comparisons": []
+    },
+    {
+      "file": "rat/pca_variance.csv",
+      "rows": 2,
+      "columns": 4,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "pc1",
+          "finite_values": 2,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pc2",
+          "finite_values": 2,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "n_probes",
+          "finite_values": 2,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "rat/posthoc_exact_sensitivity_all25.csv",
+      "rows": 50,
+      "columns": 12,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "welch_p",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "welch_q_bh25",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "permutation_p",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "exceedances",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "allocations",
+          "finite_values": 50,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "observed_mean_difference",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "permutation_q_bh25",
+          "finite_values": 30,
+          "NA_values": 20,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/all_configuration_effects.csv.gz",
+      "rows": 28800,
+      "columns": 13,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "configuration",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_summary",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "model_summary",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_summary",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_ratio",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "direction",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pseudocount",
+          "finite_values": 28800,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "percent_difference_no_pseudocount",
+          "finite_values": 26304,
+          "NA_values": 2496,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/all_library_mean_median_effects.csv",
+      "rows": 450,
+      "columns": 13,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "configuration",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "control_summary",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "model_summary",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_summary",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "log2_ratio",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "direction",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pseudocount",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "percent_difference_no_pseudocount",
+          "finite_values": 410,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/candidate_abundance_flags.csv",
+      "rows": 15,
+      "columns": 8,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "human_raw_positive_libraries",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "human_CPM_ge1_libraries",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_TPM_positive_libraries",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_TPM_ge1_libraries",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_TPM_min",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_TPM_max",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_all9_TPM_below1",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/candidate_library_values.csv",
+      "rows": 270,
+      "columns": 9,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "raw_or_estimated_count",
+          "finite_values": 270,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "median_ratio_count",
+          "finite_values": 270,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "CPM",
+          "finite_values": 135,
+          "NA_values": 135,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "TPM",
+          "finite_values": 135,
+          "NA_values": 135,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/configuration_effect_summary.csv",
+      "rows": 450,
+      "columns": 17,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "full_data_log2_ratio",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "full_data_direction",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "full_data_percent_difference",
+          "finite_values": 410,
+          "NA_values": 40,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "configurations",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "baseline_direction_retained_n",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "positive_n",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "negative_n",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "unchanged_n",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "min_log2_ratio",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "max_log2_ratio",
+          "finite_values": 450,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "min_percent_difference",
+          "finite_values": 414,
+          "NA_values": 36,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "max_percent_difference",
+          "finite_values": 414,
+          "NA_values": 36,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/configuration_size_factors.csv",
+      "rows": 864,
+      "columns": 4,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "configuration",
+          "finite_values": 864,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "factor",
+          "finite_values": 864,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/cross_species_configuration_consensus.csv",
+      "rows": 30,
+      "columns": 15,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "configuration_pairs",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "model_vs_control_baseline_same_nonzero",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "model_vs_control_concordant_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "model_vs_control_baseline_sign_preserved_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_model_baseline_same_nonzero",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_model_concordant_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_model_baseline_sign_preserved_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_control_baseline_same_nonzero",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_control_concordant_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "treatment_vs_control_baseline_sign_preserved_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "both_model_and_treatment_concordant_n",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "both_concordant_configuration_share",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "both_baseline_same_nonzero",
+          "finite_values": 30,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/enumerated_configurations.csv",
+      "rows": 64,
+      "columns": 7,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "configuration",
+          "finite_values": 64,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "human_factor_reference_genes",
+          "finite_values": 64,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "mouse_factor_reference_genes",
+          "finite_values": 64,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/frozen_primary_candidates.csv",
+      "rows": 15,
+      "columns": 5,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "all_libraries_TPM_lt1",
+          "finite_values": 15,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_pca_loadings.csv.gz",
+      "rows": 13014,
+      "columns": 9,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "PC1_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC2_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC3_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC4_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC5_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC6_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC7_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC8_loading",
+          "finite_values": 13014,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_pca_scores.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "PC1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC4",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC5",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC6",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC7",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC8",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_pca_variance.csv",
+      "rows": 9,
+      "columns": 3,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "singular_value",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "explained_variance_ratio",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_qc_filter.csv.gz",
+      "rows": 60605,
+      "columns": 2,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "expression_filter_pass",
+          "finite_values": 60605,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_sample_pair_qc.csv",
+      "rows": 36,
+      "columns": 6,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "same_submitted_group",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "exact_duplicate_profile",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pearson",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "spearman",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_sample_pearson.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "Control_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Control_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Control_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_sample_qc.csv",
+      "rows": 9,
+      "columns": 6,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "assigned_count_sum",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detected_genes_raw_positive",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "qc_retained_genes",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "top10_gene_count_fraction",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/human_sample_spearman.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "Control_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Control_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Control_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Model_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "Treat_3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_pca_loadings.csv.gz",
+      "rows": 15340,
+      "columns": 9,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "PC1_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC2_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC3_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC4_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC5_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC6_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC7_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC8_loading",
+          "finite_values": 15340,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_pca_scores.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "PC1",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC2",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC3",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC4",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC5",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC6",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC7",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "PC8",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_pca_variance.csv",
+      "rows": 9,
+      "columns": 3,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "singular_value",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "explained_variance_ratio",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_qc_filter.csv.gz",
+      "rows": 75129,
+      "columns": 2,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "expression_filter_pass",
+          "finite_values": 75129,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_sample_pair_qc.csv",
+      "rows": 36,
+      "columns": 6,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "same_submitted_group",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "exact_duplicate_profile",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "pearson",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "spearman",
+          "finite_values": 36,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_sample_pearson.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "DRR1010532",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010533",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010534",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010535",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010536",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010537",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010538",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010539",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010540",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_sample_qc.csv",
+      "rows": 9,
+      "columns": 6,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "assigned_count_sum",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "detected_genes_raw_positive",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "qc_retained_genes",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": true,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "top10_gene_count_fraction",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    },
+    {
+      "file": "robustness/mouse_sample_spearman.csv",
+      "rows": 9,
+      "columns": 10,
+      "status": "PASS",
+      "numeric_comparisons": [
+        {
+          "column": "DRR1010532",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010533",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010534",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010535",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010536",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010537",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010538",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010539",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        },
+        {
+          "column": "DRR1010540",
+          "finite_values": 9,
+          "NA_values": 0,
+          "max_absolute_error": 0.0,
+          "integer_exact": false,
+          "PCA_sign_aligned": false
+        }
+      ]
+    }
+  ],
+  "verification_type": "Recomputed values compared cell by cell; not merely copied-file SHA verification."
+}

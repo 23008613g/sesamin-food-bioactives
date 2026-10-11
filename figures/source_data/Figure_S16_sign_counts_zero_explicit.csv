@@ -1,0 +1,61 @@
+gene,contrast,baseline_retained,all_zero_direction,display
+NEGR1,human_model,64,False,64
+NEGR1,human_treat,64,False,64
+NEGR1,mouse_model,64,True,64 (0)
+NEGR1,mouse_treat,64,True,64 (0)
+PCSK9,human_model,64,False,64
+PCSK9,human_treat,64,False,64
+PCSK9,mouse_model,64,False,64
+PCSK9,mouse_treat,64,False,64
+PSTPIP2,human_model,64,False,64
+PSTPIP2,human_treat,64,False,64
+PSTPIP2,mouse_model,64,False,64
+PSTPIP2,mouse_treat,40,False,40
+BCAS1,human_model,64,False,64
+BCAS1,human_treat,64,False,64
+BCAS1,mouse_model,64,True,64 (0)
+BCAS1,mouse_treat,64,True,64 (0)
+VNN1,human_model,64,False,64
+VNN1,human_treat,64,False,64
+VNN1,mouse_model,64,False,64
+VNN1,mouse_treat,64,False,64
+NGFR,human_model,64,False,64
+NGFR,human_treat,64,False,64
+NGFR,mouse_model,64,True,64 (0)
+NGFR,mouse_treat,48,False,48
+ENTPD8,human_model,64,False,64
+ENTPD8,human_treat,64,False,64
+ENTPD8,mouse_model,64,False,64
+ENTPD8,mouse_treat,52,False,52
+AREG,human_model,64,False,64
+AREG,human_treat,64,False,64
+AREG,mouse_model,64,False,64
+AREG,mouse_treat,48,False,48
+JAG2,human_model,64,False,64
+JAG2,human_treat,64,False,64
+JAG2,mouse_model,64,False,64
+JAG2,mouse_treat,40,False,40
+PALLD,human_model,64,False,64
+PALLD,human_treat,64,False,64
+PALLD,mouse_model,64,False,64
+PALLD,mouse_treat,64,False,64
+TIE1,human_model,64,False,64
+TIE1,human_treat,64,False,64
+TIE1,mouse_model,64,False,64
+TIE1,mouse_treat,56,False,56
+RAB3B,human_model,64,False,64
+RAB3B,human_treat,64,False,64
+RAB3B,mouse_model,48,False,48
+RAB3B,mouse_treat,64,False,64
+SOCS2,human_model,64,False,64
+SOCS2,human_treat,64,False,64
+SOCS2,mouse_model,64,False,64
+SOCS2,mouse_treat,64,False,64
+CD22,human_model,64,False,64
+CD22,human_treat,64,False,64
+CD22,mouse_model,56,False,56
+CD22,mouse_treat,48,False,48
+DHCR7,human_model,64,False,64
+DHCR7,human_treat,64,False,64
+DHCR7,mouse_model,36,False,36
+DHCR7,mouse_treat,28,False,28

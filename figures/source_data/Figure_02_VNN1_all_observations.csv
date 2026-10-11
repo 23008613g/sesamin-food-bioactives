@@ -1,0 +1,29 @@
+panel,system,observation_id,group,value,unit
+a,Human HepG2,Control_1,Control,45.49787742024974,Normalized counts
+a,Human HepG2,Control_2,Control,41.5467231795468,Normalized counts
+a,Human HepG2,Control_3,Control,34.75884559844706,Normalized counts
+a,Human HepG2,Model_1,Model,108.07206888740144,Normalized counts
+a,Human HepG2,Model_2,Model,99.9527573605993,Normalized counts
+a,Human HepG2,Model_3,Model,91.26919013497302,Normalized counts
+a,Human HepG2,Treat_1,Treat,43.59594514680413,Normalized counts
+a,Human HepG2,Treat_2,Treat,51.43906219200064,Normalized counts
+a,Human HepG2,Treat_3,Treat,47.03355550070624,Normalized counts
+b,Mouse hepatocytes,DRR1010532,ctrl,8.4198883,TPM
+b,Mouse hepatocytes,DRR1010533,ctrl,8.6358856,TPM
+b,Mouse hepatocytes,DRR1010534,ctrl,8.696344,TPM
+b,Mouse hepatocytes,DRR1010535,HFD,11.0018793,TPM
+b,Mouse hepatocytes,DRR1010536,HFD,12.040266298769,TPM
+b,Mouse hepatocytes,DRR1010537,HFD,9.05045,TPM
+b,Mouse hepatocytes,DRR1010538,sess,6.4739170269284,TPM
+b,Mouse hepatocytes,DRR1010539,sess,5.40686,TPM
+b,Mouse hepatocytes,DRR1010540,sess,8.127473,TPM
+c,Rat liver,GSM1048036,control,7.72509354316,log2(signal + 1)
+c,Rat liver,GSM1048037,control,8.62168194413,log2(signal + 1)
+c,Rat liver,GSM1048038,control,8.26858878333,log2(signal + 1)
+c,Rat liver,GSM1048039,control,8.22430079734,log2(signal + 1)
+c,Rat liver,GSM1048040,control,7.97125038693,log2(signal + 1)
+c,Rat liver,GSM1048041,sesamin,9.92498763497,log2(signal + 1)
+c,Rat liver,GSM1048042,sesamin,9.47764292717,log2(signal + 1)
+c,Rat liver,GSM1048043,sesamin,9.7861781288,log2(signal + 1)
+c,Rat liver,GSM1048044,sesamin,10.4527766168,log2(signal + 1)
+c,Rat liver,GSM1048045,sesamin,9.52004305907,log2(signal + 1)

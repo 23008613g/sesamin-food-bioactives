@@ -1,0 +1,2228 @@
+[
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/audit_metadata.py",
+    "sha256": "d225fe102b3352798c3a96cd6598525022c3796446bb1146cd0bae97ac810095",
+    "bytes": 2274,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/build_sample_manifest.py",
+    "sha256": "2173588a94937f125dd82f23299b2f9f75b42dad906f8152f1b555a0ae57cd8f",
+    "bytes": 3516,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/inspect_processed_tables.py",
+    "sha256": "2590f20448205b2d41e5d63842db12f558e180d32b8a3e708ea02f49b04341aa",
+    "bytes": 6564,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/audit_additional_inputs.py",
+    "sha256": "940a422d5d73aa16cd9844c20bf57eeee1616aa62452318e523ee07a6dd1b3f3",
+    "bytes": 7181,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/build_reference_manifests.py",
+    "sha256": "3696a49604157003e8851d58f8382a6bef926b39b44ccd5287ffa146d8a20d31",
+    "bytes": 2380,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/fetch_platform.py",
+    "sha256": "edc0049fc3d2cdeee98a2303022b07961a1b2fa41966d7d012ca3879434f9c14",
+    "bytes": 1530,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_prepare.py",
+    "sha256": "6e4d86a99797763318a312de77e1771d1036038f1577d5c12946d0430ca3aa03",
+    "bytes": 16260,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/run_descriptive_pilot.py",
+    "sha256": "387c0c1d895f4efe6dfe9dfca6a6a78e18731912919fed3a2e325a67c9e67bc5",
+    "bytes": 7891,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/validate_outputs.py",
+    "sha256": "bd92906a52453a0fc3e535685a0be9370da97397847a0df53515c800e44b24fe",
+    "bytes": 5210,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/audit_figures.py",
+    "sha256": "248c3b42f5ba96a61c727f7434139bf992bd90c69a38f1d232b98704f737d231",
+    "bytes": 3370,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/audit_organoid_figure.py",
+    "sha256": "b8e49e7758c0a5502be6138a461f51f75d9be8ccb0e9e0fc11d4708d7f2dc26f",
+    "bytes": 2237,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/numeric_review.py",
+    "sha256": "47e0bc9de0dbc01afff251a6f0cad6d2541c7ea46d05473e6ee386e61514b7d2",
+    "bytes": 12276,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/plot_organoid.py",
+    "sha256": "32689500ed935ef464356b6a524aabc8105f0bab672c8cf2682698ae26f6793e",
+    "bytes": 8746,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/run_bulk_analysis.py",
+    "sha256": "9a6a83adfa746c101d0971e0b085dd6591dd750fc7c32133374c2ab60d975912",
+    "bytes": 10896,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_run_02/validate_delivery.py",
+    "sha256": "ab73bd4700cc8fa4c82ee7b3a0c7fd30db9f045db39bcd703ef1bbd317530175",
+    "bytes": 5315,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/finalize_delivery.py",
+    "sha256": "b2874e461d318287276b3e472693c72ad9d17d8a7b1671a68f4b02bbd21f15f1",
+    "bytes": 16905,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/integrate_manuscripts.py",
+    "sha256": "2f85ba46157f9da7bdf71673e9b053293c84c57666865182123cce268cf99100",
+    "bytes": 9545,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/prepare_delivery.py",
+    "sha256": "3a2e6b33eb4fa90c18df5e5b764ca794562294dac1c1a7ef22a0e0997b684f03",
+    "bytes": 2866,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/audit_sesamin_input.py",
+    "sha256": "499673adf78ec080185e93f38a9eec7d0fa4f97f0d144e6e4a40dd26722cc2e6",
+    "bytes": 5343,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/search_geo.py",
+    "sha256": "55264e850f5d8a4240b25ebb523c3e246334b2061ab7358de6ffcb7002da9bb9",
+    "bytes": 3515,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/validate_delivery.py",
+    "sha256": "c49f141210b8261fea0ed28bd37907ca643def5c26bd1397c71c765fa1f12854",
+    "bytes": 6707,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/verify_targets.py",
+    "sha256": "9d1b25f480f76cb8432b27925872ae0fb7fa2892e020866516f907fca409ba25",
+    "bytes": 2513,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/design_closure_10/finalize.py",
+    "sha256": "4b2a056b06f85be18b6d2f69f147e6e1d42a853769f10b059dfb2891ccb05f77",
+    "bytes": 12375,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/build_candidate_register.py",
+    "sha256": "5275583e6475fe80d90f07be040d6b61b1a3cba7440e7df0241cb52b9cccdd9a",
+    "bytes": 6817,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/update_project_state.py",
+    "sha256": "599210a852ab14689b139776e1c865384359ceb955c4fc22d026475c196889c4",
+    "bytes": 7229,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/validate_delivery.py",
+    "sha256": "327ca70d967d07d2dff2bd53ffb16b23e4a1b2e669cc25d969f2d26a378685f5",
+    "bytes": 6747,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/analyze_phh.py",
+    "sha256": "a6b60000184ba47ba8225dfa680bc275f2b3031efbac64120a5f02c5a3fc5ab4",
+    "bytes": 9241,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/audit_figure.py",
+    "sha256": "b9755eb0b09b0034062a1e32967d08099f796de1543072f9a5c70c6c0ee1c002",
+    "bytes": 2607,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/check_robustness.py",
+    "sha256": "606db1baec67f190e7a49fa30844bd4547024f097a3df238123f8181973f6401",
+    "bytes": 10277,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/plot_phh.py",
+    "sha256": "e187ff70300ff80684ef0bfa23470d3829bc2929d7584e3b8199ade6f5a606f7",
+    "bytes": 2760,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/validate_delivery.py",
+    "sha256": "f659095b36f0fc2f79e358ed449c29739d37df2d20145ba3dc5760364d5fb865",
+    "bytes": 6283,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_draft_11/finalize_draft.py",
+    "sha256": "827e558e429fdbba00b76f2e1240ddd81239af1552917d36b81990e85fccabd5",
+    "bytes": 10316,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/finalize_public_links.py",
+    "sha256": "b3374782eceb2657989dcadd9864d7cb95e0df5defa7eac852de8ca8b83c9ea1",
+    "bytes": 3635,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/final_checks.py",
+    "sha256": "07e89dde520722c962b3ff0f07160ab3546cc5a9e662f414aac651bf7a5f230d",
+    "bytes": 3281,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/finish_delivery.py",
+    "sha256": "40868ae7e1ddf1d42d9845a0b64b5f383d57bbb931ffcb7ecb9e5adf7953b328",
+    "bytes": 8673,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/prepare_assets.py",
+    "sha256": "f869ef9b58e3411022b88b81cd055bbb6ee785b27f5351a14da0575f0cddfb0f",
+    "bytes": 3619,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/build_index.py",
+    "sha256": "5068cd29a9d9d57e789b5fc57cbab56c2cfdd4c99195b1d4c2a4cd77f8670edf",
+    "bytes": 1082,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/check_pilot_aggregation.py",
+    "sha256": "dfb21e67dfcb11cde77e503a212a45d38641f9a8d5e8df4065777b65e3a28455",
+    "bytes": 1061,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/common08.py",
+    "sha256": "f2be83ce0bdb5fdb26e68cac6aaed48af310ea7e7b98821e2c0f3e142656a536",
+    "bytes": 4897,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/create_report.py",
+    "sha256": "5bf51bc03dd560a95b54ae33881432d0737029ca83e1ecfd251c8dcfb987fbe7",
+    "bytes": 14265,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/download_fastq.py",
+    "sha256": "486d7ce50d74fb0c3c80d324e0488ca08548fe804d1e43e6ad8d26947f4c767f",
+    "bytes": 2484,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/finalize_recovered_downloads.py",
+    "sha256": "abcc85c3bd219ede6affe87397d68b2d4e88b6edb4522d4e821aa3793266073c",
+    "bytes": 5536,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/finish_last_two.py",
+    "sha256": "7248b5f18e49b3d08721636a0e874cb893c9fd5e071f2b09f24fa497b96f7081",
+    "bytes": 961,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/freeze_execution_rules.py",
+    "sha256": "50d425e2a0a6f63a73c8a6e8415e6ee53466ec396b267f3e4f11e0dc608bdd24",
+    "bytes": 1567,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/recover_download.py",
+    "sha256": "cd4e000d081e5ff1c50ae45fe06d0260adf84c18d8cbc974cfafcb9e7b7035d9",
+    "bytes": 5382,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/resume_after_network.py",
+    "sha256": "4ed8fb6d1330c94f1d253e837cb33eb4dde770dcd17257782b2640045f9f34cf",
+    "bytes": 1794,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/resume_recovery.py",
+    "sha256": "a5c346d762d6a4d6d8ead83f029e3b349a21818833bc67d75c5dd2776292e029",
+    "bytes": 2014,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/run_study.py",
+    "sha256": "55ce8f7ae8f02a36f4e00ce8246407f4209e06f2528ceeb13275918b570497d4",
+    "bytes": 8065,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/setup_tool.py",
+    "sha256": "1cc1eb691b9ef58d0f52491338863ca806617cc65804904a9d2cbe144227744b",
+    "bytes": 3889,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/status.py",
+    "sha256": "e652c0f4861b610abbb5f92245e6c5d00913820ea380d856c23140ce90dc137c",
+    "bytes": 1786,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/update_state08.py",
+    "sha256": "ce20b827d4f2d52526dbdf778702712bf4f2b3d3fdbd4b641429a4e1ac5ef064",
+    "bytes": 6292,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/validate_delivery.py",
+    "sha256": "7960af6c13e38d200c5fc324498ed86fef6473acdb388c2314b249d420d6273f",
+    "bytes": 4050,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/build_processing_plan.py",
+    "sha256": "1ad8fe65bf71039c3d01dd4a9f8ae1264e9a5f08956ff4964ea43573064b6cbe",
+    "bytes": 9741,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/collect_preflight.py",
+    "sha256": "49a12efb6860c09e89890b1071b12d3b7cc4f4137c610bba38980ff9a6262389",
+    "bytes": 6658,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/prepare_downloads.py",
+    "sha256": "9d615763de93286947e88680381cf8e5b3e95d0a780f72386595207775a943cf",
+    "bytes": 5529,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/update_project_state.py",
+    "sha256": "e62936e2418cd727ce35a7c320fafd22230b4a852c9793a1e2d22459e7158627",
+    "bytes": 6228,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/validate_delivery.py",
+    "sha256": "c488978fa96408e668441fbafbbe9dcab3a8f2761b04e43323abaf8a6b4475a2",
+    "bytes": 6232,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/build_state09.py",
+    "sha256": "406a3c2862931060f8216e49b44aef09094fcefb1396dcc8e413257b9a52d56f",
+    "bytes": 8847,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/validate_delivery.py",
+    "sha256": "1e1157488f9166b65279583623ebebca0ef340bf940558df4eb7fcbf0d159a33",
+    "bytes": 5952,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/fetch_inputs.py",
+    "sha256": "56577d30d20928a8222c87dbe0d03d03625f3d9a47405a75bdf27da535377d9b",
+    "bytes": 5671,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/fetch_mtx_parallel.py",
+    "sha256": "9a15226123a8fa8a8c72318d03f5ba495c72220079fc23680ca6d5c8efd274bd",
+    "bytes": 2849,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/link_expression.py",
+    "sha256": "83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196",
+    "bytes": 21490,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/resume_os_ranges.py",
+    "sha256": "856db2d2b3dd1fc28d03392536741af44d69a0c64ed446845abb177459ff0e8d",
+    "bytes": 4320,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/validate_aggregation.py",
+    "sha256": "7bd126869a0c3d6fc614a46db6280f2c78f626db1f6c52b9266204142c6502bf",
+    "bytes": 6090,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_inputs/github_src_data_parsing.py",
+    "sha256": "422647b6361078f7a87e54ba9c36df945847c38dd44da8abbfabd22b4f6bc8cf",
+    "bytes": 8598,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_inputs/github_src_sc_constants.py",
+    "sha256": "44c953080515d48e050d9dd03cf1dc7fbd0b380f29f192b36fc3ec014d5290d4",
+    "bytes": 27121,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/copy_delivery.py",
+    "sha256": "0ec6f0b077e6825246097fe35eb3c599e18936737f96b9a77aed5bb02a5f9e05",
+    "bytes": 1228,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/finalize_package.py",
+    "sha256": "3b95ac3a0e3be117a290e0500ca8dd421bf440b670a92f082fa9c53e37dc1fe1",
+    "bytes": 8822,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/prepare_documents.py",
+    "sha256": "7f7c0c3b598287a582a7fcbde43679918f4d22ad0c9fafe2303f512cd93cb90b",
+    "bytes": 16247,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/finalize_revision.py",
+    "sha256": "17b4d78d35f0d353a39ba73c60815e8b3dcdee957786b8491b72188e828732ed",
+    "bytes": 14199,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/prepare_revision.py",
+    "sha256": "2a0a365a6577e0c26de1fe5f82667f1dfa304f0b6244075289ed4ae860712944",
+    "bytes": 16814,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/finalize_revision.py",
+    "sha256": "f816489e44eb34c3e5c865353b2f772f2b5da498d70cfb51963c6de76582ad0a",
+    "bytes": 21915,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/prepare_base.py",
+    "sha256": "6deac7d80eb2484f5c215afa6c27e4729c40595c1ee2ecfe42bce47ba915ecd0",
+    "bytes": 3490,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/prepare_texts.py",
+    "sha256": "29dd6eb75806a36cbe7c054345f3c5ac41ca78ddff8629aabd39a767480939b4",
+    "bytes": 28637,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/audit_figures.py",
+    "sha256": "ec40b783521351e6deca0470575df8578159a26cd7d5d51fc45c4bc29aab3704",
+    "bytes": 3007,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/link_organoid_context.py",
+    "sha256": "c95e30f4c5d507c05d5bd3dde5bfe5ce0ba5b36ace29e9e4044837d39c7c7808",
+    "bytes": 4905,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/plot_results.py",
+    "sha256": "3a6e86d9b88ff6b7acfc96b5d1109e1207328f8da3333f069ae9b17c83077a54",
+    "bytes": 3949,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/run_analysis.py",
+    "sha256": "c996b4f02eaf1cefe5bc6ed85339b324ea371443ca8eb476aade60710c5c36db",
+    "bytes": 10150,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/validate_delivery.py",
+    "sha256": "7998ab8fdd8e4916bdcc0d9b3f0817364f05f3b2973e01bdc7371015a1746d01",
+    "bytes": 7515,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_assembly_22/assemble_submission.py",
+    "sha256": "d2b9676c16016911d0c66af960a3a038591d5a4461d1b7cf516907de113dd548",
+    "bytes": 17278,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_assembly_22/normalize_delivery_csv.py",
+    "sha256": "fd92e635ef246d0315e81f6210ef6f61708124276195c36d08e9e4342319b2fc",
+    "bytes": 3190,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/check_final_content.py",
+    "sha256": "8b9af9b0c636e1515b89b96fcc3bfe7e0026364674ffb0db34f07e3b00b4e7df",
+    "bytes": 5712,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/finalize_delivery.py",
+    "sha256": "03ec61692f4efda7ff5d061a463da49f404bf16223c8656f759cff7528a85c80",
+    "bytes": 10566,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/prepare_documents.py",
+    "sha256": "038c13aceb8b406db8c81b0a1a0c3e4ec2d0ede7927ebf54d0cbcbc186a47dbf",
+    "bytes": 3804,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/docx_build/build_documents_native.py",
+    "sha256": "e3df710976872f866e51dc0f82c79ac724e59806e77c23d896ff3111b23c24df",
+    "bytes": 10810,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/docx_build/compare_rendered_pages.py",
+    "sha256": "87e7f8a52dcf983f459fb543bf7371382bcd654b9dcee8f86111925407b42854",
+    "bytes": 1853,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/docx_build/markdown_parser.py",
+    "sha256": "733b4e6a014210899aebfc30e97340e831ed316e8de33e3ff4d450b44c46b550",
+    "bytes": 3016,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/docx_build/render_pdf_pages.py",
+    "sha256": "8e12170fafd4bf5a7bd1ac7b29767fb5016aceedebf8ecb53ddb704208ab2ad1",
+    "bytes": 2105,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figures/build_external_figure.py",
+    "sha256": "744e29e771b95db4023276c7f8d34812fccef1bdcf45f9e8d37ed7b02ebcbf25",
+    "bytes": 7394,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figures/build_revision_figures.py",
+    "sha256": "517f2f0a06be4327237555c9c994e82650594cf59ff5481afd9b9f801a978e55",
+    "bytes": 11801,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/extracted_original_functions.py",
+    "sha256": "f178ddc78f2321c795b7ab868ae7f7435fe88f9160d150205c8d54619fa73d30",
+    "bytes": 7768,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/final_label_audit.py",
+    "sha256": "66fad91840d5de50012f28d2b6c297b32168cb66ae6c81c04ac454ebe5aa028c",
+    "bytes": 2613,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/prepare_label_revision.py",
+    "sha256": "d4e1bfce32d3545a377f40714194d6005a3aef1c7731a583434dbd4cfabad193",
+    "bytes": 8961,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figure_revision/revise_figure_labels.py",
+    "sha256": "ef738d59e17ca390a0918730939acb496ddc7ad97d0e79f26cfb0cb940352687",
+    "bytes": 15086,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/metadata_audit/build_audit.py",
+    "sha256": "0707c654d836f23edf7adca48488ac57667ded8ba44150cf3b19bbc52c4a3716",
+    "bytes": 12243,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/metadata_audit/fetch_final.py",
+    "sha256": "357d1421805971f0be5ea729c378e8a8ed0b4efa926d9dcc34a4762fbf4d96fb",
+    "bytes": 744,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/metadata_audit/fetch_followup.py",
+    "sha256": "0a33eb9d2bdf15e81a31091a2b6aa78c782a4528744e45fb2313985203de7460",
+    "bytes": 1504,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/metadata_audit/fetch_human_mirrors.py",
+    "sha256": "71b8e223cf48b5fcaff3bedc88c0dcc0a98e3ac261a99fd0e2604f2dfd9ebdc8",
+    "bytes": 559,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/metadata_audit/fetch_metadata.py",
+    "sha256": "d89fba40929ab80a5e1eb8f6ddbed397ced81faae35663e61aabcd234d864c3a",
+    "bytes": 2381,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/text_revision/finish_and_audit_text.py",
+    "sha256": "5d017732aafec24d41e8584609eeebbae563e59946481c5c323921ed4f96a87c",
+    "bytes": 5564,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/text_revision/polish_text.py",
+    "sha256": "6a5dc5d00f123027866f30d26e636aeb8bcd83e4a7087b01f1a4a9e854f7939d",
+    "bytes": 14239,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/NEW/text_revision/finish_and_audit_text.py",
+    "sha256": "5d017732aafec24d41e8584609eeebbae563e59946481c5c323921ed4f96a87c",
+    "bytes": 5564,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/NEW/text_revision/polish_text.py",
+    "sha256": "b1b30c4ac968101a19c33645176a83c150b33a035a9bf468d15610761184bc98",
+    "bytes": 14191,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/submission_finalization_25/figures/scripts/audit_panel_alignment.py",
+    "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+    "bytes": 40297,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/analysis/derive_single_cell.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/review/finalize_review.py",
+    "sha256": "1d8657184df71d0de7f43ad77db14dbd56b02a3f8cfef26081d48e9e0a0ec404",
+    "bytes": 17039,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/review/verify_derived_tables.py",
+    "sha256": "99d803f5a8b7443783e2e5d909032ccef0c37107ed8e1f1343c552382161dc68",
+    "bytes": 14608,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/single_cell_extension_14/analysis/code_versions/derive_single_cell.5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/design_review/fetch_sources.py",
+    "sha256": "94b6bf4c138a55aa065e0f6d4e400cb6791eccf51f676ab058868e8b48a19f69",
+    "bytes": 2836,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/design_review/validate_review.py",
+    "sha256": "a43c7080f685afa525f6452930422adca9ecedff26dc272948bd5237dca2bd19",
+    "bytes": 4282,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/novelty_triage/build_triage.py",
+    "sha256": "47e6a28d3568f114e3fe64818cb1ff3e568b2196bc9d12a8d65575b2092fb02f",
+    "bytes": 13472,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/sesamin_exploration_04/numeric_review/recompute.py",
+    "sha256": "38e267c081a0df93a9384343ee36981441c0e1a33ecb5e55e4c34f6ca9391330",
+    "bytes": 11379,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/assemble_visual_review.py",
+    "sha256": "3c68139750f33c6410173fc91e84b7b364633f429ba4341e058f80031e49b9d3",
+    "bytes": 4749,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/build_documents_native.py",
+    "sha256": "ede05a945827a2af878fc4b1051b74a616a33532f822747f27a5a03c25f3a32b",
+    "bytes": 9768,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/enlarge_dense_figures.py",
+    "sha256": "b958e4dda8a220561d11bd4f24ec057b41ee087ba3e1e15cb46487848c68a0e7",
+    "bytes": 2262,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/markdown_parser.py",
+    "sha256": "733b4e6a014210899aebfc30e97340e831ed316e8de33e3ff4d450b44c46b550",
+    "bytes": 3016,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/prepare_tools.py",
+    "sha256": "2ee72e557e1a4550f8b11090b06b5698185f8dc4a2e9a76cc92d6a1f46ec81c8",
+    "bytes": 2091,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/render_pdf_pages.py",
+    "sha256": "8e12170fafd4bf5a7bd1ac7b29767fb5016aceedebf8ecb53ddb704208ab2ad1",
+    "bytes": 2105,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/references/fetch_references.py",
+    "sha256": "997acc4ac4039f0ec29dfd562280b1420ed1fe8af1eda74ce8bc00ba47e0db63",
+    "bytes": 3161,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/review/finalize_review.py",
+    "sha256": "1d8657184df71d0de7f43ad77db14dbd56b02a3f8cfef26081d48e9e0a0ec404",
+    "bytes": 17039,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/review/verify_derived_tables.py",
+    "sha256": "99d803f5a8b7443783e2e5d909032ccef0c37107ed8e1f1343c552382161dc68",
+    "bytes": 14608,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/provenance/stage12/figure_sources/main/audit_figures.py",
+    "sha256": "f66efcdcd7d09000d8f4012354a4364df63e17b4914274dd71703a320dcee361",
+    "bytes": 5163,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/provenance/stage12/figure_sources/main/build_figures.py",
+    "sha256": "a3ca45166f09b34aeb93e4f2d522abd9489b515b4ebb7b1c221a7279105b7c0b",
+    "bytes": 16344,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/provenance/stage12/figure_sources/support/make_support_figures.py",
+    "sha256": "ace82ddfa68cc2e23d50ee0a59eeb9f1ca4814432bc4d70d7836734e66d7da4f",
+    "bytes": 14991,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/provenance/stage12/figure_sources/support/qa_support_figures.py",
+    "sha256": "c5247ea192de6b7e3e3be9afdba85fa91b10176613d8870fe4695d77463adc92",
+    "bytes": 4503,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/new_main/audit_figures.py",
+    "sha256": "14b53700f48fd86126fa0bdba508978579ef09d1e1cda31d132e0d180fe0bafd",
+    "bytes": 4821,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/new_main/build_figures.py",
+    "sha256": "40aebf0d7519e5dfb63c8fce8486a114d3c4aa6019e957a5405b29985fc106b3",
+    "bytes": 14170,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/new_support/make_new_support.py",
+    "sha256": "e99838ac9fbadfb23f53a2ac45c3e58d9bbd4137dd57e00579768cc4eed2c059",
+    "bytes": 12166,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/new_support/qa_new_support.py",
+    "sha256": "648edefaa450caef9b7336636a2e8fdd8fb42ae68bee736e1be4f019a0107d29",
+    "bytes": 4863,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/audit_figures.py",
+    "sha256": "19bc7df73cd108e40443df39b1f44880921ee6483a3ac658dcf7585f7cb2c7af",
+    "bytes": 4502,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/build_figures.py",
+    "sha256": "335e2f3fd5ab32338e83a83ef49a20e11e7f54715d6f79363dbc09cf9b2be1e2",
+    "bytes": 20593,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/figures/single_cell/finalize_qa.py",
+    "sha256": "dd989aa3c10f9ffed0764bed54b044cbeb74e89cc0f5fc9cdf53a2244a4f72af",
+    "bytes": 6294,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/data/single_cell/derive_single_cell.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_14/data/single_cell/code_versions/derive_single_cell.5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/build_documents_native.py",
+    "sha256": "ede05a945827a2af878fc4b1051b74a616a33532f822747f27a5a03c25f3a32b",
+    "bytes": 9768,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/markdown_parser.py",
+    "sha256": "733b4e6a014210899aebfc30e97340e831ed316e8de33e3ff4d450b44c46b550",
+    "bytes": 3016,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/prepare_tools.py",
+    "sha256": "93573a1851217660760055d2f6fd58466c33fd81818407c29d5b438237ad4236",
+    "bytes": 2319,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/record_final_qa.py",
+    "sha256": "f6027228c64bc5eda104c7ddcf0da27d0802554748afa6a9b8ad5eda517b76b3",
+    "bytes": 12614,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/render_pdf_pages.py",
+    "sha256": "5ef3160a46a8a6de4c20ca8f731aaf761b591902fbac52c4242cff9b75d087f8",
+    "bytes": 2025,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/references/fetch_references.py",
+    "sha256": "997acc4ac4039f0ec29dfd562280b1420ed1fe8af1eda74ce8bc00ba47e0db63",
+    "bytes": 3161,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/provenance/stage12/figure_sources/main/audit_figures.py",
+    "sha256": "f66efcdcd7d09000d8f4012354a4364df63e17b4914274dd71703a320dcee361",
+    "bytes": 5163,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/provenance/stage12/figure_sources/main/build_figures.py",
+    "sha256": "a3ca45166f09b34aeb93e4f2d522abd9489b515b4ebb7b1c221a7279105b7c0b",
+    "bytes": 16344,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/provenance/stage12/figure_sources/support/make_support_figures.py",
+    "sha256": "ace82ddfa68cc2e23d50ee0a59eeb9f1ca4814432bc4d70d7836734e66d7da4f",
+    "bytes": 14991,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/provenance/stage12/figure_sources/support/qa_support_figures.py",
+    "sha256": "c5247ea192de6b7e3e3be9afdba85fa91b10176613d8870fe4695d77463adc92",
+    "bytes": 4503,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_main/audit_figures.py",
+    "sha256": "14b53700f48fd86126fa0bdba508978579ef09d1e1cda31d132e0d180fe0bafd",
+    "bytes": 4821,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_main/build_figures.py",
+    "sha256": "40aebf0d7519e5dfb63c8fce8486a114d3c4aa6019e957a5405b29985fc106b3",
+    "bytes": 14170,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_support/make_new_support.py",
+    "sha256": "e99838ac9fbadfb23f53a2ac45c3e58d9bbd4137dd57e00579768cc4eed2c059",
+    "bytes": 12166,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_13/figures/new_support/qa_new_support.py",
+    "sha256": "648edefaa450caef9b7336636a2e8fdd8fb42ae68bee736e1be4f019a0107d29",
+    "bytes": 4863,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/docx_build/build_documents.py",
+    "sha256": "db09ce22460b17d601cfdb1d99ea5f6a156d3cbb14d86e369589b9560d0dda33",
+    "bytes": 17208,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/docx_build/build_documents_native.py",
+    "sha256": "508631cfccc41c232c6156000d891c5a81418ead6eedfca0cbaa6bbdcbe553c6",
+    "bytes": 9612,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/docx_build/record_final_qa.py",
+    "sha256": "0db627dc6703ca5a7c2d93e2cfd52a885357a1986d50174bbe4dec3f411430c3",
+    "bytes": 6216,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/docx_build/render_pdf_pages.py",
+    "sha256": "1802311b336300f1a084b9399e74136d0720a05a2bcf154dae8e99e6519fe804",
+    "bytes": 1994,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/docx_build/repair_chinese_layout.py",
+    "sha256": "549883f8a0db83ce0984c6229eb6444923386b7c29180a4019a96bb57e3eaa71",
+    "bytes": 947,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/references/fetch_references.py",
+    "sha256": "997acc4ac4039f0ec29dfd562280b1420ed1fe8af1eda74ce8bc00ba47e0db63",
+    "bytes": 3161,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/main/audit_figures.py",
+    "sha256": "f66efcdcd7d09000d8f4012354a4364df63e17b4914274dd71703a320dcee361",
+    "bytes": 5163,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/main/build_figures.py",
+    "sha256": "a3ca45166f09b34aeb93e4f2d522abd9489b515b4ebb7b1c221a7279105b7c0b",
+    "bytes": 16344,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/support/make_support_figures.py",
+    "sha256": "ace82ddfa68cc2e23d50ee0a59eeb9f1ca4814432bc4d70d7836734e66d7da4f",
+    "bytes": 14991,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/publication_package_12/figures/support/qa_support_figures.py",
+    "sha256": "c5247ea192de6b7e3e3be9afdba85fa91b10176613d8870fe4695d77463adc92",
+    "bytes": 4503,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/audit_documents.py",
+    "sha256": "14020b9e0094866d4290a9ab2ab27e992c7ee21e7f216e9a744fddcf2d866d1d",
+    "bytes": 4406,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/build_documents_native.py",
+    "sha256": "cf3ee9b8021f535443e6b5635695fa159cec27be3f1ad9d414759d220c0efe7e",
+    "bytes": 13030,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/finalize_delivery_manifest.py",
+    "sha256": "58ca80a6344ef2fef42b0fb093c16e5d3d5c1a352a66427bcb6bcaf017b492a9",
+    "bytes": 5972,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/map_rendered_pages.py",
+    "sha256": "7c18b603fd5cb493dbd8564a9db55fc21a07edb385fa5c304fef1681009a805d",
+    "bytes": 3078,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/markdown_parser.py",
+    "sha256": "234c6335d0b7aef1c3ab23702c1999067c2262d744e90d5e135631b123be3f39",
+    "bytes": 3062,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/prepare_stage28.py",
+    "sha256": "d23bdc3f1f6ef06a59ea1332f02356d510c22bfa20d15ca23ad02f6aac524a8f",
+    "bytes": 2991,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/audit_figures.py",
+    "sha256": "663f4170bd305fe2968a2267f2b41f6e6ba86eecaeb29787568ee03af832fe7f",
+    "bytes": 2916,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/build_figures.py",
+    "sha256": "e749c28b7ff5bed5971aed04d1fc7112ab0ba928eff87220d4f4d2ebf8130cd9",
+    "bytes": 10813,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/build_stage26.py",
+    "sha256": "a10b9c7c0356da351995585492936a9f358c3a9a87849fd364a4e515ddc73a98",
+    "bytes": 20530,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/prepare_stage27.py",
+    "sha256": "f0d5dd4ffa84000c9e8ccd1b88a75146de97d5f437514e5a977a99bb9c3f5c0b",
+    "bytes": 2779,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/verify_delivery.py",
+    "sha256": "ecd1288792431cf47ed08b9f3b8600242dc624361a2b174cadc76a94155f4eef",
+    "bytes": 3609,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/github_audit/build_local_repository.py",
+    "sha256": "1fb1e49ca9351fa301539d6bf687843e6e854380cac0d0519ca419879581e56d",
+    "bytes": 10332,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/provenance/check_github_auth.py",
+    "sha256": "463db57db279d4619a434b4512813897896a35409d11ed1b0a2117dc48b257a3",
+    "bytes": 1716,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/provenance/prepare_submission.py",
+    "sha256": "3aa1113f00f8e12900ed55b72ec577bd4e6dd9f93166dc58ba9a32f8dc0d186c",
+    "bytes": 5547,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/qa/assembled_source_for_static_audit.py",
+    "sha256": "1f8fcd63227e0368b8be1462ea0cb2f2de38b970850c218057511137a6a1a1f7",
+    "bytes": 31866,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/scripts/audit_figure_collisions.py",
+    "sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+    "bytes": 28085,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/scripts/audit_panel_alignment.py",
+    "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+    "bytes": 40297,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/scripts/audit_pdf_text.py",
+    "sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+    "bytes": 5697,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/figures/scripts/validate_figure.py",
+    "sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+    "bytes": 34013,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/analysis/matched_scale_areg/freeze_protocol.py",
+    "sha256": "2227dcdd28e2ff88a2bd9b32e5811dd9ca8a9dd0a2de3c2261c505ca99112e8a",
+    "bytes": 1989,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_submission_28/analysis/matched_scale_areg/run.py",
+    "sha256": "ed2f2a007064a102d6244b94ba992b4b66efa13d0e6999a8a6fb6a41c33d3632",
+    "bytes": 17087,
+    "decision": "excluded: private submission/release construction"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/audit_documents.py",
+    "sha256": "14020b9e0094866d4290a9ab2ab27e992c7ee21e7f216e9a744fddcf2d866d1d",
+    "bytes": 4406,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/build_documents_native.py",
+    "sha256": "cf3ee9b8021f535443e6b5635695fa159cec27be3f1ad9d414759d220c0efe7e",
+    "bytes": 13030,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/finalize_delivery_manifest.py",
+    "sha256": "66c870304c8891d344a8c22fb1e1395e069c545350e33065d200a0e746f3d52e",
+    "bytes": 4181,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/markdown_parser.py",
+    "sha256": "234c6335d0b7aef1c3ab23702c1999067c2262d744e90d5e135631b123be3f39",
+    "bytes": 3062,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/render_pdf_pages.py",
+    "sha256": "8e12170fafd4bf5a7bd1ac7b29767fb5016aceedebf8ecb53ddb704208ab2ad1",
+    "bytes": 2105,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/audit_figures.py",
+    "sha256": "9e143ec745c56af88fd41c50590e35bd518726898896fe85590c71166f782f9c",
+    "bytes": 2479,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/build_pfhn_figures.py",
+    "sha256": "a10b9c7c0356da351995585492936a9f358c3a9a87849fd364a4e515ddc73a98",
+    "bytes": 20530,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/prepare_inputs.py",
+    "sha256": "f93de51eedb652bcb02c9052c150313a8cccb06d7ce2081a7bcbad64512f9eba",
+    "bytes": 3075,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/verify_numerical_inputs.py",
+    "sha256": "2e57c5aef8bf24c7fcec067a7eaca950c323d08150468cb620d3c179239c19c4",
+    "bytes": 5427,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/provenance/audit_texts.py",
+    "sha256": "481b75dd0b0ef9d93edf358508457a9fbb8aa56c4ff8f57fd5c8d3bf57d02380",
+    "bytes": 4048,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/provenance/finalize_texts.py",
+    "sha256": "d777f2d86033ddcccbe14f72f0d348bf3512a63ff11f68abc46ccf80897c9f54",
+    "bytes": 14671,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/provenance/package_delivery.py",
+    "sha256": "40ef715ceea107c9d5b7581214e50da0bea0fa1b472ef3db93989a4f892f6a39",
+    "bytes": 7711,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/scripts/audit_figure_collisions.py",
+    "sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+    "bytes": 28085,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/scripts/audit_panel_alignment.py",
+    "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+    "bytes": 40297,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/scripts/audit_pdf_text.py",
+    "sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+    "bytes": 5697,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/figures/scripts/validate_figure.py",
+    "sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+    "bytes": 34013,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/analysis/matched_scale_areg/freeze_protocol.py",
+    "sha256": "2227dcdd28e2ff88a2bd9b32e5811dd9ca8a9dd0a2de3c2261c505ca99112e8a",
+    "bytes": 1989,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_revision_26/analysis/matched_scale_areg/run.py",
+    "sha256": "ed2f2a007064a102d6244b94ba992b4b66efa13d0e6999a8a6fb6a41c33d3632",
+    "bytes": 17087,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/audit_documents.py",
+    "sha256": "14020b9e0094866d4290a9ab2ab27e992c7ee21e7f216e9a744fddcf2d866d1d",
+    "bytes": 4406,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/build_documents_native.py",
+    "sha256": "cf3ee9b8021f535443e6b5635695fa159cec27be3f1ad9d414759d220c0efe7e",
+    "bytes": 13030,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/finalize_delivery_manifest.py",
+    "sha256": "58ca80a6344ef2fef42b0fb093c16e5d3d5c1a352a66427bcb6bcaf017b492a9",
+    "bytes": 5972,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/markdown_parser.py",
+    "sha256": "234c6335d0b7aef1c3ab23702c1999067c2262d744e90d5e135631b123be3f39",
+    "bytes": 3062,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/record_main_review.py",
+    "sha256": "28ef0d3f92f98e37b874ca122a3d5a0bbd77d897d9ec22141ef8dd10283814c2",
+    "bytes": 4973,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/audit_figures.py",
+    "sha256": "663f4170bd305fe2968a2267f2b41f6e6ba86eecaeb29787568ee03af832fe7f",
+    "bytes": 2916,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/build_figures.py",
+    "sha256": "e749c28b7ff5bed5971aed04d1fc7112ab0ba928eff87220d4f4d2ebf8130cd9",
+    "bytes": 10813,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/build_stage26.py",
+    "sha256": "a10b9c7c0356da351995585492936a9f358c3a9a87849fd364a4e515ddc73a98",
+    "bytes": 20530,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/prepare_stage27.py",
+    "sha256": "f0d5dd4ffa84000c9e8ccd1b88a75146de97d5f437514e5a977a99bb9c3f5c0b",
+    "bytes": 2779,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/verify_delivery.py",
+    "sha256": "ecd1288792431cf47ed08b9f3b8600242dc624361a2b174cadc76a94155f4eef",
+    "bytes": 3609,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/provenance/audit_revision.py",
+    "sha256": "74656956dd1406ce305a1effb7589aadd0ccdbb0907d6bcf81fbe113cffdc160",
+    "bytes": 3938,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/provenance/package_delivery.py",
+    "sha256": "01fc716612cebfc189868c5944faaff489f38a4819809b95e1c09444d10d02ff",
+    "bytes": 8246,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/provenance/prepare_revision.py",
+    "sha256": "c6312837c1b7c928ae71e092891f583e148a2307149382a98ca15ac578234f5e",
+    "bytes": 15504,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/provenance/refine_wording.py",
+    "sha256": "377c277a7b479436e1eacb0f79693c918fe8c52e8db805672c2d965af36e6181",
+    "bytes": 1253,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/qa/assembled_source_for_static_audit.py",
+    "sha256": "1f8fcd63227e0368b8be1462ea0cb2f2de38b970850c218057511137a6a1a1f7",
+    "bytes": 31866,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/scripts/audit_figure_collisions.py",
+    "sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+    "bytes": 28085,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/scripts/audit_panel_alignment.py",
+    "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+    "bytes": 40297,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/scripts/audit_pdf_text.py",
+    "sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+    "bytes": 5697,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/figures/scripts/validate_figure.py",
+    "sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+    "bytes": 34013,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/freeze_protocol.py",
+    "sha256": "2227dcdd28e2ff88a2bd9b32e5811dd9ca8a9dd0a2de3c2261c505ca99112e8a",
+    "bytes": 1989,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/pfhn_main_figures_27/analysis/matched_scale_areg/run.py",
+    "sha256": "ed2f2a007064a102d6244b94ba992b4b66efa13d0e6999a8a6fb6a41c33d3632",
+    "bytes": 17087,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/code_versions/link_expression.45daada9a2ef5bccfb9f222a8eae1632c05484bd2700085736b5cbcd3b76b4cd.py",
+    "sha256": "45daada9a2ef5bccfb9f222a8eae1632c05484bd2700085736b5cbcd3b76b4cd",
+    "bytes": 20072,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/code_versions/link_expression.75f637c5f11e051a347cad07277675b783bf8ceab66b4c8096f6399c8777389a.py",
+    "sha256": "75f637c5f11e051a347cad07277675b783bf8ceab66b4c8096f6399c8777389a",
+    "bytes": 20939,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/organoid_expression/code_versions/link_expression.83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196.py",
+    "sha256": "83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196",
+    "bytes": 21490,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/areg/build_report.py",
+    "sha256": "1e4fd883c05bd185bbadf17be4c3422048558961fcf9efc2d27e1857559d3b0d",
+    "bytes": 17005,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/areg/fetch_fulltext.py",
+    "sha256": "a2e3b5677fb97dba8e8aae00cb439467fc85b628c9d489f9a23aff8388d7d15b",
+    "bytes": 2476,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/areg/search_api.py",
+    "sha256": "f8737aee7cc871d00c3c7d5ddd324805887c84e7e3272bed07c78d0fb8dc7570",
+    "bytes": 2783,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/source_overlap/build_report.py",
+    "sha256": "325723245de8f90225ae76a117226f0f07f610cb969a1e2ed948b15638d6ad64",
+    "bytes": 11812,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/source_overlap/fetch_sources.py",
+    "sha256": "d6fedb027ded3370dd8035a336a67264fc6c0704d9df7bca81b4b815dc69fd06",
+    "bytes": 2702,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/vnn1/build_evidence.py",
+    "sha256": "e73cc971c33e2ff28f998c664a447de9dbcd1e1ce895499435c09cc125013f89",
+    "bytes": 7444,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/vnn1/read_selected_sources.py",
+    "sha256": "38c74f896c666f02af35b5a9b732bf84934b67f5544c217854e8df81d60dbd81",
+    "bytes": 3230,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/novelty_check_09/vnn1/search_vnn1.py",
+    "sha256": "3ba556fc4b74a242da8285f5ef220d99f2cfc8d9c23d6215ce386f39ffe9860c",
+    "bytes": 4757,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/design/audit_design.py",
+    "sha256": "a43f472b5e95a7aafe7d914d1bed9779eed112b1be7a6678379f2764d43d873d",
+    "bytes": 15939,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/build_orthology.py",
+    "sha256": "9c3632fa640bb18d3f273f21afd988e485572d6bf1421ec8fcea6d9ee2c442b8",
+    "bytes": 14193,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/fetch_docs.py",
+    "sha256": "4b0dffe21e8c8caad1b3e088b14a6afcf3530a49f2030569c2f2f958a7363041",
+    "bytes": 1787,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/orthology/fetch_orthology.py",
+    "sha256": "a69dea57d7f215b16e5ee8dee8a0d972b7581b7caa93cedb1391ec0bb342fb2c",
+    "bytes": 7697,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_readiness_07/review/check_review.py",
+    "sha256": "030a1e034bb4812a13305077e7ccc1b8c540486cbc4197f78b351d46b74db7c4",
+    "bytes": 11693,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/aggregation/aggregate_quantification.py",
+    "sha256": "31a162c8cd85a3f7e8f0046618f385d4eb4e827f4cfc53d9f5770e5a87fd0db0",
+    "bytes": 21427,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/aggregation/test_aggregation.py",
+    "sha256": "ce140d0f69dc49126e7aa8a75252c8862576fa66a4faf03db547eecc3d5b4080",
+    "bytes": 7398,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/fastq_qc.py",
+    "sha256": "d958c48c38560f55d0b9e6b8c7869b7d7b3f92059e2b7da91f19aae4870cde61",
+    "bytes": 12515,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/test_fastq_qc.py",
+    "sha256": "3df7fe4b6cf4a78807994c72b8346311ba183c99bbf6b9ba00d9f4dfd473f914",
+    "bytes": 6790,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/fastq_qc/test_pipeline_resume.py",
+    "sha256": "35e08d513ef24710500aa57d49de4f0339d7b831c143e538523c3fc42c9ef802",
+    "bytes": 5412,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/final_review/check_delivery.py",
+    "sha256": "5d1249e46bc777ce11727141647e2bc95f1f2cc9549d9a6b3c166327193d2ac5",
+    "bytes": 36187,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/audit_index_input.py",
+    "sha256": "f07f1f8f88ce138cead697095f21d62a241608fb9cf6ca9cdaf8da4b59ebc3be",
+    "bytes": 3682,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/build_reference.py",
+    "sha256": "4f3d788d6a0aa4dbaf70f57ef7281d77a572b051899782523f4e29a2659c5ab9",
+    "bytes": 12458,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/reference_build/validate_reference.py",
+    "sha256": "ed1415e66188009c26103207636c8bb8699b0be35016ef2b352b550f94a6d380",
+    "bytes": 7203,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/mouse_quantification_08/download_recovery/second_file/recover_second_file.py",
+    "sha256": "81126452f99e21b0164beb89d141340cfbbab538ca432b0f8212020cc3db1771",
+    "bytes": 8213,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/docx_build/build_documents_native.py",
+    "sha256": "e3df710976872f866e51dc0f82c79ac724e59806e77c23d896ff3111b23c24df",
+    "bytes": 10810,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/docx_build/markdown_parser.py",
+    "sha256": "733b4e6a014210899aebfc30e97340e831ed316e8de33e3ff4d450b44c46b550",
+    "bytes": 3016,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/docx_build/render_pdf_pages.py",
+    "sha256": "8e12170fafd4bf5a7bd1ac7b29767fb5016aceedebf8ecb53ddb704208ab2ad1",
+    "bytes": 2105,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/external_single_cell/analyze_external.py",
+    "sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "bytes": 19206,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/external_single_cell/download_inputs.py",
+    "sha256": "f2e6c028c811691b7c37f3554989bf33a58584cc2b318c6e20a419631a75210d",
+    "bytes": 2616,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/external_single_cell/verify_results.py",
+    "sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "bytes": 6512,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/figures/build_external_figure.py",
+    "sha256": "744e29e771b95db4023276c7f8d34812fccef1bdcf45f9e8d37ed7b02ebcbf25",
+    "bytes": 7394,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/figures/build_revision_figures.py",
+    "sha256": "517f2f0a06be4327237555c9c994e82650594cf59ff5481afd9b9f801a978e55",
+    "bytes": 11801,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/publication/correct_release_metadata.py",
+    "sha256": "058d5cadacaefc225edd0cf06044b88f1063343469ef0c4829170c013405540c",
+    "bytes": 4282,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/publication/prepare_payload.py",
+    "sha256": "01ff276e47e5cadffdb4947fd506895e3751e0c972f7763bbed94a8d9171cb61",
+    "bytes": 3254,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/publication/test_upload_helper.py",
+    "sha256": "4213ddb7bc3648d444ce173ef6c76ca825b4498536feb90dc42438fa45997f1d",
+    "bytes": 6528,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/publication/upload_research_v24.py",
+    "sha256": "624910a1c992e3b1d08f602edef1bad62e00b14f0d51b6331e26212d990de2b2",
+    "bytes": 19195,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/add_robustness_check.py",
+    "sha256": "cf56357fac7496dd0264d869d054bde6e832566ce7e022c74616c7c50b02e32d",
+    "bytes": 2394,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/build_local_package.py",
+    "sha256": "5b0a15d272ee03b4a2a7620954ae6d512c524447d57c2fe1b6342449e88c90e6",
+    "bytes": 7652,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/finalize_release.py",
+    "sha256": "6ae2dc2a5042a88ce2f67b898621e02e4bf2e9debb27d3de3a5d83331304f9f9",
+    "bytes": 9589,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/prepare_release_candidate.py",
+    "sha256": "f6a4fde3d065e7598c2cb33e191f1faf9b957efd983989fe2d66cb82580ab989",
+    "bytes": 11116,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/text_revision/build_manuscripts.py",
+    "sha256": "05de9c2f75190f4c8e2144a1006af7a617ddd57896a5faff3e93e69fc00d582b",
+    "bytes": 118389,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/text_revision/check_manuscripts.py",
+    "sha256": "69c264b9abec2e439722bdaf736fd64249a4c68f52240c073405ed3d559e5080",
+    "bytes": 4328,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/run.py",
+    "sha256": "5201ccef0dca5cd55e440a9cbbbc10a43041262fb599a451657a19ad77b61e16",
+    "bytes": 6073,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/verify.py",
+    "sha256": "a5c8936a5f14c23c103e9b57dd6c6d56be1359c2fb012cbcb2cf5f60e9a03d14",
+    "bytes": 5845,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/run.py",
+    "sha256": "3d4c8b82267a307a234564e2547ae7ec72c0b768af458638f0d90c40d4f69bee",
+    "bytes": 4292,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/verify.py",
+    "sha256": "039580256498f295e2bf0c371a3b8407ae59439afb4dbc7449c2917f79ddabc7",
+    "bytes": 4957,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/run.py",
+    "sha256": "5201ccef0dca5cd55e440a9cbbbc10a43041262fb599a451657a19ad77b61e16",
+    "bytes": 6073,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/verify.py",
+    "sha256": "a5c8936a5f14c23c103e9b57dd6c6d56be1359c2fb012cbcb2cf5f60e9a03d14",
+    "bytes": 5845,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/organoid.py",
+    "sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46",
+    "bytes": 26790,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/rat.py",
+    "sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "bytes": 12597,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/rat_exact.py",
+    "sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "bytes": 2787,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/robustness.py",
+    "sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "bytes": 18349,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/robustness_check.py",
+    "sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "bytes": 16041,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/external/analyze_external.py",
+    "sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "bytes": 19206,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/release_candidate/code/external/verify_results.py",
+    "sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "bytes": 6512,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/code/organoid.py",
+    "sha256": "18141a71058708baec64d9dc3f963fc46434709464e067a87d649f2df55ce48f",
+    "bytes": 26814,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/code/rat.py",
+    "sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "bytes": 12597,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/code/rat_exact.py",
+    "sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "bytes": 2787,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/code/robustness.py",
+    "sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "bytes": 18349,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/code/robustness_check.py",
+    "sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "bytes": 16041,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/provenance/original_scripts/analyze_rat.py",
+    "sha256": "5b58ef9d2b80550ab07cc4c08d7d168c14c4d681ad27242c30f2c2216cae8b70",
+    "bytes": 12652,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/provenance/original_scripts/analyze_single_cell.py",
+    "sha256": "e894bbc9be14d8f8dd170ee5519922b5f3892f7e4f42d6673cc37ad5920cae9b",
+    "bytes": 26839,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/provenance/original_scripts/check_and_report.py",
+    "sha256": "0c74f257981b8b59cadd32a801a09d154ef1111267a7c99c2d280ec23e7db737",
+    "bytes": 16071,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/provenance/original_scripts/exact_sensitivity.py",
+    "sha256": "1782f36f26ad3ec1790370a8a06f79845fad474e248d82d0d057b0ed775946fa",
+    "bytes": 2787,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/portable_package/provenance/original_scripts/run_robustness.py",
+    "sha256": "9a076d55780ddae1e0f30a58517f5ae44d7f094d9fcbc1f9f47bbbcb0d3993ff",
+    "bytes": 18474,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/organoid.py",
+    "sha256": "b6b1914f993e25916e6d409d4a88be70ef9dda282f10f18d04aff4caad9ffc46",
+    "bytes": 26790,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/rat.py",
+    "sha256": "b7a775a40f7e9ec50c56c897107dfdcc676802b64dc9f7ee22462dce5b8fd564",
+    "bytes": 12597,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/rat_exact.py",
+    "sha256": "73567e9e1265e5d5219dddc655e3d1abf844431fde2a414d9abd577498390de4",
+    "bytes": 2787,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/robustness.py",
+    "sha256": "8dbf2f7b5ca1cd9290b935d2b16268a7b039bb145e53423ef861719c5e0aa9c0",
+    "bytes": 18349,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/robustness_check.py",
+    "sha256": "a2724b177e55763a768e7cb0d9601d81c3c6179a22e39839b58fab4cfa0380fa",
+    "bytes": 16041,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/external/analyze_external.py",
+    "sha256": "9f837801a302eebf85ffc106a8d2f64bdb95a8717b4fb0825b171b40c194b4f6",
+    "bytes": 19206,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/reproducibility/independent_directory/code/external/verify_results.py",
+    "sha256": "f963754ea051d21ffce1f097cc11f925b491e55407eb32416c193caf4d188e9f",
+    "bytes": 6512,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_revision_24/figures/scripts/audit_panel_alignment.py",
+    "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+    "bytes": 40297,
+    "decision": "excluded: third-party tool/author code; not vendored"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_draft_11/data/extract_facts.py",
+    "sha256": "ee2f52fee35e82abc5d394f9bea1e0051eb76b2fb99f0008467e7d4e6343fa46",
+    "bytes": 22458,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_draft_11/figures/audit_mouse_candidates.py",
+    "sha256": "8e660e67097d995c5c2416cc9c8d142051306c977752e55eeec32480aa5c2578",
+    "bytes": 3904,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/manuscript_draft_11/figures/plot_mouse_candidates.py",
+    "sha256": "abfce4f99ebd99967d89f86c61f22b1badd53656b07409d06f4adb7245a98191",
+    "bytes": 10286,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/focused_novelty/build_triage.py",
+    "sha256": "3fd9fea8cf7694cec6a325d772526aaffb28c20369476e2a93797a84f003c8ee",
+    "bytes": 13434,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/focused_novelty/fetch_followup.py",
+    "sha256": "96d1580dfae5b4d31e1bee1f98e220d184304284529b3212f94a1eab75d5a7de",
+    "bytes": 1550,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/focused_novelty/fetch_sources.py",
+    "sha256": "1e78e86ec52959ef5208d108eb10d9f254d84509f5f24790bb0c99e1cf1d667e",
+    "bytes": 4100,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/focused_novelty/fetch_supplement.py",
+    "sha256": "991dc94ea99fe196bcc751f9077c52e61deef03bd88fafebb246965b5382e7d2",
+    "bytes": 1998,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/focused_novelty/validate_delivery.py",
+    "sha256": "e8b4e13cbb921160802bb5cd5e9345d9426ba2f6e802e146712dbf8853625252",
+    "bytes": 2188,
+    "decision": "excluded: literature/document acquisition, outside numerical analysis code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/numeric_review/recompute.py",
+    "sha256": "c6e9b95f8353ca7124d18e2da6b808a2603732c06304625ecbf0dde217cc00a9",
+    "bytes": 27120,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/followup_05/phh_design/build_manifest.py",
+    "sha256": "d469d52baf5d16702cf8f0d536e97dbdd3fcf8684c2735124983ac24778fdc51",
+    "bytes": 12665,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/claim_review/check_claim_sources.py",
+    "sha256": "488760703467cffa5c2e37df8f4ab34d2067b390f14de428a0661ad2f63fae1d",
+    "bytes": 8632,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/intervention_access/audit_access.py",
+    "sha256": "4285bc9491ea1d1681d5b9140d344649aadf9d897c0494ca927a19f0a3f8f2c1",
+    "bytes": 9255,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/intervention_access/fetch_sources.py",
+    "sha256": "28ee47fb839548b2715b55d3b54a4a936478d84d4a4c96c9f68b33dcb51fbf60",
+    "bytes": 1943,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/original_methods/fetch_sources.py",
+    "sha256": "bfb03de7316b86e146d46a76ce6e1036de9b36cfd18981c6a21e68cf6fee9137",
+    "bytes": 5350,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/evidence_closure_06/original_methods/validate_sources.py",
+    "sha256": "6bd5417fe6148f42108077cbc312fabb0659a543bfa0524e40c14c51494ccbb0",
+    "bytes": 3342,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/design_closure_10/human/build_evidence.py",
+    "sha256": "cbeac12a56078b63f389fe43cf36a114667114db0768c0dbc9ac551c759aaccf",
+    "bytes": 14036,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/design_closure_10/human/fetch_sources.py",
+    "sha256": "9828ac8517dc996332e23b777919e444e74c7d80caa20b9e17915abc3764b60c",
+    "bytes": 2491,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/design_closure_10/mouse/build_evidence.py",
+    "sha256": "ee5d1968b41cbbcb025da8776823147b735f4005decff90d0c1fc8bc31c4e9c2",
+    "bytes": 8791,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/design_closure_10/mouse/fetch_sources.py",
+    "sha256": "10a6421df8943b15400cc2630332ee23069e4acbca25e1f2ce9ec1dd6baee2f9",
+    "bytes": 2279,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/nutrient/check_dha_files.py",
+    "sha256": "39beb49c387f6b947848887fdfa596af558f7dbbc1ba7156934df4f03bd824f8",
+    "bytes": 1356,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/nutrient/fetch_sources.py",
+    "sha256": "4db8583301e5ee1902cac6189799bf25bfd43cfa9849be062ee9005a7e521470",
+    "bytes": 1888,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/candidate_screen_03/nutrient/validate_dha_counts.py",
+    "sha256": "a8280d1c27cb9653817db4fb76e92ece4af094cb350db7739e89a5daf7bf10ad",
+    "bytes": 2446,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/audit_GSE42693_metadata.py",
+    "sha256": "b7cd31566b7910b69942f682fb98a85aeada173aa87ed4e433502a0d599e234e",
+    "bytes": 5044,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/fetch_public_sources.py",
+    "sha256": "6cf096a603532452e283eb695b4b9bd96b60188f2e04b1f45a228c57fc90a980",
+    "bytes": 1490,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/design_sources/freeze_sources.py",
+    "sha256": "7e80bee9e7d623134dd82794c02f53ef2cb1c2e8268cf04181d44d424400b526",
+    "bytes": 3636,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/build_documents_native.py",
+    "sha256": "6d774557ced3a5143d2dd1fe8719ff0d5ad4b7083625d2d7f52682915e797e52",
+    "bytes": 9980,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/compare_render_passes.py",
+    "sha256": "296995c1f349ec686d8fa1f39ba8b39137f93074d8af79dc44bedf7122e338d1",
+    "bytes": 1208,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/final_layout_refinement.py",
+    "sha256": "24a4bfc3e3257f20ce85c1529aa14be5c9ff9fdfa158329a00bf18ecb9bb9852",
+    "bytes": 3321,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/markdown_parser.py",
+    "sha256": "733b4e6a014210899aebfc30e97340e831ed316e8de33e3ff4d450b44c46b550",
+    "bytes": 3016,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/render_pdf_pages.py",
+    "sha256": "8e12170fafd4bf5a7bd1ac7b29767fb5016aceedebf8ecb53ddb704208ab2ad1",
+    "bytes": 2105,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/docx_build/render_single.py",
+    "sha256": "6c54e5edc9c890e5f0a9754f49ed80da835fc99e802d9e5580898aaa0dbfb066",
+    "bytes": 5003,
+    "decision": "excluded: administrative manuscript/delivery tooling or superseded duplicate; see module map"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/audit_figures.py",
+    "sha256": "a3bf3d917b963dd42d43702ab4bfec9504e07fa5ebf0c50c2e12412bb22c3697",
+    "bytes": 3179,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/build_figures.py",
+    "sha256": "9f1ab5197bf2c57a54387e41cec6edcaeedbe38b1e2f3b62e8e990dfe42cadd6",
+    "bytes": 18070,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/finalize_package.py",
+    "sha256": "f4fc8c5a4b135c8ac10ec3f6a7b27575cfdc171a10c44f6a12c4f86dff82aed7",
+    "bytes": 5501,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/analyze_rat.py",
+    "sha256": "5b58ef9d2b80550ab07cc4c08d7d168c14c4d681ad27242c30f2c2216cae8b70",
+    "bytes": 12652,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/exact_sensitivity.py",
+    "sha256": "1782f36f26ad3ec1790370a8a06f79845fad474e248d82d0d057b0ed775946fa",
+    "bytes": 2787,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/fetch_annotation.py",
+    "sha256": "a7adb83a7818efa1a11488f0924bd1e72fee16176d39fe30ac5ec250cf0833fc",
+    "bytes": 3860,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/robustness/check_and_report.py",
+    "sha256": "0c74f257981b8b59cadd32a801a09d154ef1111267a7c99c2d280ec23e7db737",
+    "bytes": 16071,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/robustness/run_robustness.py",
+    "sha256": "9a076d55780ddae1e0f30a58517f5ae44d7f094d9fcbc1f9f47bbbcb0d3993ff",
+    "bytes": 18474,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/single_cell/analyze_single_cell.py",
+    "sha256": "e894bbc9be14d8f8dd170ee5519922b5f3892f7e4f42d6673cc37ad5920cae9b",
+    "bytes": 26839,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/review/single_cell/check_single_cell.py",
+    "sha256": "839a825e5072a849e2d5331960efab2667fe42bac4579fe2255f56f4b404af19",
+    "bytes": 21577,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/rat_validation/review/check_rat.py",
+    "sha256": "86396a9418e085436204fd8943d02f9848a68d3e2fe534e0ea9e090a562d326c",
+    "bytes": 21649,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/new_main/audit_figures.py",
+    "sha256": "14b53700f48fd86126fa0bdba508978579ef09d1e1cda31d132e0d180fe0bafd",
+    "bytes": 4821,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/new_main/build_figures.py",
+    "sha256": "40aebf0d7519e5dfb63c8fce8486a114d3c4aa6019e957a5405b29985fc106b3",
+    "bytes": 14170,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/new_support/make_new_support.py",
+    "sha256": "e99838ac9fbadfb23f53a2ac45c3e58d9bbd4137dd57e00579768cc4eed2c059",
+    "bytes": 12166,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/new_support/qa_new_support.py",
+    "sha256": "648edefaa450caef9b7336636a2e8fdd8fb42ae68bee736e1be4f019a0107d29",
+    "bytes": 4863,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/single_cell/audit_figures.py",
+    "sha256": "19bc7df73cd108e40443df39b1f44880921ee6483a3ac658dcf7585f7cb2c7af",
+    "bytes": 4502,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/single_cell/build_figures.py",
+    "sha256": "335e2f3fd5ab32338e83a83ef49a20e11e7f54715d6f79363dbc09cf9b2be1e2",
+    "bytes": 20593,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/figures/legacy/single_cell/finalize_qa.py",
+    "sha256": "dd989aa3c10f9ffed0764bed54b044cbeb74e89cc0f5fc9cdf53a2244a4f72af",
+    "bytes": 6294,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/data/legacy/single_cell/derive_single_cell.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "research_planning/hepatic_lipotoxicity_2026-10-07/next_steps/analysis_strengthening_15/data/legacy/single_cell/code_versions/derive_single_cell.5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd.py",
+    "sha256": "5834fd0c4259f80bd3963ab4fb63c103940758302c1623264e94e980628bcefd",
+    "bytes": 26453,
+    "decision": "excluded: duplicate, generated audit, or manuscript packaging code"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/independent_data_review.py",
+    "sha256": "7d3ebda00efd1eeec7b207d254fe2a83285361d3ba2d3e3a3d5d349adea43a3d",
+    "bytes": 23187,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/browser_qa.py",
+    "sha256": "9fff54569aa8f2080fb46776ce05a3d90f94e1244710d46f5e30845a3ac6913e",
+    "bytes": 14415,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/build_public_data.py",
+    "sha256": "01ecd1fdc8e690f80b7d52c3957710c386ee445629a97abee169356681e0edd8",
+    "bytes": 23383,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/capture_manuscript_screenshots.py",
+    "sha256": "eb637b50d85897517a31eff1f476febe81e7f94a1c0263541460e982577e7eb3",
+    "bytes": 6102,
+    "decision": "included"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/finalize_branding.py",
+    "sha256": "4f93e93d1c91231db364f05af6e72b927503cb4ded81b915b0461eb33d096a06",
+    "bytes": 3075,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/finalize_header_logo.py",
+    "sha256": "05c574c6d6e820163f185ae5d658848e274db16faa1a03ab8e67396891b4f5f0",
+    "bytes": 4302,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/finalize_professional.py",
+    "sha256": "6ff8c156b76ce4a567452a82e3b895d959103939e2b7984e319abc9bb6374197",
+    "bytes": 2600,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/finalize_release.py",
+    "sha256": "37b276fd2630dbbbef67ab9b63dd5c555ca83f93866b358a781b1477b0ec1dce",
+    "bytes": 2163,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/hf_identity.py",
+    "sha256": "d0a7561654b51d81ac4135191ca8a7f65a6f6129eaf33c73350450f82f839f80",
+    "bytes": 1983,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/publish_space.py",
+    "sha256": "47fb1094f6fb84650fe1a7a8c174339be10999cb74264aa211f7732060343c48",
+    "bytes": 8822,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/update_branding.py",
+    "sha256": "d2974d18dcb5d3070f6225e8dbf12f06b529d48cd2c49ea1c896680b44f4c742",
+    "bytes": 7546,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/update_header_logo.py",
+    "sha256": "ec29b00d4452e07dd351240946467b4016a35094869cbfe074a69e01e46d415c",
+    "bytes": 4495,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/update_space.py",
+    "sha256": "49d29a90b9f1cb294f059de35239263445868a5f68c65a0d192a7499faeb7ce6",
+    "bytes": 4256,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/update_transparent_logo.py",
+    "sha256": "110d701f40daf108e2c6e0705fa49b55817ac092afbe132a02efc7d3c9831c61",
+    "bytes": 4472,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/tools/verify_live.py",
+    "sha256": "61bd22020b42e9f4388414850451404caeb4446b14d33e230bbae507371fbdb8",
+    "bytes": 3481,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/branding18/brand_qa.py",
+    "sha256": "6c8d7d847d2e2a0f29f5a01ceaf6e50f05cd648fb01191748b129197fa3e5e82",
+    "bytes": 7065,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/header_logo20/logo_qa.py",
+    "sha256": "17e4f8e98623387c2a0e8c43a20c896717a1e8ce85e40afd82ec5a568f099f9e",
+    "bytes": 8656,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/professional_review17/browser_recheck.py",
+    "sha256": "fc78be3a1b4eb1467f04904bf317a98ab23fc7dd87b3e19f02660a87404a423c",
+    "bytes": 11479,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/professional_review17/browser_review.py",
+    "sha256": "5a2f3e02dc3f381959bf42e9fc0deffcf76b64a3b6ae3d1eaa0cacdd78580276",
+    "bytes": 11231,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  },
+  {
+    "source_artifact": "apps/sesamin-evidence-explorer/audit/professional_review17/browser_zoom_check.py",
+    "sha256": "f34509f3263b8bf95c0d526e285d284f3f5f50cc5881cfd04b6e9313dacb5335",
+    "bytes": 1735,
+    "decision": "excluded: deployment/identity/private visual-review or superseded UI-edit tooling"
+  }
+]

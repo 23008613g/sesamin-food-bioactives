@@ -1,0 +1,253 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "scope": "Bounded packaging checks; no full raw or four-module reanalysis",
+  "environment": {
+    "python": "3.13.9",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.3.0"
+  },
+  "executed": [
+    "Python AST parse for included scripts",
+    "v24 CLI help only",
+    "23-input missing/presence check; no network",
+    "matched-scale run in a new private audit output directory (647 checks)",
+    "all eight main figures regenerated from existing small processed inputs (30 source checks)",
+    "exact PNG comparison to all8 final manuscript figures",
+    "exact matched-scale CSV comparison"
+  ],
+  "not_executed": [
+    "Source download/import",
+    "Full v24 numerical reproduction",
+    "FASTQ/CEL processing",
+    "Historical upstream pipelines",
+    "Fresh dependency installation",
+    "Cross-platform execution",
+    "Browser automation",
+    "Remote repository creation/push"
+  ],
+  "checks": [
+    {
+      "check": "Main figure 1 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 2 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 3 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 4 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 5 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 6 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 7 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Main figure 8 PNG exactly reproduces final delivered artwork",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: AREG_library.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: AREG_population_contrast.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: AREG_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: matched_scale_library_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: matched_scale_summary_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: paired_population_library_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Matched-scale CSV exact reproduction: population_contrast_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "All included Python files parse",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: robustness.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: rat.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: rat_exact.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: organoid.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: robustness_check.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: external/analyze_external.py",
+      "pass": true
+    },
+    {
+      "check": "v24 portable scientific script hash preserved: external/verify_results.py",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/configuration_effect_summary.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/cross_species_configuration_consensus.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/donor_broad_results_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_02_PCA_all38_observations.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_02_VNN1_all_observations.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_03_subtype_counts.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_04_AREG_detection.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_04_AREG_matched_scale.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/figure_AREG_all_cell_context.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/figure_AREG_paired_donors.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/Figure_S16_sign_counts_zero_explicit.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/frozen_primary_candidates.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/human_all25_heatmap.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/human_candidate_samples.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/human_pca.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/human_variance.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/kitagawa_summary_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/library_category_candidates_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/matched_scale_library_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/matched_scale_summary_all25.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/mouse_candidate_samples.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/mouse_pca.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/mouse_variance.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/organoid_umap_AREG_all24034.csv.gz",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/primary15_directions.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/rat_candidate_samples.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/rat_pca.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/rat_variance.csv",
+      "pass": true
+    },
+    {
+      "check": "Plot input distribution hash remains unchanged: figures/source_data/study_design.json",
+      "pass": true
+    },
+    {
+      "check": "Acquisition presence check returns expected missing-input status",
+      "pass": true,
+      "returncode": 2
+    },
+    {
+      "check": "All23 source inputs deliberately absent",
+      "pass": true
+    }
+  ],
+  "matched_scale_check_count": 647,
+  "figure_source_check_count": 30
+}
