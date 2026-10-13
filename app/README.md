@@ -1,3 +1,5 @@
+Historical 2026-10-11 snapshot. For current manuscript coverage, see the repository root README and docs/REPRODUCING_CURRENT.md.
+
 # Static research explorer source
 
 This is the existing Sesamin Atlas v1.1.3 frontend and previously published derived display snapshot. It supports local viewing with:

@@ -1,0 +1,16 @@
+human_id,human_symbol,probe_id,target_entrez,all_deposited_entrez,all_deposited_symbols,unique_entrez_count,included,reason
+ENSG00000172260,NEGR1,1387204_at,59318,59318,Negr1,1,True,unique_target_entrez
+ENSG00000169174,PCSK9,1385640_at,298296,298296,Pcsk9,1,True,unique_target_entrez
+ENSG00000152229,PSTPIP2,1377744_at,307248,307248,Pstpip2,1,True,unique_target_entrez
+ENSG00000064787,BCAS1,1373098_at,246755,246755,Bcas1,1,True,unique_target_entrez
+ENSG00000112299,VNN1,1389253_at,29142,29142,Vnn1,1,True,unique_target_entrez
+ENSG00000064300,NGFR,1368148_at,24596,24596,Ngfr,1,True,unique_target_entrez
+ENSG00000188833,ENTPD8,1385375_at,613267,613267,Entpd8,1,True,unique_target_entrez
+ENSG00000109321,AREG,1369871_at,29183,29183,Areg,1,True,unique_target_entrez
+ENSG00000184916,JAG2,1371006_at,29147,29147,Jag2,1,True,unique_target_entrez
+ENSG00000129116,PALLD,1389918_at,100360205,100360205,LOC100360205,1,True,unique_target_entrez
+ENSG00000066056,TIE1,1389324_at,89806,89806,Tie1,1,True,unique_target_entrez
+ENSG00000169213,RAB3B,1370061_at,81755,81755,Rab3b,1,True,unique_target_entrez
+ENSG00000120833,SOCS2,1369577_at,84607,84607,Socs2,1,True,unique_target_entrez
+ENSG00000012124,CD22,1379692_at,308501,308501,Cd22,1,True,unique_target_entrez
+ENSG00000172893,DHCR7,1368189_at,64191,64191,Dhcr7,1,True,unique_target_entrez

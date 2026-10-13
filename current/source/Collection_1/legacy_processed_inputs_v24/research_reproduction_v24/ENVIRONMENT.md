@@ -1,0 +1,9 @@
+# Execution environment
+
+The actual local verification used the existing project environment: CPython **3.13.9**, 64-bit Windows, NumPy **2.4.6**, pandas **3.0.3**, and SciPy **1.17.1**. `requirements.txt` records direct scientific dependencies. Standard-library modules require no additional packages. Runtime platform details, interpreter location, and commands are written to each run's `execution.json`.
+
+No environment was installed, upgraded, or replaced during package construction. No system PATH, authentication, billing, or service configuration changed. The executable was the project `.venv/Scripts/python.exe`; its location in local verification records is provenance and is not hard-coded by the portable programs.
+
+To reproduce elsewhere, supply an independently managed Python environment with the pinned packages, then run the entry point described in `README.md`. Installing those dependencies on a new machine was not executed or validated here. The pins document the tested environment rather than a claim that all later versions behave identically. This package has no random sampling, tuning, or seed selection: robustness and permutation sets are exhaustively enumerated, and the SVD is deterministic up to arbitrary component signs.
+
+All successful calculations and logs are retained. A first package-assembly attempt executed the four main computations successfully but its final comparison failed because the original auxiliary abundance-flag generator had not yet been added to the run order. The generator was included as `robustness_check.py`; a complete fresh run subsequently passed. The local assembly audit records that failed attempt, separately from the clean independent-directory execution. No scientific parameters or expected tables were changed to obtain a pass.

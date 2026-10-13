@@ -1,0 +1,5 @@
+population,estimand,control_mean_library_CPM,PA_mean_library_CPM,log2_PA_control_plus1
+Whole organoid,log2 ratio of condition mean library pooled-UMI CPM plus 1,871.27849139697878,804.3335960695772,-0.11520229670799369
+Hepatocytes,log2 ratio of condition mean library pooled-UMI CPM plus 1,595.08407583449662,550.707497506256,-0.11161224644898371
+Deposited broad Cholangiocytes,log2 ratio of condition mean library pooled-UMI CPM plus 1,2528.6877566847979,2195.3206861493172,-0.20387060328073442
+Cholangiocytes + Ductal cells excluding SMC,log2 ratio of condition mean library pooled-UMI CPM plus 1,2553.7439157810722,2226.78847765829,-0.19756642524462295

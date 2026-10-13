@@ -1,0 +1,1097 @@
+{
+  "policy": "Exact byte aliases only; restore missing paths locally before executing original code.",
+  "aliases": [
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/cell_metadata.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/cell_metadata.csv",
+      "sha256": "44699962f0d780eff1fd0b2cbebe64ca038fe5312d8ad56da940c9db962050bb",
+      "bytes": 847365
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/GPL1355.annot.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "bytes": 5714896
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/rat/GPL1355.annot.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "bytes": 5714896
+    },
+    {
+      "alias_path": "Collection_1/revision33/figure/supplement/.gitkeep",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_1/revision33/figure/main/.gitkeep",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_2/results/limma/attempt1_powershell_run_stdout.log",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_2/review/offline_reproduction_logs/cross_stderr.log",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_2/review/offline_reproduction_logs/limma_stdout.log",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_2/review/offline_reproduction_logs/rat_stderr.log",
+      "canonical_path": "Collection_2/results/limma/run_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_pca_loadings.csv.gz",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_pca_loadings.csv.gz",
+      "sha256": "2a679e0537867ddf63e8442efbee36fef032f5824034d8435e927a8bf2e973f1",
+      "bytes": 1205717
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/inputs/category_sampling_counts.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/category_sampling_counts.csv",
+      "sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+      "bytes": 1368
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/category_sampling_counts.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/category_sampling_counts.csv",
+      "sha256": "dd3e470072c2dc8f267427ceaae2e1d278e38dc64612b70ca19c9864432d316e",
+      "bytes": 1368
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/inputs/kitagawa_summary_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/kitagawa_summary_all25.csv",
+      "sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+      "bytes": 21945
+    },
+    {
+      "alias_path": "Collection_1/figures/source_data/kitagawa_summary_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/kitagawa_summary_all25.csv",
+      "sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+      "bytes": 21945
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/cell_decomposition.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/kitagawa_summary_all25.csv",
+      "sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+      "bytes": 21945
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/kitagawa_summary_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/kitagawa_summary_all25.csv",
+      "sha256": "39ae4b1e0d49eb8232c0df08cd5cb72059fdee0ca296765dc2b9e76cad25456f",
+      "bytes": 21945
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/inputs/library_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_candidates_all25.csv",
+      "sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+      "bytes": 9497
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/library_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_candidates_all25.csv",
+      "sha256": "434e61a77b189f85249af3c6f1d6b6bc3f94ea791c93fe344e8a8429f2d96494",
+      "bytes": 9497
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/inputs/library_category_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_category_candidates_all25.csv",
+      "sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+      "bytes": 40568
+    },
+    {
+      "alias_path": "Collection_1/figures/source_data/library_category_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_category_candidates_all25.csv",
+      "sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+      "bytes": 40568
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/library_category_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_category_candidates_all25.csv",
+      "sha256": "ec3a8d4fb5ab485597c5ca2d97ea54cb153da91856a0e79a3aaadaa117b87b51",
+      "bytes": 40568
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/inputs/weighting_sensitivity_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/weighting_sensitivity_all25.csv",
+      "sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+      "bytes": 4389
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/weighting_sensitivity_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/weighting_sensitivity_all25.csv",
+      "sha256": "6beae39dbc9a900db92b1c0ed2dca6559b38a9f81504eafad034e565b8c3c751",
+      "bytes": 4389
+    },
+    {
+      "alias_path": "Collection_1/revision31/raw_input_layout/pfhn_submission_28/analysis/matched_scale_areg/outputs/AREG_summary.csv",
+      "canonical_path": "Collection_1/analysis/matched_scale_areg/outputs/AREG_summary.csv",
+      "sha256": "91b865f6852872ea626963701181b26f498aeb58bc88506e6d2de14bfc73cc39",
+      "bytes": 706
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/outputs/matched_scale_library_all25.csv",
+      "canonical_path": "Collection_1/figures/source_data/matched_scale_library_all25.csv",
+      "sha256": "65e4f6f96e53c74f8093753699bb8ce93af43b5ff213e7f39563170e22e7cf0b",
+      "bytes": 21550
+    },
+    {
+      "alias_path": "Collection_1/analysis/matched_scale_areg/outputs/matched_scale_summary_all25.csv",
+      "canonical_path": "Collection_1/figures/source_data/matched_scale_summary_all25.csv",
+      "sha256": "1d6cce615dbb0bfb54a9524969b2442ce497fa267685844ff4e433b524de89c6",
+      "bytes": 14373
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/LICENSE_PROVENANCE.md",
+      "canonical_path": "Collection_1/code/LICENSE_PROVENANCE.md",
+      "sha256": "55ab94bdbea49f3de2712992c51294fdf62bd50bdb9292d57d89e8b5b520c80f",
+      "bytes": 3135
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/code/external/protocol.md",
+      "canonical_path": "Collection_1/external_single_cell/protocol.md",
+      "sha256": "3e3ea577c7337c062faf45932802a55f0cc31aee558ff9706b77527fd05bbce9",
+      "bytes": 5467
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/code/external/protocol_freeze.json",
+      "canonical_path": "Collection_1/external_single_cell/protocol_freeze.json",
+      "sha256": "c259ab4199e2401e50d08fc5596b0ed82480503a5ee1d3d51e4a7b3cd3b1017a",
+      "bytes": 429
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/AREG_independent_scalar_checks.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/AREG_independent_scalar_checks.csv",
+      "sha256": "f6a2d0ca7c8b5fd27f85c2905778c28c337e050b1157d47e01c4bfd7e1d54d91",
+      "bytes": 718
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/all_celltype_context_all25.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/all_celltype_context_all25.csv",
+      "sha256": "d9ef0d26cfa465dc6517d48941aae7b4779478537f91138026deeeb530ae5eca",
+      "bytes": 32799
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/verification/external_checks.json",
+      "canonical_path": "Collection_1/external_single_cell/results/calculation_checks.json",
+      "sha256": "b1bd1b06245f8828558e9f4cc9f4dab23f3e6927348b924d70981cd713bb9eca",
+      "bytes": 1826
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/candidate_feature_coverage_all25.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/candidate_feature_coverage_all25.csv",
+      "sha256": "beeffa127df2dd2cebf24ff42172a72d4bd969815a47342758d4b3beaf81283e",
+      "bytes": 1734
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/cell_coverage_author_by_donor.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/cell_coverage_author_by_donor.csv",
+      "sha256": "40dec1f8711a852d99af8b8182ff8bd75e5bf887e09c5341856bc687e2c1569c",
+      "bytes": 7265
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/cell_coverage_broad_by_donor.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/cell_coverage_broad_by_donor.csv",
+      "sha256": "94550adb4a7d2f626217c00c1ca5d687b8173d2eeaa7c287f59d5eac07db1055",
+      "bytes": 5898
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/cell_source_expression_all25.csv.gz",
+      "canonical_path": "Collection_1/external_single_cell/results/cell_source_expression_all25.csv.gz",
+      "sha256": "d6c20f48e2369b1cabf47da74f52702293ef2622f54947e13bb19c98cc2fc7ea",
+      "bytes": 192763
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/donor_author_results_all25.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/donor_author_results_all25.csv",
+      "sha256": "ea7048ccb2e769add7638ba74c5d75c24c9f0e5e3165a126ac4f53a46cd8df18",
+      "bytes": 186730
+    },
+    {
+      "alias_path": "Collection_1/external_single_cell/results/donor_broad_results_all25.csv",
+      "canonical_path": "Collection_1/figures/source_data/donor_broad_results_all25.csv",
+      "sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+      "bytes": 144979
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/donor_broad_results_all25.csv",
+      "canonical_path": "Collection_1/figures/source_data/donor_broad_results_all25.csv",
+      "sha256": "8f42d409c91f12b59fb25ce3947f58bc81f8daef4b499bc7477ca966d2d82d46",
+      "bytes": 144979
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/feature_universe.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/feature_universe.csv",
+      "sha256": "54c9340e6a20de2dd4b3a3d4667183e7c73c5435c873f30c4da671dd68e70bb7",
+      "bytes": 173473
+    },
+    {
+      "alias_path": "Collection_1/external_single_cell/results/figure_AREG_all_cell_context.csv",
+      "canonical_path": "Collection_1/figures/source_data/figure_AREG_all_cell_context.csv",
+      "sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+      "bytes": 1807
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/figure_AREG_all_cell_context.csv",
+      "canonical_path": "Collection_1/figures/source_data/figure_AREG_all_cell_context.csv",
+      "sha256": "9290be009c14be11dd7d97f21a01f46112b06aba7411e290f3d5ec001af3f6f3",
+      "bytes": 1807
+    },
+    {
+      "alias_path": "Collection_1/external_single_cell/results/figure_AREG_paired_donors.csv",
+      "canonical_path": "Collection_1/figures/source_data/figure_AREG_paired_donors.csv",
+      "sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+      "bytes": 850
+    },
+    {
+      "alias_path": "Collection_1/revision31/raw_input_layout/pfhn_submission_28/external_single_cell/results/figure_AREG_paired_donors.csv",
+      "canonical_path": "Collection_1/figures/source_data/figure_AREG_paired_donors.csv",
+      "sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+      "bytes": 850
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/figure_AREG_paired_donors.csv",
+      "canonical_path": "Collection_1/figures/source_data/figure_AREG_paired_donors.csv",
+      "sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea",
+      "bytes": 850
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/paired_cholangiocyte_minus_hepatocyte_all25.csv",
+      "sha256": "1fbc0ede28cb6243c0870d12f6c29694d7b3251b4ceb4857467e9c21b4247f4e",
+      "bytes": 12281
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/external/paired_descriptive_summary_all25.csv",
+      "canonical_path": "Collection_1/external_single_cell/results/paired_descriptive_summary_all25.csv",
+      "sha256": "d7b29867aaa701bce1d08617ce2010c95e01d4f7422a3e225e76ec966eb576ae",
+      "bytes": 15290
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/code/external/source_scale_decision.md",
+      "canonical_path": "Collection_1/external_single_cell/source_scale_decision.md",
+      "sha256": "18c889dc2ab78c1d8a80b715bab4e2f356a36d5011e8e6d100820b678cb81390",
+      "bytes": 3400
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/original_figure_code.txt",
+      "canonical_path": "Collection_1/figures/build_figures.py",
+      "sha256": "dcdd7d106231aca1e4df9cc2de754af6cc7b90e42ebb498ce02ced9725c0c089",
+      "bytes": 19890
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/Fig3.alignment.json",
+      "canonical_path": "Collection_1/figures/qa/Fig3.alignment.json",
+      "sha256": "2a0d6f8da5bc28006d0c94e78aed391de4b0de620759c66bcd2967f943e5b8e6",
+      "bytes": 2171
+    },
+    {
+      "alias_path": "Collection_1/revision35/figure1/qa_tools/audit_figure_collisions.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_figure_collisions.py",
+      "sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+      "bytes": 28085
+    },
+    {
+      "alias_path": "Collection_2/figures/qa_tools/audit_figure_collisions.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_figure_collisions.py",
+      "sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+      "bytes": 28085
+    },
+    {
+      "alias_path": "Collection_1/revision33/figure/scripts/audit_panel_alignment.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_panel_alignment.py",
+      "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "bytes": 40297
+    },
+    {
+      "alias_path": "Collection_1/revision35/figure1/qa_tools/audit_panel_alignment.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_panel_alignment.py",
+      "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "bytes": 40297
+    },
+    {
+      "alias_path": "Collection_2/figures/qa_tools/audit_panel_alignment.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_panel_alignment.py",
+      "sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "bytes": 40297
+    },
+    {
+      "alias_path": "Collection_1/revision35/figure1/qa_tools/audit_pdf_text.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_pdf_text.py",
+      "sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+      "bytes": 5697
+    },
+    {
+      "alias_path": "Collection_2/figures/qa_tools/audit_pdf_text.py",
+      "canonical_path": "Collection_1/figures/scripts/audit_pdf_text.py",
+      "sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+      "bytes": 5697
+    },
+    {
+      "alias_path": "Collection_1/revision35/figure1/qa_tools/validate_figure.py",
+      "canonical_path": "Collection_1/figures/scripts/validate_figure.py",
+      "sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+      "bytes": 34013
+    },
+    {
+      "alias_path": "Collection_2/figures/qa_tools/validate_figure.py",
+      "canonical_path": "Collection_1/figures/scripts/validate_figure.py",
+      "sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+      "bytes": 34013
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/Fig3_display_values.csv",
+      "canonical_path": "Collection_1/figures/source_data/Fig3_all_observations.csv",
+      "sha256": "f2296140674b157bb719a815232b8d2dced0760c6d5e4c1d6ebf28779529a759",
+      "bytes": 1386
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/Fig3_all_observations.csv",
+      "canonical_path": "Collection_1/figures/source_data/Fig3_all_observations.csv",
+      "sha256": "f2296140674b157bb719a815232b8d2dced0760c6d5e4c1d6ebf28779529a759",
+      "bytes": 1386
+    },
+    {
+      "alias_path": "Collection_1/revision33/figure/source_data/Figure_03_subtype_counts.csv",
+      "canonical_path": "Collection_1/figures/source_data/Figure_03_subtype_counts.csv",
+      "sha256": "7072da518a4770b4849442148ad1d6717e155e9c059100048adb5e70ab81013a",
+      "bytes": 243
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_adult_all_celltypes_by_donor.csv",
+      "canonical_path": "Collection_1/figures/source_data/adult_celltype_donor.csv",
+      "sha256": "d1c1f28a2d041d08635e740642b1dd4052fc66f8a214b65aa904f6c06c642b40",
+      "bytes": 10339
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_adult_immune_context.csv",
+      "canonical_path": "Collection_1/figures/source_data/adult_celltype_summary.csv",
+      "sha256": "7fb0c6653a03a32fdc4b995c61b01384194a417c41199185a64715e58343a1db",
+      "bytes": 1735
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_adult_donor_context.csv",
+      "canonical_path": "Collection_1/figures/source_data/adult_donor_context.csv",
+      "sha256": "731fedea39ae69869c6d24800e108c83248cb4aae2cf155271a202fdada8a2b8",
+      "bytes": 813
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/areg_adult_donor_context.csv",
+      "canonical_path": "Collection_1/figures/source_data/adult_donor_context.csv",
+      "sha256": "731fedea39ae69869c6d24800e108c83248cb4aae2cf155271a202fdada8a2b8",
+      "bytes": 813
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_excluding_smc.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_excluding_smc.csv",
+      "sha256": "187515ae8849ac8b7da8013e5570c57eee7432bd9c8a1fe01e106fb053539232",
+      "bytes": 1220
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/areg_excluding_smc.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_excluding_smc.csv",
+      "sha256": "187515ae8849ac8b7da8013e5570c57eee7432bd9c8a1fe01e106fb053539232",
+      "bytes": 1220
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_matched_scale.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_matched_scale.csv",
+      "sha256": "f354c230ad7a840ec687b44d5a46fdeb742e7bf08967131c6b086d48502b8bf2",
+      "bytes": 1215
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/areg_matched_scale.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_matched_scale.csv",
+      "sha256": "f354c230ad7a840ec687b44d5a46fdeb742e7bf08967131c6b086d48502b8bf2",
+      "bytes": 1215
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_population_by_library.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_population_by_library.csv",
+      "sha256": "4f15ae1eaf5020a58a3af39c6124f895514a4c7cb8dab2cff8f7a8c0be255779",
+      "bytes": 2122
+    },
+    {
+      "alias_path": "Collection_1/revision31/areg_analysis/areg_subtype_by_library.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_subtype_by_library.csv",
+      "sha256": "fd86d6961c9b50bbf65ecaf50da05f437b9b0a05923b6bb42a304ece7a9bd41d",
+      "bytes": 5274
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/areg_subtype_by_library.csv",
+      "canonical_path": "Collection_1/figures/source_data/areg_subtype_by_library.csv",
+      "sha256": "fd86d6961c9b50bbf65ecaf50da05f437b9b0a05923b6bb42a304ece7a9bd41d",
+      "bytes": 5274
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/candidate_direction_order.csv",
+      "canonical_path": "Collection_1/figures/source_data/candidate_direction_order.csv",
+      "sha256": "85cffca2d7257ff60238f27f4e7265a8129b8a9da7c331936a5bff590ea46a7b",
+      "bytes": 6008
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/candidate_direction_order.csv",
+      "canonical_path": "Collection_1/figures/source_data/candidate_direction_order.csv",
+      "sha256": "85cffca2d7257ff60238f27f4e7265a8129b8a9da7c331936a5bff590ea46a7b",
+      "bytes": 6008
+    },
+    {
+      "alias_path": "Collection_1/figures/source_data/configuration_effect_summary.csv",
+      "canonical_path": "Collection_1/source_data/robustness/configuration_effect_summary.csv",
+      "sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+      "bytes": 80172
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/robust_ranges.csv",
+      "canonical_path": "Collection_1/source_data/robustness/configuration_effect_summary.csv",
+      "sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+      "bytes": 80172
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/configuration_effect_summary.csv",
+      "canonical_path": "Collection_1/source_data/robustness/configuration_effect_summary.csv",
+      "sha256": "d473ea2c65956edb3bfd237a66a8a6ca8c755fa04822c224f88ca2d17617fee9",
+      "bytes": 80172
+    },
+    {
+      "alias_path": "Collection_1/figures/source_data/cross_species_configuration_consensus.csv",
+      "canonical_path": "Collection_1/source_data/robustness/cross_species_configuration_consensus.csv",
+      "sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+      "bytes": 2550
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/robust_consensus.csv",
+      "canonical_path": "Collection_1/source_data/robustness/cross_species_configuration_consensus.csv",
+      "sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+      "bytes": 2550
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/cross_species_configuration_consensus.csv",
+      "canonical_path": "Collection_1/source_data/robustness/cross_species_configuration_consensus.csv",
+      "sha256": "5b5247e2ba23f9297cba759de7eb15abcb019c6d400948919f3baece18b261f1",
+      "bytes": 2550
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/inputs/frozen_mouse15.csv",
+      "canonical_path": "Collection_1/figures/source_data/frozen_primary_candidates.csv",
+      "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+      "bytes": 880
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/robust_candidates.csv",
+      "canonical_path": "Collection_1/figures/source_data/frozen_primary_candidates.csv",
+      "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+      "bytes": 880
+    },
+    {
+      "alias_path": "Collection_1/source_data/robustness/frozen_primary_candidates.csv",
+      "canonical_path": "Collection_1/figures/source_data/frozen_primary_candidates.csv",
+      "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+      "bytes": 880
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/frozen_primary_candidates.csv",
+      "canonical_path": "Collection_1/figures/source_data/frozen_primary_candidates.csv",
+      "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1",
+      "bytes": 880
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/legacy/new_main/fig2_human_all25_source.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_all25_heatmap.csv",
+      "sha256": "e1e0d90478cc7ec730e9420ab0989e960d84e7a35adbd756431d052d169dad71",
+      "bytes": 28013
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/human_candidate_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_candidate_samples.csv",
+      "sha256": "2aabfaa6b817d4d1b6cbba8f4c0b9b5236439cb086a9406b275603f2f74cdc53",
+      "bytes": 18124
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/human_candidate_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_candidate_samples.csv",
+      "sha256": "2aabfaa6b817d4d1b6cbba8f4c0b9b5236439cb086a9406b275603f2f74cdc53",
+      "bytes": 18124
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/human_pca.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_pca.csv",
+      "sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+      "bytes": 1558
+    },
+    {
+      "alias_path": "Collection_1/source_data/robustness/human_pca_scores.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_pca.csv",
+      "sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+      "bytes": 1558
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_pca_scores.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_pca.csv",
+      "sha256": "9f4250dd5359be71af3f367c434c39adfb594c2535cecceb28be39b68404cd58",
+      "bytes": 1558
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/human_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_variance.csv",
+      "sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+      "bytes": 446
+    },
+    {
+      "alias_path": "Collection_1/source_data/robustness/human_pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_variance.csv",
+      "sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+      "bytes": 446
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/human_variance.csv",
+      "sha256": "013ae04deb90d33598aea9440441b955169e1ee3ee21f717063b5dcf84e2939d",
+      "bytes": 446
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/mouse_candidate_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_candidate_samples.csv",
+      "sha256": "07e3276325db234a8168bb649b776ad48b55006a465bb9775cb6a833652c8dad",
+      "bytes": 6969
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/mouse_candidate_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_candidate_samples.csv",
+      "sha256": "07e3276325db234a8168bb649b776ad48b55006a465bb9775cb6a833652c8dad",
+      "bytes": 6969
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/mouse_pca.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_pca.csv",
+      "sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+      "bytes": 1565
+    },
+    {
+      "alias_path": "Collection_1/source_data/robustness/mouse_pca_scores.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_pca.csv",
+      "sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+      "bytes": 1565
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_pca_scores.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_pca.csv",
+      "sha256": "a709c3955710b375cd12fcfe4007603bb6e47ea13fb9059edac94f011a5447c9",
+      "bytes": 1565
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/mouse_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_variance.csv",
+      "sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+      "bytes": 443
+    },
+    {
+      "alias_path": "Collection_1/source_data/robustness/mouse_pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_variance.csv",
+      "sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+      "bytes": 443
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/mouse_variance.csv",
+      "sha256": "2d05f54ed77ef234d3cf178219967e180ff6d360038d4043562cfd78f6174b7c",
+      "bytes": 443
+    },
+    {
+      "alias_path": "Collection_1/revision33/figure/source_data/organoid_umap_AREG_all24034.csv.gz",
+      "canonical_path": "Collection_1/figures/source_data/organoid_umap_AREG_all24034.csv.gz",
+      "sha256": "355a64c352695c228c04e8b3ce7a5349298b6e6ce07800c5e9022807d111396d",
+      "bytes": 712638
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/candidate_sample_values.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_candidate_samples.csv",
+      "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+      "bytes": 48378
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/rat_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_candidate_samples.csv",
+      "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+      "bytes": 48378
+    },
+    {
+      "alias_path": "Collection_1/source_data/rat_validation/outputs/candidate_sample_values.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_candidate_samples.csv",
+      "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+      "bytes": 48378
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/candidate_sample_values.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_candidate_samples.csv",
+      "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+      "bytes": 48378
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/rat_pca.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_pca.csv",
+      "sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+      "bytes": 2992
+    },
+    {
+      "alias_path": "Collection_1/source_data/rat_validation/outputs/all20_array_pca.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_pca.csv",
+      "sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+      "bytes": 2992
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/all20_array_pca.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_pca.csv",
+      "sha256": "10a6acc003a33849b2369fd28a04065803f674b96c2011893a2292979c22ce94",
+      "bytes": 2992
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/results/candidate_results_all25_welch_exact_two_normalizations.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_results.csv",
+      "sha256": "32324cc2ff4fcd75a1e4f73cef78ea07d6f9e67f944abfb99ffe06c7c3ee730c",
+      "bytes": 20281
+    },
+    {
+      "alias_path": "Collection_1/revision31/supplement_tables/rat_all25_reanalysis.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_results.csv",
+      "sha256": "32324cc2ff4fcd75a1e4f73cef78ea07d6f9e67f944abfb99ffe06c7c3ee730c",
+      "bytes": 20281
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/results/candidate_sample_values_all25.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_samples.csv",
+      "sha256": "f89cfa79418a1858316f5e5d48f54498941cc3e11473fea83dbf2d2a77d3b3c5",
+      "bytes": 93606
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/rat_samples.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_samples.csv",
+      "sha256": "f89cfa79418a1858316f5e5d48f54498941cc3e11473fea83dbf2d2a77d3b3c5",
+      "bytes": 93606
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/rat_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_variance.csv",
+      "sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+      "bytes": 138
+    },
+    {
+      "alias_path": "Collection_1/source_data/rat_validation/outputs/pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_variance.csv",
+      "sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+      "bytes": 138
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/pca_variance.csv",
+      "canonical_path": "Collection_1/figures/source_data/rat_variance.csv",
+      "sha256": "2c699a88c235b7a043adc97a2601135fa2c6b803ae63b1e548075da38d34ddf1",
+      "bytes": 138
+    },
+    {
+      "alias_path": "Collection_1/revision31/original_execution_scripts/areg_analysis_recompute_areg.py",
+      "canonical_path": "Collection_1/revision31/areg_analysis/recompute_areg.py",
+      "sha256": "024e385345db2128dbd0db98fd0d68aa7ed970402ceb4b4add9fe122d0e0cfb1",
+      "bytes": 23071
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/adjacent_threshold_summary.csv",
+      "canonical_path": "Collection_1/revision31/supplement_tables/adjacent_threshold_summary.csv",
+      "sha256": "f2175e9165c123cb2f25966a5998ab90a04d29b51c57dd5160d682657d4d0b72",
+      "bytes": 180
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/inputs/frozen_human25.csv",
+      "canonical_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/human/priority_all.csv",
+      "sha256": "d78d674a48448532ecec1e49d7364d447bdc298a202090b93d8a73718517ea78",
+      "bytes": 11811
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/inputs/human_counts.tsv.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+      "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+      "bytes": 15515659
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/human/counts.txt.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+      "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+      "bytes": 15515659
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/inputs/mouse_gene_tpm.tsv.gz",
+      "canonical_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/mouse/gene_tpm.tsv.gz",
+      "sha256": "e233ca112fd0eeccddb7512be17b256951cb7aa738564ecc16c8da804b12d0a5",
+      "bytes": 1729052
+    },
+    {
+      "alias_path": "Collection_1/revision31/candidate_analysis/inputs/mouse_mappings26.tsv",
+      "canonical_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/mouse/candidate_mouse_descriptive.tsv",
+      "sha256": "bad3fd0a665ae2690f18813976c6f19dcd5dddb2c61dbe04cfcb4caa98ad34ce",
+      "bytes": 11028
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/GSE42693_series_matrix.txt.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+      "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+      "bytes": 2396364
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/rat/series_matrix.txt.gz",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+      "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+      "bytes": 2396364
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/candidate_mapping_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_mapping_all25.csv",
+      "sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+      "bytes": 2073
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/results/candidate_mapping_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_mapping_all25.csv",
+      "sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+      "bytes": 2073
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/candidate_mapping_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_mapping_all25.csv",
+      "sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+      "bytes": 2073
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/candidate_results_all25_two_normalizations.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_results_all25_two_normalizations.csv",
+      "sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+      "bytes": 12615
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/rat_results.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_results_all25_two_normalizations.csv",
+      "sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+      "bytes": 12615
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/candidate_results_all25_two_normalizations.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_results_all25_two_normalizations.csv",
+      "sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+      "bytes": 12615
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/human_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/human_candidates_all25.csv",
+      "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+      "bytes": 11814
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/external/human_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/human_candidates_all25.csv",
+      "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+      "bytes": 11814
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/human/candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/human_candidates_all25.csv",
+      "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+      "bytes": 11814
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/human_rat_orthology_ensembl116.tsv",
+      "canonical_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/rat/human_rat_orthology_ensembl116.tsv",
+      "sha256": "9b6de54a7076bba4551ffafc8dd4d0bc5d5a77aa4706aaec647aee776ca6bcc0",
+      "bytes": 1975
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/posthoc_exact_sensitivity_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/posthoc_exact_sensitivity_all25.csv",
+      "sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+      "bytes": 5437
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/source_tables/rat_exact.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/posthoc_exact_sensitivity_all25.csv",
+      "sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+      "bytes": 5437
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/posthoc_exact_sensitivity_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/posthoc_exact_sensitivity_all25.csv",
+      "sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+      "bytes": 5437
+    },
+    {
+      "alias_path": "Collection_1/revision31/rat_analysis/inputs/rat_entrez_ensembl116.tsv",
+      "canonical_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/rat/rat_entrez_ensembl116.tsv",
+      "sha256": "6700f78725fe757dede2e15a9e37695b454303b5fea26fa37486454762de97b5",
+      "bytes": 599
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/mouse/candidates_all26.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/mouse_candidates_all26.csv",
+      "sha256": "d14d182603c24ee56ac0bc1c1d622f259cb2a950566521ae1eb04b7312e34e9e",
+      "bytes": 11058
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/organoid/candidate25_library_subtype_all10.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/candidate25_library_subtype_all10.csv",
+      "sha256": "0fd9117c0ba1af63ba92ace25783b609276ae58e8a23dd8e2cbf9a38bb129f1e",
+      "bytes": 261097
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/legacy/single_cell/candidate25_subtype_all10_pooled.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/candidate25_subtype_all10_pooled.csv",
+      "sha256": "777a8443f9805ff93a73fedb440595132ff1784a8e5139d68ef0c4f12860d452",
+      "bytes": 64271
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/external/original_candidate_gene_coverage.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/candidate_gene_coverage.csv",
+      "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+      "bytes": 1113
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/organoid/candidate_gene_coverage.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/candidate_gene_coverage.csv",
+      "sha256": "f3abdceac8a966c234d238153bf467aaddd226552034b2137b97a071f8eddb62",
+      "bytes": 1113
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/organoid/cell_composition_library_category4.csv",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/cell_composition_library_category4.csv",
+      "sha256": "1a240f2eaa803e48669456fc3d36f80c4de5b8b4bbff52f242add8f161815956",
+      "bytes": 1639
+    },
+    {
+      "alias_path": "Collection_1/source_data/figures/legacy/single_cell/cell_level_umap_qc_expression.csv.gz",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/cell_level_umap_qc_expression.csv.gz",
+      "sha256": "4db87313f1273dacb0186cb75e51020ddd5af2b937a83858b12d31edc039c18d",
+      "bytes": 2292626
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/organoid/cell_level_umap_qc_expression.csv.gz",
+      "canonical_path": "Collection_1/source_data/data/legacy/single_cell/cell_level_umap_qc_expression.csv.gz",
+      "sha256": "4db87313f1273dacb0186cb75e51020ddd5af2b937a83858b12d31edc039c18d",
+      "bytes": 2292626
+    },
+    {
+      "alias_path": "Collection_1/source_data/single_cell/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+      "canonical_path": "Collection_1/source_data/figures/source_tables/cell_localization.csv",
+      "sha256": "5c7133850a66b68470394096f27083d221439ab936c5b571f96023d7d86e0424",
+      "bytes": 18361
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/cholangiocyte_vs_hepatocyte_per_library_all25.csv",
+      "canonical_path": "Collection_1/source_data/figures/source_tables/cell_localization.csv",
+      "sha256": "5c7133850a66b68470394096f27083d221439ab936c5b571f96023d7d86e0424",
+      "bytes": 18361
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/all20_array_quality.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/all20_array_quality.csv",
+      "sha256": "960ab0a8321a41b3298e2d76728fb8d025dbc606bddc4ec95cc89467f4ac83b9",
+      "bytes": 5159
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/candidate_probe_values.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/candidate_probe_values.csv",
+      "sha256": "5066756b7a4d49dedd2af721a2cfd3405a27a26bf449b3890f60bb2eb84590a4",
+      "bytes": 11272
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/correlation_deposited_log2.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/correlation_deposited_log2.csv",
+      "sha256": "6ccce3a1a6755e31f249eae81bdde1bf2eebddc95fc3fd241fb8ba88899c56ef",
+      "bytes": 6162
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/correlation_quantile_sensitivity.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/correlation_quantile_sensitivity.csv",
+      "sha256": "e2adb54e69ab68c38d787bac2b00938dc49f607e2431962aa5fa343804602c0c",
+      "bytes": 6158
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/cross_model_all25.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/cross_model_all25.csv",
+      "sha256": "0a977568c84c87318c7c6c9d8a548412d3dfd77ac6cfa7938e0b0a4df066ae20",
+      "bytes": 2442
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/rat/excluded_ambiguous_probes.csv",
+      "canonical_path": "Collection_1/source_data/rat_validation/outputs/excluded_ambiguous_probes.csv",
+      "sha256": "c9e5c6992f9edeb17107c1eff47004324a9eea650be073fbdce50cf6e2aafbc2",
+      "bytes": 37
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/all_configuration_effects.csv.gz",
+      "canonical_path": "Collection_1/source_data/robustness/all_configuration_effects.csv.gz",
+      "sha256": "530be98111573a12699ca6f152c1930623eb4e271c5f92289246da4d76264e47",
+      "bytes": 749227
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/all_library_mean_median_effects.csv",
+      "canonical_path": "Collection_1/source_data/robustness/all_library_mean_median_effects.csv",
+      "sha256": "c9b4f468727fe8672c8c67afeba80a7c88b08d2057f4a99d871b5cd3663d748a",
+      "bytes": 67145
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/candidate_abundance_flags.csv",
+      "canonical_path": "Collection_1/source_data/robustness/candidate_abundance_flags.csv",
+      "sha256": "b9c9461f07211505608fd18b49442fe77643aac460fa20fcb44c49722bc7b405",
+      "bytes": 760
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/candidate_library_values.csv",
+      "canonical_path": "Collection_1/source_data/robustness/candidate_library_values.csv",
+      "sha256": "5c183d183ddd19723db16897ada19e5fc8dbc47378db2fc09d50b50d5f80a0c5",
+      "bytes": 23004
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/configuration_size_factors.csv",
+      "canonical_path": "Collection_1/source_data/robustness/configuration_size_factors.csv",
+      "sha256": "af0ec0118478e045662c83221eedd9a07986bc7392c0bad968555dca371a5134",
+      "bytes": 33297
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/enumerated_configurations.csv",
+      "canonical_path": "Collection_1/source_data/robustness/enumerated_configurations.csv",
+      "sha256": "bdfd0e7e7e8dd0a542c9d305bebd10d2daabc33e5374cfa356dced27d4c8df68",
+      "bytes": 11038
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_pca_loadings.csv.gz",
+      "canonical_path": "Collection_1/source_data/robustness/human_pca_loadings.csv.gz",
+      "sha256": "5587ab6ad2c036cbb66c26a3b95ed3aac7c446cc2e8602de4348de0292deed05",
+      "bytes": 1032702
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_qc_filter.csv.gz",
+      "canonical_path": "Collection_1/source_data/robustness/human_qc_filter.csv.gz",
+      "sha256": "869710bfac39f5efe132bcec03fec5b9a83e9d54eb1553a9cc72b1dfb40393ea",
+      "bytes": 188751
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_sample_pair_qc.csv",
+      "canonical_path": "Collection_1/source_data/robustness/human_sample_pair_qc.csv",
+      "sha256": "fa7fc43a51120a63cc5e323b6d3cb3f0b7b81970cad03fbf22be0d38f79bb8bb",
+      "bytes": 2523
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_sample_pearson.csv",
+      "canonical_path": "Collection_1/source_data/robustness/human_sample_pearson.csv",
+      "sha256": "b00a8e4f7484b8a0500f019774d35d78ee535334e22158463eb60fcb8589c151",
+      "bytes": 1596
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_sample_qc.csv",
+      "canonical_path": "Collection_1/source_data/robustness/human_sample_qc.csv",
+      "sha256": "1d467c952e2224529093359094f51052955fe39d44a81a6e1428bb86aa1de457",
+      "bytes": 639
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/human_sample_spearman.csv",
+      "canonical_path": "Collection_1/source_data/robustness/human_sample_spearman.csv",
+      "sha256": "4dd257953b2b3d85a30945a2b072ca2b5ccdf9faa381134b168bfebf418f1d14",
+      "bytes": 1561
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_qc_filter.csv.gz",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_qc_filter.csv.gz",
+      "sha256": "8c75576e83236d88f269833dac4246296c23271949c80538d808d081f5c5e612",
+      "bytes": 202569
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_sample_pair_qc.csv",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_sample_pair_qc.csv",
+      "sha256": "1d015e1d988bf90225914ff25dc4c68bc02802bdba09cc720669d218b9b8439e",
+      "bytes": 2690
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_sample_pearson.csv",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_sample_pearson.csv",
+      "sha256": "22715d80aa7cbd611eeb190b7cf58e7740d6ecabce651170cd5f786be08525a7",
+      "bytes": 1615
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_sample_qc.csv",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_sample_qc.csv",
+      "sha256": "5353238fc1d80117068f32f9f33193bd3a296526df9cb34449e9d3930b6b6c21",
+      "bytes": 708
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/robustness/mouse_sample_spearman.csv",
+      "canonical_path": "Collection_1/source_data/robustness/mouse_sample_spearman.csv",
+      "sha256": "f095dd428405daa50a8687a1fd5e22484fdf215e004d3120a52195092e027494",
+      "bytes": 1609
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/cholangiocyte_vs_hepatocyte_robustness_all25.csv",
+      "sha256": "8bccb62613254601390e7699b42c79991d766839bab43d21d338705a91e67338",
+      "bytes": 6347
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/condition_category_profiles_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/condition_category_profiles_all25.csv",
+      "sha256": "fb2e8d24c6831ff494e297242a09b9e2d2cfa1ae1996684ba49519ddd16fc86d",
+      "bytes": 95631
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/kitagawa_terms_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/kitagawa_terms_all25.csv",
+      "sha256": "4bed573ef86a0d3fbe898dfa87e79e306d6de8f717b4a8fe2941b762a10b7abf",
+      "bytes": 62922
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/library_qc_context.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_qc_context.csv",
+      "sha256": "ac7f2d5b6d591531ea59bf5cdbb2558caf3d3d29da9564826608a73392703a2f",
+      "bytes": 1391
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/expected/organoid/library_subtype_candidates_all25.csv",
+      "canonical_path": "Collection_1/source_data/single_cell/library_subtype_candidates_all25.csv",
+      "sha256": "c2e5cecf60a5438ad3d6a6879f6d7e750c637e3eb478fc59601ea0a48972e618",
+      "bytes": 91656
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/rat_gene_expression_deposited.csv.gz",
+      "canonical_path": "Collection_2/results/rat_gene_expression_deposited.csv.gz",
+      "sha256": "af9e92bf9e7d8349f7102a15de99fe64f6d06d51b4fcdc2b08f5f8b2bf409316",
+      "bytes": 1213771
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/genome_analysis_summary.json",
+      "canonical_path": "Collection_2/analysis_summary.json",
+      "sha256": "a72e9185d15fc3a8aa75c00ace309bf0476790274513469be998a887c3c36bad",
+      "bytes": 2425
+    },
+    {
+      "alias_path": "Collection_2/revision40/review/figure_updates/source_data/cross_species_execution.json",
+      "canonical_path": "Collection_2/review/cross_species_execution.json",
+      "sha256": "792eff3b646a60d2f2e989027c38bed01a3f61d4efb4f279c7b997c837755d5a",
+      "bytes": 30966
+    },
+    {
+      "alias_path": "Collection_1/legacy_processed_inputs_v24/research_reproduction_v24/inputs/human/sample_qc.csv",
+      "canonical_path": "Collection_2/sources/project_inputs/next_steps/sesamin_exploration_04/sample_qc.csv",
+      "sha256": "86d24a9feaaeb66275563a92495a91dbdc534ff397ef6a7b29c0e1f5e6b16e40",
+      "bytes": 729
+    }
+  ]
+}

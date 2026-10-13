@@ -1,0 +1,196 @@
+{
+  "release": 116,
+  "archive": "jun2026.archive.ensembl.org",
+  "started_utc": "2026-10-12T16:11:17.974416+00:00",
+  "completed_utc": "2026-10-12T16:11:18.700812+00:00",
+  "script": "D:\\ResearchData\\pfhn_genome39_2026-10-13\\scripts\\fetch_orthology.py",
+  "script_sha256": "7657496f781424605e0d88edc45fb71196c720404691bfd44d178ffb4db77fb6",
+  "python": "3.13.9 (tags/v3.13.9:8183fa5, Oct 14 2025, 14:09:13) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "scope": "Unfiltered entire BioMart human/rat datasets; no expression or candidate gene filtering.",
+  "symbol_policy": "Symbols are display labels only; never primary joining or disambiguation keys.",
+  "strict_mapping_rule": "ortholog_one2one, unique human/rat IDs across full orthology response, confidence=1, and unique rat Ensembl/Entrez mapping in BOTH directions across complete rat dataset.",
+  "percent_identity_columns": {
+    "rat_perc_identity": "%id. target Norway rat - BN/NHsdMcwi gene identical to query gene",
+    "human_perc_identity": "%id. query gene identical to target Norway rat - BN/NHsdMcwi gene"
+  },
+  "source_headers": {
+    "human_rat": [
+      "Gene stable ID",
+      "Gene name",
+      "Norway rat - BN/NHsdMcwi gene stable ID",
+      "Norway rat - BN/NHsdMcwi gene name",
+      "Norway rat - BN/NHsdMcwi homology type",
+      "Norway rat - BN/NHsdMcwi orthology confidence [0 low, 1 high]",
+      "%id. target Norway rat - BN/NHsdMcwi gene identical to query gene",
+      "%id. query gene identical to target Norway rat - BN/NHsdMcwi gene"
+    ],
+    "rat_entrez": [
+      "Gene stable ID",
+      "Gene name",
+      "NCBI gene (formerly Entrezgene) ID"
+    ]
+  },
+  "counts": {
+    "human_rat_raw_rows": 91806,
+    "rat_entrez_raw_rows": 57760,
+    "human_rat_rows": 91806,
+    "human_ids": 86411,
+    "human_ids_with_rat_ortholog": 18606,
+    "rat_ids_with_human_ortholog": 20037,
+    "orthology_types": {
+      "ortholog_one2one": 16449,
+      "no_rat_ortholog": 67805,
+      "ortholog_one2many": 3339,
+      "ortholog_many2many": 4213
+    },
+    "human_ids_with_multiple_rat_ids": 1282,
+    "rat_ids_with_multiple_human_ids": 1112,
+    "rat_entrez_rows": 57760,
+    "rat_ids_total": 43360,
+    "rat_ids_with_entrez": 23497,
+    "entrez_ids_total": 23793,
+    "rat_ids_with_multiple_entrez": 522,
+    "entrez_ids_with_multiple_rat_ids": 312,
+    "rat_entrez_unique_bidirectional": 22905,
+    "one2one": 16449,
+    "one2one_highconfidence": 13733,
+    "strict_analysis_map": 13531,
+    "orthology_audit_statuses": {
+      "included_one2one": 16449,
+      "excluded:no_rat_ortholog": 67805,
+      "excluded:not_one2one_type;human_multiple_rat_ids": 2476,
+      "excluded:not_one2one_type;rat_multiple_human_ids": 875,
+      "excluded:not_one2one_type;human_multiple_rat_ids;rat_multiple_human_ids": 4201
+    },
+    "rat_entrez_audit_statuses": {
+      "included_unique_bidirectional": 22905,
+      "excluded:no_entrez": 19863,
+      "excluded:entrez_multiple_rat_ensembl": 70,
+      "excluded:rat_ensembl_multiple_entrez": 576,
+      "excluded:rat_ensembl_multiple_entrez;entrez_multiple_rat_ensembl": 14346
+    }
+  },
+  "outputs": [
+    {
+      "file": "human_rat_all_ensembl116.tsv",
+      "rows": 91806,
+      "sha256": "3d9492b970128168aec86ba2fb92235c31889f5a8e64ec8e62552e50e0b9d115",
+      "columns": [
+        "human_ensembl_gene_id",
+        "human_symbol",
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "orthology_type",
+        "orthology_confidence",
+        "rat_perc_identity",
+        "human_perc_identity"
+      ]
+    },
+    {
+      "file": "rat_entrez_all_ensembl116.tsv",
+      "rows": 57760,
+      "sha256": "f2b24b3daafa04790f6b2868da519b0782e12862b7ef709b65b519114c15a07a",
+      "columns": [
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "rat_entrez_id"
+      ]
+    },
+    {
+      "file": "rat_entrez_unique_bidirectional.tsv",
+      "rows": 22905,
+      "sha256": "cea365abb702953358f516d2754bb8155a71efabe541fc33a6e37cf7e6e7351e",
+      "columns": [
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "rat_entrez_id"
+      ]
+    },
+    {
+      "file": "rat_entrez_mapping_audit.tsv",
+      "rows": 57760,
+      "sha256": "cfe79a6bbded68af7bd84bae7d83ec1b9645f34f04b5e265a14148002aff9b8a",
+      "columns": [
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "rat_entrez_id",
+        "n_entrez_for_rat",
+        "n_rat_for_entrez",
+        "mapping_status"
+      ]
+    },
+    {
+      "file": "human_rat_one2one.tsv",
+      "rows": 16449,
+      "sha256": "5bf30fd66f42d5ab0564a92c1d0fa3edd7f6b8e06e9dbadfa56926e23a76faf4",
+      "columns": [
+        "human_ensembl_gene_id",
+        "human_symbol",
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "orthology_type",
+        "orthology_confidence",
+        "rat_perc_identity",
+        "human_perc_identity"
+      ]
+    },
+    {
+      "file": "human_rat_one2one_highconfidence.tsv",
+      "rows": 13733,
+      "sha256": "0a70b53164c354b635c6689bd44d56130a1c65c6f608981eec196c17d8bb8c0c",
+      "columns": [
+        "human_ensembl_gene_id",
+        "human_symbol",
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "orthology_type",
+        "orthology_confidence",
+        "rat_perc_identity",
+        "human_perc_identity"
+      ]
+    },
+    {
+      "file": "human_rat_one2one_highconfidence_unique_entrez.tsv",
+      "rows": 13531,
+      "sha256": "7ec7cc7fd3565ca6748800d06736afb3998383067dad4a0cbe1db26fd02bff5a",
+      "columns": [
+        "human_ensembl_gene_id",
+        "human_symbol",
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "orthology_type",
+        "orthology_confidence",
+        "rat_perc_identity",
+        "human_perc_identity",
+        "rat_entrez_id"
+      ]
+    },
+    {
+      "file": "human_rat_mapping_audit.tsv",
+      "rows": 91806,
+      "sha256": "de67501a63105e2b99f9cfc59a9f1d0a4c94a16aaa7fbe504f9cba16d4799338",
+      "columns": [
+        "human_ensembl_gene_id",
+        "human_symbol",
+        "rat_ensembl_gene_id",
+        "rat_symbol",
+        "orthology_type",
+        "orthology_confidence",
+        "rat_perc_identity",
+        "human_perc_identity",
+        "n_rat_ids_for_human",
+        "n_human_ids_for_rat",
+        "orthology_mapping_status",
+        "entrez_mapping_status"
+      ]
+    }
+  ],
+  "official_sources": [
+    "https://jun2026.archive.ensembl.org/info/website/archives/index.html",
+    "https://training.ensembl.org/exercise/BioMart_homologues",
+    "https://jun2026.archive.ensembl.org/info/genome/compara/homology_types.html",
+    "https://jun2026.archive.ensembl.org/info/genome/compara/Ortholog_qc_manual.html"
+  ]
+}

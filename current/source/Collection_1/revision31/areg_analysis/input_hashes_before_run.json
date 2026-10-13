@@ -1,0 +1,116 @@
+{
+  "frozen_utc": "2026-10-11T14:53:08.959032+00:00",
+  "post_hoc": true,
+  "files": [
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\pfhn_strategy_revision_31\\areg_analysis\\protocol.md",
+      "bytes": 3744,
+      "sha256": "431d447d8e4fc029942334c880a4eb369004ebadbf048255d9ae0b2791ae8543"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\pfhn_strategy_revision_31\\areg_analysis\\recompute_areg.py",
+      "bytes": 23071,
+      "sha256": "024e385345db2128dbd0db98fd0d68aa7ed970402ceb4b4add9fe122d0e0cfb1"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_sample_manifest.csv",
+      "bytes": 3581,
+      "sha256": "d41fe3329b7b30a6b8ea517aebe18b5503a033e084c4cf077fc138cc28361b11"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\sources\\GSE207889_os.h5ad",
+      "bytes": 3239173193,
+      "sha256": "b5158be63fb19842a4e6d2d970de57d77e83112e38dbf0e26e41657a68b10581"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\link_expression.py",
+      "bytes": 21490,
+      "sha256": "83c5e9154001bb94a6ea579c062c6730a0f6734b8372f6fb2ef058a8b6b9b196"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\manuscript_revision_24\\external_single_cell\\inputs\\GSE115469_Data.csv.gz",
+      "bytes": 108065293,
+      "sha256": "9d20630b98dba970ef3ec616d48a18857d94aa38e29886ab358a6dbdb10cbdde"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\manuscript_revision_24\\external_single_cell\\inputs\\GSE115469_CellClusterType.txt.gz",
+      "bytes": 78393,
+      "sha256": "a83f30e231059abeed2e1a95c4a0677fcdeea905d80ecc3a8d7eb3371bb2ad07"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\manuscript_revision_24\\external_single_cell\\inputs\\GSE115469_family.soft.gz",
+      "bytes": 2804,
+      "sha256": "6022d9eef6ab897ce694e048dcb855128d3ba5785a950ddf0b1262ca3060a136"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\sources\\GSM6322577_SM-KBV62_matrix.mtx.gz",
+      "bytes": 13494024,
+      "sha256": "39148b8458c600ee64d9a5102e7f931cfdf0831e0e5e123e9175d0c4793e1ffc"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322577_SM-KBV62_barcodes.tsv.gz",
+      "bytes": 21732,
+      "sha256": "866c5d0d9ba637a4744ee1c93fcea975d410ebb39c6b7cc695b166efe31442e3"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322577_SM-KBV62_features.tsv.gz",
+      "bytes": 304728,
+      "sha256": "fc7d0d16f67478a2fd857f341a5bd4ac157cb72235a1676716eec61a77534de6"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\sources\\GSM6322578_SM-KBV63_matrix.mtx.gz",
+      "bytes": 53626385,
+      "sha256": "2834df66bd771c580bad1e8233b3cd3edcadd8b923fec299d0355ad658c60211"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322578_SM-KBV63_barcodes.tsv.gz",
+      "bytes": 34296,
+      "sha256": "e772e58a28967e91804ab49c94f7f624a5819951205db7e5f51b04f59a34d66d"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322578_SM-KBV63_features.tsv.gz",
+      "bytes": 304728,
+      "sha256": "8ff691b8682ed9606c14e72d44d2567b720b2b0cf17124d22ec2502999071a70"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\sources\\GSM6322579_SM-KBV64_matrix.mtx.gz",
+      "bytes": 40288893,
+      "sha256": "42b9008544f7e9f0633444c57bd150c46ddc23a7471068051a5494c046638944"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322579_SM-KBV64_barcodes.tsv.gz",
+      "bytes": 44339,
+      "sha256": "a98b70c4593933e4655240c83c748b5d5b282ebb4b5c0195946c780ebd6ee5b5"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322579_SM-KBV64_features.tsv.gz",
+      "bytes": 304728,
+      "sha256": "a355256e98907faac5d8a44e9fbd01bb4a4b91e768c0c5518aada9cb7a553cec"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_expression\\sources\\GSM6322580_SM-KBV65_matrix.mtx.gz",
+      "bytes": 71974319,
+      "sha256": "74ecad955180f00291b4708e16845ed4969d8c1c816b51f3f274908b3dfdec6a"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322580_SM-KBV65_barcodes.tsv.gz",
+      "bytes": 46374,
+      "sha256": "c94575074c98c825dcf58062f87af2cde90acd588ee0d00fd260eb59fbe07ca4"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\organoid_inputs\\GSM6322580_SM-KBV65_features.tsv.gz",
+      "bytes": 304728,
+      "sha256": "da6073982e1248e9a24416da9ce092264e04c1845290f28d61547a06321e3b53"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\pfhn_submission_28\\analysis\\matched_scale_areg\\outputs\\AREG_summary.csv",
+      "bytes": 706,
+      "sha256": "91b865f6852872ea626963701181b26f498aeb58bc88506e6d2de14bfc73cc39"
+    },
+    {
+      "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\pfhn_submission_28\\external_single_cell\\results\\figure_AREG_paired_donors.csv",
+      "bytes": 850,
+      "sha256": "ab4eb46f0bc93422ffc74e8cfaac108e519bb18807925e73974fdf722ebf55ea"
+    }
+  ]
+}

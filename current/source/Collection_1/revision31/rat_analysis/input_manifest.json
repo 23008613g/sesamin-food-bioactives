@@ -1,0 +1,82 @@
+[
+  {
+    "role": "matrix",
+    "path_relative_to_project": "inputs\\GSE42693_series_matrix.txt.gz",
+    "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+    "bytes": 2396364,
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE42nnn/GSE42693/matrix/GSE42693_series_matrix.txt.gz",
+    "read_only": true
+  },
+  {
+    "role": "annotation",
+    "path_relative_to_project": "inputs\\GPL1355.annot.gz",
+    "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+    "bytes": 5714896,
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL1nnn/GPL1355/annot/GPL1355.annot.gz",
+    "read_only": true
+  },
+  {
+    "role": "candidates",
+    "path_relative_to_project": "inputs\\human_candidates_all25.csv",
+    "sha256": "5e341a34ca9ee99e39ea52e9bcc221953ecaa0aaed863994c6660cc4d7846ea6",
+    "bytes": 11814,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  },
+  {
+    "role": "orthology",
+    "path_relative_to_project": "inputs\\human_rat_orthology_ensembl116.tsv",
+    "sha256": "9b6de54a7076bba4551ffafc8dd4d0bc5d5a77aa4706aaec647aee776ca6bcc0",
+    "bytes": 1975,
+    "source_url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+    "read_only": true
+  },
+  {
+    "role": "entrez_crossreference",
+    "path_relative_to_project": "inputs\\rat_entrez_ensembl116.tsv",
+    "sha256": "6700f78725fe757dede2e15a9e37695b454303b5fea26fa37486454762de97b5",
+    "bytes": 599,
+    "source_url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+    "read_only": true
+  },
+  {
+    "role": "old_mapping",
+    "path_relative_to_project": "inputs\\candidate_mapping_all25.csv",
+    "sha256": "c0616c29a136a4adaf01a85cca5ee126b6fb2c3f0f2ce7764574b8951a7453fb",
+    "bytes": 2073,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  },
+  {
+    "role": "old_results",
+    "path_relative_to_project": "inputs\\candidate_results_all25_two_normalizations.csv",
+    "sha256": "d49a958705aac81e2b6501e158d6e593102ee24b1ec74c6dc9a5863c3a278cc0",
+    "bytes": 12615,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  },
+  {
+    "role": "old_exact",
+    "path_relative_to_project": "inputs\\posthoc_exact_sensitivity_all25.csv",
+    "sha256": "b31a60c628975b58f1cb5f80d58c1ca41a391d1b9659087da60175be197127aa",
+    "bytes": 5437,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  },
+  {
+    "role": "old_samples",
+    "path_relative_to_project": "inputs\\candidate_sample_values.csv",
+    "sha256": "efb6d88ab2b05ab269b879e93787076472b16cb8af04346c5d9cc836d72db7ce",
+    "bytes": 48378,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  },
+  {
+    "role": "protocol",
+    "path_relative_to_project": "PROTOCOL.md",
+    "sha256": "779e767d932961d27c4e397236f3c5e15d04916cc37fffb5e46272e2f9e2a45e",
+    "bytes": 4662,
+    "source_url": "local frozen prior analysis",
+    "read_only": true
+  }
+]

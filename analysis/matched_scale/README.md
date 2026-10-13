@@ -1,3 +1,5 @@
+Historical 2026-10-11 snapshot. For current manuscript coverage, see the repository root README and docs/REPRODUCING_CURRENT.md.
+
 > Public-source distribution note (2026-10-11): protocol content and scientific input hashes are preserved. Freeze/execution metadata below were copied as explicitly identified sanitized derivatives, not as original immutable files. The original package manifest describes the historical package, while the top-level release manifest describes this repository.
 
 # PFHN P6 matched-scale analysis

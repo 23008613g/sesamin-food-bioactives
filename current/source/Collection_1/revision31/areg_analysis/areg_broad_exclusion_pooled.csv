@@ -1,0 +1,4 @@
+population,n_cells,n_raw_nonzero,raw_detection_pct,mean_log1p_CP10k
+Deposited broad Cholangiocytes,3419,2821,82.50950570342205,2.3373774423739535
+Cholangiocytes + Ductal cells excluding SMC,3178,2641,83.102580239144118,2.359106246372626
+Hepatocytes,18097,7290,40.2829198209648,0.84508258872743791

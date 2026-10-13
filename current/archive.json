@@ -1,0 +1,10 @@
+{
+  "filename": "Supplementary_Data.zip",
+  "sha256": "f369474b2856389de42671112c9fdc2eea1e85c1dbb0b05feb79ff34368e57bd",
+  "bytes": 102653038,
+  "release_tag": "v2026.10.13",
+  "download_url": "https://github.com/23008613g/sesamin-food-bioactives/releases/download/v2026.10.13/Supplementary_Data.zip",
+  "source": "The numerical Supplementary_Data.zip supplied with the 2026-10-13 manuscript package.",
+  "access_note": "GitHub visibility and authentication determine access. A URL is not proof of public availability.",
+  "external_dependency": "GSE115469 matrix remains a separately acquired, checksum-recorded source input."
+}

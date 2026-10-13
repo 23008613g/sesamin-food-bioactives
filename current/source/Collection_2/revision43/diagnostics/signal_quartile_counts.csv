@@ -1,0 +1,13 @@
+normalization,empirical_signal_quartile,percentile_lower_exclusive,percentile_upper_inclusive,all_gene_n,BH_hit_n,percent_of_all_hits,interpretation
+deposited,1,0,25,3651,1,4.166666666666667,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+deposited,2,25,50,3651,2,8.333333333333334,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+deposited,3,50,75,3651,5,20.833333333333332,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+deposited,4,75,100,3651,16,66.66666666666667,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn10,1,0,25,3651,2,4.878048780487805,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn10,2,25,50,3651,2,4.878048780487805,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn10,3,50,75,3651,6,14.634146341463415,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn10,4,75,100,3651,31,75.60975609756098,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn20,1,0,25,3651,2,4.878048780487805,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn20,2,25,50,3651,1,2.4390243902439024,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn20,3,50,75,3651,7,17.073170731707318,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule
+qn20,4,75,100,3651,31,75.60975609756098,exploratory descriptive rank stratum; not an assay detection threshold or filtering rule

@@ -1,0 +1,4 @@
+fold_threshold,initial_n,cpm_agree_n,selected_n,frozen25_retained,VNN1,AREG,JAG2
+1.4,161,161,39,25,True,True,True
+1.5,98,98,25,25,True,True,True
+1.6,64,64,15,15,True,True,True

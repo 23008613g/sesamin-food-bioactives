@@ -1,0 +1,12 @@
+{
+  "status": "Post-hoc reanalysis; prior 1.5-fold results and named candidates already known; frozen before this new calculation",
+  "human_filter": "CPM >= 1 in at least 3 of all 9 libraries",
+  "normalization": "median ratios from genes positive in every included library; geometric recentering",
+  "primary_fold_threshold": 1.5,
+  "adjacent_thresholds": [1.4, 1.5, 1.6],
+  "selection": "Opposite Model/Control and Treat/Model signs, both absolute log2 ratios >= log2(threshold); Treat strictly between Control and Model; CPM directions and ordering agree; at least 22 of 27 omit-one-per-group configurations retain full-data signs, threshold and ordering",
+  "frozen_candidate_family": "all original 25; do not replace by candidates retained at another threshold",
+  "mouse": "Primary 15 unique one-to-one mappings; gene TPM from previous kallisto execution, no FASTQ rerun. Use ctrl, HFD, sess labels; biological mapping unconfirmed. Three means, two signs, strict between rule and all-library TPM<1 flag.",
+  "inference": "Descriptive only; no DESeq2, p-values, independent validation, or ranking by favorable result",
+  "named_retention": ["VNN1", "AREG", "JAG2"]
+}

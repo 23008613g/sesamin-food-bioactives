@@ -1,0 +1,16 @@
+Bundled figure-audit helpers
+
+Source repository: https://github.com/Yuan1z0825/nature-skills
+Recorded source commit: 9cecfef6ac683fa59d7d15d2e22f98fa71dacaf5
+
+The following scripts are copied unmodified from the installed nature-figure
+skill, and their bytes were verified to match the recorded source checkout:
+  audit_panel_alignment.py
+  audit_pdf_text.py
+  audit_figure_collisions.py
+  validate_figure.py
+
+Original script headers and attribution notices remain intact. The original
+repository LICENSE is provided unmodified as LICENSE.nature-skills.txt.
+Source and bundled SHA256 hashes are recorded in source_manifest.json.
+No third-party example figures, image assets or figure templates are included.

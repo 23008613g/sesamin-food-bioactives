@@ -1,0 +1,50 @@
+{
+  "backend": "Python/matplotlib inherited from the established project workflow",
+  "journal_context": "Plant Foods for Human Nutrition working manuscript; exploratory supplementary analysis; not a claim of final journal acceptance/production compliance",
+  "exports": {
+    "width_mm": 183,
+    "formats": [
+      "PDF",
+      "SVG",
+      "PNG"
+    ],
+    "png_dpi": 300,
+    "editable_text": true,
+    "minimum_glyph_pt": 5
+  },
+  "data_integrity": "All 10 primary rats, all 14,604 eligible genes for QC; all 7,912 shared genes for cross-study comparison. No sampling, outlier exclusion or significant-gene selection. GO display follows frozen top-15 ranking and complete tables remain available.",
+  "figures": {
+    "G1": {
+      "claim": "Full-gene variability and per-array signal distributions can be inspected for every primary rat.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "global sample structure, all-gene PCA",
+        "b": "measurement-scale distributions, all genes per sample"
+      }
+    },
+    "G2": {
+      "claim": "The strength of gene-level support depends on method and normalization.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "full-family inferential sensitivity",
+        "b": "pre-existing examples with effect sizes and nominal uncertainty"
+      }
+    },
+    "G3": {
+      "claim": "None of the primary coordinated-expression sets meets the whole-family BH threshold.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "predefined top-15 display of effect, uncertainty and whole-family multiplicity"
+      }
+    },
+    "G4": {
+      "claim": "Whole-universe rat and HepG2 effects have near-zero descriptive rank alignment under all normalization combinations.",
+      "archetype": "quantitative grid",
+      "panels": {
+        "a": "all-gene evidence distribution",
+        "b": "normalization sensitivity of the bounded conclusion"
+      }
+    }
+  },
+  "qa_contract": "Matplotlib final-axes alignment at 1.5 pt, static source validator, PDF glyph-size audit, PDF collision audit after each render, and manual inspection of every final PNG. Colorbars excluded from unrelated alignment groups. All FAIL findings block delivery."
+}

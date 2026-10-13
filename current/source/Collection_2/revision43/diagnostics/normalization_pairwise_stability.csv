@@ -1,0 +1,4 @@
+normalization_a,normalization_b,hits_a_n,hits_b_n,intersection_n,union_n,jaccard,fraction_a_retained_in_b,fraction_b_retained_in_a,intersection_same_nonzero_sign_n,union_same_nonzero_sign_n,union_median_absolute_effect_change,union_maximum_absolute_effect_change,union_effect_spearman,all_gene_effect_spearman
+deposited,qn10,24,41,24,41,0.5853658536585366,1.0,0.5853658536585366,24,41,0.06958068739430501,0.09941013118959008,0.999303135888502,0.9711993501643124
+deposited,qn20,24,41,24,41,0.5853658536585366,1.0,0.5853658536585366,24,41,0.07524652593828196,0.12409473705398,0.9994773519163765,0.9711886441323526
+qn10,qn20,41,41,41,41,1.0,1.0,1.0,41,41,0.012533465656890064,0.06466463317618976,0.9994773519163765,0.9999030275535226

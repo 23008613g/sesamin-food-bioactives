@@ -1,80 +1,52 @@
-# Food bioactives in fatty liver research: assessing molecular evidence through a sesamin case study
+# Food-derived sesamin and hepatic lipid metabolism: a computational assessment of cross-study transcriptomic evidence
 
-**食源性活性成分在脂肪肝研究中的分子证据评估：以芝麻素为例**
+Analysis code and numerical evidence for a secondary analysis of public transcriptomic studies of food-derived sesamin. The current manuscript finds no stable cross-model correspondence of transcriptional effects and distinguishes candidate readouts from their cellular sources. HepG2 is a tumour-derived model; these results do not establish a protective mechanism or a sesamin response in normal human hepatocytes.
 
-Research code for an exploratory secondary analysis of public transcriptomic studies. This repository brings together the processed-input reproduction modules, the later matched-scale AREG analysis, all eight main-figure generators, historical processing and supplementary-figure source, and the static research explorer. It contains no new biological experiment, clinical efficacy assessment or validated AI prediction.
-
-The manuscript uses sesamin as a case study for evaluating molecular evidence about food bioactives. The studies answer different questions: healthy rat dietary liver and an adult-liver atlas are contextual references, and the organoid/primary-hepatocyte datasets have no sesamin intervention. Opposite, missing, zero and unstable findings are retained.
+**Current manuscript snapshot: 2026-10-13 — [v2026.10.13](https://github.com/23008613g/sesamin-food-bioactives/releases/tag/v2026.10.13).** This is a research-code version, not an accepted-publication claim. Authors: Tingting ZHENG and Honglie ZHANG, Infinia Intelligent Health (Hong Kong) Limited.
 
 ## Start here
 
-Python 3.13.9 with the exact existing versions in `requirements.txt` was used in the project. No new environment installation or full scientific rerun was performed while preparing this repository. The static app needs only an HTTP server and a browser.
+- [Current code and result index](current/README.md): all 53 Python/R/shell scripts from the current data archive, run documentation, and selected small numerical tables.
+- [Reproduction guide](docs/REPRODUCING_CURRENT.md): exact input archive, environments, commands and verification boundaries.
+- [Dataset access and roles](docs/DATA_ACCESS.md): public accessions, model limitations and external inputs.
+- [Version history](CHANGELOG.md): which analyses supersede the earlier repository snapshot.
+
+To verify the browseable files using Python's standard library:
 
 ```sh
-# Complete eight-main-figure redraw from included small processed inputs
-python figures/build_figures.py --only all
-
-# Bounded matched-scale update from the five included derived summary tables
-python analysis/matched_scale/run.py --output-dir analysis/matched_scale/results_local
-
-# Serve the existing explorer locally; no remote publishing occurs
-python -m http.server 8000 --directory app
+python tools/check_current_sources.py
 ```
 
-For the four-module quantitative reproduction, obtain source inputs separately. The repository intentionally excludes the original count/expression matrices, raw FASTQ/CEL/MTX/h5ad files and third-party tool binaries.
+Download `Supplementary_Data.zip` from the [versioned release](https://github.com/23008613g/sesamin-food-bioactives/releases/tag/v2026.10.13), or use the identical attachment supplied with the manuscript. Then import it into a new directory:
 
 ```sh
-# Inspect which of the 23 separately acquired numerical inputs are missing
-python data/acquire_inputs.py
-
-# Import from a local copy of the existing checksummed v24 archive
-python data/acquire_inputs.py --archive /path/to/research_reproduction_v24.zip
-
-# Alternatively, explicitly download that existing public artifact
-python data/acquire_inputs.py --download
-
-# Run the processed-input analyses and compare against retained reference tables
-python reproduction/run.py --output results_local
+python tools/acquire_current.py --archive /path/to/Supplementary_Data.zip --dest .local/current_data
+python .local/current_data/restore_exact_duplicates.py --restore
 ```
 
-The acquisition commands do not grant data rights. Consult the source terms and `LICENSE_PROVENANCE.md`. Imported inputs are ignored by Git. The full reproduction refuses to overwrite an existing output directory. It rebuilds human/mouse robustness, rat Welch/BH and exact-label sensitivity, organoid library summaries, and the independent adult-liver analysis; it does not claim a complete rerun from raw sequencing.
+An explicit `--download` option is available once the release is accessible to you. A private repository requires authorized access; the helper does not read credentials or change authentication. Neither acquisition command installs dependencies or executes scientific analyses. The archive includes frozen inputs for the whole-transcriptome comparison, but the adult-liver GSE115469 matrix is an existing separately acquired dependency. Read the reproduction guide before running an analysis.
 
-## Code map
+## Current analytical modules
 
-| Location | Included work | Execution status and scope |
+| Module | Location inside the complete extracted archive | Scope |
 |---|---|---|
-| `reproduction/code/` | Human/mouse configurations, independent formula checks, rat primary/exact analysis, organoid aggregation/decomposition, adult-liver analysis/checks | Existing v24 numerical implementation; relative paths; source inputs acquired separately |
-| `analysis/matched_scale/` | Whole-organoid versus Hepatocyte means on the same per-cell log1p(CP10k) scale, equal-library and pooled-cell weights | Current portable update; all 25 candidates including missing AOC4P |
-| `figures/` | Eight main figures, including complete-candidate and cached-PCA redraws | Portable code and small processed inputs; no PCA refit, annotation or inference |
-| `historical_pipeline/` | Earlier candidate selection, PHH processing, kallisto orchestration/reference construction, FASTQ QC, aggregation, organoid barcode/UMI linkage, independent checks and supplementary plotting | Source archive requiring the original directory layout and original inputs; not claimed newly runnable end to end |
-| `app/` | Static HTML/CSS/JavaScript explorer and previously published derived display tables | Display snapshot v1.1.3; predates the matched-scale revision and does not replace current manuscript results |
-| `provenance/` | Included-source hashes, complete inclusion/exclusion inventory and v24 archive inventory | Distinguishes original source hashes, distributed modifications and omitted files |
+| Candidate comparison and revised AREG context | `Collection_1/revision31/` | Fixed candidates; raw-count and annotation sensitivity; technical-library boundaries |
+| Rat whole-transcriptome analysis | `Collection_2/scripts/analyze_rat_genome.py` | 14,604 eligible genes; gene and GO tests; normalization sensitivity |
+| limma sensitivity | `Collection_2/scripts/limma_sensitivity.R` | Separate inferential specification with recorded R/limma versions |
+| Full human–rat comparison | `Collection_2/scripts/compare_cross_species.py` | 7,912 strict one-to-one shared genes; normalization-dependent, weak GO correspondence |
+| Signal-intensity diagnostic | `Collection_2/revision43/diagnostics/` | Signal distribution of limma hits and stability across normalizations |
+| Main numerical reproduction | `Collection_2/scripts/reproduce_analysis.py` | Runs three original functions and compares 62 result tables with the frozen reference |
 
-The earlier figure-tool helper library is not vendored. Current plots use the small project-local rectangle/label check in `figures/alignment.py`. This is narrower than the historical full glyph/collision audits and is identified as such. Supplementary source scripts are preserved with their historical dependencies rather than silently presented as a freshly tested pipeline. See `MODULE_MAP.md` for the figure routing and scientific processing chain.
+Single-cell and organoid analyses provide cellular context. Their datasets do not include sesamin exposure; four organoid libraries come from one differentiation. Rat Areg has low signal and a wide interval, so an estimate near zero is not evidence of no biological response. No new wet-lab experiment, prospective validation, clinical efficacy study or validated AI predictor is supplied.
 
-## Data sources and scientific boundaries
+## Evidence and verification
 
-| Dataset | Role | Boundary |
-|---|---|---|
-| [GSE248903](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE248903) | Human HepG2 count-based candidate context | Treatment timing and independent culture replication remain unresolved |
-| [CRA013797](https://ngdc.cncb.ac.cn/gsa/browse/CRA013797), PRJCA021826; mirror PRJDB40955/DRP018055 | Mouse hepatocyte comparison | The mirror is the same study; treatment grouping is provisional |
-| [GSE42693](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42693), GPL1355 | Independent dietary rat liver | Healthy-liver context, five selected animals per group; distinct lignans are not extra sesamin replicates |
-| [GSE247407](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247407) | Primary-hepatocyte fatty-acid context | No sesamin treatment; donor-label relationships unresolved |
-| [GSE207889](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE207889) | Organoid localization and library-aware expression | Four technical libraries from one differentiation; no sesamin treatment; original labels and saved coordinates retained |
-| [GSE115469](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469) | Independent adult-liver donor/immune context | Deposited normalized expression, five donors; contrary donor retained; no intervention |
+Existing execution records document a same-computer, fresh-directory reproduction of 62 whole-transcriptome result tables, with maximum numerical difference 0.0 at written CSV precision. This refers to the archived original execution, not a new scientific rerun during GitHub preparation. Repository checks cover source/archive hashes, extraction safeguards and file mapping. They do not establish biological validity or cross-platform reproducibility. See [execution history](EXECUTION_HISTORY.md).
 
-Frozen orthology is Ensembl release 116; exact accession, URL, archive-member and checksum records are in `data/acquisition_manifest.json` and the historical v24 provenance. Public accessibility does not imply a repository-wide data licence.
+The earlier `reproduction/`, `analysis/matched_scale/`, `figures/`, `historical_pipeline/` and `app/` directories remain for traceability. Their code and numbering describe the 2026-10-11 snapshot and are not the current complete manuscript pipeline. The retained app is an older display snapshot. The [old overview](docs/README_2026-10-11.md) is explicitly historical.
 
-The matched-scale AREG update is positive in both whole organoids (+0.054898) and Hepatocytes (+0.039797) using equal-library mean log1p(CP10k). The older pooled-UMI ratio must not be interpreted as a population-only sign reversal. Human–mouse configuration stability is descriptive and not a probability of independent replication. Rat VNN1 direction differs from the cell datasets, and the post-hoc exact-label BH sensitivity finds no candidate at q<0.05.
+## Citation and rights
 
-## Versions and checks
+Use [CITATION.cff](CITATION.cff) and cite the version/commit used. No DOI or published-paper identifier has been assigned here. A later archival DOI can be added after it actually exists.
 
-This local source preparation is dated **2026-10-11**. It combines numerical reproduction v24, the matched-scale update from revision26, and the eight-main-figure presentation from revision27. No GitHub publication, DOI, accepted-paper status or new licence is implied by this date.
-
-Historical v24 records report a copied-directory comparison of 62 tables, 240,855 rows and 845,526 finite numerical values. Those are earlier execution records, not a new result produced by repository construction. Current bounded checks, their exact scope and unexecuted paths are listed in `EXECUTION_HISTORY.md` and `provenance/local_checks.json`.
-
-Source protocols and scientific input hashes are preserved. Any distributed metadata with redacted local paths is a separately identified public derivative; it is not described as the original immutable freeze. Originals remain in the private project audit. No manuscript Word/PDF files, email addresses, keys, virtual environments, third-party tool source or company image assets are included.
-
-## Licence status
-
-No repository-wide open-source licence has been selected. The pre-existing code did not provide one, so this preparation does not silently relicense it. Existing dependency and original-data rights remain separate. See `LICENSE_PROVENANCE.md`; obtain the relevant permission before reusing material beyond the rights already applicable to it.
+No repository-wide open-source licence has been selected. Public visibility alone would not grant a blanket reuse licence. Source datasets and dependencies retain their own rights; see [LICENSE_PROVENANCE.md](LICENSE_PROVENANCE.md). This repository does not distribute the manuscript, cover letter, business-card assets or private editorial correspondence.

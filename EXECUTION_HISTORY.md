@@ -26,3 +26,8 @@ No dependency was installed or upgraded. No full v24 numerical rerun, raw FASTQ/
 The local alignment helper checks rectangle/label geometry. It is narrower than the earlier separate full glyph/collision tool, which is not redistributed. Exact agreement of newly generated PNGs with previously reviewed manuscript artwork supports visual preservation; it does not establish biological validity.
 
 Metadata containing workstation locations was sanitized only in public derivatives. Original/distributed hashes and notes identify those changes. A sanitized freeze record is not claimed to be the original file; scientific protocol/input hashes and historical timestamps are retained.
+
+
+## Current repository update (2026-10-13)
+
+The current supplementary archive is byte-identical to the manuscript attachment. Current source mirrors have a per-file SHA-256 manifest. The attached original whole-transcriptome reproduction report documents an earlier same-computer 62-table match; the GitHub preparation does not rerun those analyses. Acquisition helpers, structural integrity and extraction behavior have their own packaging tests. See `current/repository_checks.json` for the actual checks performed after preparation.

@@ -1,0 +1,1312 @@
+go_id,go_name,n_original_rat_genes,n_matched_genes,included_matched_score,matched_fraction,reason
+GO:0000027,ribosomal large subunit assembly,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0000045,autophagosome assembly,38,31,True,0.8157894736842105,included
+GO:0000070,mitotic sister chromatid segregation,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0000077,DNA damage checkpoint signaling,23,21,True,0.9130434782608695,included
+GO:0000079,regulation of cyclin-dependent protein serine/threonine kinase activity,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0000082,G1/S transition of mitotic cell cycle,50,35,True,0.7,included
+GO:0000086,G2/M transition of mitotic cell cycle,30,24,True,0.8,included
+GO:0000132,establishment of mitotic spindle orientation,19,17,True,0.8947368421052632,included
+GO:0000165,MAPK cascade,76,45,True,0.5921052631578947,included
+GO:0000184,"nuclear-transcribed mRNA catabolic process, nonsense-mediated decay",17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0000209,protein polyubiquitination,85,69,True,0.8117647058823529,included
+GO:0000226,microtubule cytoskeleton organization,71,44,True,0.6197183098591549,included
+GO:0000245,spliceosomal complex assembly,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0000278,mitotic cell cycle,137,108,True,0.7883211678832117,included
+GO:0000281,mitotic cytokinesis,22,15,True,0.6818181818181818,included
+GO:0000302,response to reactive oxygen species,18,13,False,0.7222222222222222,fewer_than_15_shared_genes
+GO:0000380,"alternative mRNA splicing, via spliceosome",15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0000381,"regulation of alternative mRNA splicing, via spliceosome",33,20,True,0.6060606060606061,included
+GO:0000387,spliceosomal snRNP assembly,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0000398,"mRNA splicing, via spliceosome",74,59,True,0.7972972972972973,included
+GO:0000413,protein peptidyl-prolyl isomerization,33,24,True,0.7272727272727273,included
+GO:0000422,autophagy of mitochondrion,27,20,True,0.7407407407407407,included
+GO:0000462,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",26,19,True,0.7307692307692307,included
+GO:0000723,telomere maintenance,26,21,True,0.8076923076923077,included
+GO:0000724,double-strand break repair via homologous recombination,54,42,True,0.7777777777777778,included
+GO:0000902,cell morphogenesis,64,40,True,0.625,included
+GO:0000920,septum digestion after cytokinesis,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0001501,skeletal system development,82,42,True,0.5121951219512195,included
+GO:0001502,cartilage condensation,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0001503,ossification,80,35,True,0.4375,included
+GO:0001508,action potential,16,3,False,0.1875,fewer_than_15_shared_genes
+GO:0001525,angiogenesis,165,88,True,0.5333333333333333,included
+GO:0001541,ovarian follicle development,49,32,True,0.6530612244897959,included
+GO:0001558,regulation of cell growth,52,28,True,0.5384615384615384,included
+GO:0001568,blood vessel development,62,39,True,0.6290322580645161,included
+GO:0001569,branching involved in blood vessel morphogenesis,33,17,True,0.5151515151515151,included
+GO:0001570,vasculogenesis,58,38,True,0.6551724137931034,included
+GO:0001578,microtubule bundle formation,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0001580,detection of chemical stimulus involved in sensory perception of bitter taste,17,1,False,0.058823529411764705,fewer_than_15_shared_genes
+GO:0001649,osteoblast differentiation,97,48,True,0.4948453608247423,included
+GO:0001654,eye development,29,13,False,0.4482758620689655,fewer_than_15_shared_genes
+GO:0001656,metanephros development,31,14,False,0.45161290322580644,fewer_than_15_shared_genes
+GO:0001657,ureteric bud development,42,24,True,0.5714285714285714,included
+GO:0001658,branching involved in ureteric bud morphogenesis,40,19,True,0.475,included
+GO:0001659,temperature homeostasis,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0001662,behavioral fear response,34,10,False,0.29411764705882354,fewer_than_15_shared_genes
+GO:0001666,response to hypoxia,249,131,True,0.5261044176706827,included
+GO:0001676,long-chain fatty acid metabolic process,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0001701,in utero embryonic development,240,173,True,0.7208333333333333,included
+GO:0001702,gastrulation with mouth forming second,24,15,True,0.625,included
+GO:0001707,mesoderm formation,30,19,True,0.6333333333333333,included
+GO:0001708,cell fate specification,20,14,False,0.7,fewer_than_15_shared_genes
+GO:0001709,cell fate determination,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0001731,formation of translation preinitiation complex,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0001755,neural crest cell migration,41,24,True,0.5853658536585366,included
+GO:0001756,somitogenesis,40,21,True,0.525,included
+GO:0001764,neuron migration,107,51,True,0.4766355140186916,included
+GO:0001782,B cell homeostasis,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0001816,cytokine production,30,15,True,0.5,included
+GO:0001817,regulation of cytokine production,17,5,False,0.29411764705882354,fewer_than_15_shared_genes
+GO:0001818,negative regulation of cytokine production,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0001819,positive regulation of cytokine production,45,17,True,0.37777777777777777,included
+GO:0001822,kidney development,127,67,True,0.5275590551181102,included
+GO:0001824,blastocyst development,25,17,True,0.68,included
+GO:0001829,trophectodermal cell differentiation,17,11,False,0.6470588235294118,fewer_than_15_shared_genes
+GO:0001836,release of cytochrome c from mitochondria,19,11,False,0.5789473684210527,fewer_than_15_shared_genes
+GO:0001837,epithelial to mesenchymal transition,28,20,True,0.7142857142857143,included
+GO:0001841,neural tube formation,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0001843,neural tube closure,81,61,True,0.7530864197530864,included
+GO:0001889,liver development,132,89,True,0.6742424242424242,included
+GO:0001890,placenta development,38,23,True,0.6052631578947368,included
+GO:0001892,embryonic placenta development,25,17,True,0.68,included
+GO:0001894,tissue homeostasis,17,8,False,0.47058823529411764,fewer_than_15_shared_genes
+GO:0001895,retina homeostasis,25,8,False,0.32,fewer_than_15_shared_genes
+GO:0001921,positive regulation of receptor recycling,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0001932,regulation of protein phosphorylation,49,34,True,0.6938775510204082,included
+GO:0001933,negative regulation of protein phosphorylation,69,49,True,0.7101449275362319,included
+GO:0001934,positive regulation of protein phosphorylation,161,90,True,0.5590062111801242,included
+GO:0001937,negative regulation of endothelial cell proliferation,30,11,False,0.36666666666666664,fewer_than_15_shared_genes
+GO:0001938,positive regulation of endothelial cell proliferation,59,31,True,0.5254237288135594,included
+GO:0001942,hair follicle development,35,19,True,0.5428571428571428,included
+GO:0001944,vasculature development,22,17,True,0.7727272727272727,included
+GO:0001947,heart looping,44,27,True,0.6136363636363636,included
+GO:0001954,positive regulation of cell-matrix adhesion,18,10,False,0.5555555555555556,fewer_than_15_shared_genes
+GO:0001958,endochondral ossification,27,13,False,0.48148148148148145,fewer_than_15_shared_genes
+GO:0001964,startle response,17,4,False,0.23529411764705882,fewer_than_15_shared_genes
+GO:0001967,suckling behavior,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0001974,blood vessel remodeling,40,25,True,0.625,included
+GO:0001975,response to amphetamine,42,15,True,0.35714285714285715,included
+GO:0002009,morphogenesis of an epithelium,19,8,False,0.42105263157894735,fewer_than_15_shared_genes
+GO:0002026,regulation of the force of heart contraction,23,7,False,0.30434782608695654,fewer_than_15_shared_genes
+GO:0002027,regulation of heart rate,34,11,False,0.3235294117647059,fewer_than_15_shared_genes
+GO:0002028,regulation of sodium ion transport,22,10,False,0.45454545454545453,fewer_than_15_shared_genes
+GO:0002040,sprouting angiogenesis,23,11,False,0.4782608695652174,fewer_than_15_shared_genes
+GO:0002052,positive regulation of neuroblast proliferation,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0002053,positive regulation of mesenchymal cell proliferation,33,18,True,0.5454545454545454,included
+GO:0002062,chondrocyte differentiation,38,16,True,0.42105263157894735,included
+GO:0002076,osteoblast development,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0002088,lens development in camera-type eye,32,16,True,0.5,included
+GO:0002092,positive regulation of receptor internalization,24,15,True,0.625,included
+GO:0002230,positive regulation of defense response to virus by host,92,57,True,0.6195652173913043,included
+GO:0002244,hematopoietic progenitor cell differentiation,68,35,True,0.5147058823529411,included
+GO:0002250,adaptive immune response,50,21,True,0.42,included
+GO:0002376,immune system process,20,12,False,0.6,fewer_than_15_shared_genes
+GO:0002437,inflammatory response to antigenic stimulus,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0002526,acute inflammatory response,21,6,False,0.2857142857142857,fewer_than_15_shared_genes
+GO:0002548,monocyte chemotaxis,24,2,False,0.08333333333333333,fewer_than_15_shared_genes
+GO:0002639,positive regulation of immunoglobulin production,20,7,False,0.35,fewer_than_15_shared_genes
+GO:0002687,positive regulation of leukocyte migration,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0002931,response to ischemia,39,25,True,0.6410256410256411,included
+GO:0003007,heart morphogenesis,51,30,True,0.5882352941176471,included
+GO:0003009,skeletal muscle contraction,27,15,True,0.5555555555555556,included
+GO:0003151,outflow tract morphogenesis,41,17,True,0.4146341463414634,included
+GO:0003279,cardiac septum development,17,15,True,0.8823529411764706,included
+GO:0003281,ventricular septum development,35,26,True,0.7428571428571429,included
+GO:0003333,amino acid transmembrane transport,20,14,False,0.7,fewer_than_15_shared_genes
+GO:0003382,epithelial cell morphogenesis,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0005975,carbohydrate metabolic process,87,49,True,0.5632183908045977,included
+GO:0005977,glycogen metabolic process,30,23,True,0.7666666666666667,included
+GO:0005978,glycogen biosynthetic process,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0006006,glucose metabolic process,55,27,True,0.4909090909090909,included
+GO:0006094,gluconeogenesis,26,18,True,0.6923076923076923,included
+GO:0006096,glycolytic process,24,15,True,0.625,included
+GO:0006099,tricarboxylic acid cycle,24,21,True,0.875,included
+GO:0006103,2-oxoglutarate metabolic process,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0006171,cAMP biosynthetic process,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0006182,cGMP biosynthetic process,18,1,False,0.05555555555555555,fewer_than_15_shared_genes
+GO:0006260,DNA replication,71,58,True,0.8169014084507042,included
+GO:0006261,DNA-templated DNA replication,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0006270,DNA replication initiation,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0006281,DNA repair,135,115,True,0.8518518518518519,included
+GO:0006284,base-excision repair,28,21,True,0.75,included
+GO:0006289,nucleotide-excision repair,29,21,True,0.7241379310344828,included
+GO:0006298,mismatch repair,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0006302,double-strand break repair,51,40,True,0.7843137254901961,included
+GO:0006303,double-strand break repair via nonhomologous end joining,19,15,True,0.7894736842105263,included
+GO:0006310,DNA recombination,34,27,True,0.7941176470588235,included
+GO:0006325,chromatin organization,49,33,True,0.673469387755102,included
+GO:0006334,nucleosome assembly,45,25,True,0.5555555555555556,included
+GO:0006338,chromatin remodeling,75,52,True,0.6933333333333334,included
+GO:0006352,DNA-templated transcription initiation,20,14,False,0.7,fewer_than_15_shared_genes
+GO:0006357,regulation of transcription by RNA polymerase II,340,213,True,0.6264705882352941,included
+GO:0006364,rRNA processing,46,25,True,0.5434782608695652,included
+GO:0006366,transcription by RNA polymerase II,326,198,True,0.6073619631901841,included
+GO:0006367,transcription initiation at RNA polymerase II promoter,27,23,True,0.8518518518518519,included
+GO:0006368,transcription elongation by RNA polymerase II,16,12,False,0.75,fewer_than_15_shared_genes
+GO:0006383,transcription by RNA polymerase III,15,14,False,0.9333333333333333,fewer_than_15_shared_genes
+GO:0006396,RNA processing,34,29,True,0.8529411764705882,included
+GO:0006397,mRNA processing,108,79,True,0.7314814814814815,included
+GO:0006406,mRNA export from nucleus,28,19,True,0.6785714285714286,included
+GO:0006412,translation,151,90,True,0.5960264900662252,included
+GO:0006413,translational initiation,42,30,True,0.7142857142857143,included
+GO:0006414,translational elongation,18,14,False,0.7777777777777778,fewer_than_15_shared_genes
+GO:0006417,regulation of translation,45,33,True,0.7333333333333333,included
+GO:0006446,regulation of translational initiation,22,13,False,0.5909090909090909,fewer_than_15_shared_genes
+GO:0006457,protein folding,92,69,True,0.75,included
+GO:0006468,protein phosphorylation,402,288,True,0.7164179104477612,included
+GO:0006469,negative regulation of protein kinase activity,84,41,True,0.4880952380952381,included
+GO:0006470,protein dephosphorylation,98,71,True,0.7244897959183674,included
+GO:0006479,protein methylation,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0006487,protein N-linked glycosylation,23,18,True,0.782608695652174,included
+GO:0006491,N-glycan processing,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0006493,protein O-linked glycosylation,21,16,True,0.7619047619047619,included
+GO:0006506,GPI anchor biosynthetic process,18,15,True,0.8333333333333334,included
+GO:0006508,proteolysis,307,141,True,0.4592833876221498,included
+GO:0006509,membrane protein ectodomain proteolysis,19,12,False,0.631578947368421,fewer_than_15_shared_genes
+GO:0006511,ubiquitin-dependent protein catabolic process,196,153,True,0.7806122448979592,included
+GO:0006513,protein monoubiquitination,24,17,True,0.7083333333333334,included
+GO:0006520,amino acid metabolic process,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0006541,L-glutamine metabolic process,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0006605,protein targeting,31,22,True,0.7096774193548387,included
+GO:0006606,protein import into nucleus,44,35,True,0.7954545454545454,included
+GO:0006607,NLS-bearing protein import into nucleus,15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0006611,protein export from nucleus,26,21,True,0.8076923076923077,included
+GO:0006612,protein targeting to membrane,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0006629,lipid metabolic process,72,47,True,0.6527777777777778,included
+GO:0006631,fatty acid metabolic process,52,34,True,0.6538461538461539,included
+GO:0006633,fatty acid biosynthetic process,38,25,True,0.6578947368421053,included
+GO:0006635,fatty acid beta-oxidation,38,31,True,0.8157894736842105,included
+GO:0006637,acyl-CoA metabolic process,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0006641,triglyceride metabolic process,31,19,True,0.6129032258064516,included
+GO:0006644,phospholipid metabolic process,28,15,True,0.5357142857142857,included
+GO:0006665,sphingolipid metabolic process,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0006694,steroid biosynthetic process,25,11,False,0.44,fewer_than_15_shared_genes
+GO:0006695,cholesterol biosynthetic process,24,20,True,0.8333333333333334,included
+GO:0006730,one-carbon metabolic process,25,11,False,0.44,fewer_than_15_shared_genes
+GO:0006749,glutathione metabolic process,39,26,True,0.6666666666666666,included
+GO:0006801,superoxide metabolic process,15,6,False,0.4,fewer_than_15_shared_genes
+GO:0006805,xenobiotic metabolic process,38,11,False,0.2894736842105263,fewer_than_15_shared_genes
+GO:0006810,transport,119,68,True,0.5714285714285714,included
+GO:0006811,monoatomic ion transport,32,13,False,0.40625,fewer_than_15_shared_genes
+GO:0006812,monoatomic cation transport,34,14,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0006813,potassium ion transport,62,16,True,0.25806451612903225,included
+GO:0006814,sodium ion transport,76,29,True,0.3815789473684211,included
+GO:0006816,calcium ion transport,85,27,True,0.3176470588235294,included
+GO:0006821,chloride transport,49,20,True,0.40816326530612246,included
+GO:0006833,water transport,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0006836,neurotransmitter transport,32,11,False,0.34375,fewer_than_15_shared_genes
+GO:0006855,xenobiotic transmembrane transport,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0006869,lipid transport,42,22,True,0.5238095238095238,included
+GO:0006874,intracellular calcium ion homeostasis,88,38,True,0.4318181818181818,included
+GO:0006879,intracellular iron ion homeostasis,29,18,True,0.6206896551724138,included
+GO:0006882,intracellular zinc ion homeostasis,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0006883,intracellular sodium ion homeostasis,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0006885,regulation of pH,20,6,False,0.3,fewer_than_15_shared_genes
+GO:0006886,intracellular protein transport,178,137,True,0.7696629213483146,included
+GO:0006887,exocytosis,75,47,True,0.6266666666666667,included
+GO:0006888,endoplasmic reticulum to Golgi vesicle-mediated transport,57,45,True,0.7894736842105263,included
+GO:0006890,"retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum",28,26,True,0.9285714285714286,included
+GO:0006891,intra-Golgi vesicle-mediated transport,22,21,True,0.9545454545454546,included
+GO:0006897,endocytosis,109,81,True,0.7431192660550459,included
+GO:0006898,receptor-mediated endocytosis,80,43,True,0.5375,included
+GO:0006906,vesicle fusion,40,22,True,0.55,included
+GO:0006909,phagocytosis,35,23,True,0.6571428571428571,included
+GO:0006911,"phagocytosis, engulfment",20,4,False,0.2,fewer_than_15_shared_genes
+GO:0006913,nucleocytoplasmic transport,23,17,True,0.7391304347826086,included
+GO:0006914,autophagy,66,48,True,0.7272727272727273,included
+GO:0006915,apoptotic process,311,206,True,0.662379421221865,included
+GO:0006935,chemotaxis,51,16,True,0.3137254901960784,included
+GO:0006936,muscle contraction,44,9,False,0.20454545454545456,fewer_than_15_shared_genes
+GO:0006937,regulation of muscle contraction,18,9,False,0.5,fewer_than_15_shared_genes
+GO:0006952,defense response,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0006953,acute-phase response,28,13,False,0.4642857142857143,fewer_than_15_shared_genes
+GO:0006954,inflammatory response,220,76,True,0.34545454545454546,included
+GO:0006955,immune response,168,40,True,0.23809523809523808,included
+GO:0006958,"complement activation, classical pathway",21,9,False,0.42857142857142855,fewer_than_15_shared_genes
+GO:0006959,humoral immune response,20,10,False,0.5,fewer_than_15_shared_genes
+GO:0006970,response to osmotic stress,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0006974,DNA damage response,187,149,True,0.7967914438502673,included
+GO:0006979,response to oxidative stress,126,83,True,0.6587301587301587,included
+GO:0006986,response to unfolded protein,22,15,True,0.6818181818181818,included
+GO:0006997,nucleus organization,19,12,False,0.631578947368421,fewer_than_15_shared_genes
+GO:0006998,nuclear envelope organization,15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0007005,mitochondrion organization,55,43,True,0.7818181818181819,included
+GO:0007010,cytoskeleton organization,99,59,True,0.5959595959595959,included
+GO:0007015,actin filament organization,62,44,True,0.7096774193548387,included
+GO:0007017,microtubule-based process,25,20,True,0.8,included
+GO:0007018,microtubule-based movement,41,33,True,0.8048780487804879,included
+GO:0007026,negative regulation of microtubule depolymerization,21,13,False,0.6190476190476191,fewer_than_15_shared_genes
+GO:0007029,endoplasmic reticulum organization,23,17,True,0.7391304347826086,included
+GO:0007030,Golgi organization,64,55,True,0.859375,included
+GO:0007031,peroxisome organization,18,13,False,0.7222222222222222,fewer_than_15_shared_genes
+GO:0007032,endosome organization,30,24,True,0.8,included
+GO:0007040,lysosome organization,32,27,True,0.84375,included
+GO:0007051,spindle organization,16,15,True,0.9375,included
+GO:0007052,mitotic spindle organization,25,21,True,0.84,included
+GO:0007059,chromosome segregation,59,41,True,0.6949152542372882,included
+GO:0007080,mitotic metaphase chromosome alignment,32,25,True,0.78125,included
+GO:0007093,mitotic cell cycle checkpoint signaling,24,20,True,0.8333333333333334,included
+GO:0007097,nuclear migration,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0007098,centrosome cycle,31,24,True,0.7741935483870968,included
+GO:0007131,reciprocal meiotic recombination,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0007140,male meiotic nuclear division,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0007154,cell communication,20,3,False,0.15,fewer_than_15_shared_genes
+GO:0007155,cell adhesion,221,107,True,0.4841628959276018,included
+GO:0007156,homophilic cell-cell adhesion,73,25,True,0.3424657534246575,included
+GO:0007157,heterophilic cell-cell adhesion,35,13,False,0.37142857142857144,fewer_than_15_shared_genes
+GO:0007159,leukocyte cell-cell adhesion,23,7,False,0.30434782608695654,fewer_than_15_shared_genes
+GO:0007160,cell-matrix adhesion,63,36,True,0.5714285714285714,included
+GO:0007162,negative regulation of cell adhesion,35,19,True,0.5428571428571428,included
+GO:0007163,establishment or maintenance of cell polarity,21,15,True,0.7142857142857143,included
+GO:0007165,signal transduction,441,246,True,0.5578231292517006,included
+GO:0007166,cell surface receptor signaling pathway,138,57,True,0.41304347826086957,included
+GO:0007169,cell surface receptor protein tyrosine kinase signaling pathway,56,20,True,0.35714285714285715,included
+GO:0007173,epidermal growth factor receptor signaling pathway,32,22,True,0.6875,included
+GO:0007178,cell surface receptor protein serine/threonine kinase signaling pathway,16,7,False,0.4375,fewer_than_15_shared_genes
+GO:0007179,transforming growth factor beta receptor signaling pathway,59,41,True,0.6949152542372882,included
+GO:0007186,G protein-coupled receptor signaling pathway,320,78,True,0.24375,included
+GO:0007187,"G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",17,2,False,0.11764705882352941,fewer_than_15_shared_genes
+GO:0007188,adenylate cyclase-modulating G protein-coupled receptor signaling pathway,27,2,False,0.07407407407407407,fewer_than_15_shared_genes
+GO:0007189,adenylate cyclase-activating G protein-coupled receptor signaling pathway,44,8,False,0.18181818181818182,fewer_than_15_shared_genes
+GO:0007190,activation of adenylate cyclase activity,18,1,False,0.05555555555555555,fewer_than_15_shared_genes
+GO:0007193,adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway,32,8,False,0.25,fewer_than_15_shared_genes
+GO:0007200,phospholipase C-activating G protein-coupled receptor signaling pathway,41,7,False,0.17073170731707318,fewer_than_15_shared_genes
+GO:0007204,positive regulation of cytosolic calcium ion concentration,131,38,True,0.2900763358778626,included
+GO:0007212,G protein-coupled dopamine receptor signaling pathway,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0007214,gamma-aminobutyric acid signaling pathway,24,3,False,0.125,fewer_than_15_shared_genes
+GO:0007218,neuropeptide signaling pathway,75,12,False,0.16,fewer_than_15_shared_genes
+GO:0007219,Notch signaling pathway,88,51,True,0.5795454545454546,included
+GO:0007224,smoothened signaling pathway,57,42,True,0.7368421052631579,included
+GO:0007229,integrin-mediated signaling pathway,73,33,True,0.4520547945205479,included
+GO:0007249,canonical NF-kappaB signal transduction,29,20,True,0.6896551724137931,included
+GO:0007254,JNK cascade,25,14,False,0.56,fewer_than_15_shared_genes
+GO:0007259,cell surface receptor signaling pathway via JAK-STAT,19,11,False,0.5789473684210527,fewer_than_15_shared_genes
+GO:0007264,small GTPase-mediated signal transduction,193,113,True,0.5854922279792746,included
+GO:0007265,Ras protein signal transduction,53,32,True,0.6037735849056604,included
+GO:0007266,Rho protein signal transduction,36,18,True,0.5,included
+GO:0007267,cell-cell signaling,68,20,True,0.29411764705882354,included
+GO:0007268,chemical synaptic transmission,134,44,True,0.3283582089552239,included
+GO:0007269,neurotransmitter secretion,34,15,True,0.4411764705882353,included
+GO:0007271,"synaptic transmission, cholinergic",28,4,False,0.14285714285714285,fewer_than_15_shared_genes
+GO:0007274,neuromuscular synaptic transmission,28,7,False,0.25,fewer_than_15_shared_genes
+GO:0007275,multicellular organism development,177,88,True,0.4971751412429379,included
+GO:0007281,germ cell development,31,16,True,0.5161290322580645,included
+GO:0007283,spermatogenesis,265,157,True,0.5924528301886792,included
+GO:0007286,spermatid development,62,33,True,0.532258064516129,included
+GO:0007338,single fertilization,27,8,False,0.2962962962962963,fewer_than_15_shared_genes
+GO:0007339,binding of sperm to zona pellucida,27,12,False,0.4444444444444444,fewer_than_15_shared_genes
+GO:0007346,regulation of mitotic cell cycle,30,23,True,0.7666666666666667,included
+GO:0007368,determination of left/right symmetry,56,41,True,0.7321428571428571,included
+GO:0007369,gastrulation,21,17,True,0.8095238095238095,included
+GO:0007389,pattern specification process,48,21,True,0.4375,included
+GO:0007399,nervous system development,170,80,True,0.47058823529411764,included
+GO:0007405,neuroblast proliferation,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0007409,axonogenesis,85,42,True,0.49411764705882355,included
+GO:0007411,axon guidance,116,54,True,0.46551724137931033,included
+GO:0007413,axonal fasciculation,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0007416,synapse assembly,39,22,True,0.5641025641025641,included
+GO:0007417,central nervous system development,88,52,True,0.5909090909090909,included
+GO:0007420,brain development,260,152,True,0.5846153846153846,included
+GO:0007422,peripheral nervous system development,20,7,False,0.35,fewer_than_15_shared_genes
+GO:0007492,endoderm development,25,15,True,0.6,included
+GO:0007494,midgut development,19,7,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0007498,mesoderm development,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0007507,heart development,246,150,True,0.6097560975609756,included
+GO:0007512,adult heart development,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0007517,muscle organ development,36,19,True,0.5277777777777778,included
+GO:0007519,skeletal muscle tissue development,59,29,True,0.4915254237288136,included
+GO:0007520,myoblast fusion,18,5,False,0.2777777777777778,fewer_than_15_shared_genes
+GO:0007528,neuromuscular junction development,31,16,True,0.5161290322580645,included
+GO:0007565,female pregnancy,103,46,True,0.44660194174757284,included
+GO:0007566,embryo implantation,42,28,True,0.6666666666666666,included
+GO:0007584,response to nutrient,119,58,True,0.48739495798319327,included
+GO:0007585,respiratory gaseous exchange by respiratory system,23,9,False,0.391304347826087,fewer_than_15_shared_genes
+GO:0007586,digestion,18,2,False,0.1111111111111111,fewer_than_15_shared_genes
+GO:0007595,lactation,54,28,True,0.5185185185185185,included
+GO:0007596,blood coagulation,53,30,True,0.5660377358490566,included
+GO:0007601,visual perception,94,31,True,0.32978723404255317,included
+GO:0007602,phototransduction,17,3,False,0.17647058823529413,fewer_than_15_shared_genes
+GO:0007605,sensory perception of sound,90,44,True,0.4888888888888889,included
+GO:0007608,sensory perception of smell,37,9,False,0.24324324324324326,fewer_than_15_shared_genes
+GO:0007611,learning or memory,52,18,True,0.34615384615384615,included
+GO:0007612,learning,57,19,True,0.3333333333333333,included
+GO:0007613,memory,82,30,True,0.36585365853658536,included
+GO:0007616,long-term memory,33,17,True,0.5151515151515151,included
+GO:0007623,circadian rhythm,95,49,True,0.5157894736842106,included
+GO:0007626,locomotory behavior,89,37,True,0.4157303370786517,included
+GO:0007628,adult walking behavior,35,14,False,0.4,fewer_than_15_shared_genes
+GO:0007631,feeding behavior,33,5,False,0.15151515151515152,fewer_than_15_shared_genes
+GO:0008016,regulation of heart contraction,23,5,False,0.21739130434782608,fewer_than_15_shared_genes
+GO:0008033,tRNA processing,25,14,False,0.56,fewer_than_15_shared_genes
+GO:0008045,motor neuron axon guidance,23,8,False,0.34782608695652173,fewer_than_15_shared_genes
+GO:0008089,anterograde axonal transport,22,17,True,0.7727272727272727,included
+GO:0008104,intracellular protein localization,111,63,True,0.5675675675675675,included
+GO:0008156,negative regulation of DNA replication,17,13,False,0.7647058823529411,fewer_than_15_shared_genes
+GO:0008202,steroid metabolic process,27,2,False,0.07407407407407407,fewer_than_15_shared_genes
+GO:0008203,cholesterol metabolic process,55,35,True,0.6363636363636364,included
+GO:0008206,bile acid metabolic process,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0008209,androgen metabolic process,17,11,False,0.6470588235294118,fewer_than_15_shared_genes
+GO:0008217,regulation of blood pressure,47,16,True,0.3404255319148936,included
+GO:0008219,cell death,34,18,True,0.5294117647058824,included
+GO:0008277,regulation of G protein-coupled receptor signaling pathway,30,14,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0008283,cell population proliferation,190,120,True,0.631578947368421,included
+GO:0008284,positive regulation of cell population proliferation,401,180,True,0.4488778054862843,included
+GO:0008285,negative regulation of cell population proliferation,315,182,True,0.5777777777777777,included
+GO:0008286,insulin receptor signaling pathway,50,38,True,0.76,included
+GO:0008306,associative learning,33,11,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0008333,endosome to lysosome transport,34,28,True,0.8235294117647058,included
+GO:0008344,adult locomotory behavior,54,26,True,0.48148148148148145,included
+GO:0008360,regulation of cell shape,111,68,True,0.6126126126126126,included
+GO:0008361,regulation of cell size,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0008380,RNA splicing,79,57,True,0.7215189873417721,included
+GO:0008542,visual learning,58,29,True,0.5,included
+GO:0008543,fibroblast growth factor receptor signaling pathway,40,14,False,0.35,fewer_than_15_shared_genes
+GO:0008544,epidermis development,34,16,True,0.47058823529411764,included
+GO:0008584,male gonad development,111,57,True,0.5135135135135135,included
+GO:0008585,female gonad development,25,11,False,0.44,fewer_than_15_shared_genes
+GO:0008589,regulation of smoothened signaling pathway,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0008625,extrinsic apoptotic signaling pathway via death domain receptors,26,13,False,0.5,fewer_than_15_shared_genes
+GO:0008630,intrinsic apoptotic signaling pathway in response to DNA damage,43,30,True,0.6976744186046512,included
+GO:0008631,intrinsic apoptotic signaling pathway in response to oxidative stress,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0008637,apoptotic mitochondrial changes,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0008654,phospholipid biosynthetic process,25,20,True,0.8,included
+GO:0009060,aerobic respiration,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0009267,cellular response to starvation,55,36,True,0.6545454545454545,included
+GO:0009268,response to pH,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0009306,protein secretion,21,17,True,0.8095238095238095,included
+GO:0009311,oligosaccharide metabolic process,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0009314,response to radiation,45,16,True,0.35555555555555557,included
+GO:0009395,phospholipid catabolic process,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0009408,response to heat,68,33,True,0.4852941176470588,included
+GO:0009409,response to cold,44,19,True,0.4318181818181818,included
+GO:0009410,response to xenobiotic stimulus,481,245,True,0.5093555093555093,included
+GO:0009411,response to UV,41,35,True,0.8536585365853658,included
+GO:0009416,response to light stimulus,32,18,True,0.5625,included
+GO:0009566,fertilization,32,13,False,0.40625,fewer_than_15_shared_genes
+GO:0009611,response to wounding,69,41,True,0.5942028985507246,included
+GO:0009612,response to mechanical stimulus,92,47,True,0.5108695652173914,included
+GO:0009615,response to virus,67,28,True,0.417910447761194,included
+GO:0009617,response to bacterium,36,14,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0009635,response to herbicide,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0009636,response to toxic substance,107,61,True,0.5700934579439252,included
+GO:0009651,response to salt stress,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0009725,response to hormone,89,40,True,0.449438202247191,included
+GO:0009743,response to carbohydrate,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0009749,response to glucose,98,60,True,0.6122448979591837,included
+GO:0009755,hormone-mediated signaling pathway,22,9,False,0.4090909090909091,fewer_than_15_shared_genes
+GO:0009791,post-embryonic development,95,61,True,0.6421052631578947,included
+GO:0009880,embryonic pattern specification,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0009887,animal organ morphogenesis,74,37,True,0.5,included
+GO:0009888,tissue development,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0009952,anterior/posterior pattern specification,80,42,True,0.525,included
+GO:0009953,dorsal/ventral pattern formation,36,24,True,0.6666666666666666,included
+GO:0009954,proximal/distal pattern formation,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0009966,regulation of signal transduction,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0009967,positive regulation of signal transduction,28,17,True,0.6071428571428571,included
+GO:0009968,negative regulation of signal transduction,22,10,False,0.45454545454545453,fewer_than_15_shared_genes
+GO:0010001,glial cell differentiation,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0010038,response to metal ion,26,13,False,0.5,fewer_than_15_shared_genes
+GO:0010039,response to iron ion,26,16,True,0.6153846153846154,included
+GO:0010043,response to zinc ion,45,18,True,0.4,included
+GO:0010165,response to X-ray,24,15,True,0.625,included
+GO:0010212,response to ionizing radiation,53,40,True,0.7547169811320755,included
+GO:0010226,response to lithium ion,21,9,False,0.42857142857142855,fewer_than_15_shared_genes
+GO:0010269,response to selenium ion,19,10,False,0.5263157894736842,fewer_than_15_shared_genes
+GO:0010288,response to lead ion,32,18,True,0.5625,included
+GO:0010332,response to gamma radiation,39,21,True,0.5384615384615384,included
+GO:0010460,positive regulation of heart rate,19,4,False,0.21052631578947367,fewer_than_15_shared_genes
+GO:0010466,negative regulation of peptidase activity,15,3,False,0.2,fewer_than_15_shared_genes
+GO:0010468,regulation of gene expression,188,119,True,0.6329787234042553,included
+GO:0010506,regulation of autophagy,32,19,True,0.59375,included
+GO:0010507,negative regulation of autophagy,23,12,False,0.5217391304347826,fewer_than_15_shared_genes
+GO:0010508,positive regulation of autophagy,35,27,True,0.7714285714285715,included
+GO:0010575,positive regulation of vascular endothelial growth factor production,23,10,False,0.43478260869565216,fewer_than_15_shared_genes
+GO:0010592,positive regulation of lamellipodium assembly,15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0010595,positive regulation of endothelial cell migration,39,22,True,0.5641025641025641,included
+GO:0010596,negative regulation of endothelial cell migration,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0010628,positive regulation of gene expression,305,160,True,0.5245901639344263,included
+GO:0010629,negative regulation of gene expression,173,106,True,0.6127167630057804,included
+GO:0010634,positive regulation of epithelial cell migration,29,16,True,0.5517241379310345,included
+GO:0010667,negative regulation of cardiac muscle cell apoptotic process,20,12,False,0.6,fewer_than_15_shared_genes
+GO:0010718,positive regulation of epithelial to mesenchymal transition,31,20,True,0.6451612903225806,included
+GO:0010719,negative regulation of epithelial to mesenchymal transition,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0010765,positive regulation of sodium ion transport,24,10,False,0.4166666666666667,fewer_than_15_shared_genes
+GO:0010800,positive regulation of peptidyl-threonine phosphorylation,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0010811,positive regulation of cell-substrate adhesion,38,19,True,0.5,included
+GO:0010824,regulation of centrosome duplication,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0010842,retina layer formation,19,7,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0010867,positive regulation of triglyceride biosynthetic process,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0010880,regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0010906,regulation of glucose metabolic process,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:0010923,negative regulation of phosphatase activity,35,28,True,0.8,included
+GO:0010951,negative regulation of endopeptidase activity,99,35,True,0.35353535353535354,included
+GO:0010975,regulation of neuron projection development,22,9,False,0.4090909090909091,fewer_than_15_shared_genes
+GO:0010976,positive regulation of neuron projection development,120,71,True,0.5916666666666667,included
+GO:0010977,negative regulation of neuron projection development,52,36,True,0.6923076923076923,included
+GO:0010996,response to auditory stimulus,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0014002,astrocyte development,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0014003,oligodendrocyte development,29,17,True,0.5862068965517241,included
+GO:0014075,response to amine,18,9,False,0.5,fewer_than_15_shared_genes
+GO:0014823,response to activity,88,42,True,0.4772727272727273,included
+GO:0014850,response to muscle activity,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0014898,cardiac muscle hypertrophy in response to stress,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0014902,myotube differentiation,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0014911,positive regulation of smooth muscle cell migration,38,21,True,0.5526315789473685,included
+GO:0015031,protein transport,234,161,True,0.688034188034188,included
+GO:0015701,bicarbonate transport,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0015721,bile acid and bile salt transport,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0015914,phospholipid transport,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:0015986,proton motive force-driven ATP synthesis,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0016042,lipid catabolic process,56,27,True,0.48214285714285715,included
+GO:0016049,cell growth,42,24,True,0.5714285714285714,included
+GO:0016050,vesicle organization,22,18,True,0.8181818181818182,included
+GO:0016055,Wnt signaling pathway,107,67,True,0.6261682242990654,included
+GO:0016079,synaptic vesicle exocytosis,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0016192,vesicle-mediated transport,109,85,True,0.7798165137614679,included
+GO:0016197,endosomal transport,33,24,True,0.7272727272727273,included
+GO:0016236,macroautophagy,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0016239,positive regulation of macroautophagy,21,16,True,0.7619047619047619,included
+GO:0016310,phosphorylation,129,97,True,0.751937984496124,included
+GO:0016311,dephosphorylation,67,46,True,0.6865671641791045,included
+GO:0016358,dendrite development,34,17,True,0.5,included
+GO:0016477,cell migration,168,106,True,0.6309523809523809,included
+GO:0016485,protein processing,61,38,True,0.6229508196721312,included
+GO:0016525,negative regulation of angiogenesis,60,21,True,0.35,included
+GO:0016567,protein ubiquitination,282,212,True,0.75177304964539,included
+GO:0016579,protein deubiquitination,54,44,True,0.8148148148148148,included
+GO:0016601,Rac protein signal transduction,17,11,False,0.6470588235294118,fewer_than_15_shared_genes
+GO:0016925,protein sumoylation,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0017015,regulation of transforming growth factor beta receptor signaling pathway,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0017085,response to insecticide,15,6,False,0.4,fewer_than_15_shared_genes
+GO:0017148,negative regulation of translation,53,42,True,0.7924528301886793,included
+GO:0017156,calcium-ion regulated exocytosis,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0017157,regulation of exocytosis,24,16,True,0.6666666666666666,included
+GO:0017158,regulation of calcium ion-dependent exocytosis,21,5,False,0.23809523809523808,fewer_than_15_shared_genes
+GO:0018105,peptidyl-serine phosphorylation,110,79,True,0.7181818181818181,included
+GO:0018107,peptidyl-threonine phosphorylation,34,29,True,0.8529411764705882,included
+GO:0018108,peptidyl-tyrosine phosphorylation,99,57,True,0.5757575757575758,included
+GO:0018149,peptide cross-linking,21,5,False,0.23809523809523808,fewer_than_15_shared_genes
+GO:0018345,protein palmitoylation,16,15,True,0.9375,included
+GO:0019216,regulation of lipid metabolic process,30,18,True,0.6,included
+GO:0019221,cytokine-mediated signaling pathway,108,41,True,0.37962962962962965,included
+GO:0019226,transmission of nerve impulse,20,4,False,0.2,fewer_than_15_shared_genes
+GO:0019228,neuronal action potential,32,7,False,0.21875,fewer_than_15_shared_genes
+GO:0019229,regulation of vasoconstriction,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0019233,sensory perception of pain,75,21,True,0.28,included
+GO:0019369,arachidonate metabolic process,24,3,False,0.125,fewer_than_15_shared_genes
+GO:0019373,epoxygenase P450 pathway,17,0,False,0.0,fewer_than_15_shared_genes
+GO:0019433,triglyceride catabolic process,22,13,False,0.5909090909090909,fewer_than_15_shared_genes
+GO:0019538,protein metabolic process,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0019722,calcium-mediated signaling,41,17,True,0.4146341463414634,included
+GO:0019731,antibacterial humoral response,19,4,False,0.21052631578947367,fewer_than_15_shared_genes
+GO:0019827,stem cell population maintenance,55,38,True,0.6909090909090909,included
+GO:0019882,antigen processing and presentation,29,15,True,0.5172413793103449,included
+GO:0019915,lipid storage,25,17,True,0.68,included
+GO:0021510,spinal cord development,47,21,True,0.44680851063829785,included
+GO:0021522,spinal cord motor neuron differentiation,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0021537,telencephalon development,31,13,False,0.41935483870967744,fewer_than_15_shared_genes
+GO:0021542,dentate gyrus development,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0021549,cerebellum development,57,27,True,0.47368421052631576,included
+GO:0021762,substantia nigra development,40,22,True,0.55,included
+GO:0021766,hippocampus development,85,43,True,0.5058823529411764,included
+GO:0021772,olfactory bulb development,20,11,False,0.55,fewer_than_15_shared_genes
+GO:0021854,hypothalamus development,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0021904,dorsal/ventral neural tube patterning,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0021915,neural tube development,42,27,True,0.6428571428571429,included
+GO:0021954,central nervous system neuron development,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0021983,pituitary gland development,32,17,True,0.53125,included
+GO:0021987,cerebral cortex development,70,39,True,0.5571428571428572,included
+GO:0022008,neurogenesis,57,27,True,0.47368421052631576,included
+GO:0022011,myelination in peripheral nervous system,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0022408,negative regulation of cell-cell adhesion,16,9,False,0.5625,fewer_than_15_shared_genes
+GO:0022409,positive regulation of cell-cell adhesion,18,9,False,0.5,fewer_than_15_shared_genes
+GO:0022604,regulation of cell morphogenesis,21,18,True,0.8571428571428571,included
+GO:0023019,signal transduction involved in regulation of gene expression,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0030010,establishment of cell polarity,24,13,False,0.5416666666666666,fewer_than_15_shared_genes
+GO:0030030,cell projection organization,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0030032,lamellipodium assembly,31,21,True,0.6774193548387096,included
+GO:0030036,actin cytoskeleton organization,109,78,True,0.7155963302752294,included
+GO:0030041,actin filament polymerization,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0030073,insulin secretion,31,11,False,0.3548387096774194,fewer_than_15_shared_genes
+GO:0030097,hemopoiesis,62,37,True,0.5967741935483871,included
+GO:0030099,myeloid cell differentiation,25,15,True,0.6,included
+GO:0030100,regulation of endocytosis,26,18,True,0.6923076923076923,included
+GO:0030111,regulation of Wnt signaling pathway,16,7,False,0.4375,fewer_than_15_shared_genes
+GO:0030154,cell differentiation,282,138,True,0.48936170212765956,included
+GO:0030155,regulation of cell adhesion,35,20,True,0.5714285714285714,included
+GO:0030163,protein catabolic process,48,29,True,0.6041666666666666,included
+GO:0030168,platelet activation,30,15,True,0.5,included
+GO:0030177,positive regulation of Wnt signaling pathway,34,18,True,0.5294117647058824,included
+GO:0030178,negative regulation of Wnt signaling pathway,43,22,True,0.5116279069767442,included
+GO:0030182,neuron differentiation,130,64,True,0.49230769230769234,included
+GO:0030183,B cell differentiation,39,19,True,0.48717948717948717,included
+GO:0030193,regulation of blood coagulation,16,9,False,0.5625,fewer_than_15_shared_genes
+GO:0030198,extracellular matrix organization,83,45,True,0.5421686746987951,included
+GO:0030199,collagen fibril organization,35,13,False,0.37142857142857144,fewer_than_15_shared_genes
+GO:0030216,keratinocyte differentiation,43,21,True,0.4883720930232558,included
+GO:0030217,T cell differentiation,35,19,True,0.5428571428571428,included
+GO:0030218,erythrocyte differentiation,38,26,True,0.6842105263157895,included
+GO:0030220,platelet formation,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0030224,monocyte differentiation,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0030278,regulation of ossification,18,8,False,0.4444444444444444,fewer_than_15_shared_genes
+GO:0030279,negative regulation of ossification,18,10,False,0.5555555555555556,fewer_than_15_shared_genes
+GO:0030282,bone mineralization,29,15,True,0.5172413793103449,included
+GO:0030301,cholesterol transport,18,13,False,0.7222222222222222,fewer_than_15_shared_genes
+GO:0030307,positive regulation of cell growth,78,46,True,0.5897435897435898,included
+GO:0030308,negative regulation of cell growth,101,64,True,0.6336633663366337,included
+GO:0030316,osteoclast differentiation,26,18,True,0.6923076923076923,included
+GO:0030317,flagellated sperm motility,44,15,True,0.3409090909090909,included
+GO:0030318,melanocyte differentiation,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0030324,lung development,119,63,True,0.5294117647058824,included
+GO:0030325,adrenal gland development,33,16,True,0.48484848484848486,included
+GO:0030326,embryonic limb morphogenesis,48,21,True,0.4375,included
+GO:0030334,regulation of cell migration,69,37,True,0.5362318840579711,included
+GO:0030335,positive regulation of cell migration,180,102,True,0.5666666666666667,included
+GO:0030336,negative regulation of cell migration,87,46,True,0.5287356321839081,included
+GO:0030488,tRNA methylation,19,17,True,0.8947368421052632,included
+GO:0030501,positive regulation of bone mineralization,33,17,True,0.5151515151515151,included
+GO:0030509,BMP signaling pathway,56,29,True,0.5178571428571429,included
+GO:0030511,positive regulation of transforming growth factor beta receptor signaling pathway,21,18,True,0.8571428571428571,included
+GO:0030512,negative regulation of transforming growth factor beta receptor signaling pathway,45,24,True,0.5333333333333333,included
+GO:0030513,positive regulation of BMP signaling pathway,31,19,True,0.6129032258064516,included
+GO:0030514,negative regulation of BMP signaling pathway,34,15,True,0.4411764705882353,included
+GO:0030517,negative regulation of axon extension,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0030521,androgen receptor signaling pathway,21,16,True,0.7619047619047619,included
+GO:0030522,intracellular receptor signaling pathway,29,23,True,0.7931034482758621,included
+GO:0030534,adult behavior,33,12,False,0.36363636363636365,fewer_than_15_shared_genes
+GO:0030539,male genitalia development,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0030574,collagen catabolic process,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0030593,neutrophil chemotaxis,48,11,False,0.22916666666666666,fewer_than_15_shared_genes
+GO:0030728,ovulation,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0030837,negative regulation of actin filament polymerization,15,9,False,0.6,fewer_than_15_shared_genes
+GO:0030838,positive regulation of actin filament polymerization,40,27,True,0.675,included
+GO:0030855,epithelial cell differentiation,69,41,True,0.5942028985507246,included
+GO:0030866,cortical actin cytoskeleton organization,23,16,True,0.6956521739130435,included
+GO:0030878,thyroid gland development,25,12,False,0.48,fewer_than_15_shared_genes
+GO:0030879,mammary gland development,31,15,True,0.4838709677419355,included
+GO:0030889,negative regulation of B cell proliferation,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0030890,positive regulation of B cell proliferation,35,18,True,0.5142857142857142,included
+GO:0030900,forebrain development,82,49,True,0.5975609756097561,included
+GO:0030901,midbrain development,33,17,True,0.5151515151515151,included
+GO:0030902,hindbrain development,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0030968,endoplasmic reticulum unfolded protein response,41,31,True,0.7560975609756098,included
+GO:0031000,response to caffeine,22,12,False,0.5454545454545454,fewer_than_15_shared_genes
+GO:0031016,pancreas development,34,20,True,0.5882352941176471,included
+GO:0031018,endocrine pancreas development,23,11,False,0.4782608695652174,fewer_than_15_shared_genes
+GO:0031032,actomyosin structure organization,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0031047,regulatory ncRNA-mediated gene silencing,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0031069,hair follicle morphogenesis,29,13,False,0.4482758620689655,fewer_than_15_shared_genes
+GO:0031100,animal organ regeneration,80,50,True,0.625,included
+GO:0031103,axon regeneration,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0031116,positive regulation of microtubule polymerization,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0031122,cytoplasmic microtubule organization,27,22,True,0.8148148148148148,included
+GO:0031146,SCF-dependent proteasomal ubiquitin-dependent protein catabolic process,22,19,True,0.8636363636363636,included
+GO:0031175,neuron projection development,127,78,True,0.6141732283464567,included
+GO:0031214,biomineral tissue development,15,3,False,0.2,fewer_than_15_shared_genes
+GO:0031290,retinal ganglion cell axon guidance,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0031297,replication fork processing,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0031333,negative regulation of protein-containing complex assembly,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0031334,positive regulation of protein-containing complex assembly,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0031338,regulation of vesicle fusion,25,20,True,0.8,included
+GO:0031396,regulation of protein ubiquitination,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0031397,negative regulation of protein ubiquitination,40,29,True,0.725,included
+GO:0031398,positive regulation of protein ubiquitination,53,39,True,0.7358490566037735,included
+GO:0031507,heterochromatin formation,26,13,False,0.5,fewer_than_15_shared_genes
+GO:0031589,cell-substrate adhesion,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0031623,receptor internalization,39,18,True,0.46153846153846156,included
+GO:0031641,regulation of myelination,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:0031647,regulation of protein stability,56,39,True,0.6964285714285714,included
+GO:0031648,protein destabilization,33,25,True,0.7575757575757576,included
+GO:0031663,lipopolysaccharide-mediated signaling pathway,31,16,True,0.5161290322580645,included
+GO:0031667,response to nutrient levels,93,42,True,0.45161290322580644,included
+GO:0031954,positive regulation of protein autophosphorylation,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0032007,negative regulation of TOR signaling,25,23,True,0.92,included
+GO:0032008,positive regulation of TOR signaling,27,19,True,0.7037037037037037,included
+GO:0032024,positive regulation of insulin secretion,44,25,True,0.5681818181818182,included
+GO:0032026,response to magnesium ion,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0032091,negative regulation of protein binding,51,33,True,0.6470588235294118,included
+GO:0032092,positive regulation of protein binding,60,41,True,0.6833333333333333,included
+GO:0032094,response to food,26,13,False,0.5,fewer_than_15_shared_genes
+GO:0032147,activation of protein kinase activity,39,26,True,0.6666666666666666,included
+GO:0032148,activation of protein kinase B activity,20,6,False,0.3,fewer_than_15_shared_genes
+GO:0032212,positive regulation of telomere maintenance via telomerase,27,21,True,0.7777777777777778,included
+GO:0032230,"positive regulation of synaptic transmission, GABAergic",15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0032259,methylation,47,32,True,0.6808510638297872,included
+GO:0032355,response to estradiol,187,97,True,0.5187165775401069,included
+GO:0032402,melanosome transport,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0032435,negative regulation of proteasomal ubiquitin-dependent protein catabolic process,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0032436,positive regulation of proteasomal ubiquitin-dependent protein catabolic process,59,43,True,0.7288135593220338,included
+GO:0032456,endocytic recycling,36,26,True,0.7222222222222222,included
+GO:0032465,regulation of cytokinesis,21,15,True,0.7142857142857143,included
+GO:0032467,positive regulation of cytokinesis,28,20,True,0.7142857142857143,included
+GO:0032496,response to lipopolysaccharide,241,95,True,0.3941908713692946,included
+GO:0032526,response to retinoic acid,65,42,True,0.6461538461538462,included
+GO:0032543,mitochondrial translation,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0032570,response to progesterone,57,31,True,0.543859649122807,included
+GO:0032689,negative regulation of type II interferon production,24,8,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0032715,negative regulation of interleukin-6 production,33,16,True,0.48484848484848486,included
+GO:0032720,negative regulation of tumor necrosis factor production,38,17,True,0.4473684210526316,included
+GO:0032722,positive regulation of chemokine production,31,11,False,0.3548387096774194,fewer_than_15_shared_genes
+GO:0032728,positive regulation of interferon-beta production,23,13,False,0.5652173913043478,fewer_than_15_shared_genes
+GO:0032729,positive regulation of type II interferon production,50,12,False,0.24,fewer_than_15_shared_genes
+GO:0032731,positive regulation of interleukin-1 beta production,19,7,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0032733,positive regulation of interleukin-10 production,23,3,False,0.13043478260869565,fewer_than_15_shared_genes
+GO:0032735,positive regulation of interleukin-12 production,25,11,False,0.44,fewer_than_15_shared_genes
+GO:0032743,positive regulation of interleukin-2 production,27,15,True,0.5555555555555556,included
+GO:0032753,positive regulation of interleukin-4 production,19,5,False,0.2631578947368421,fewer_than_15_shared_genes
+GO:0032755,positive regulation of interleukin-6 production,61,28,True,0.45901639344262296,included
+GO:0032757,positive regulation of interleukin-8 production,38,13,False,0.34210526315789475,fewer_than_15_shared_genes
+GO:0032760,positive regulation of tumor necrosis factor production,60,25,True,0.4166666666666667,included
+GO:0032781,positive regulation of ATP-dependent activity,27,14,False,0.5185185185185185,fewer_than_15_shared_genes
+GO:0032868,response to insulin,93,56,True,0.6021505376344086,included
+GO:0032869,cellular response to insulin stimulus,109,70,True,0.6422018348623854,included
+GO:0032870,cellular response to hormone stimulus,50,24,True,0.48,included
+GO:0032874,positive regulation of stress-activated MAPK cascade,18,13,False,0.7222222222222222,fewer_than_15_shared_genes
+GO:0032880,regulation of protein localization,65,45,True,0.6923076923076923,included
+GO:0032922,circadian regulation of gene expression,56,42,True,0.75,included
+GO:0032956,regulation of actin cytoskeleton organization,42,28,True,0.6666666666666666,included
+GO:0032967,positive regulation of collagen biosynthetic process,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0032968,positive regulation of transcription elongation by RNA polymerase II,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0032981,mitochondrial respiratory chain complex I assembly,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0033077,T cell differentiation in thymus,31,23,True,0.7419354838709677,included
+GO:0033137,negative regulation of peptidyl-serine phosphorylation,21,15,True,0.7142857142857143,included
+GO:0033138,positive regulation of peptidyl-serine phosphorylation,69,40,True,0.5797101449275363,included
+GO:0033189,response to vitamin A,39,19,True,0.48717948717948717,included
+GO:0033197,response to vitamin E,22,11,False,0.5,fewer_than_15_shared_genes
+GO:0033198,response to ATP,22,8,False,0.36363636363636365,fewer_than_15_shared_genes
+GO:0033209,tumor necrosis factor-mediated signaling pathway,35,17,True,0.4857142857142857,included
+GO:0033280,response to vitamin D,28,9,False,0.32142857142857145,fewer_than_15_shared_genes
+GO:0033327,Leydig cell differentiation,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0033344,cholesterol efflux,22,15,True,0.6818181818181818,included
+GO:0033365,protein localization to organelle,17,14,False,0.8235294117647058,fewer_than_15_shared_genes
+GO:0033539,fatty acid beta-oxidation using acyl-CoA dehydrogenase,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0033555,multicellular organismal response to stress,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0033574,response to testosterone,57,30,True,0.5263157894736842,included
+GO:0033762,response to glucagon,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0033993,response to lipid,29,16,True,0.5517241379310345,included
+GO:0034067,protein localization to Golgi apparatus,19,17,True,0.8947368421052632,included
+GO:0034097,response to cytokine,88,45,True,0.5113636363636364,included
+GO:0034113,heterotypic cell-cell adhesion,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0034198,cellular response to amino acid starvation,26,21,True,0.8076923076923077,included
+GO:0034220,monoatomic ion transmembrane transport,83,23,True,0.27710843373493976,included
+GO:0034260,negative regulation of GTPase activity,27,18,True,0.6666666666666666,included
+GO:0034341,response to type II interferon,21,7,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0034394,protein localization to cell surface,24,13,False,0.5416666666666666,fewer_than_15_shared_genes
+GO:0034446,substrate adhesion-dependent cell spreading,34,25,True,0.7352941176470589,included
+GO:0034504,protein localization to nucleus,31,25,True,0.8064516129032258,included
+GO:0034599,cellular response to oxidative stress,60,38,True,0.6333333333333333,included
+GO:0034605,cellular response to heat,36,20,True,0.5555555555555556,included
+GO:0034612,response to tumor necrosis factor,31,15,True,0.4838709677419355,included
+GO:0034614,cellular response to reactive oxygen species,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0034644,cellular response to UV,43,34,True,0.7906976744186046,included
+GO:0034765,regulation of monoatomic ion transmembrane transport,94,21,True,0.22340425531914893,included
+GO:0034976,response to endoplasmic reticulum stress,70,58,True,0.8285714285714286,included
+GO:0035019,somatic stem cell population maintenance,36,22,True,0.6111111111111112,included
+GO:0035023,regulation of Rho protein signal transduction,63,38,True,0.6031746031746031,included
+GO:0035024,negative regulation of Rho protein signal transduction,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0035050,embryonic heart tube development,19,10,False,0.5263157894736842,fewer_than_15_shared_genes
+GO:0035094,response to nicotine,61,21,True,0.3442622950819672,included
+GO:0035108,limb morphogenesis,20,14,False,0.7,fewer_than_15_shared_genes
+GO:0035115,embryonic forelimb morphogenesis,25,11,False,0.44,fewer_than_15_shared_genes
+GO:0035116,embryonic hindlimb morphogenesis,27,13,False,0.48148148148148145,fewer_than_15_shared_genes
+GO:0035162,embryonic hemopoiesis,20,11,False,0.55,fewer_than_15_shared_genes
+GO:0035176,social behavior,49,26,True,0.5306122448979592,included
+GO:0035235,ionotropic glutamate receptor signaling pathway,26,6,False,0.23076923076923078,fewer_than_15_shared_genes
+GO:0035249,"synaptic transmission, glutamatergic",26,8,False,0.3076923076923077,fewer_than_15_shared_genes
+GO:0035264,multicellular organism growth,91,65,True,0.7142857142857143,included
+GO:0035329,hippo signaling,16,12,False,0.75,fewer_than_15_shared_genes
+GO:0035335,peptidyl-tyrosine dephosphorylation,79,47,True,0.5949367088607594,included
+GO:0035418,protein localization to synapse,16,7,False,0.4375,fewer_than_15_shared_genes
+GO:0035435,phosphate ion transmembrane transport,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0035458,cellular response to interferon-beta,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0035556,intracellular signal transduction,322,194,True,0.6024844720496895,included
+GO:0035567,non-canonical Wnt signaling pathway,17,8,False,0.47058823529411764,fewer_than_15_shared_genes
+GO:0035640,exploration behavior,17,8,False,0.47058823529411764,fewer_than_15_shared_genes
+GO:0035725,sodium ion transmembrane transport,65,21,True,0.3230769230769231,included
+GO:0035729,cellular response to hepatocyte growth factor stimulus,17,11,False,0.6470588235294118,fewer_than_15_shared_genes
+GO:0035774,positive regulation of insulin secretion involved in cellular response to glucose stimulus,29,15,True,0.5172413793103449,included
+GO:0035810,positive regulation of urine volume,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0035855,megakaryocyte development,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0035902,response to immobilization stress,34,12,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0035904,aorta development,26,18,True,0.6923076923076923,included
+GO:0035914,skeletal muscle cell differentiation,45,29,True,0.6444444444444445,included
+GO:0035924,cellular response to vascular endothelial growth factor stimulus,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0035987,endodermal cell differentiation,25,15,True,0.6,included
+GO:0035994,response to muscle stretch,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0036120,cellular response to platelet-derived growth factor stimulus,23,15,True,0.6521739130434783,included
+GO:0036211,protein modification process,21,11,False,0.5238095238095238,fewer_than_15_shared_genes
+GO:0036342,post-anal tail morphogenesis,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0038083,peptidyl-tyrosine autophosphorylation,32,17,True,0.53125,included
+GO:0040007,growth,22,10,False,0.45454545454545453,fewer_than_15_shared_genes
+GO:0040008,regulation of growth,35,15,True,0.42857142857142855,included
+GO:0040014,regulation of multicellular organism growth,29,21,True,0.7241379310344828,included
+GO:0040018,positive regulation of multicellular organism growth,36,20,True,0.5555555555555556,included
+GO:0042060,wound healing,111,50,True,0.45045045045045046,included
+GO:0042073,intraciliary transport,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0042098,T cell proliferation,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0042102,positive regulation of T cell proliferation,53,17,True,0.32075471698113206,included
+GO:0042104,positive regulation of activated T cell proliferation,22,8,False,0.36363636363636365,fewer_than_15_shared_genes
+GO:0042110,T cell activation,24,11,False,0.4583333333333333,fewer_than_15_shared_genes
+GO:0042113,B cell activation,17,5,False,0.29411764705882354,fewer_than_15_shared_genes
+GO:0042127,regulation of cell population proliferation,195,102,True,0.5230769230769231,included
+GO:0042130,negative regulation of T cell proliferation,29,13,False,0.4482758620689655,fewer_than_15_shared_genes
+GO:0042147,"retrograde transport, endosome to Golgi",54,44,True,0.8148148148148148,included
+GO:0042149,cellular response to glucose starvation,30,27,True,0.9,included
+GO:0042157,lipoprotein metabolic process,20,12,False,0.6,fewer_than_15_shared_genes
+GO:0042176,regulation of protein catabolic process,18,12,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0042177,negative regulation of protein catabolic process,36,21,True,0.5833333333333334,included
+GO:0042178,xenobiotic catabolic process,18,6,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0042220,response to cocaine,51,20,True,0.39215686274509803,included
+GO:0042246,tissue regeneration,30,16,True,0.5333333333333333,included
+GO:0042254,ribosome biogenesis,22,15,True,0.6818181818181818,included
+GO:0042273,ribosomal large subunit biogenesis,18,10,False,0.5555555555555556,fewer_than_15_shared_genes
+GO:0042307,positive regulation of protein import into nucleus,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0042310,vasoconstriction,22,5,False,0.22727272727272727,fewer_than_15_shared_genes
+GO:0042311,vasodilation,54,24,True,0.4444444444444444,included
+GO:0042325,regulation of phosphorylation,19,10,False,0.5263157894736842,fewer_than_15_shared_genes
+GO:0042326,negative regulation of phosphorylation,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0042327,positive regulation of phosphorylation,28,13,False,0.4642857142857143,fewer_than_15_shared_genes
+GO:0042391,regulation of membrane potential,86,23,True,0.26744186046511625,included
+GO:0042445,hormone metabolic process,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0042462,eye photoreceptor cell development,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0042472,inner ear morphogenesis,56,18,True,0.32142857142857145,included
+GO:0042474,middle ear morphogenesis,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0042475,odontogenesis of dentin-containing tooth,53,31,True,0.5849056603773585,included
+GO:0042476,odontogenesis,33,14,False,0.42424242424242425,fewer_than_15_shared_genes
+GO:0042531,positive regulation of tyrosine phosphorylation of STAT protein,47,17,True,0.3617021276595745,included
+GO:0042542,response to hydrogen peroxide,70,45,True,0.6428571428571429,included
+GO:0042552,myelination,46,29,True,0.6304347826086957,included
+GO:0042572,retinol metabolic process,27,12,False,0.4444444444444444,fewer_than_15_shared_genes
+GO:0042593,glucose homeostasis,106,69,True,0.6509433962264151,included
+GO:0042594,response to starvation,47,26,True,0.5531914893617021,included
+GO:0042632,cholesterol homeostasis,56,40,True,0.7142857142857143,included
+GO:0042711,maternal behavior,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0042733,embryonic digit morphogenesis,49,35,True,0.7142857142857143,included
+GO:0042742,defense response to bacterium,63,20,True,0.31746031746031744,included
+GO:0042752,regulation of circadian rhythm,45,34,True,0.7555555555555555,included
+GO:0042755,eating behavior,32,8,False,0.25,fewer_than_15_shared_genes
+GO:0042771,intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator,27,21,True,0.7777777777777778,included
+GO:0042832,defense response to protozoan,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0042981,regulation of apoptotic process,132,78,True,0.5909090909090909,included
+GO:0043001,Golgi to plasma membrane protein transport,25,20,True,0.8,included
+GO:0043010,camera-type eye development,60,31,True,0.5166666666666667,included
+GO:0043011,myeloid dendritic cell differentiation,18,9,False,0.5,fewer_than_15_shared_genes
+GO:0043029,T cell homeostasis,27,17,True,0.6296296296296297,included
+GO:0043065,positive regulation of apoptotic process,295,168,True,0.5694915254237288,included
+GO:0043066,negative regulation of apoptotic process,415,255,True,0.6144578313253012,included
+GO:0043085,positive regulation of catalytic activity,59,36,True,0.6101694915254238,included
+GO:0043086,negative regulation of catalytic activity,58,32,True,0.5517241379310345,included
+GO:0043087,regulation of GTPase activity,55,33,True,0.6,included
+GO:0043113,receptor clustering,25,16,True,0.64,included
+GO:0043123,positive regulation of canonical NF-kappaB signal transduction,131,89,True,0.6793893129770993,included
+GO:0043124,negative regulation of canonical NF-kappaB signal transduction,33,21,True,0.6363636363636364,included
+GO:0043129,surfactant homeostasis,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0043153,entrainment of circadian clock by photoperiod,18,14,False,0.7777777777777778,fewer_than_15_shared_genes
+GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,111,83,True,0.7477477477477478,included
+GO:0043171,peptide catabolic process,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0043200,response to amino acid,53,33,True,0.6226415094339622,included
+GO:0043252,sodium-independent organic anion transport,17,3,False,0.17647058823529413,fewer_than_15_shared_genes
+GO:0043278,response to morphine,38,14,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0043330,response to exogenous dsRNA,20,10,False,0.5,fewer_than_15_shared_genes
+GO:0043388,positive regulation of DNA binding,26,12,False,0.46153846153846156,fewer_than_15_shared_genes
+GO:0043392,negative regulation of DNA binding,28,16,True,0.5714285714285714,included
+GO:0043393,regulation of protein binding,20,16,True,0.8,included
+GO:0043401,steroid hormone receptor signaling pathway,52,34,True,0.6538461538461539,included
+GO:0043403,skeletal muscle tissue regeneration,18,9,False,0.5,fewer_than_15_shared_genes
+GO:0043406,positive regulation of MAP kinase activity,43,19,True,0.4418604651162791,included
+GO:0043407,negative regulation of MAP kinase activity,40,28,True,0.7,included
+GO:0043408,regulation of MAPK cascade,43,21,True,0.4883720930232558,included
+GO:0043409,negative regulation of MAPK cascade,15,9,False,0.6,fewer_than_15_shared_genes
+GO:0043410,positive regulation of MAPK cascade,100,40,True,0.4,included
+GO:0043434,response to peptide hormone,120,57,True,0.475,included
+GO:0043473,pigmentation,31,20,True,0.6451612903225806,included
+GO:0043484,regulation of RNA splicing,27,20,True,0.7407407407407407,included
+GO:0043488,regulation of mRNA stability,22,15,True,0.6818181818181818,included
+GO:0043491,phosphatidylinositol 3-kinase/protein kinase B signal transduction,36,21,True,0.5833333333333334,included
+GO:0043507,positive regulation of JUN kinase activity,32,22,True,0.6875,included
+GO:0043523,regulation of neuron apoptotic process,30,14,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0043524,negative regulation of neuron apoptotic process,138,77,True,0.5579710144927537,included
+GO:0043525,positive regulation of neuron apoptotic process,61,36,True,0.5901639344262295,included
+GO:0043536,positive regulation of blood vessel endothelial cell migration,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0043542,endothelial cell migration,24,15,True,0.625,included
+GO:0043547,positive regulation of GTPase activity,327,208,True,0.636085626911315,included
+GO:0043588,skin development,48,24,True,0.5,included
+GO:0043627,response to estrogen,94,43,True,0.4574468085106383,included
+GO:0044344,cellular response to fibroblast growth factor stimulus,37,20,True,0.5405405405405406,included
+GO:0044849,estrous cycle,28,8,False,0.2857142857142857,fewer_than_15_shared_genes
+GO:0045022,early endosome to late endosome transport,17,13,False,0.7647058823529411,fewer_than_15_shared_genes
+GO:0045070,positive regulation of viral genome replication,20,17,True,0.85,included
+GO:0045071,negative regulation of viral genome replication,27,9,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0045087,innate immune response,165,80,True,0.48484848484848486,included
+GO:0045109,intermediate filament organization,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0045165,cell fate commitment,59,25,True,0.423728813559322,included
+GO:0045184,establishment of protein localization,34,23,True,0.6764705882352942,included
+GO:0045214,sarcomere organization,29,9,False,0.3103448275862069,fewer_than_15_shared_genes
+GO:0045216,cell-cell junction organization,18,14,False,0.7777777777777778,fewer_than_15_shared_genes
+GO:0045332,phospholipid translocation,18,10,False,0.5555555555555556,fewer_than_15_shared_genes
+GO:0045429,positive regulation of nitric oxide biosynthetic process,38,19,True,0.5,included
+GO:0045444,fat cell differentiation,74,44,True,0.5945945945945946,included
+GO:0045445,myoblast differentiation,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0045453,bone resorption,22,13,False,0.5909090909090909,fewer_than_15_shared_genes
+GO:0045454,cell redox homeostasis,55,44,True,0.8,included
+GO:0045471,response to ethanol,174,76,True,0.4367816091954023,included
+GO:0045494,photoreceptor cell maintenance,34,17,True,0.5,included
+GO:0045582,positive regulation of T cell differentiation,18,8,False,0.4444444444444444,fewer_than_15_shared_genes
+GO:0045595,regulation of cell differentiation,34,20,True,0.5882352941176471,included
+GO:0045596,negative regulation of cell differentiation,34,19,True,0.5588235294117647,included
+GO:0045597,positive regulation of cell differentiation,42,23,True,0.5476190476190477,included
+GO:0045599,negative regulation of fat cell differentiation,42,27,True,0.6428571428571429,included
+GO:0045600,positive regulation of fat cell differentiation,43,24,True,0.5581395348837209,included
+GO:0045638,negative regulation of myeloid cell differentiation,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0045648,positive regulation of erythrocyte differentiation,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0045662,negative regulation of myoblast differentiation,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0045663,positive regulation of myoblast differentiation,19,7,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0045664,regulation of neuron differentiation,29,17,True,0.5862068965517241,included
+GO:0045665,negative regulation of neuron differentiation,61,32,True,0.5245901639344263,included
+GO:0045666,positive regulation of neuron differentiation,90,37,True,0.4111111111111111,included
+GO:0045668,negative regulation of osteoblast differentiation,38,22,True,0.5789473684210527,included
+GO:0045669,positive regulation of osteoblast differentiation,56,28,True,0.5,included
+GO:0045670,regulation of osteoclast differentiation,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0045671,negative regulation of osteoclast differentiation,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0045672,positive regulation of osteoclast differentiation,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0045727,positive regulation of translation,51,31,True,0.6078431372549019,included
+GO:0045732,positive regulation of protein catabolic process,63,44,True,0.6984126984126984,included
+GO:0045736,negative regulation of cyclin-dependent protein serine/threonine kinase activity,20,17,True,0.85,included
+GO:0045737,positive regulation of cyclin-dependent protein serine/threonine kinase activity,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0045739,positive regulation of DNA repair,25,19,True,0.76,included
+GO:0045740,positive regulation of DNA replication,39,20,True,0.5128205128205128,included
+GO:0045746,negative regulation of Notch signaling pathway,24,15,True,0.625,included
+GO:0045747,positive regulation of Notch signaling pathway,31,16,True,0.5161290322580645,included
+GO:0045765,regulation of angiogenesis,25,9,False,0.36,fewer_than_15_shared_genes
+GO:0045766,positive regulation of angiogenesis,106,49,True,0.46226415094339623,included
+GO:0045773,positive regulation of axon extension,33,22,True,0.6666666666666666,included
+GO:0045776,negative regulation of blood pressure,33,11,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0045777,positive regulation of blood pressure,29,7,False,0.2413793103448276,fewer_than_15_shared_genes
+GO:0045778,positive regulation of ossification,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0045780,positive regulation of bone resorption,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0045785,positive regulation of cell adhesion,49,26,True,0.5306122448979592,included
+GO:0045786,negative regulation of cell cycle,38,22,True,0.5789473684210527,included
+GO:0045787,positive regulation of cell cycle,33,24,True,0.7272727272727273,included
+GO:0045807,positive regulation of endocytosis,19,11,False,0.5789473684210527,fewer_than_15_shared_genes
+GO:0045840,positive regulation of mitotic nuclear division,26,8,False,0.3076923076923077,fewer_than_15_shared_genes
+GO:0045859,regulation of protein kinase activity,33,21,True,0.6363636363636364,included
+GO:0045860,positive regulation of protein kinase activity,52,30,True,0.5769230769230769,included
+GO:0045861,negative regulation of proteolysis,20,15,True,0.75,included
+GO:0045862,positive regulation of proteolysis,20,17,True,0.85,included
+GO:0045879,negative regulation of smoothened signaling pathway,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0045880,positive regulation of smoothened signaling pathway,24,15,True,0.625,included
+GO:0045892,negative regulation of DNA-templated transcription,437,282,True,0.6453089244851259,included
+GO:0045893,positive regulation of DNA-templated transcription,489,304,True,0.621676891615542,included
+GO:0045907,positive regulation of vasoconstriction,43,14,False,0.32558139534883723,fewer_than_15_shared_genes
+GO:0045921,positive regulation of exocytosis,25,16,True,0.64,included
+GO:0045930,negative regulation of mitotic cell cycle,27,21,True,0.7777777777777778,included
+GO:0045931,positive regulation of mitotic cell cycle,27,21,True,0.7777777777777778,included
+GO:0045954,positive regulation of natural killer cell mediated cytotoxicity,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0045956,positive regulation of calcium ion-dependent exocytosis,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0045987,positive regulation of smooth muscle contraction,20,10,False,0.5,fewer_than_15_shared_genes
+GO:0046034,ATP metabolic process,40,23,True,0.575,included
+GO:0046326,positive regulation of D-glucose import across plasma membrane,34,21,True,0.6176470588235294,included
+GO:0046328,regulation of JNK cascade,17,13,False,0.7647058823529411,fewer_than_15_shared_genes
+GO:0046329,negative regulation of JNK cascade,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0046330,positive regulation of JNK cascade,58,30,True,0.5172413793103449,included
+GO:0046426,negative regulation of receptor signaling pathway via JAK-STAT,33,14,False,0.42424242424242425,fewer_than_15_shared_genes
+GO:0046427,positive regulation of receptor signaling pathway via JAK-STAT,22,5,False,0.22727272727272727,fewer_than_15_shared_genes
+GO:0046488,phosphatidylinositol metabolic process,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:0046513,ceramide biosynthetic process,19,11,False,0.5789473684210527,fewer_than_15_shared_genes
+GO:0046579,positive regulation of Ras protein signal transduction,19,8,False,0.42105263157894735,fewer_than_15_shared_genes
+GO:0046580,negative regulation of Ras protein signal transduction,22,16,True,0.7272727272727273,included
+GO:0046597,host-mediated suppression of symbiont invasion,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0046627,negative regulation of insulin receptor signaling pathway,32,22,True,0.6875,included
+GO:0046676,negative regulation of insulin secretion,36,15,True,0.4166666666666667,included
+GO:0046677,response to antibiotic,42,25,True,0.5952380952380952,included
+GO:0046685,response to arsenic-containing substance,20,12,False,0.6,fewer_than_15_shared_genes
+GO:0046686,response to cadmium ion,40,27,True,0.675,included
+GO:0046688,response to copper ion,26,17,True,0.6538461538461539,included
+GO:0046697,decidualization,26,14,False,0.5384615384615384,fewer_than_15_shared_genes
+GO:0046716,muscle cell cellular homeostasis,19,11,False,0.5789473684210527,fewer_than_15_shared_genes
+GO:0046718,symbiont entry into host cell,20,15,True,0.75,included
+GO:0046777,protein autophosphorylation,154,91,True,0.5909090909090909,included
+GO:0046827,positive regulation of protein export from nucleus,17,12,False,0.7058823529411765,fewer_than_15_shared_genes
+GO:0046835,carbohydrate phosphorylation,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0046849,bone remodeling,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0046854,phosphatidylinositol phosphate biosynthetic process,31,24,True,0.7741935483870968,included
+GO:0046856,phosphatidylinositol dephosphorylation,22,16,True,0.7272727272727273,included
+GO:0046887,positive regulation of hormone secretion,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0046907,intracellular transport,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0046928,regulation of neurotransmitter secretion,20,4,False,0.2,fewer_than_15_shared_genes
+GO:0047496,vesicle transport along microtubule,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0048008,platelet-derived growth factor receptor signaling pathway,28,19,True,0.6785714285714286,included
+GO:0048010,vascular endothelial growth factor receptor signaling pathway,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0048011,neurotrophin TRK receptor signaling pathway,21,11,False,0.5238095238095238,fewer_than_15_shared_genes
+GO:0048013,ephrin receptor signaling pathway,30,15,True,0.5,included
+GO:0048015,phosphatidylinositol-mediated signaling,35,18,True,0.5142857142857142,included
+GO:0048025,"negative regulation of mRNA splicing, via spliceosome",21,15,True,0.7142857142857143,included
+GO:0048041,focal adhesion assembly,22,17,True,0.7727272727272727,included
+GO:0048146,positive regulation of fibroblast proliferation,60,36,True,0.6,included
+GO:0048147,negative regulation of fibroblast proliferation,27,13,False,0.48148148148148145,fewer_than_15_shared_genes
+GO:0048148,behavioral response to cocaine,19,8,False,0.42105263157894735,fewer_than_15_shared_genes
+GO:0048167,regulation of synaptic plasticity,44,20,True,0.45454545454545453,included
+GO:0048168,regulation of neuronal synaptic plasticity,26,9,False,0.34615384615384615,fewer_than_15_shared_genes
+GO:0048169,regulation of long-term neuronal synaptic plasticity,26,10,False,0.38461538461538464,fewer_than_15_shared_genes
+GO:0048172,regulation of short-term neuronal synaptic plasticity,15,6,False,0.4,fewer_than_15_shared_genes
+GO:0048247,lymphocyte chemotaxis,18,1,False,0.05555555555555555,fewer_than_15_shared_genes
+GO:0048255,mRNA stabilization,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0048265,response to pain,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0048266,behavioral response to pain,19,6,False,0.3157894736842105,fewer_than_15_shared_genes
+GO:0048286,lung alveolus development,49,22,True,0.4489795918367347,included
+GO:0048384,retinoic acid receptor signaling pathway,18,10,False,0.5555555555555556,fewer_than_15_shared_genes
+GO:0048468,cell development,48,21,True,0.4375,included
+GO:0048469,cell maturation,36,18,True,0.5,included
+GO:0048477,oogenesis,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0048485,sympathetic nervous system development,15,3,False,0.2,fewer_than_15_shared_genes
+GO:0048488,synaptic vesicle endocytosis,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0048511,rhythmic process,28,19,True,0.6785714285714286,included
+GO:0048513,animal organ development,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0048514,blood vessel morphogenesis,28,16,True,0.5714285714285714,included
+GO:0048535,lymph node development,17,7,False,0.4117647058823529,fewer_than_15_shared_genes
+GO:0048536,spleen development,42,21,True,0.5,included
+GO:0048538,thymus development,46,28,True,0.6086956521739131,included
+GO:0048545,response to steroid hormone,56,26,True,0.4642857142857143,included
+GO:0048546,digestive tract morphogenesis,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0048557,embryonic digestive tract morphogenesis,17,6,False,0.35294117647058826,fewer_than_15_shared_genes
+GO:0048565,digestive tract development,48,25,True,0.5208333333333334,included
+GO:0048566,embryonic digestive tract development,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0048568,embryonic organ development,36,28,True,0.7777777777777778,included
+GO:0048589,developmental growth,31,19,True,0.6129032258064516,included
+GO:0048593,camera-type eye morphogenesis,17,9,False,0.5294117647058824,fewer_than_15_shared_genes
+GO:0048596,embryonic camera-type eye morphogenesis,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0048598,embryonic morphogenesis,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0048646,anatomical structure formation involved in morphogenesis,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0048661,positive regulation of smooth muscle cell proliferation,74,39,True,0.527027027027027,included
+GO:0048662,negative regulation of smooth muscle cell proliferation,35,15,True,0.42857142857142855,included
+GO:0048663,neuron fate commitment,22,9,False,0.4090909090909091,fewer_than_15_shared_genes
+GO:0048666,neuron development,51,25,True,0.49019607843137253,included
+GO:0048675,axon extension,21,10,False,0.47619047619047616,fewer_than_15_shared_genes
+GO:0048678,response to axon injury,43,22,True,0.5116279069767442,included
+GO:0048701,embryonic cranial skeleton morphogenesis,29,16,True,0.5517241379310345,included
+GO:0048704,embryonic skeletal system morphogenesis,39,16,True,0.41025641025641024,included
+GO:0048705,skeletal system morphogenesis,45,28,True,0.6222222222222222,included
+GO:0048706,embryonic skeletal system development,32,18,True,0.5625,included
+GO:0048709,oligodendrocyte differentiation,35,18,True,0.5142857142857142,included
+GO:0048712,negative regulation of astrocyte differentiation,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0048714,positive regulation of oligodendrocyte differentiation,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0048738,cardiac muscle tissue development,21,9,False,0.42857142857142855,fewer_than_15_shared_genes
+GO:0048741,skeletal muscle fiber development,23,10,False,0.43478260869565216,fewer_than_15_shared_genes
+GO:0048745,smooth muscle tissue development,16,9,False,0.5625,fewer_than_15_shared_genes
+GO:0048754,branching morphogenesis of an epithelial tube,32,20,True,0.625,included
+GO:0048791,calcium ion-regulated exocytosis of neurotransmitter,25,5,False,0.2,fewer_than_15_shared_genes
+GO:0048812,neuron projection morphogenesis,57,28,True,0.49122807017543857,included
+GO:0048813,dendrite morphogenesis,44,25,True,0.5681818181818182,included
+GO:0048814,regulation of dendrite morphogenesis,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0048821,erythrocyte development,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0048839,inner ear development,54,25,True,0.46296296296296297,included
+GO:0048843,negative regulation of axon extension involved in axon guidance,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0048844,artery morphogenesis,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0048854,brain morphogenesis,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0048856,anatomical structure development,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0048863,stem cell differentiation,27,15,True,0.5555555555555556,included
+GO:0048870,cell motility,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0048872,homeostasis of number of cells,24,15,True,0.625,included
+GO:0048873,homeostasis of number of cells within a tissue,29,19,True,0.6551724137931034,included
+GO:0050678,regulation of epithelial cell proliferation,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0050679,positive regulation of epithelial cell proliferation,66,25,True,0.3787878787878788,included
+GO:0050680,negative regulation of epithelial cell proliferation,58,38,True,0.6551724137931034,included
+GO:0050708,regulation of protein secretion,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0050714,positive regulation of protein secretion,34,18,True,0.5294117647058824,included
+GO:0050727,regulation of inflammatory response,51,27,True,0.5294117647058824,included
+GO:0050728,negative regulation of inflammatory response,73,34,True,0.4657534246575342,included
+GO:0050729,positive regulation of inflammatory response,50,15,True,0.3,included
+GO:0050731,positive regulation of peptidyl-tyrosine phosphorylation,87,37,True,0.42528735632183906,included
+GO:0050732,negative regulation of peptidyl-tyrosine phosphorylation,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0050766,positive regulation of phagocytosis,33,18,True,0.5454545454545454,included
+GO:0050767,regulation of neurogenesis,26,15,True,0.5769230769230769,included
+GO:0050768,negative regulation of neurogenesis,21,15,True,0.7142857142857143,included
+GO:0050769,positive regulation of neurogenesis,28,19,True,0.6785714285714286,included
+GO:0050770,regulation of axonogenesis,24,10,False,0.4166666666666667,fewer_than_15_shared_genes
+GO:0050772,positive regulation of axonogenesis,22,13,False,0.5909090909090909,fewer_than_15_shared_genes
+GO:0050775,positive regulation of dendrite morphogenesis,27,16,True,0.5925925925925926,included
+GO:0050776,regulation of immune response,24,10,False,0.4166666666666667,fewer_than_15_shared_genes
+GO:0050790,regulation of catalytic activity,54,37,True,0.6851851851851852,included
+GO:0050796,regulation of insulin secretion,37,18,True,0.4864864864864865,included
+GO:0050804,modulation of chemical synaptic transmission,27,11,False,0.4074074074074074,fewer_than_15_shared_genes
+GO:0050806,positive regulation of synaptic transmission,23,8,False,0.34782608695652173,fewer_than_15_shared_genes
+GO:0050808,synapse organization,27,9,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0050821,protein stabilization,113,83,True,0.7345132743362832,included
+GO:0050829,defense response to Gram-negative bacterium,29,11,False,0.3793103448275862,fewer_than_15_shared_genes
+GO:0050830,defense response to Gram-positive bacterium,54,21,True,0.3888888888888889,included
+GO:0050850,positive regulation of calcium-mediated signaling,21,6,False,0.2857142857142857,fewer_than_15_shared_genes
+GO:0050852,T cell receptor signaling pathway,39,21,True,0.5384615384615384,included
+GO:0050853,B cell receptor signaling pathway,28,10,False,0.35714285714285715,fewer_than_15_shared_genes
+GO:0050870,positive regulation of T cell activation,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0050873,brown fat cell differentiation,30,14,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0050877,nervous system process,15,6,False,0.4,fewer_than_15_shared_genes
+GO:0050885,neuromuscular process controlling balance,52,27,True,0.5192307692307693,included
+GO:0050890,cognition,33,13,False,0.3939393939393939,fewer_than_15_shared_genes
+GO:0050892,intestinal absorption,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0050900,leukocyte migration,21,9,False,0.42857142857142855,fewer_than_15_shared_genes
+GO:0050905,neuromuscular process,24,12,False,0.5,fewer_than_15_shared_genes
+GO:0050909,sensory perception of taste,17,2,False,0.11764705882352941,fewer_than_15_shared_genes
+GO:0050918,positive chemotaxis,25,10,False,0.4,fewer_than_15_shared_genes
+GO:0050919,negative chemotaxis,32,19,True,0.59375,included
+GO:0050930,induction of positive chemotaxis,15,5,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0050995,negative regulation of lipid catabolic process,15,3,False,0.2,fewer_than_15_shared_genes
+GO:0051000,positive regulation of nitric-oxide synthase activity,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0051017,actin filament bundle assembly,27,20,True,0.7407407407407407,included
+GO:0051028,mRNA transport,34,26,True,0.7647058823529411,included
+GO:0051056,regulation of small GTPase mediated signal transduction,17,13,False,0.7647058823529411,fewer_than_15_shared_genes
+GO:0051145,smooth muscle cell differentiation,16,7,False,0.4375,fewer_than_15_shared_genes
+GO:0051209,release of sequestered calcium ion into cytosol,34,16,True,0.47058823529411764,included
+GO:0051216,cartilage development,58,30,True,0.5172413793103449,included
+GO:0051225,spindle assembly,23,16,True,0.6956521739130435,included
+GO:0051247,positive regulation of protein metabolic process,20,13,False,0.65,fewer_than_15_shared_genes
+GO:0051259,protein complex oligomerization,55,31,True,0.5636363636363636,included
+GO:0051260,protein homooligomerization,163,97,True,0.5950920245398773,included
+GO:0051262,protein tetramerization,39,20,True,0.5128205128205128,included
+GO:0051276,chromosome organization,29,22,True,0.7586206896551724,included
+GO:0051279,regulation of release of sequestered calcium ion into cytosol,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0051281,positive regulation of release of sequestered calcium ion into cytosol,27,9,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0051289,protein homotetramerization,64,37,True,0.578125,included
+GO:0051290,protein heterotetramerization,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0051291,protein heterooligomerization,90,54,True,0.6,included
+GO:0051298,centrosome duplication,18,15,True,0.8333333333333334,included
+GO:0051301,cell division,162,121,True,0.7469135802469136,included
+GO:0051321,meiotic cell cycle,29,21,True,0.7241379310344828,included
+GO:0051384,response to glucocorticoid,123,57,True,0.4634146341463415,included
+GO:0051402,neuron apoptotic process,35,25,True,0.7142857142857143,included
+GO:0051412,response to corticosterone,36,13,False,0.3611111111111111,fewer_than_15_shared_genes
+GO:0051443,positive regulation of ubiquitin-protein transferase activity,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0051453,regulation of intracellular pH,20,10,False,0.5,fewer_than_15_shared_genes
+GO:0051480,regulation of cytosolic calcium ion concentration,32,10,False,0.3125,fewer_than_15_shared_genes
+GO:0051481,negative regulation of cytosolic calcium ion concentration,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:0051491,positive regulation of filopodium assembly,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0051493,regulation of cytoskeleton organization,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:0051496,positive regulation of stress fiber assembly,38,23,True,0.6052631578947368,included
+GO:0051497,negative regulation of stress fiber assembly,16,9,False,0.5625,fewer_than_15_shared_genes
+GO:0051591,response to cAMP,71,36,True,0.5070422535211268,included
+GO:0051592,response to calcium ion,76,35,True,0.4605263157894737,included
+GO:0051593,response to folic acid,19,14,False,0.7368421052631579,fewer_than_15_shared_genes
+GO:0051597,response to methylmercury,15,9,False,0.6,fewer_than_15_shared_genes
+GO:0051602,response to electrical stimulus,48,18,True,0.375,included
+GO:0051607,defense response to virus,83,41,True,0.4939759036144578,included
+GO:0051726,regulation of cell cycle,201,141,True,0.7014925373134329,included
+GO:0051781,positive regulation of cell division,36,15,True,0.4166666666666667,included
+GO:0051865,protein autoubiquitination,41,34,True,0.8292682926829268,included
+GO:0051881,regulation of mitochondrial membrane potential,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:0051894,positive regulation of focal adhesion assembly,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0051897,positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,72,32,True,0.4444444444444444,included
+GO:0051898,negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction,35,22,True,0.6285714285714286,included
+GO:0051899,membrane depolarization,23,5,False,0.21739130434782608,fewer_than_15_shared_genes
+GO:0051924,regulation of calcium ion transport,34,8,False,0.23529411764705882,fewer_than_15_shared_genes
+GO:0051928,positive regulation of calcium ion transport,28,13,False,0.4642857142857143,fewer_than_15_shared_genes
+GO:0051930,regulation of sensory perception of pain,40,10,False,0.25,fewer_than_15_shared_genes
+GO:0051965,positive regulation of synapse assembly,56,18,True,0.32142857142857145,included
+GO:0051966,"regulation of synaptic transmission, glutamatergic",21,6,False,0.2857142857142857,fewer_than_15_shared_genes
+GO:0051968,"positive regulation of synaptic transmission, glutamatergic",22,8,False,0.36363636363636365,fewer_than_15_shared_genes
+GO:0055001,muscle cell development,21,11,False,0.5238095238095238,fewer_than_15_shared_genes
+GO:0055007,cardiac muscle cell differentiation,30,19,True,0.6333333333333333,included
+GO:0055010,ventricular cardiac muscle tissue morphogenesis,24,10,False,0.4166666666666667,fewer_than_15_shared_genes
+GO:0055013,cardiac muscle cell development,21,8,False,0.38095238095238093,fewer_than_15_shared_genes
+GO:0055074,calcium ion homeostasis,23,7,False,0.30434782608695654,fewer_than_15_shared_genes
+GO:0055085,transmembrane transport,164,76,True,0.4634146341463415,included
+GO:0055088,lipid homeostasis,33,22,True,0.6666666666666666,included
+GO:0055093,response to hyperoxia,41,23,True,0.5609756097560976,included
+GO:0055117,regulation of cardiac muscle contraction,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0060021,roof of mouth development,68,37,True,0.5441176470588235,included
+GO:0060037,pharyngeal system development,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0060041,retina development in camera-type eye,71,39,True,0.5492957746478874,included
+GO:0060045,positive regulation of cardiac muscle cell proliferation,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0060048,cardiac muscle contraction,47,21,True,0.44680851063829785,included
+GO:0060070,canonical Wnt signaling pathway,67,39,True,0.582089552238806,included
+GO:0060078,regulation of postsynaptic membrane potential,24,6,False,0.25,fewer_than_15_shared_genes
+GO:0060079,excitatory postsynaptic potential,33,11,False,0.3333333333333333,fewer_than_15_shared_genes
+GO:0060122,inner ear receptor cell stereocilium organization,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0060135,maternal process involved in female pregnancy,34,16,True,0.47058823529411764,included
+GO:0060173,limb development,29,21,True,0.7241379310344828,included
+GO:0060216,definitive hemopoiesis,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0060252,positive regulation of glial cell proliferation,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0060271,cilium assembly,128,101,True,0.7890625,included
+GO:0060291,long-term synaptic potentiation,45,15,True,0.3333333333333333,included
+GO:0060292,long-term synaptic depression,16,8,False,0.5,fewer_than_15_shared_genes
+GO:0060307,regulation of ventricular cardiac muscle cell membrane repolarization,16,4,False,0.25,fewer_than_15_shared_genes
+GO:0060324,face development,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0060325,face morphogenesis,33,19,True,0.5757575757575758,included
+GO:0060326,cell chemotaxis,38,14,False,0.3684210526315789,fewer_than_15_shared_genes
+GO:0060348,bone development,57,35,True,0.6140350877192983,included
+GO:0060349,bone morphogenesis,26,11,False,0.4230769230769231,fewer_than_15_shared_genes
+GO:0060384,innervation,18,7,False,0.3888888888888889,fewer_than_15_shared_genes
+GO:0060395,SMAD protein signal transduction,46,31,True,0.6739130434782609,included
+GO:0060412,ventricular septum morphogenesis,24,11,False,0.4583333333333333,fewer_than_15_shared_genes
+GO:0060416,response to growth hormone,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0060425,lung morphogenesis,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0060441,epithelial tube branching involved in lung morphogenesis,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0060612,adipose tissue development,27,21,True,0.7777777777777778,included
+GO:0060707,trophoblast giant cell differentiation,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0060716,labyrinthine layer blood vessel development,22,16,True,0.7272727272727273,included
+GO:0060749,mammary gland alveolus development,17,11,False,0.6470588235294118,fewer_than_15_shared_genes
+GO:0060828,regulation of canonical Wnt signaling pathway,24,15,True,0.625,included
+GO:0060976,coronary vasculature development,30,23,True,0.7666666666666667,included
+GO:0060992,response to fungicide,20,8,False,0.4,fewer_than_15_shared_genes
+GO:0060996,dendritic spine development,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0060999,positive regulation of dendritic spine development,26,15,True,0.5769230769230769,included
+GO:0061003,positive regulation of dendritic spine morphogenesis,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0061024,membrane organization,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0061025,membrane fusion,25,18,True,0.72,included
+GO:0061028,establishment of endothelial barrier,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0061098,positive regulation of protein tyrosine kinase activity,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0061178,regulation of insulin secretion involved in cellular response to glucose stimulus,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0061512,protein localization to cilium,15,12,False,0.8,fewer_than_15_shared_genes
+GO:0065003,protein-containing complex assembly,77,49,True,0.6363636363636364,included
+GO:0070059,intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress,27,22,True,0.8148148148148148,included
+GO:0070098,chemokine-mediated signaling pathway,46,3,False,0.06521739130434782,fewer_than_15_shared_genes
+GO:0070207,protein homotrimerization,23,10,False,0.43478260869565216,fewer_than_15_shared_genes
+GO:0070208,protein heterotrimerization,18,12,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0070301,cellular response to hydrogen peroxide,67,42,True,0.6268656716417911,included
+GO:0070328,triglyceride homeostasis,22,12,False,0.5454545454545454,fewer_than_15_shared_genes
+GO:0070371,ERK1 and ERK2 cascade,23,11,False,0.4782608695652174,fewer_than_15_shared_genes
+GO:0070372,regulation of ERK1 and ERK2 cascade,24,13,False,0.5416666666666666,fewer_than_15_shared_genes
+GO:0070373,negative regulation of ERK1 and ERK2 cascade,48,33,True,0.6875,included
+GO:0070374,positive regulation of ERK1 and ERK2 cascade,147,60,True,0.40816326530612246,included
+GO:0070507,regulation of microtubule cytoskeleton organization,18,15,True,0.8333333333333334,included
+GO:0070509,calcium ion import,23,10,False,0.43478260869565216,fewer_than_15_shared_genes
+GO:0070527,platelet aggregation,34,21,True,0.6176470588235294,included
+GO:0070534,protein K63-linked ubiquitination,32,22,True,0.6875,included
+GO:0070536,protein K63-linked deubiquitination,19,17,True,0.8947368421052632,included
+GO:0070542,response to fatty acid,34,19,True,0.5588235294117647,included
+GO:0070555,response to interleukin-1,38,21,True,0.5526315789473685,included
+GO:0070588,calcium ion transmembrane transport,92,36,True,0.391304347826087,included
+GO:0070830,bicellular tight junction assembly,21,15,True,0.7142857142857143,included
+GO:0070848,response to growth factor,20,9,False,0.45,fewer_than_15_shared_genes
+GO:0070886,positive regulation of calcineurin-NFAT signaling cascade,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0070936,protein K48-linked ubiquitination,42,26,True,0.6190476190476191,included
+GO:0070979,protein K11-linked ubiquitination,24,17,True,0.7083333333333334,included
+GO:0071108,protein K48-linked deubiquitination,16,15,True,0.9375,included
+GO:0071222,cellular response to lipopolysaccharide,136,69,True,0.5073529411764706,included
+GO:0071230,cellular response to amino acid stimulus,60,31,True,0.5166666666666667,included
+GO:0071236,cellular response to antibiotic,23,11,False,0.4782608695652174,fewer_than_15_shared_genes
+GO:0071257,cellular response to electrical stimulus,16,10,False,0.625,fewer_than_15_shared_genes
+GO:0071260,cellular response to mechanical stimulus,90,46,True,0.5111111111111111,included
+GO:0071276,cellular response to cadmium ion,15,6,False,0.4,fewer_than_15_shared_genes
+GO:0071277,cellular response to calcium ion,48,23,True,0.4791666666666667,included
+GO:0071285,cellular response to lithium ion,21,12,False,0.5714285714285714,fewer_than_15_shared_genes
+GO:0071300,cellular response to retinoic acid,58,31,True,0.5344827586206896,included
+GO:0071305,cellular response to vitamin D,18,2,False,0.1111111111111111,fewer_than_15_shared_genes
+GO:0071320,cellular response to cAMP,64,33,True,0.515625,included
+GO:0071333,cellular response to glucose stimulus,75,43,True,0.5733333333333334,included
+GO:0071345,cellular response to cytokine stimulus,34,10,False,0.29411764705882354,fewer_than_15_shared_genes
+GO:0071346,cellular response to type II interferon,44,12,False,0.2727272727272727,fewer_than_15_shared_genes
+GO:0071347,cellular response to interleukin-1,84,43,True,0.5119047619047619,included
+GO:0071353,cellular response to interleukin-4,22,15,True,0.6818181818181818,included
+GO:0071354,cellular response to interleukin-6,22,13,False,0.5909090909090909,fewer_than_15_shared_genes
+GO:0071356,cellular response to tumor necrosis factor,107,58,True,0.5420560747663551,included
+GO:0071361,cellular response to ethanol,19,8,False,0.42105263157894735,fewer_than_15_shared_genes
+GO:0071363,cellular response to growth factor stimulus,75,45,True,0.6,included
+GO:0071364,cellular response to epidermal growth factor stimulus,31,24,True,0.7741935483870968,included
+GO:0071371,cellular response to gonadotropin stimulus,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0071372,cellular response to follicle-stimulating hormone stimulus,22,10,False,0.45454545454545453,fewer_than_15_shared_genes
+GO:0071375,cellular response to peptide hormone stimulus,35,22,True,0.6285714285714286,included
+GO:0071380,cellular response to prostaglandin E stimulus,18,11,False,0.6111111111111112,fewer_than_15_shared_genes
+GO:0071385,cellular response to glucocorticoid stimulus,31,7,False,0.22580645161290322,fewer_than_15_shared_genes
+GO:0071392,cellular response to estradiol stimulus,45,19,True,0.4222222222222222,included
+GO:0071397,cellular response to cholesterol,15,11,False,0.7333333333333333,fewer_than_15_shared_genes
+GO:0071398,cellular response to fatty acid,28,18,True,0.6428571428571429,included
+GO:0071456,cellular response to hypoxia,121,71,True,0.5867768595041323,included
+GO:0071466,cellular response to xenobiotic stimulus,93,53,True,0.5698924731182796,included
+GO:0071479,cellular response to ionizing radiation,26,20,True,0.7692307692307693,included
+GO:0071480,cellular response to gamma radiation,21,15,True,0.7142857142857143,included
+GO:0071498,cellular response to fluid shear stress,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0071526,semaphorin-plexin signaling pathway,28,20,True,0.7142857142857143,included
+GO:0071542,dopaminergic neuron differentiation,17,8,False,0.47058823529411764,fewer_than_15_shared_genes
+GO:0071548,response to dexamethasone,29,18,True,0.6206896551724138,included
+GO:0071549,cellular response to dexamethasone stimulus,51,28,True,0.5490196078431373,included
+GO:0071560,cellular response to transforming growth factor beta stimulus,69,41,True,0.5942028985507246,included
+GO:0071577,zinc ion transmembrane transport,16,13,False,0.8125,fewer_than_15_shared_genes
+GO:0071732,cellular response to nitric oxide,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0071773,cellular response to BMP stimulus,30,13,False,0.43333333333333335,fewer_than_15_shared_genes
+GO:0071805,potassium ion transmembrane transport,99,23,True,0.23232323232323232,included
+GO:0071897,DNA biosynthetic process,20,17,True,0.85,included
+GO:0071901,negative regulation of protein serine/threonine kinase activity,15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0071902,positive regulation of protein serine/threonine kinase activity,30,23,True,0.7666666666666667,included
+GO:0072001,renal system development,24,15,True,0.625,included
+GO:0072332,intrinsic apoptotic signaling pathway by p53 class mediator,23,19,True,0.8260869565217391,included
+GO:0072359,circulatory system development,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:0072593,reactive oxygen species metabolic process,28,14,False,0.5,fewer_than_15_shared_genes
+GO:0072659,protein localization to plasma membrane,112,64,True,0.5714285714285714,included
+GO:0086004,regulation of cardiac muscle cell contraction,16,6,False,0.375,fewer_than_15_shared_genes
+GO:0086010,membrane depolarization during action potential,27,6,False,0.2222222222222222,fewer_than_15_shared_genes
+GO:0086091,regulation of heart rate by cardiac conduction,26,7,False,0.2692307692307692,fewer_than_15_shared_genes
+GO:0090023,positive regulation of neutrophil chemotaxis,23,6,False,0.2608695652173913,fewer_than_15_shared_genes
+GO:0090090,negative regulation of canonical Wnt signaling pathway,89,48,True,0.5393258426966292,included
+GO:0090102,cochlea development,24,9,False,0.375,fewer_than_15_shared_genes
+GO:0090103,cochlea morphogenesis,19,9,False,0.47368421052631576,fewer_than_15_shared_genes
+GO:0090190,positive regulation of branching involved in ureteric bud morphogenesis,21,10,False,0.47619047619047616,fewer_than_15_shared_genes
+GO:0090200,positive regulation of release of cytochrome c from mitochondria,24,14,False,0.5833333333333334,fewer_than_15_shared_genes
+GO:0090201,negative regulation of release of cytochrome c from mitochondria,17,10,False,0.5882352941176471,fewer_than_15_shared_genes
+GO:0090263,positive regulation of canonical Wnt signaling pathway,59,31,True,0.5254237288135594,included
+GO:0090280,positive regulation of calcium ion import,16,5,False,0.3125,fewer_than_15_shared_genes
+GO:0090307,mitotic spindle assembly,24,20,True,0.8333333333333334,included
+GO:0090314,positive regulation of protein targeting to membrane,21,14,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:0090316,positive regulation of intracellular protein transport,22,15,True,0.6818181818181818,included
+GO:0090398,cellular senescence,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:0090630,activation of GTPase activity,58,40,True,0.6896551724137931,included
+GO:0097009,energy homeostasis,27,17,True,0.6296296296296297,included
+GO:0097067,cellular response to thyroid hormone stimulus,15,9,False,0.6,fewer_than_15_shared_genes
+GO:0097150,neuronal stem cell population maintenance,22,14,False,0.6363636363636364,fewer_than_15_shared_genes
+GO:0097190,apoptotic signaling pathway,49,28,True,0.5714285714285714,included
+GO:0097191,extrinsic apoptotic signaling pathway,33,17,True,0.5151515151515151,included
+GO:0097192,extrinsic apoptotic signaling pathway in absence of ligand,32,17,True,0.53125,included
+GO:0097193,intrinsic apoptotic signaling pathway,19,12,False,0.631578947368421,fewer_than_15_shared_genes
+GO:0097352,autophagosome maturation,15,13,False,0.8666666666666667,fewer_than_15_shared_genes
+GO:0097421,liver regeneration,45,26,True,0.5777777777777777,included
+GO:0097503,sialylation,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:0097746,blood vessel diameter maintenance,20,9,False,0.45,fewer_than_15_shared_genes
+GO:0098609,cell-cell adhesion,101,51,True,0.504950495049505,included
+GO:0098655,monoatomic cation transmembrane transport,58,23,True,0.39655172413793105,included
+GO:0098656,monoatomic anion transmembrane transport,17,8,False,0.47058823529411764,fewer_than_15_shared_genes
+GO:0098792,xenophagy,77,48,True,0.6233766233766234,included
+GO:0098869,cellular oxidant detoxification,57,31,True,0.543859649122807,included
+GO:1900006,positive regulation of dendrite development,18,9,False,0.5,fewer_than_15_shared_genes
+GO:1900026,positive regulation of substrate adhesion-dependent cell spreading,28,20,True,0.7142857142857143,included
+GO:1900087,positive regulation of G1/S transition of mitotic cell cycle,21,13,False,0.6190476190476191,fewer_than_15_shared_genes
+GO:1900182,positive regulation of protein localization to nucleus,21,15,True,0.7142857142857143,included
+GO:1900273,positive regulation of long-term synaptic potentiation,16,8,False,0.5,fewer_than_15_shared_genes
+GO:1901223,negative regulation of non-canonical NF-kappaB signal transduction,15,9,False,0.6,fewer_than_15_shared_genes
+GO:1901224,positive regulation of non-canonical NF-kappaB signal transduction,26,15,True,0.5769230769230769,included
+GO:1901653,cellular response to peptide,19,13,False,0.6842105263157895,fewer_than_15_shared_genes
+GO:1901741,positive regulation of myoblast fusion,15,6,False,0.4,fewer_than_15_shared_genes
+GO:1901800,positive regulation of proteasomal protein catabolic process,16,12,False,0.75,fewer_than_15_shared_genes
+GO:1902042,negative regulation of extrinsic apoptotic signaling pathway via death domain receptors,20,14,False,0.7,fewer_than_15_shared_genes
+GO:1902236,negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway,16,10,False,0.625,fewer_than_15_shared_genes
+GO:1902476,chloride transmembrane transport,75,24,True,0.32,included
+GO:1902600,proton transmembrane transport,94,52,True,0.5531914893617021,included
+GO:1902895,positive regulation of miRNA transcription,16,15,True,0.9375,included
+GO:1903078,positive regulation of protein localization to plasma membrane,31,20,True,0.6451612903225806,included
+GO:1903146,regulation of autophagy of mitochondrion,24,19,True,0.7916666666666666,included
+GO:1903861,positive regulation of dendrite extension,18,4,False,0.2222222222222222,fewer_than_15_shared_genes
+GO:1904659,D-glucose transmembrane transport,25,13,False,0.52,fewer_than_15_shared_genes
+GO:1905515,non-motile cilium assembly,23,17,True,0.7391304347826086,included
+GO:1990090,cellular response to nerve growth factor stimulus,43,31,True,0.7209302325581395,included
+GO:1990138,neuron projection extension,21,13,False,0.6190476190476191,fewer_than_15_shared_genes
+GO:1990573,potassium ion import across plasma membrane,27,4,False,0.14814814814814814,fewer_than_15_shared_genes
+GO:2000045,regulation of G1/S transition of mitotic cell cycle,16,11,False,0.6875,fewer_than_15_shared_genes
+GO:2000134,negative regulation of G1/S transition of mitotic cell cycle,23,15,True,0.6521739130434783,included
+GO:2000310,regulation of NMDA receptor activity,16,6,False,0.375,fewer_than_15_shared_genes
+GO:2000311,regulation of AMPA receptor activity,17,3,False,0.17647058823529413,fewer_than_15_shared_genes
+GO:2000352,negative regulation of endothelial cell apoptotic process,24,12,False,0.5,fewer_than_15_shared_genes
+GO:2000353,positive regulation of endothelial cell apoptotic process,15,10,False,0.6666666666666666,fewer_than_15_shared_genes
+GO:2000377,regulation of reactive oxygen species metabolic process,23,14,False,0.6086956521739131,fewer_than_15_shared_genes
+GO:2000378,negative regulation of reactive oxygen species metabolic process,25,16,True,0.64,included
+GO:2000379,positive regulation of reactive oxygen species metabolic process,25,15,True,0.6,included
+GO:2000463,positive regulation of excitatory postsynaptic potential,25,12,False,0.48,fewer_than_15_shared_genes
+GO:2000573,positive regulation of DNA biosynthetic process,15,8,False,0.5333333333333333,fewer_than_15_shared_genes
+GO:2000649,regulation of sodium ion transmembrane transporter activity,15,4,False,0.26666666666666666,fewer_than_15_shared_genes
+GO:2000679,positive regulation of transcription regulatory region DNA binding,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:2001234,negative regulation of apoptotic signaling pathway,23,11,False,0.4782608695652174,fewer_than_15_shared_genes
+GO:2001235,positive regulation of apoptotic signaling pathway,33,21,True,0.6363636363636364,included
+GO:2001237,negative regulation of extrinsic apoptotic signaling pathway,36,25,True,0.6944444444444444,included
+GO:2001238,positive regulation of extrinsic apoptotic signaling pathway,29,19,True,0.6551724137931034,included
+GO:2001240,negative regulation of extrinsic apoptotic signaling pathway in absence of ligand,29,16,True,0.5517241379310345,included
+GO:2001241,positive regulation of extrinsic apoptotic signaling pathway in absence of ligand,15,7,False,0.4666666666666667,fewer_than_15_shared_genes
+GO:2001243,negative regulation of intrinsic apoptotic signaling pathway,25,17,True,0.68,included
+GO:2001244,positive regulation of intrinsic apoptotic signaling pathway,24,17,True,0.7083333333333334,included

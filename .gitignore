@@ -27,3 +27,7 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Current release inputs and local outputs
+/.local/
+/downloads/

@@ -1,0 +1,5 @@
+library_accession,raw_matrix_n_cells,retained_cells,unmatched_retained,raw_not_retained,n_features,raw_barcode_duplicates,joined_cell_key_duplicates
+GSM6322577,4051,3093,0,958,33538,0,0
+GSM6322578,6561,5510,0,1051,33538,0,0
+GSM6322579,8634,7399,0,1235,33538,0,0
+GSM6322580,9073,8032,0,1041,33538,0,0

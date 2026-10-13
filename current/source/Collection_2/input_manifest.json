@@ -1,0 +1,32 @@
+{
+  "rat_matrix": {
+    "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\evidence_closure_06\\intervention_access\\sources\\GSE42693_series_matrix.txt.gz",
+    "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+    "bytes": 2396364,
+    "read_only": true
+  },
+  "platform_annotation": {
+    "path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\analysis_strengthening_15\\rat_validation\\sources\\GPL1355.annot.gz",
+    "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+    "bytes": 5714896,
+    "read_only": true
+  },
+  "go_ontology": {
+    "path": "D:\\ResearchData\\pfhn_genome39_2026-10-13\\sources\\go\\go-basic.obo",
+    "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+    "bytes": 32227785,
+    "read_only": true
+  },
+  "protocol": {
+    "path": "D:\\ResearchData\\pfhn_genome39_2026-10-13\\PROTOCOL.txt",
+    "sha256": "1243d77e8545f228d530f03f468e21afb4a05bb9ffd019a470cb554a7993271f",
+    "bytes": 8737,
+    "read_only": true
+  },
+  "protocol_addendum_1": {
+    "path": "D:\\ResearchData\\pfhn_genome39_2026-10-13\\PROTOCOL_ADDENDUM_1.txt",
+    "sha256": "61e5a4260af2a454c869cf9d49fa2a36bb7397145c1e25fee29a470a5fdc1bef",
+    "bytes": 835,
+    "read_only": true
+  }
+}

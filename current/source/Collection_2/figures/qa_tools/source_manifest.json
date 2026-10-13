@@ -1,0 +1,47 @@
+{
+  "copied_utc": "2026-10-12T16:37:01.929945+00:00",
+  "source_repository": "https://github.com/Yuan1z0825/nature-skills",
+  "recorded_upstream_commit": "9cecfef6ac683fa59d7d15d2e22f98fa71dacaf5",
+  "files": [
+    {
+      "file": "audit_panel_alignment.py",
+      "installed_source_sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "bundled_sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "unmodified_copy": true,
+      "upstream_relative_path": "skills/nature-figure/scripts/audit_panel_alignment.py",
+      "upstream_sha256": "0ac6e3aa71b4f27c35880bf96f535191566b0884fd6857e105149b43704777b9",
+      "identical_to_recorded_upstream": true
+    },
+    {
+      "file": "audit_pdf_text.py",
+      "installed_source_sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+      "bundled_sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+      "unmodified_copy": true,
+      "upstream_relative_path": "skills/nature-figure/scripts/audit_pdf_text.py",
+      "upstream_sha256": "3da7faaef0b4ceb44d3e27dc9a40ec244651680ad604cc29719c24b0a4a7740b",
+      "identical_to_recorded_upstream": true
+    },
+    {
+      "file": "audit_figure_collisions.py",
+      "installed_source_sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+      "bundled_sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+      "unmodified_copy": true,
+      "upstream_relative_path": "skills/nature-figure/scripts/audit_figure_collisions.py",
+      "upstream_sha256": "5800e2f6c8e9346f483abd972901eb5d1cfbc671c39d7f1a8a11d8e12c1b1090",
+      "identical_to_recorded_upstream": true
+    },
+    {
+      "file": "validate_figure.py",
+      "installed_source_sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+      "bundled_sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+      "unmodified_copy": true,
+      "upstream_relative_path": "skills/nature-figure/scripts/validate_figure.py",
+      "upstream_sha256": "fea3a202af913a789c79b4a978f9cca2d3473e90fd94e44a31dc0383082258b9",
+      "identical_to_recorded_upstream": true
+    }
+  ],
+  "license_file": "LICENSE.nature-skills.txt",
+  "license_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+  "dependencies": "Python standard library for source, text, and alignment auditors; PyMuPDF for rendered PDF collision audit; matplotlib only in the plotting caller that supplies layout geometry. No additional local modules are imported.",
+  "headers_and_notices": "All original script headers retained byte-for-byte; original checkout LICENSE copied unchanged."
+}

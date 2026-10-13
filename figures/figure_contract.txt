@@ -1,3 +1,5 @@
+Historical 2026-10-11 snapshot. For current manuscript coverage, see the repository root README and docs/REPRODUCING_CURRENT.md.
+
 PFHN stage27 figure contract: eight main figures, fourteen supplements
 
 Scope and backend

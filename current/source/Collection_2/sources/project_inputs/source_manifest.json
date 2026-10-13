@@ -1,0 +1,46 @@
+{
+  "copied_utc": "2026-10-12T16:28:11.977666+00:00",
+  "policy": "Read-only source copies; original inputs were not modified. Relative paths preserve the original next_steps hierarchy.",
+  "files": [
+    {
+      "role": "rat_matrix",
+      "original_path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\evidence_closure_06\\intervention_access\\sources\\GSE42693_series_matrix.txt.gz",
+      "relative_path": "next_steps/evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+      "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+      "bytes": 2396364,
+      "original_unchanged": true
+    },
+    {
+      "role": "platform_annotation",
+      "original_path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\analysis_strengthening_15\\rat_validation\\sources\\GPL1355.annot.gz",
+      "relative_path": "next_steps/analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "bytes": 5714896,
+      "original_unchanged": true
+    },
+    {
+      "role": "human_count",
+      "original_path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\candidate_screen_03\\sesamin_inputs\\GSE248903_total_count.anno.txt.gz",
+      "relative_path": "next_steps/candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+      "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+      "bytes": 15515659,
+      "original_unchanged": true
+    },
+    {
+      "role": "archived_all_gene_descriptive",
+      "original_path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\sesamin_exploration_04\\all_gene_descriptive.csv.gz",
+      "relative_path": "next_steps/sesamin_exploration_04/all_gene_descriptive.csv.gz",
+      "sha256": "f3a322b97be5f54dfcc58b1be22cb4db8cf837dcad9a093a65ad80886bac9926",
+      "bytes": 4967788,
+      "original_unchanged": true
+    },
+    {
+      "role": "archived_sample_qc",
+      "original_path": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\next_steps\\sesamin_exploration_04\\sample_qc.csv",
+      "relative_path": "next_steps/sesamin_exploration_04/sample_qc.csv",
+      "sha256": "86d24a9feaaeb66275563a92495a91dbdc534ff397ef6a7b29c0e1f5e6b16e40",
+      "bytes": 729,
+      "original_unchanged": true
+    }
+  ]
+}

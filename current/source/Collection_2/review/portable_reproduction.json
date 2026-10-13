@@ -1,0 +1,838 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-12T16:32:29.000850+00:00",
+  "command": [
+    "D:/ResearchData/pfhn_genome39_2026-10-13/scripts/reproduce_analysis.py",
+    "--output-dir",
+    "D:/ResearchData/pfhn_genome39_reproductioncheck_final_2026-10-13",
+    "--rscript",
+    "C:/Program Files/R/R-4.6.1/bin/Rscript.exe"
+  ],
+  "bundle": "D:\\ResearchData\\pfhn_genome39_2026-10-13",
+  "output_dir": "D:\\ResearchData\\pfhn_genome39_reproductioncheck_final_2026-10-13",
+  "reference_dir": "D:\\ResearchData\\pfhn_genome39_2026-10-13",
+  "python": "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\.venv\\Scripts\\python.exe",
+  "python_version": "3.13.9",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1"
+  },
+  "network_access_in_wrapper": false,
+  "dependency_installations": false,
+  "scripts_modified": false,
+  "wrapper_sha256": "e4c8a6cf08eb7b8af871b1a5d7fd63f81f7459800dbbd6e367760ad943a3613d",
+  "phases": [
+    {
+      "name": "rat",
+      "status": "completed",
+      "entrypoint": "unchanged analyze_rat_genome.main(); redirected ROOT/OUT/PROJECT/NEXT/INPUTS"
+    },
+    {
+      "name": "limma",
+      "status": "completed",
+      "command": [
+        "C:\\Program Files\\R\\R-4.6.1\\bin\\Rscript.exe",
+        "D:\\ResearchData\\pfhn_genome39_reproductioncheck_final_2026-10-13\\scripts\\limma_sensitivity.R",
+        "D:\\ResearchData\\pfhn_genome39_reproductioncheck_final_2026-10-13"
+      ],
+      "returncode": 0
+    },
+    {
+      "name": "cross_species",
+      "status": "completed",
+      "entrypoint": "unchanged compare_cross_species.main(project); redirected ROOT/OUT/REVIEW/PROJECT"
+    }
+  ],
+  "copied_inputs": [
+    {
+      "path": "sources/go/go-basic.obo",
+      "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+      "bytes": 32227785
+    },
+    {
+      "path": "sources/go/source_manifest.json",
+      "sha256": "2e37b41bf0447802e526b1475cd9f241c65f4cf8da9302af95b1c7d3f5773c00",
+      "bytes": 3150
+    },
+    {
+      "path": "sources/orthology/archive_release.html",
+      "sha256": "905f2cdeb074bc7548813a271eee73e5b55d183906a2899523afe6b7b6ade66d",
+      "bytes": 29388
+    },
+    {
+      "path": "sources/orthology/archive_release.html.meta.json",
+      "sha256": "6539d8f76a9511abd1559f96042062606973cadfe1e6dec43f92927f5f1c92b8",
+      "bytes": 1019
+    },
+    {
+      "path": "sources/orthology/datasets.tsv",
+      "sha256": "466ead56424e4d7baf9ed233455fc5ab8953fd109c94ea23916a7ac900baf1b1",
+      "bytes": 25964
+    },
+    {
+      "path": "sources/orthology/datasets.tsv.meta.json",
+      "sha256": "bf60feb709d5ee743dc05b568a3d6e91e3f27d378d9e1e0e3e5ceaa0d691254f",
+      "bytes": 885
+    },
+    {
+      "path": "sources/orthology/human_attributes.tsv",
+      "sha256": "3836c1858d496ce6a8e040cb063d1988c5ba8f157ffd6f4ff55a10735a418c6b",
+      "bytes": 516163
+    },
+    {
+      "path": "sources/orthology/human_attributes.tsv.meta.json",
+      "sha256": "b6973b01b3da6400abc586bd88a97422a650d772367b2bb5f9bff99bf87b8779",
+      "bytes": 898
+    },
+    {
+      "path": "sources/orthology/human_rat_all_ensembl116.query.xml",
+      "sha256": "fcf7c6f0c558c7eb0c52e14f1351248e074d01a27dae415db2c1a79fc14f3c43",
+      "bytes": 659
+    },
+    {
+      "path": "sources/orthology/human_rat_all_ensembl116.raw.tsv",
+      "sha256": "1e4ca48b10c704244588ba88b9cb539dbb0484f6b4d0589a3cbb3aba14fc9d87",
+      "bytes": 3796094
+    },
+    {
+      "path": "sources/orthology/human_rat_all_ensembl116.raw.tsv.meta.json",
+      "sha256": "b0dd5d21a3cb2b5f0434980b70fac16b3f74274cd6e74a71e04a0507b7cf9347",
+      "bytes": 2531
+    },
+    {
+      "path": "sources/orthology/human_rat_all_ensembl116.tsv",
+      "sha256": "3d9492b970128168aec86ba2fb92235c31889f5a8e64ec8e62552e50e0b9d115",
+      "bytes": 3795891
+    },
+    {
+      "path": "sources/orthology/human_rat_mapping_audit.tsv",
+      "sha256": "de67501a63105e2b99f9cfc59a9f1d0a4c94a16aaa7fbe504f9cba16d4799338",
+      "bytes": 8254263
+    },
+    {
+      "path": "sources/orthology/human_rat_one2one.tsv",
+      "sha256": "5bf30fd66f42d5ab0564a92c1d0fa3edd7f6b8e06e9dbadfa56926e23a76faf4",
+      "bytes": 1356744
+    },
+    {
+      "path": "sources/orthology/human_rat_one2one_highconfidence.tsv",
+      "sha256": "0a70b53164c354b635c6689bd44d56130a1c65c6f608981eec196c17d8bb8c0c",
+      "bytes": 1130038
+    },
+    {
+      "path": "sources/orthology/human_rat_one2one_highconfidence_unique_entrez.tsv",
+      "sha256": "7ec7cc7fd3565ca6748800d06736afb3998383067dad4a0cbe1db26fd02bff5a",
+      "bytes": 1207162
+    },
+    {
+      "path": "sources/orthology/independent_verification.json",
+      "sha256": "c4732d99895756ddbf71c7656fb1764bef4b78e2bf502fe671cfb5c75e68d52a",
+      "bytes": 147
+    },
+    {
+      "path": "sources/orthology/orthology_freeze_report.json",
+      "sha256": "e12c67c4df955a76086cb46cce5750cbd2523a2c94f0dc6be0177c66166fd138",
+      "bytes": 7007
+    },
+    {
+      "path": "sources/orthology/rat_attributes.tsv",
+      "sha256": "648ec0aecd43fea308d9aca9c4c8e1f0157f74a6501f1f4691352adef425f637",
+      "bytes": 493827
+    },
+    {
+      "path": "sources/orthology/rat_attributes.tsv.meta.json",
+      "sha256": "aa116e2d4288bd257d85835721d65c05067f05c975c027d6892bbc53263fa37a",
+      "bytes": 904
+    },
+    {
+      "path": "sources/orthology/rat_entrez_all_ensembl116.query.xml",
+      "sha256": "f9bbfecbb5c6eb49ff4b3be72ec554306b621c04e55bbe09c93b75d4db10fe15",
+      "bytes": 372
+    },
+    {
+      "path": "sources/orthology/rat_entrez_all_ensembl116.raw.tsv",
+      "sha256": "f6e4f41732a42f290e5ec79c01d4c04df6b51ba31203907b73ace96e7ea1878a",
+      "bytes": 1856012
+    },
+    {
+      "path": "sources/orthology/rat_entrez_all_ensembl116.raw.tsv.meta.json",
+      "sha256": "bdd40124b57008f7b4ec5c6a833268cb9f7192f2da0574f57e900851371fd39d",
+      "bytes": 1837
+    },
+    {
+      "path": "sources/orthology/rat_entrez_all_ensembl116.tsv",
+      "sha256": "f2b24b3daafa04790f6b2868da519b0782e12862b7ef709b65b519114c15a07a",
+      "bytes": 1855987
+    },
+    {
+      "path": "sources/orthology/rat_entrez_mapping_audit.tsv",
+      "sha256": "cfe79a6bbded68af7bd84bae7d83ec1b9645f34f04b5e265a14148002aff9b8a",
+      "bytes": 4136166
+    },
+    {
+      "path": "sources/orthology/rat_entrez_unique_bidirectional.tsv",
+      "sha256": "cea365abb702953358f516d2754bb8155a71efabe541fc33a6e37cf7e6e7351e",
+      "bytes": 774709
+    },
+    {
+      "path": "sources/orthology/README.md",
+      "sha256": "57c3ea363f926ae34c153b119b628196514147c48aa6b181c0b29421ec590837",
+      "bytes": 1239
+    },
+    {
+      "path": "sources/orthology/registry.xml",
+      "sha256": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+      "bytes": 1813
+    },
+    {
+      "path": "sources/orthology/registry.xml.meta.json",
+      "sha256": "8e5f0a3efb4faa6ac808dbccab35db44c476a47c6c9145e4528bdbcf7cabf2ed",
+      "bytes": 832
+    },
+    {
+      "path": "sources/orthology/selected_attribute_definitions.json",
+      "sha256": "115e662eebb7f78c1f2d57244ac48a27e3a8892a043a5027ad33c9f288466be8",
+      "bytes": 2932
+    },
+    {
+      "path": "sources/project_inputs/next_steps/analysis_strengthening_15/rat_validation/sources/GPL1355.annot.gz",
+      "sha256": "959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08",
+      "bytes": 5714896
+    },
+    {
+      "path": "sources/project_inputs/next_steps/candidate_screen_03/sesamin_inputs/GSE248903_total_count.anno.txt.gz",
+      "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0",
+      "bytes": 15515659
+    },
+    {
+      "path": "sources/project_inputs/next_steps/evidence_closure_06/intervention_access/sources/GSE42693_series_matrix.txt.gz",
+      "sha256": "4bddf99f4e0226e73eac54e1f83d9584164e50002f8e19faf6591a54039f0ef5",
+      "bytes": 2396364
+    },
+    {
+      "path": "sources/project_inputs/next_steps/sesamin_exploration_04/all_gene_descriptive.csv.gz",
+      "sha256": "f3a322b97be5f54dfcc58b1be22cb4db8cf837dcad9a093a65ad80886bac9926",
+      "bytes": 4967788
+    },
+    {
+      "path": "sources/project_inputs/next_steps/sesamin_exploration_04/sample_qc.csv",
+      "sha256": "86d24a9feaaeb66275563a92495a91dbdc534ff397ef6a7b29c0e1f5e6b16e40",
+      "bytes": 729
+    },
+    {
+      "path": "sources/project_inputs/source_manifest.json",
+      "sha256": "88124b205a994ef30e11ea6be288943f0ad31b1d8cc77c88d034f358f721416a",
+      "bytes": 2681
+    }
+  ],
+  "scripts": [
+    {
+      "path": "analyze_rat_genome.py",
+      "sha256": "8ce6de648374667e65b91ce03c820e2182f6fa0e20fe9f4fda5b0678140dd58a"
+    },
+    {
+      "path": "limma_sensitivity.R",
+      "sha256": "482b63b5ce1461fe1afe942e380bb561385522217fd0e1035126f25161cafded"
+    },
+    {
+      "path": "compare_cross_species.py",
+      "sha256": "737a50c576578bf2902475daf30f770b527f61cb1b92a75470d0957e1a8e9d25"
+    }
+  ],
+  "R_sessionInfo": "R version 4.6.1 (2026-06-24 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 10 x64 (build 19045)\n\nMatrix products: default\n  LAPACK version 3.12.1\n\nlocale:\n[1] C\nsystem code page: 65001\n\ntime zone: Asia/Taipei\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n[1] compiler_4.6.1 limma_3.68.4   tools_4.6.1    splines_4.6.1  statmod_1.5.2 \n",
+  "numeric_comparison": {
+    "status": "passed",
+    "reference": "D:\\ResearchData\\pfhn_genome39_2026-10-13",
+    "n_tables": 62,
+    "comparison": "All CSV/CSV.GZ tables produced by rat, limma and cross-species main functions; gzip timestamps are ignored.",
+    "rtol": 1e-10,
+    "atol": 1e-10,
+    "max_abs_numeric_error": 0.0,
+    "tables": [
+      {
+        "path": "results/cross_species/all_orthology_rows_inclusion_audit.csv.gz",
+        "rows": 91806,
+        "columns": 15,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/gene_comparison_summary.csv",
+        "rows": 12,
+        "columns": 12,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/gene_direction_contingency.csv",
+        "rows": 108,
+        "columns": 7,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/human_all_gene_recomputed.csv.gz",
+        "rows": 60605,
+        "columns": 16,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/human_gene_universe_inclusion_audit.csv.gz",
+        "rows": 60605,
+        "columns": 5,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/human_normalization_factors.csv",
+        "rows": 9,
+        "columns": 4,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_comparison_summary.csv",
+        "rows": 12,
+        "columns": 12,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_cross_species_effects.csv.gz",
+        "rows": 8628,
+        "columns": 17,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_direction_contingency.csv",
+        "rows": 108,
+        "columns": 7,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_inclusion_audit.csv",
+        "rows": 1311,
+        "columns": 7,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_membership.csv.gz",
+        "rows": 27017,
+        "columns": 7,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_sample_scores.csv.gz",
+        "rows": 34512,
+        "columns": 9,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_scores_human_cpm.csv",
+        "rows": 719,
+        "columns": 10,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_scores_human_mr.csv",
+        "rows": 719,
+        "columns": 10,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_scores_rat_deposited.csv",
+        "rows": 719,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_scores_rat_qn10.csv",
+        "rows": 719,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/matched_go_scores_rat_qn20.csv",
+        "rows": 719,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/rat_gene_universe_inclusion_audit.csv",
+        "rows": 14604,
+        "columns": 8,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_deposited_human_cpm.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_deposited_human_mr.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_qn10_human_cpm.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_qn10_human_mr.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_qn20_human_cpm.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_effects_rat_qn20_human_mr.csv.gz",
+        "rows": 7912,
+        "columns": 22,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_gene_mapping.csv",
+        "rows": 7912,
+        "columns": 14,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_human_log2_expression_cpm.csv.gz",
+        "rows": 7912,
+        "columns": 12,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_human_log2_expression_mr.csv.gz",
+        "rows": 7912,
+        "columns": 12,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_rat_expression_deposited.csv.gz",
+        "rows": 7912,
+        "columns": 13,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_rat_expression_qn10.csv.gz",
+        "rows": 7912,
+        "columns": 13,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/shared_rat_expression_qn20.csv.gz",
+        "rows": 7912,
+        "columns": 13,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/cross_species/strict_mapping_inclusion_audit.csv",
+        "rows": 13531,
+        "columns": 14,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/exact_allocations.csv",
+        "rows": 252,
+        "columns": 5,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_gene_set_universe.csv",
+        "rows": 9509,
+        "columns": 6,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_lipid_terms_deposited.csv",
+        "rows": 31,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_lipid_terms_qn10.csv",
+        "rows": 31,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_lipid_terms_qn20.csv",
+        "rows": 31,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_membership.csv.gz",
+        "rows": 58727,
+        "columns": 3,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_results_deposited.csv",
+        "rows": 1311,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_results_qn10.csv",
+        "rows": 1311,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_results_qn20.csv",
+        "rows": 1311,
+        "columns": 34,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_sample_scores_deposited.csv.gz",
+        "rows": 1311,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_sample_scores_qn10.csv.gz",
+        "rows": 1311,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_sample_scores_qn20.csv.gz",
+        "rows": 1311,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/go_term_status_audit.csv",
+        "rows": 11349,
+        "columns": 5,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/limma/contrast.csv",
+        "rows": 2,
+        "columns": 2,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/limma/design.csv",
+        "rows": 10,
+        "columns": 4,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/limma/rat_limma_deposited.csv.gz",
+        "rows": 14604,
+        "columns": 26,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/limma/rat_limma_qn10.csv.gz",
+        "rows": 14604,
+        "columns": 26,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/limma/rat_limma_qn20.csv.gz",
+        "rows": 14604,
+        "columns": 26,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/pca_all20_probes.csv",
+        "rows": 20,
+        "columns": 4,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/pca_primary10.csv",
+        "rows": 10,
+        "columns": 4,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/preexisting_examples_not_new_hits.csv",
+        "rows": 2,
+        "columns": 30,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/probe_mapping_audit.csv.gz",
+        "rows": 31099,
+        "columns": 5,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_annotation.csv",
+        "rows": 14604,
+        "columns": 6,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_expression_deposited.csv.gz",
+        "rows": 14604,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_expression_qn10.csv.gz",
+        "rows": 14604,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_expression_qn20.csv.gz",
+        "rows": 14604,
+        "columns": 11,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_results_deposited.csv.gz",
+        "rows": 14604,
+        "columns": 30,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_results_qn10.csv.gz",
+        "rows": 14604,
+        "columns": 30,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_results_qn20.csv.gz",
+        "rows": 14604,
+        "columns": 30,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/rat_gene_universe.csv",
+        "rows": 14604,
+        "columns": 3,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      },
+      {
+        "path": "results/sample_metadata_and_qc.csv",
+        "rows": 20,
+        "columns": 9,
+        "status": "passed",
+        "identifier_and_row_order": "exact",
+        "max_abs_numeric_error": 0.0,
+        "numeric_columns_with_text_rounding_differences": {}
+      }
+    ]
+  },
+  "source_bundle_inputs_unchanged": true,
+  "completed_utc": "2026-10-12T16:32:50.589304+00:00",
+  "scope": "Complete rat/limma/cross-species computation and all generated table comparisons. Figure packaging and separate original independent-audit scripts are outside this wrapper.",
+  "existing_output_guard_test": {
+    "status": "passed",
+    "command": [
+      "C:\\Users\\AI\\OneDrive\\Desktop\\公司文章\\research_planning\\hepatic_lipotoxicity_2026-10-07\\.venv\\Scripts\\python.exe",
+      "D:\\ResearchData\\pfhn_genome39_2026-10-13\\scripts\\reproduce_analysis.py",
+      "--output-dir",
+      "D:\\ResearchData\\pfhn_genome39_reproductioncheck_final_2026-10-13",
+      "--rscript",
+      "C:/Program Files/R/R-4.6.1/bin/Rscript.exe"
+    ],
+    "returncode": 1,
+    "output_execution_record_unchanged": true,
+    "error_tail": "FileExistsError: Refusing to overwrite an existing directory: D:\\ResearchData\\pfhn_genome39_reproductioncheck_final_2026-10-13"
+  },
+  "actual_reproduction_record_sha256": "ed1df871ca65253a6692ef13291d7061f4d67dbd8635af58375ab86535293d8f",
+  "earlier_complete_run": {
+    "directory": "D:/ResearchData/pfhn_genome39_reproductioncheck_2026-10-13",
+    "n_tables_matched": 62,
+    "max_abs_numeric_error": 0.0,
+    "reason_for_final_repeat": "The comparator missing-value parsing was made robust without changing any analysis script; the final wrapper version was then executed in another new directory."
+  },
+  "delivery_note": "Copied from the successful final-version fresh-directory execution; added the non-overwrite guard check and earlier-run provenance. No analysis was rerun during the guard check."
+}

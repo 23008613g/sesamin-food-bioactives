@@ -1,0 +1,27 @@
+[
+  {
+    "file": "human_counts.tsv.gz",
+    "bytes": 15515659,
+    "sha256": "645e62b32be158a113ad31d1e35e0cb7431dc6efbcc4e7d5b83a46f5a63f18c0"
+  },
+  {
+    "file": "frozen_human25.csv",
+    "bytes": 11811,
+    "sha256": "d78d674a48448532ecec1e49d7364d447bdc298a202090b93d8a73718517ea78"
+  },
+  {
+    "file": "frozen_mouse15.csv",
+    "bytes": 880,
+    "sha256": "2bcd172df6efac710a3b0509280ab92acb19841ecf4ab2168b829ab1c9ec51a1"
+  },
+  {
+    "file": "mouse_mappings26.tsv",
+    "bytes": 11028,
+    "sha256": "bad3fd0a665ae2690f18813976c6f19dcd5dddb2c61dbe04cfcb4caa98ad34ce"
+  },
+  {
+    "file": "mouse_gene_tpm.tsv.gz",
+    "bytes": 1729052,
+    "sha256": "e233ca112fd0eeccddb7512be17b256951cb7aa738564ecc16c8da804b12d0a5"
+  }
+]

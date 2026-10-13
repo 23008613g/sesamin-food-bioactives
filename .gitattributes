@@ -1,0 +1,2 @@
+# Preserve the verified original bytes in the archive-member mirror.
+current/source/** -text

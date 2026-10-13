@@ -1,11 +1,5 @@
-# Citing this research code
+# Citation
 
-Manuscript working title:
+ZHENG, Tingting; ZHANG, Honglie. Food-derived sesamin and hepatic lipid metabolism: a computational assessment of cross-study transcriptomic evidence. Research code, version 2026.10.13. https://github.com/23008613g/sesamin-food-bioactives/releases/tag/v2026.10.13
 
-**Food bioactives in fatty liver research: assessing molecular evidence through a sesamin case study**
-
-**食源性活性成分在脂肪肝研究中的分子证据评估：以芝麻素为例**
-
-Code snapshot: local source preparation dated 2026-10-11, combining quantitative reproduction v24, the revision26 matched-scale update and revision27 eight-main-figure code. Cite the eventual repository URL and commit/release identifier supplied by the maintainer. No author list, DOI, publication acceptance or permanent repository identifier is invented here.
-
-Credit the original source datasets and papers as appropriate to the reused material. Accessions and URLs are in the root README and acquisition manifest. A code citation does not replace those dataset citations or their terms.
+The article is a manuscript; this record does not imply acceptance or publication. No DOI has been assigned to the code here. Cite the source datasets and publications separately. `CITATION.cff` provides machine-readable metadata. For computational traceability, also record the commit you used.

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-13",
+  "source_archive_sha256": "f369474b2856389de42671112c9fdc2eea1e85c1dbb0b05feb79ff34368e57bd",
+  "source_mirror_files": 183,
+  "mirrored_bytes": 2905504,
+  "code_files": 53,
+  "science_rerun": false,
+  "licence_added": false,
+  "manuscript_files_included": false,
+  "additional_frozen_protocol_provenance_or_alias_paths": 31
+}

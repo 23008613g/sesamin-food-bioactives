@@ -1,0 +1,4 @@
+Implementation clarification before new biological calculations
+Client date: 2026-10-13
+
+For matched-member GO descriptive comparisons, HepG2 per-gene values are log2(median-ratio-normalized count+1) before centering/scaling over the nine libraries. The CPM sensitivity, when reported, uses log2(CPM+1). Rat values are the already defined gene-level log2 signals. The logarithm reduces dominance of high-count libraries and matches the display scale used in the archived expression analysis. This clarification changes no selected genes or gene-set membership and is recorded before running the new gene/GO effects. Human single-gene effects remain ratios of group mean normalized counts plus one, exactly as in the frozen prior pipeline; gene-set score differences are a different measurement and are not labeled as those log-ratios.

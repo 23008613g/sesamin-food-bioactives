@@ -1,0 +1,10 @@
+normalization,population,n,spearman_mean_signal_vs_signed_logFC,spearman_mean_signal_vs_absolute_logFC,inference
+deposited,all_eligible_genes,14604,-0.17496882904304498,-0.39328892186155645,descriptive rank correlation only; no p value or interval
+deposited,BH_hits,24,-0.3643478260869565,-0.6356521739130434,descriptive rank correlation only; no p value or interval
+deposited,not_BH_hits,14580,-0.17832726776358349,-0.39737610426359754,descriptive rank correlation only; no p value or interval
+qn10,all_eligible_genes,14604,-0.012201067295529177,-0.44708994859438783,descriptive rank correlation only; no p value or interval
+qn10,BH_hits,41,-0.2980836236933799,-0.6283972125435542,descriptive rank correlation only; no p value or interval
+qn10,not_BH_hits,14563,-0.016870644520133857,-0.4545414966691611,descriptive rank correlation only; no p value or interval
+qn20,all_eligible_genes,14604,-0.012430888451850993,-0.440425482759991,descriptive rank correlation only; no p value or interval
+qn20,BH_hits,41,-0.2949477351916377,-0.6263066202090594,descriptive rank correlation only; no p value or interval
+qn20,not_BH_hits,14563,-0.017126307806765943,-0.44789155306383877,descriptive rank correlation only; no p value or interval

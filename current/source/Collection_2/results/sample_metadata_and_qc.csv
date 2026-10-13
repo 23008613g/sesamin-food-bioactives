@@ -1,0 +1,21 @@
+sample,group,source_title,primary_comparison,log_probe_q01,log_probe_median,log_probe_q99,animal_selection,current_exclusion
+GSM1048036,control,liver_control diet_rep1,True,0.614167239545809,4.8353784141286,12.2076206642719,original seven minus highest and lowest terminal body weight,none
+GSM1048037,control,liver_control diet_rep2,True,0.535247166032124,4.80840564572738,12.306678634354,original seven minus highest and lowest terminal body weight,none
+GSM1048038,control,liver_control diet_rep3,True,0.627882794509776,4.74072792153809,11.8577331486843,original seven minus highest and lowest terminal body weight,none
+GSM1048039,control,liver_control diet_rep4,True,0.642461276666069,5.00470811876854,12.2543506116132,original seven minus highest and lowest terminal body weight,none
+GSM1048040,control,liver_control diet_rep5,True,0.603461048146616,4.98777106935024,12.3174310709322,original seven minus highest and lowest terminal body weight,none
+GSM1048041,sesamin,liver_sesamin_rep1,True,0.608188597413578,4.83102089347239,12.1916292963766,original seven minus highest and lowest terminal body weight,none
+GSM1048042,sesamin,liver_sesamin_rep2,True,0.697081995885234,4.7467319686054,11.8472467670412,original seven minus highest and lowest terminal body weight,none
+GSM1048043,sesamin,liver_sesamin_rep3,True,0.680993287301319,4.90546162005837,12.1219658077576,original seven minus highest and lowest terminal body weight,none
+GSM1048044,sesamin,liver_sesamin_rep4,True,0.74698883619587,5.08553513173247,12.3441038041658,original seven minus highest and lowest terminal body weight,none
+GSM1048045,sesamin,liver_sesamin_rep5,True,0.613244008571227,4.86341319797066,12.2185492941043,original seven minus highest and lowest terminal body weight,none
+GSM1048046,episesamin,liver_episesamin_rep1,False,0.580699419450468,4.70053959357135,12.0755457187902,original seven minus highest and lowest terminal body weight,none
+GSM1048047,episesamin,liver_episesamin_rep2,False,0.679302950341707,4.97695470796503,12.3705814190483,original seven minus highest and lowest terminal body weight,none
+GSM1048048,episesamin,liver_episesamin_rep3,False,0.610773846581968,4.55096221175791,11.7156527221805,original seven minus highest and lowest terminal body weight,none
+GSM1048049,episesamin,liver_episesamin_rep4,False,0.709453266833276,4.74084662900747,11.8753499594734,original seven minus highest and lowest terminal body weight,none
+GSM1048050,episesamin,liver_episesamin_rep5,False,0.628505440754611,4.77131514707414,12.0009337157297,original seven minus highest and lowest terminal body weight,none
+GSM1048051,sesamolin,liver_sesamolin_rep1,False,0.620597614150135,4.7576260219704,12.233469108116,original seven minus highest and lowest terminal body weight,none
+GSM1048052,sesamolin,liver_sesamolin_rep2,False,0.58236043140508,4.45096047332342,11.5730189476155,original seven minus highest and lowest terminal body weight,none
+GSM1048053,sesamolin,liver_sesamolin_rep3,False,0.664969683689048,5.00051837539032,12.3072732251148,original seven minus highest and lowest terminal body weight,none
+GSM1048054,sesamolin,liver_sesamolin_rep4,False,0.689996326029435,4.95456857075299,12.267006816749,original seven minus highest and lowest terminal body weight,none
+GSM1048055,sesamolin,liver_sesamolin_rep5,False,0.637575499249662,4.59507990805465,11.8538439511393,original seven minus highest and lowest terminal body weight,none

@@ -1,0 +1,4 @@
+Normalization,All genes (n),BH hits (n),"Median mean log2 signal, all genes","Median mean log2 signal, hits",Median hit signal percentile,Hit counts by signal quartile Q1 / Q2 / Q3 / Q4,Hits shared by all three normalizations (n),Hits with same nonzero effect sign in all three (n)
+Deposited,14604,24,5.570880466924735,8.998455886410724,88.99274171459874,1 / 2 / 5 / 16,24,24
+QN10,14604,41,5.5665877762609295,9.6025635388542,92.07066557107642,2 / 2 / 6 / 31,24,41
+QN20,14604,41,5.47228715409827,9.5045350339287,92.05697069296083,2 / 1 / 7 / 31,24,41

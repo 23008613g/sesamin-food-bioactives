@@ -1,0 +1,11 @@
+source_broad_label,source_subtype_label,analysis_broad_label,analysis_subtype_label,n_cells
+Cholangiocytes,Cholangiocytes,Cholangiocytes,Cholangiocytes,213
+Cholangiocytes,Ductal cells,Cholangiocytes,Ductal cells,2965
+Cholangiocytes,Smooth muscle cells,Cholangiocytes,Smooth muscle cells,241
+Fibroblasts,Fibroblasts,Fibroblasts,Fibroblasts,719
+Hepatic stellate cells,Hepatic stellate cells,Hepatic stellate cells,Hepatic stellate cells,1799
+Hepatocytes,AH,Hepatocytes,AH,10672
+Hepatocytes,FH1,Hepatocytes,FH1,4125
+Hepatocytes,FH2,Hepatocytes,FH2,482
+Hepatocytes,HB1,Hepatocytes,HB1,210
+Hepatocytes,HB2,Hepatocytes,HB2,2608

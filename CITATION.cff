@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this repository version when using these analysis materials; cite the original datasets separately."
+type: software
+title: "Food-derived sesamin and hepatic lipid metabolism: a computational assessment of cross-study transcriptomic evidence"
+version: "2026.10.13"
+authors:
+  - family-names: "ZHENG"
+    given-names: "Tingting"
+    affiliation: "Infinia Intelligent Health (Hong Kong) Limited"
+  - family-names: "ZHANG"
+    given-names: "Honglie"
+    affiliation: "Infinia Intelligent Health (Hong Kong) Limited"
+repository-code: "https://github.com/23008613g/sesamin-food-bioactives"
+url: "https://github.com/23008613g/sesamin-food-bioactives/releases/tag/v2026.10.13"
+abstract: "Code and numerical evidence for a secondary cross-study assessment of public transcriptomic data concerning food-derived sesamin and hepatic lipid metabolism. No new experiments or clinical validation are claimed."
+keywords:
+  - sesamin
+  - transcriptomics
+  - food bioactives
+  - hepatic lipid metabolism

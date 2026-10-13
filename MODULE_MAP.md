@@ -1,3 +1,5 @@
+Historical 2026-10-11 snapshot. For current manuscript coverage, see the repository root README and docs/REPRODUCING_CURRENT.md.
+
 # Scientific module and figure map
 
 The repository includes the current processed-input execution paths and earlier source code. Historical source files remain separated because the required directory layout and acquisition history differ from the current portable package.

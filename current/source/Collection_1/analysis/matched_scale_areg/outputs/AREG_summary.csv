@@ -1,0 +1,5 @@
+gene_id,symbol,covered,population,weighting,control_mean,control_n_libraries,control_n_cells,PA_mean,PA_n_libraries,PA_n_cells,PA_minus_control,direction
+ENSG00000109321,AREG,True,Whole organoid,equal_library,0.95351522231978514,2,8603,1.0084134656782271,2,15431,0.054898243358441956,positive
+ENSG00000109321,AREG,True,Whole organoid,pooled_cell,0.95244929478410356,2,8603,1.0154526272291822,2,15431,0.063003332445078608,positive
+ENSG00000109321,AREG,True,Hepatocytes,equal_library,0.81955874787071492,2,6283,0.85935603897381596,2,11814,0.03979729110310104,positive
+ENSG00000109321,AREG,True,Hepatocytes,pooled_cell,0.82090075642100124,2,6283,0.85794313150561141,2,11814,0.037042375084610168,positive

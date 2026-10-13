@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "status": "PASS",
+  "tracked_candidate_files_scanned": 483,
+  "source_mirror_files": 183,
+  "source_mirror_hashes_match": true,
+  "archive_text_members_scanned": 539,
+  "high_confidence_secret_pattern_matches": [],
+  "excluded_manuscript_private_key_files": [],
+  "python_files_parsed_without_execution": 174,
+  "helper_offline_unittests": {
+    "passed": 9,
+    "run_by": "acquisition_worker"
+  },
+  "real_archive_local_acquisition": {
+    "status": "PASS",
+    "extracted_files": 632,
+    "bytes": 102653038,
+    "sha256": "f369474b2856389de42671112c9fdc2eea1e85c1dbb0b05feb79ff34368e57bd"
+  },
+  "network_download_tested": false,
+  "scientific_analyses_rerun": false,
+  "limitations": [
+    "Pattern scan is not a guarantee of absence of all sensitive content.",
+    "No fresh environment or cross-platform scientific reproduction performed.",
+    "No new open-source licence assigned."
+  ]
+}

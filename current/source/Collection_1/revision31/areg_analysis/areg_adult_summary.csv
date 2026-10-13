@@ -1,0 +1,3 @@
+scope,n_donors,mean_delta_source_log2CPM,mean_delta_nonzero_percentage_points,n_positive,n_negative,n_zero
+all_five_donors_primary,5,0.071351991645950491,8.279730470702356,4,1,0
+both_types_ge20_posthoc_sensitivity,3,0.091202612443100392,9.0185678785210186,3,0,0
